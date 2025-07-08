@@ -899,13 +899,13 @@ export const blogPosts: BlogPost[] = [
   //         <span>2025 Bathroom Remodeling Guide</span>
   //       </div>
   //     </div>
-  
+
   //     <div class="content-section">
   //       <div class="image-container">
   //         <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/accessible-eco-bathroom-2025.webp" alt="2025 bathroom remodeling trends" class="featured-image">
   //         <p class="image-caption">A 2025 bathroom remodel featuring sustainable materials and universal design</p>
   //       </div>
-  
+
   //       <h2>1. Sustainable Bathroom Remodeling</h2>
   //       <p>Bathroom remodeling in 2025 prioritizes eco-conscious choices to reduce environmental impact:</p>
   //       <div class="trend-grid">
@@ -927,7 +927,7 @@ export const blogPosts: BlogPost[] = [
   //         </div>
   //       </div>
   //     </div>
-  
+
   //     <div class="content-section">
   //       <h2>2. Accessible Bathroom Remodeling</h2>
   //       <p>Universal design is a cornerstone of 2025 bathroom remodeling, ensuring spaces are usable for all:</p>
@@ -948,13 +948,13 @@ export const blogPosts: BlogPost[] = [
   //           <p>Stylish, sensor-activated support bars</p>
   //         </div>
   //       </div>
-  
+
   //       <div class="pro-tip">
   //         <h4>Designer Insight:</h4>
   //         <p>"Bathroom remodeling in 2025 is about inclusivity—designing spaces that adapt to diverse needs without sacrificing aesthetics."</p>
   //       </div>
   //     </div>
-  
+
   //     <div class="content-section">
   //       <h2>3. Compact Bathroom Remodeling Solutions</h2>
   //       <p>Small-space bathroom remodeling is trending for urban homes:</p>
@@ -970,7 +970,7 @@ export const blogPosts: BlogPost[] = [
   //           <div class="benefit-tag">Storage-Optimized</div>
   //         </div>
   //       </div>
-  
+
   //       <div class="case-study">
   //         <h3>Project Highlight: Urban Micro-Bathroom</h3>
   //         <div class="case-study-content">
@@ -987,7 +987,7 @@ export const blogPosts: BlogPost[] = [
   //         </div>
   //       </div>
   //     </div>
-  
+
   //     <div class="cta-section trend-cta">
   //       <h2>Transform Your Space with 2025 Bathroom Remodeling</h2>
   //       <p>Ready to reimagine your bathroom with sustainable and accessible designs? Our team at Stone Works Remodeling is here to bring your vision to life.</p>
@@ -996,7 +996,7 @@ export const blogPosts: BlogPost[] = [
   //         <a href="/portfolio">Explore Our 2025 Remodeling Projects</a>
   //       </div>
   //     </div>
-  
+
   //     <div class="trend-outlook">
   //       <h3>Future of Bathroom Remodeling:</h3>
   //       <p>Emerging trends to watch include:</p>
@@ -1123,7 +1123,122 @@ export const blogPosts: BlogPost[] = [
         </ul>
       </div>
     `
+  },
+  {
+    "id": 8,
+    "title": "Is a DIY Bathroom Remodel Worth It? Here's What the Pros Say",
+    "excerpt": "Explore the pros and cons of a DIY bathroom remodel in 2025 to decide if it’s worth your time, money, and effort for a stylish, functional upgrade.",
+    "category": "remodeling-tips",
+    "date": "2025-07-08",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/bathroom-renovation-mc-main-200707.avif",
+    "slug": "diy-bathroom-remodel-2025",
+    "content": `
+      <div class="blog-intro">
+        <img Raman src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/bathroom-renovation-mc-main-200707.avif" alt="Modern bathroom with sleek fixtures">
+        <p class="lead">Remodeling a bathroom can transform your home, but should you tackle it yourself? In 2025, with rising material costs and advanced design trends, the question of whether a DIY bathroom remodel is worth it has never been more relevant. At Stone Works Remodeling, we’ve consulted our experts to weigh the pros and cons, helping you decide if a DIY approach suits your skills, budget, and goals.</p>
+        <div class="trend-badge">
+          <span>2025 DIY Remodeling Guide</span>
+        </div>
+      </div>
+  
+      <div class="content-section">
+        <div class="image-container">
+          <p class="image-caption">Weigh the benefits and risks of a DIY bathroom remodel in 2025</p>
+        </div>
+  
+        <h2>1. The Case for DIY Bathroom Remodeling</h2>
+        <p>DIY remodeling offers unique advantages, but it’s not without challenges. Here’s why it might appeal to you.</p>
+        <div class="mistake-grid">
+          <div class="mistake-card">
+            <div class="mistake-icon">💰</div>
+            <h3>Cost Savings</h3>
+            <p>DIY can cut labor costs (40-60% of a professional project) by handling tasks like painting or tiling yourself.</p>
+            <div class="mistake-stat">Save $15-$30 per square foot on tiling</div>
+          </div>
+          <div class="mistake-card">
+            <div class="mistake-icon">🎨</div>
+            <h3>Creative Control</h3>
+            <p>Full control over design lets you experiment with trends like matte black hardware or reclaimed wood vanities.</p>
+          </div>
+        </div>
+  
+        <div class="pro-tip">
+          <h4>Designer Insight:</h4>
+          <p>“DIY remodels are perfect for hands-on homeowners who enjoy learning and have time to research techniques.”</p>
+        </div>
+      </div>
+  
+      <div class="content-section">
+        <h2>2. The Challenges of DIY Remodeling</h2>
+        <p>Focusing only on savings can lead to costly mistakes, safety issues, and delays.</p>
+        <div class="mistake-trends">
+          <div class="mistake-card">
+            <h3>Time and Skill Gaps</h3>
+            <p>Complex tasks like plumbing or electrical work require skills that can take months to learn.</p>
+          </div>
+          <div class="mistake-card">
+            <h3>Hidden Costs</h3>
+            <p>Issues like mold or faulty wiring can inflate costs without a 10-20% contingency budget.</p>
+          </div>
+          <div class="mistake-card">
+            <h3>Code Compliance</h3>
+            <p>Improper wiring or unpermitted work risks safety and failed inspections.</p>
+          </div>
+        </div>
+  
+        <div class="case-study">
+          <h3>Project Pitfall: The DIY Disaster</h3>
+          <div class="case-study-content">
+            <div>
+              <p>A homeowner’s DIY remodel went wrong, resulting in:</p>
+              <ul>
+                <li>Leaks from poor waterproofing</li>
+                <li>Non-compliant electrical work</li>
+                <li>$3,000 in professional repairs</li>
+              </ul>
+              <p class="case-study-result">Result: Savings lost due to costly fixes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="content-section">
+        <h2>2.5. When to DIY vs. Hire a Pro</h2>
+        <p>Choosing between DIY and professional help depends on the task. This “half mistake” happens when DIYers take on more than they can handle.</p>
+        <div class="mistake-trends">
+          <div class="mistake-card">
+            <h3>DIY-Friendly Tasks</h3>
+            <p>Painting, simple tiling, or installing accessories are ideal for beginners.</p>
+            <div class="benefit-tag">Save on Labor</div>
+          </div>
+          <div class="mistake-card">
+            <h3>Pro-Required Tasks</h3>
+            <p>Plumbing, electrical, or structural work needs expert precision.</p>
+            <div class="benefit-tag">Ensure Safety</div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="cta-section trend-cta">
+        <h2>Plan Your 2025 Bathroom Remodel</h2>
+        <p>Ready to remodel? Whether DIY or professional, Stone Works Remodeling can guide you to a functional, stylish bathroom.</p>
+        <div class="cta-buttons">
+          <a href="/contact">Schedule Your Free Consultation</a>
+        </div>
+      </div>
+  
+      <div class="trend-outlook">
+        <h3>Future Tips for DIY Remodeling:</h3>
+        <p>Stay ahead with these 2025 insights:</p>
+        <ul>
+          <li>Avoid overcomplicating with smart tech without expertise</li>
+          <li>Prioritize eco-friendly, durable materials</li>
+          <li>Check local permit requirements early</li>
+        </ul>
+      </div>
+    `
   }
- 
+
 ];
 
