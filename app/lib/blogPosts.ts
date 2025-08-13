@@ -1434,7 +1434,7 @@ export const blogPosts: BlogPost[] = [
     "title": "Bathroom Remodel Cost in Livonia, MI (2025): Local Pricing & Expert Tips",
     "excerpt": "Find out how much a bathroom remodel costs in Livonia, MI in 2025, with local price ranges, contractor tips, and ways to save money on your renovation.",
     "category": "remodeling-tips",
-    "date": "2025-07-06",
+    "date": "2025-08-13",
     "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg",
     "slug": "bathroom-remodel-cost-livonia-mi-2025",
