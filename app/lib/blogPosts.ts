@@ -1519,5 +1519,18 @@ export const blogPosts: BlogPost[] = [
     </div>
   `
   },
+    {
+    "id": 12,
+    "title": "Bathroom Remodel Livonia, MI 2025 – Cost, Ideas & Local Trends",
+    "meta_title": "Bathroom Remodel Livonia, MI 2025 | Cost, Ideas, Trends",
+    "meta_description": "Explore bathroom remodel trends in Livonia, MI for 2025. Learn about local costs, design ideas, DIY vs professional remodeling tips, and permit info.",
+    "excerpt": "Livonia homeowners are upgrading bathrooms with modern, functional, and eco-friendly designs in 2025. See local costs, trends, and pro tips.",
+    "category": "bathroom-remodel",
+    "date": "2025-07-09",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg",
+    "slug": "bathroom-remodel-livonia-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg' alt='Modern bathroom in Livonia MI'><p class='lead'>In Livonia, MI, bathroom remodeling in 2025 blends style with function. From eco-friendly materials to spa-inspired layouts, homeowners are investing in updates that increase comfort and property value.</p></div><h2>1. 2025 Livonia Bathroom Remodel Trends</h2><ul><li>Matte black and brushed gold fixtures</li><li>Walk-in showers with glass enclosures</li><li>Heated flooring for Michigan winters</li></ul><h2>2. Cost Overview in Livonia</h2><p>Expect $8,500–$25,000 for a full remodel. High-end projects with luxury tile and smart tech can exceed $40,000.</p><h2>3. DIY vs Pro in Livonia</h2><p>Painting and accessory installs are DIY-friendly. Plumbing and electrical require a licensed contractor and may need permits from the Livonia Building Department.</p><div class='cta-section'><a href='/contact'>Schedule a Livonia Remodel Consultation</a></div>"
+  },
 
 ]
