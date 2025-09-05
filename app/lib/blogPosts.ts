@@ -1532,5 +1532,18 @@ export const blogPosts: BlogPost[] = [
     "slug": "bathroom-remodel-livonia-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg' alt='Modern bathroom in Livonia MI'><p class='lead'>In Livonia, MI, bathroom remodeling in 2025 blends style with function. From eco-friendly materials to spa-inspired layouts, homeowners are investing in updates that increase comfort and property value.</p></div><h2>1. 2025 Livonia Bathroom Remodel Trends</h2><ul><li>Matte black and brushed gold fixtures</li><li>Walk-in showers with glass enclosures</li><li>Heated flooring for Michigan winters</li></ul><h2>2. Cost Overview in Livonia</h2><p>Expect $8,500–$25,000 for a full remodel. High-end projects with luxury tile and smart tech can exceed $40,000.</p><h2>3. DIY vs Pro in Livonia</h2><p>Painting and accessory installs are DIY-friendly. Plumbing and electrical require a licensed contractor and may need permits from the Livonia Building Department.</p><div class='cta-section'><a href='/contact'>Schedule a Livonia Remodel Consultation</a></div>"
   },
+    {
+    "id": 13,
+    "title": "Bathroom Remodel Plymouth, MI 2025 – Local Costs, Designs & Ideas",
+    "meta_title": "Bathroom Remodel Plymouth, MI 2025 | Trends & Costs",
+    "meta_description": "Discover 2025 bathroom remodel trends in Plymouth, MI. Get ideas for layouts, costs, and eco-friendly options tailored for local homes.",
+    "excerpt": "Plymouth homeowners are embracing timeless designs with modern upgrades in 2025. Learn what’s trending and how to budget smartly.",
+    "category": "bathroom-remodel",
+    "date": "2025-07-10",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg",
+    "slug": "bathroom-remodel-plymouth-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg' alt='Plymouth MI bathroom remodel'><p class='lead'>In Plymouth, MI, bathroom remodeling in 2025 focuses on mixing classic charm with modern efficiency. Neighborhoods like Old Village and Central Plymouth are seeing upgrades that respect historic character while adding luxury.</p></div><h2>1. Popular Plymouth Trends</h2><ul><li>Clawfoot tubs with updated fixtures</li><li>Subway tile with colored grout</li><li>Energy-efficient LED lighting</li></ul><h2>2. Cost Insights</h2><p>Average remodels run $9,000–$22,000, with premium projects hitting $35,000+.</p><h2>3. DIY vs Pro</h2><p>DIY-friendly: painting, light fixture swaps. Pro-needed: plumbing reroutes and tile waterproofing. Plymouth requires permits for major work from the City Building Department.</p><div class='cta-section'><a href='/contact'>Book Your Plymouth Bathroom Remodel</a></div>"
+  },
 
 ]
