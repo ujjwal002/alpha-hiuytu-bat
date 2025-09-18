@@ -1519,7 +1519,7 @@ export const blogPosts: BlogPost[] = [
     </div>
   `
   },
-    {
+  {
     "id": 12,
     "title": "Bathroom Remodel Livonia, MI 2025 – Cost, Ideas & Local Trends",
     "meta_title": "Bathroom Remodel Livonia, MI 2025 | Cost, Ideas, Trends",
@@ -1532,7 +1532,7 @@ export const blogPosts: BlogPost[] = [
     "slug": "bathroom-remodel-livonia-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg' alt='Modern bathroom in Livonia MI'><p class='lead'>In Livonia, MI, bathroom remodeling in 2025 blends style with function. From eco-friendly materials to spa-inspired layouts, homeowners are investing in updates that increase comfort and property value.</p></div><h2>1. 2025 Livonia Bathroom Remodel Trends</h2><ul><li>Matte black and brushed gold fixtures</li><li>Walk-in showers with glass enclosures</li><li>Heated flooring for Michigan winters</li></ul><h2>2. Cost Overview in Livonia</h2><p>Expect $8,500–$25,000 for a full remodel. High-end projects with luxury tile and smart tech can exceed $40,000.</p><h2>3. DIY vs Pro in Livonia</h2><p>Painting and accessory installs are DIY-friendly. Plumbing and electrical require a licensed contractor and may need permits from the Livonia Building Department.</p><div class='cta-section'><a href='/contact'>Schedule a Livonia Remodel Consultation</a></div>"
   },
-    {
+  {
     "id": 13,
     "title": "Bathroom Remodel Plymouth, MI 2025 – Local Costs, Designs & Ideas",
     "meta_title": "Bathroom Remodel Plymouth, MI 2025 | Trends & Costs",
@@ -1544,6 +1544,32 @@ export const blogPosts: BlogPost[] = [
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg",
     "slug": "bathroom-remodel-plymouth-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg' alt='Plymouth MI bathroom remodel'><p class='lead'>In Plymouth, MI, bathroom remodeling in 2025 focuses on mixing classic charm with modern efficiency. Neighborhoods like Old Village and Central Plymouth are seeing upgrades that respect historic character while adding luxury.</p></div><h2>1. Popular Plymouth Trends</h2><ul><li>Clawfoot tubs with updated fixtures</li><li>Subway tile with colored grout</li><li>Energy-efficient LED lighting</li></ul><h2>2. Cost Insights</h2><p>Average remodels run $9,000–$22,000, with premium projects hitting $35,000+.</p><h2>3. DIY vs Pro</h2><p>DIY-friendly: painting, light fixture swaps. Pro-needed: plumbing reroutes and tile waterproofing. Plymouth requires permits for major work from the City Building Department.</p><div class='cta-section'><a href='/contact'>Book Your Plymouth Bathroom Remodel</a></div>"
+  },
+  {
+    "id": 14,
+    "title": "Bathroom Remodel Troy, MI 2025 – Trends, Costs & Local Tips",
+    "meta_title": "Bathroom Remodel Troy, MI 2025 | Costs, Trends, Ideas",
+    "meta_description": "See Troy, MI bathroom remodel costs and 2025 design trends. Learn about luxury upgrades, space optimization, and local contractor tips.",
+    "excerpt": "Troy’s bathroom remodels in 2025 highlight luxury, smart storage, and spa-like finishes. Perfect for families and professionals alike.",
+    "category": "bathroom-remodel",
+    "date": "2025-07-13",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg",
+    "slug": "bathroom-remodel-troy-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg' alt='Troy MI modern bathroom'><p class='lead'>In Troy, MI, 2025 bathroom remodels lean toward high-end materials, clean lines, and custom storage to fit suburban lifestyles.</p></div><h2>1. Top Troy Trends</h2><ul><li>Quartz and marble vanities</li><li>Frameless glass showers</li><li>Built-in shelving for storage</li></ul><h2>2. Average Costs</h2><p>Standard remodels: $10,000–$26,000. High-end: $38,000+ with luxury finishes.</p><h2>3. DIY or Hire?</h2><p>DIY: minor paint, replacing cabinet hardware. Pro: plumbing and electrical work require permits from Troy’s Building Department.</p><div class='cta-section'><a href='/contact'>Plan Your Troy Bathroom Remodel</a></div>"
+  },
+  {
+    "id": 15,
+    "title": "Bathroom Remodel Canton, MI 2025 – Design & Budget Guide",
+    "meta_title": "Bathroom Remodel Canton, MI 2025 | Trends & Budget",
+    "meta_description": "2025 Canton, MI bathroom remodel guide with costs, ideas, and trends. Learn when to DIY and when to hire a professional.",
+    "excerpt": "Canton’s bathroom remodels in 2025 mix practical upgrades with luxury touches, especially in neighborhoods like Cherry Hill Village.",
+    "category": "bathroom-remodel",
+    "date": "2025-07-19",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg",
+    "slug": "bathroom-remodel-canton-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg' alt='Bathroom remodel in Canton MI'><p class='lead'>In Canton, MI, bathroom remodeling in 2025 is about balancing cost efficiency with stylish upgrades for growing families.</p></div><h2>1. Canton Trends</h2><ul><li>Double vanities for busy mornings</li><li>Neutral tones with accent walls</li><li>Low-flow fixtures for water savings</li></ul><h2>2. Cost Guide</h2><p>Remodels start at $8,000 for small updates and reach $28,000+ for luxury builds.</p><h2>3. DIY vs Pro</h2><p>DIY: installing mirrors, towel bars. Pro: structural changes or plumbing require a permit from Canton Township.</p><div class='cta-section'><a href='/contact'>Start Your Canton Remodel Project</a></div>"
   },
 
 ]
