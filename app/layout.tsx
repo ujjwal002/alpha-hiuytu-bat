@@ -5,7 +5,7 @@ import "./globals.css";
 import Header from '@/components/Header';
 import Footer from "./components/Footer";
 import { Analytics } from "@vercel/analytics/next"
-import {  GA_MEASUREMENT_ID } from '../app/lib/gtag';
+import { GA_MEASUREMENT_ID } from '../app/lib/gtag';
 import Script from "next/script";
 
 
@@ -46,15 +46,20 @@ export default function RootLayout({
                 function gtag(){dataLayer.push(arguments);}
                 window.gtag = gtag;
                 gtag('js', new Date());
+                
+                // GA4 config
                 gtag('config', '${GA_MEASUREMENT_ID}', {
                   page_path: window.location.pathname,
                 });
+
+                // Google Ads conversion ID config
+                gtag('config', 'AW-16672718243'); 
               `}
             </Script>
           </>
         )}
       </head>
-      
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -62,7 +67,7 @@ export default function RootLayout({
 
         {children}
         <Analytics />
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
