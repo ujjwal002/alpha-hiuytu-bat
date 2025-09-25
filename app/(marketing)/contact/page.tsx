@@ -102,9 +102,16 @@ export default function ContactPage() {
 
       if (!response.ok) throw new Error("Submission failed");
 
-      event({ action: 'contact_form_submit', category: 'engagement', label: 'Contact page' });
+      // 👉 Your existing GA event (keep it)
+      event({ action: "contact_form_submit", category: "engagement", label: "Contact page" });
 
-
+      // 👉 Add Google Ads Conversion Tracking
+      if (typeof window !== "undefined" && window.gtag) {
+        window.gtag("event", "conversion", {
+          send_to: "AW-16672718243/imcOCNPL6aEbEKP7lY4-",
+        });
+        console.log("✅ Google Ads conversion event fired");
+      }
       setFormStatus("success");
       resetForm();
       const successEl = document.getElementById("success-message");
@@ -114,6 +121,7 @@ export default function ContactPage() {
       setFormStatus("error");
     }
   };
+
 
   // Initial form values
   const initialValues: FormValues = {
@@ -135,7 +143,7 @@ export default function ContactPage() {
     // permitAssistance: false,
     terms: false,
   };
-  
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-gray-800 py-12 px-4 sm:px-6 lg:px-8 font-sans">
