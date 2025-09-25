@@ -4,6 +4,8 @@ import Link from "next/link";
 import { Phone, ChevronDown, Menu, X, Mail, Clock, ShowerHead, Droplets, Bath, Accessibility } from "lucide-react";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { event } from '../lib/gtag';
+
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -20,6 +22,12 @@ export default function Header() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const phone = '(248) 346-8926';
+
+  const onCallClick = () => {
+    event({ action: 'phone_click', category: 'engagement', label: phone });
+  };
 
   // Close mobile menu and services dropdown when route changes
   useEffect(() => {
@@ -110,11 +118,12 @@ export default function Header() {
             <div className="flex items-center space-x-2 group">
               <Phone className="h-4 w-4 text-blue-400 group-hover:text-blue-300 transition-colors" />
               <a
-                href="tel:+12483468926"
+                href={`tel:${phone.replace(/[^\d+]/g, '')}`}
                 className="text-sm font-medium text-gray-200 group-hover:text-white transition-colors"
                 aria-label="Call Stone Works Remodeling for a free bathroom remodeling quote"
+                onClick={onCallClick}
               >
-                (248) 346-8926
+                {phone}
               </a>
             </div>
             <div className="flex items-center space-x-2 group">

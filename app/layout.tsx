@@ -5,6 +5,9 @@ import "./globals.css";
 import Header from '@/components/Header';
 import Footer from "./components/Footer";
 import { Analytics } from "@vercel/analytics/next"
+import {  GA_MEASUREMENT_ID } from '../app/lib/gtag';
+import Script from "next/script";
+
 
 
 const geistSans = Geist({
@@ -30,6 +33,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {GA_MEASUREMENT_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="gtag-init" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                window.gtag = gtag;
+                gtag('js', new Date());
+                gtag('config', '${GA_MEASUREMENT_ID}', {
+                  page_path: window.location.pathname,
+                });
+              `}
+            </Script>
+          </>
+        )}
+      </head>
       
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

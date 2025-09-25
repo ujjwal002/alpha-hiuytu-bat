@@ -6,6 +6,8 @@ import { Formik, Form, Field, ErrorMessage, FieldArray, FormikHelpers } from "fo
 import * as Yup from "yup";
 import { motion } from "framer-motion";
 import Head from "next/head";
+import { event } from '../../lib/gtag';
+
 
 // Form values interface
 interface FormValues {
@@ -99,6 +101,9 @@ export default function ContactPage() {
       });
 
       if (!response.ok) throw new Error("Submission failed");
+
+      event({ action: 'contact_form_submit', category: 'engagement', label: 'Contact page' });
+
 
       setFormStatus("success");
       resetForm();
