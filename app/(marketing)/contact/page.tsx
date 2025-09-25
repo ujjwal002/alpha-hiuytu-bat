@@ -109,8 +109,10 @@ export default function ContactPage() {
       if (typeof window !== "undefined" && window.gtag) {
         window.gtag("event", "conversion", {
           send_to: "AW-16672718243/imcOCNPL6aEbEKP7lY4-",
+          value: 1.0,
+          currency: "USD",
         });
-        console.log("✅ Google Ads conversion event fired");
+        console.log("✅ Google Ads conversion fired");
       }
       setFormStatus("success");
       resetForm();
