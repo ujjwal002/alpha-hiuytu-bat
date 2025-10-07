@@ -988,7 +988,7 @@ export default function HomePage() {
                       <p className="text-sm text-slate-600">{testimonials[activeTestimonial].location}</p>
                     </div>
                   </div>
-                  <p className="text-slate-800 text-base sm:text-lg italic mb-4 sm:mb-6 leading-relaxed text-center sm:text-left">"{testimonials[activeTestimonial].quote}"</p>
+                  <p className="text-slate-800 text-base sm:text-lg italic mb-4 sm:mb-6 leading-relaxed text-center sm:text-left">&ldquo;{testimonials[activeTestimonial].quote}&ldquo;</p>
                   <div className="flex items-center justify-center sm:justify-start mb-4 sm:mb-6">
                     {[...Array(testimonials[activeTestimonial].rating)].map((_, i) => (
                       <Star key={i} className="h-5 w-5 sm:h-6 sm:w-6 text-yellow-400 fill-yellow-400" />

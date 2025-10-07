@@ -1571,5 +1571,32 @@ export const blogPosts: BlogPost[] = [
     "slug": "bathroom-remodel-canton-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg' alt='Bathroom remodel in Canton MI'><p class='lead'>In Canton, MI, bathroom remodeling in 2025 is about balancing cost efficiency with stylish upgrades for growing families.</p></div><h2>1. Canton Trends</h2><ul><li>Double vanities for busy mornings</li><li>Neutral tones with accent walls</li><li>Low-flow fixtures for water savings</li></ul><h2>2. Cost Guide</h2><p>Remodels start at $8,000 for small updates and reach $28,000+ for luxury builds.</p><h2>3. DIY vs Pro</h2><p>DIY: installing mirrors, towel bars. Pro: structural changes or plumbing require a permit from Canton Township.</p><div class='cta-section'><a href='/contact'>Start Your Canton Remodel Project</a></div>"
   },
+    {
+    "id": 16,
+    "title": "Bathroom Remodel Novi, MI 2025 – Local Trends & Cost Insights",
+    "meta_title": "Bathroom Remodel Novi, MI 2025 | Costs, Trends, Ideas",
+    "meta_description": "Learn Novi, MI bathroom remodel costs, trends, and design tips for 2025. Get inspired with modern layouts and luxury finishes.",
+    "excerpt": "Novi homeowners in 2025 are choosing sleek, low-maintenance bathroom designs with high-tech features.",
+    "category": "bathroom-remodel",
+    "date": "2025-07-22",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg",
+    "slug": "bathroom-remodel-novi-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg' alt='Novi MI bathroom remodel'><p class='lead'>In Novi, MI, 2025 bathroom remodel trends combine minimalism with smart technology for a modern lifestyle.</p></div><h2>1. Novi Bathroom Trends</h2><ul><li>Smart mirrors with lighting and defoggers</li><li>Porcelain tile floors</li><li>Wall-mounted vanities for more space</li></ul><h2>2. Cost Details</h2><p>Standard remodel: $9,500–$24,000. Luxury: $37,000+ with premium fixtures.</p><h2>3. DIY vs Pro</h2><p>DIY: paint touch-ups, replacing faucets. Pro: advanced electrical or plumbing jobs require Novi’s Building Department permits.</p><div class='cta-section'><a href='/contact'>Book a Novi Remodel Consultation</a></div>"
+  },
+
+  {
+    "id": 17,
+    "title": "Bathroom Remodel Ann Arbor, MI 2025 – Eco-Friendly Trends & Smart Design",
+    "meta_title": "Bathroom Remodel Ann Arbor, MI 2025 | Green Trends & Smart Upgrades",
+    "meta_description": "Explore eco-friendly bathroom remodel trends in Ann Arbor, MI for 2025. Learn about cost-saving upgrades, smart tech, and sustainable materials.",
+    "excerpt": "Ann Arbor homeowners are embracing eco-conscious bathroom remodels in 2025. From low-flow fixtures to locally sourced tiles, discover how to blend sustainability with style.",
+    "category": "bathroom-remodel",
+    "date": "2025-07-26",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg",
+    "slug": "bathroom-remodel-ann-arbor-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg' alt='Eco-friendly bathroom remodel in Ann Arbor, MI'><p class='lead'>Ann Arbor’s progressive community is making green choices in 2025 bathroom remodels. From reclaimed wood vanities to energy-efficient lighting, homeowners are upgrading with purpose.</p></div><h2>1. Sustainable Materials</h2><p>Ann Arbor remodels often feature recycled glass tiles, bamboo cabinets, and VOC-free paints to improve indoor air quality.</p><h2>2. Smart Bathroom Technology</h2><p>Touchless faucets, smart mirrors, and heated floors make daily routines efficient and comfortable.</p><h2>3. Local Permits & Codes</h2><p>Ann Arbor’s building department requires permits for plumbing, electrical, and structural changes. Always check local guidelines.</p><div class='cta-section'><h3>Ready to Remodel?</h3><p>Contact us today to plan your Ann Arbor bathroom renovation with sustainable style.</p></div>"
+  },
 
 ]
