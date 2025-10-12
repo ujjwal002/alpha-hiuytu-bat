@@ -1598,5 +1598,31 @@ export const blogPosts: BlogPost[] = [
     "slug": "bathroom-remodel-ann-arbor-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg' alt='Eco-friendly bathroom remodel in Ann Arbor, MI'><p class='lead'>Ann Arbor’s progressive community is making green choices in 2025 bathroom remodels. From reclaimed wood vanities to energy-efficient lighting, homeowners are upgrading with purpose.</p></div><h2>1. Sustainable Materials</h2><p>Ann Arbor remodels often feature recycled glass tiles, bamboo cabinets, and VOC-free paints to improve indoor air quality.</p><h2>2. Smart Bathroom Technology</h2><p>Touchless faucets, smart mirrors, and heated floors make daily routines efficient and comfortable.</p><h2>3. Local Permits & Codes</h2><p>Ann Arbor’s building department requires permits for plumbing, electrical, and structural changes. Always check local guidelines.</p><div class='cta-section'><h3>Ready to Remodel?</h3><p>Contact us today to plan your Ann Arbor bathroom renovation with sustainable style.</p></div>"
   },
+    {
+    "id": 18,
+    "title": "Bathroom Remodel Farmington Hills, MI 2025 – Luxury Meets Function",
+    "meta_title": "Bathroom Remodel Farmington Hills, MI 2025 | Luxury Design Ideas",
+    "meta_description": "Farmington Hills homeowners are opting for spa-like bathroom remodels in 2025. Learn about luxury upgrades, costs, and professional tips.",
+    "excerpt": "Farmington Hills is seeing a surge in luxury bathroom remodels featuring marble countertops, frameless showers, and freestanding tubs.",
+    "category": "bathroom-remodel",
+    "date": "2025-07-30",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg",
+    "slug": "bathroom-remodel-farmington-hills-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg' alt='Luxury bathroom in Farmington Hills, MI'><p class='lead'>Farmington Hills homeowners in 2025 are blending spa-inspired features with everyday functionality. From heated flooring to high-end lighting, luxury is becoming standard.</p></div><h2>1. Spa-Inspired Features</h2><p>Rainfall showers, deep soaking tubs, and natural stone surfaces create a resort-like feel.</p><h2>2. Energy Efficiency</h2><p>Luxury doesn’t have to mean waste — energy-efficient lighting and low-flow fixtures help cut costs.</p><h2>3. Local Remodeling Tips</h2><p>Farmington Hills contractors recommend securing permits early to avoid project delays.</p><div class='cta-section'><h3>Upgrade Your Bathroom Today</h3><p>Let’s create your dream bathroom in Farmington Hills — contact us now.</p></div>"
+  },
+  {
+    "id": 19,
+    "title": "Bathroom Remodel Dearborn, MI 2025 – Blending Tradition & Modern Style",
+    "meta_title": "Bathroom Remodel Dearborn, MI 2025 | Modern & Traditional Designs",
+    "meta_description": "In 2025, Dearborn bathroom remodels combine traditional design elements with modern upgrades. Discover cost, trends, and DIY-friendly tips.",
+    "excerpt": "Dearborn homes are famous for their charm, and in 2025, remodels are balancing that heritage with sleek modern finishes.",
+    "category": "bathroom-remodel",
+    "date": "2025-08-1",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic6.jpeg",
+    "slug": "bathroom-remodel-dearborn-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic6.jpeg' alt='Bathroom remodel in Dearborn, MI'><p class='lead'>Dearborn homeowners are embracing a mix of traditional layouts and modern features to refresh their bathrooms in 2025.</p></div><h2>1. Keeping Historic Charm</h2><p>Restoring vintage tiles and fixtures while upgrading plumbing creates the perfect blend.</p><h2>2. Modern Enhancements</h2><p>Walk-in showers, floating vanities, and LED mirrors bring 21st-century convenience.</p><h2>3. Local Contractor Advice</h2><p>In Dearborn, hiring a pro for plumbing ensures compliance with Wayne County codes.</p><div class='cta-section'><h3>Start Your Dearborn Remodel</h3><p>Our team specializes in combining heritage and innovation — call us today.</p></div>"
+  },
 
 ]
