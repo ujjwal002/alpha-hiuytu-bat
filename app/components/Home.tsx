@@ -578,7 +578,7 @@ export default function HomePage() {
                     transition={{ delay: 0.6 }}
                   >
                     <h3 className="text-3xl sm:text-4xl md:text-5xl font-black text-gray-900 mb-2">$2,500 OFF</h3>
-                    <p className="text-lg sm:text-xl font-semibold text-white">Your Full Bathroom Remodel</p>
+                    <p className="text-lg sm:text-xl font-semibold text-white">Your Full Bathroom Remodel plus a 5 year warranty! </p>
                   </motion.div>
                   <div className="bg-gray-100/80 rounded-xl p-2 sm:p-3">
                     <p className="text-xs sm:text-sm text-gray-600 font-medium text-center mb-0">— OR —</p>
@@ -592,12 +592,12 @@ export default function HomePage() {
                     <p className="text-lg sm:text-xl font-semibold text-white">Your Tub or Shower Replacement</p>
                   </motion.div>
                   <motion.p
-                    className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 text-white px-3 py-2 sm:px-4 sm:py-2 rounded-xl"
+                    className="text-s  font-bold bg-gradient-to-r from-blue-600 to-blue-700 text-white px-3 py-2 sm:px-4 sm:py-2 rounded-xl"
                     initial={{ scale: 0.9 }}
                     animate={{ scale: 1 }}
                     transition={{ delay: 0.8 }}
                   >
-                    + Low to No Monthly Payments*
+                    Offer stands for the next 5 people that qualify!
                   </motion.p>
                   <p className="text-xs text-gray-500 italic text-center">*Restrictions apply</p>
                 </div>
