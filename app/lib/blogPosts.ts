@@ -1571,7 +1571,7 @@ export const blogPosts: BlogPost[] = [
     "slug": "bathroom-remodel-canton-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg' alt='Bathroom remodel in Canton MI'><p class='lead'>In Canton, MI, bathroom remodeling in 2025 is about balancing cost efficiency with stylish upgrades for growing families.</p></div><h2>1. Canton Trends</h2><ul><li>Double vanities for busy mornings</li><li>Neutral tones with accent walls</li><li>Low-flow fixtures for water savings</li></ul><h2>2. Cost Guide</h2><p>Remodels start at $8,000 for small updates and reach $28,000+ for luxury builds.</p><h2>3. DIY vs Pro</h2><p>DIY: installing mirrors, towel bars. Pro: structural changes or plumbing require a permit from Canton Township.</p><div class='cta-section'><a href='/contact'>Start Your Canton Remodel Project</a></div>"
   },
-    {
+  {
     "id": 16,
     "title": "Bathroom Remodel Novi, MI 2025 – Local Trends & Cost Insights",
     "meta_title": "Bathroom Remodel Novi, MI 2025 | Costs, Trends, Ideas",
@@ -1598,7 +1598,7 @@ export const blogPosts: BlogPost[] = [
     "slug": "bathroom-remodel-ann-arbor-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg' alt='Eco-friendly bathroom remodel in Ann Arbor, MI'><p class='lead'>Ann Arbor’s progressive community is making green choices in 2025 bathroom remodels. From reclaimed wood vanities to energy-efficient lighting, homeowners are upgrading with purpose.</p></div><h2>1. Sustainable Materials</h2><p>Ann Arbor remodels often feature recycled glass tiles, bamboo cabinets, and VOC-free paints to improve indoor air quality.</p><h2>2. Smart Bathroom Technology</h2><p>Touchless faucets, smart mirrors, and heated floors make daily routines efficient and comfortable.</p><h2>3. Local Permits & Codes</h2><p>Ann Arbor’s building department requires permits for plumbing, electrical, and structural changes. Always check local guidelines.</p><div class='cta-section'><h3>Ready to Remodel?</h3><p>Contact us today to plan your Ann Arbor bathroom renovation with sustainable style.</p></div>"
   },
-    {
+  {
     "id": 18,
     "title": "Bathroom Remodel Farmington Hills, MI 2025 – Luxury Meets Function",
     "meta_title": "Bathroom Remodel Farmington Hills, MI 2025 | Luxury Design Ideas",
@@ -1623,6 +1623,32 @@ export const blogPosts: BlogPost[] = [
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic6.jpeg",
     "slug": "bathroom-remodel-dearborn-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic6.jpeg' alt='Bathroom remodel in Dearborn, MI'><p class='lead'>Dearborn homeowners are embracing a mix of traditional layouts and modern features to refresh their bathrooms in 2025.</p></div><h2>1. Keeping Historic Charm</h2><p>Restoring vintage tiles and fixtures while upgrading plumbing creates the perfect blend.</p><h2>2. Modern Enhancements</h2><p>Walk-in showers, floating vanities, and LED mirrors bring 21st-century convenience.</p><h2>3. Local Contractor Advice</h2><p>In Dearborn, hiring a pro for plumbing ensures compliance with Wayne County codes.</p><div class='cta-section'><h3>Start Your Dearborn Remodel</h3><p>Our team specializes in combining heritage and innovation — call us today.</p></div>"
+  },
+  {
+    "id": 20,
+    "title": "Bathroom Remodel Rochester Hills, MI 2025 – Family-Friendly Upgrades",
+    "meta_title": "Bathroom Remodel Rochester Hills, MI 2025 | Family Bathroom Ideas",
+    "meta_description": "In 2025, Rochester Hills bathroom remodels focus on functionality for growing families. Learn about layouts, storage, and safety features.",
+    "excerpt": "Rochester Hills homeowners are investing in bathroom remodels designed for comfort, safety, and storage.",
+    "category": "bathroom-remodel",
+    "date": "2025-08-3",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic2.jpeg",
+    "slug": "bathroom-remodel-rochester-hills-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic2.jpeg' alt='Family bathroom remodel in Rochester Hills, MI'><p class='lead'>Families in Rochester Hills are remodeling bathrooms to maximize storage, safety, and durability in 2025.</p></div><h2>1. Storage Solutions</h2><p>Built-in cabinets, double vanities, and shelving help keep clutter away.</p><h2>2. Safety Features</h2><p>Slip-resistant tiles, grab bars, and walk-in tubs make bathrooms safer for all ages.</p><h2>3. Kid-Friendly Designs</h2><p>Durable countertops and low-maintenance flooring are ideal for busy households.</p><div class='cta-section'><h3>Plan Your Family Bathroom</h3><p>We design bathrooms that grow with your family — contact us today.</p></div>"
+  },
+  {
+    "id": 21,
+    "title": "Bathroom Remodel Sterling Heights, MI 2025 – Space-Saving Designs",
+    "meta_title": "Bathroom Remodel Sterling Heights, MI 2025 | Small Space Ideas",
+    "meta_description": "Sterling Heights remodels in 2025 focus on maximizing space with smart layouts, compact fixtures, and modern storage.",
+    "excerpt": "In Sterling Heights, MI, homeowners are transforming compact bathrooms into functional, stylish spaces using smart design tricks.",
+    "category": "bathroom-remodel",
+    "date": "2025-08-5",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg",
+    "slug": "bathroom-remodel-sterling-heights-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg' alt='Small bathroom remodel in Sterling Heights, MI'><p class='lead'>Homeowners in Sterling Heights are learning that even small bathrooms can feel luxurious with the right design in 2025.</p></div><h2>1. Space-Saving Fixtures</h2><p>Wall-mounted toilets, floating vanities, and corner showers maximize floor space.</p><h2>2. Light & Color</h2><p>Light color palettes and large mirrors make small rooms feel bigger.</p><h2>3. Custom Storage</h2><p>Built-in shelving and recessed medicine cabinets keep essentials organized.</p><div class='cta-section'><h3>Maximize Your Space</h3><p>Let us help you create a stunning, functional bathroom in Sterling Heights.</p></div>"
   },
 
 ]
