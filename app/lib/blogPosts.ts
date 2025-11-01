@@ -564,8 +564,8 @@ export const blogPosts: BlogPost[] = [
     title: "Building a Greener Future: Our Sustainable Stone Remodeling Practices",
     excerpt: "Discover how Stone Works Remodeling combines luxury and sustainability through innovative eco-conscious practices.",
     category: "company-updates",
-    date: "2025-01-20",
-    author: "Jane Smith",
+    date: "2025-09-01",
+    author: "Valjon Qejvani",
     image: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic14.jpeg",
     slug: "stone-work-sustainability",
     content: `
