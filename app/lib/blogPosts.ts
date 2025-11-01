@@ -1618,7 +1618,7 @@ export const blogPosts: BlogPost[] = [
     "meta_description": "In 2025, Dearborn bathroom remodels combine traditional design elements with modern upgrades. Discover cost, trends, and DIY-friendly tips.",
     "excerpt": "Dearborn homes are famous for their charm, and in 2025, remodels are balancing that heritage with sleek modern finishes.",
     "category": "bathroom-remodel",
-    "date": "2025-08-1",
+    "date": "2025-08-28",
     "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic6.jpeg",
     "slug": "bathroom-remodel-dearborn-mi-2025",
@@ -1631,7 +1631,7 @@ export const blogPosts: BlogPost[] = [
     "meta_description": "In 2025, Rochester Hills bathroom remodels focus on functionality for growing families. Learn about layouts, storage, and safety features.",
     "excerpt": "Rochester Hills homeowners are investing in bathroom remodels designed for comfort, safety, and storage.",
     "category": "bathroom-remodel",
-    "date": "2025-08-3",
+    "date": "2025-08-28",
     "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic2.jpeg",
     "slug": "bathroom-remodel-rochester-hills-mi-2025",
@@ -1649,6 +1649,33 @@ export const blogPosts: BlogPost[] = [
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg",
     "slug": "bathroom-remodel-sterling-heights-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg' alt='Small bathroom remodel in Sterling Heights, MI'><p class='lead'>Homeowners in Sterling Heights are learning that even small bathrooms can feel luxurious with the right design in 2025.</p></div><h2>1. Space-Saving Fixtures</h2><p>Wall-mounted toilets, floating vanities, and corner showers maximize floor space.</p><h2>2. Light & Color</h2><p>Light color palettes and large mirrors make small rooms feel bigger.</p><h2>3. Custom Storage</h2><p>Built-in shelving and recessed medicine cabinets keep essentials organized.</p><div class='cta-section'><h3>Maximize Your Space</h3><p>Let us help you create a stunning, functional bathroom in Sterling Heights.</p></div>"
+  },
+
+    {
+    "id": 22,
+    "title": "Bathroom Remodel Southfield, MI 2025 – Modern Upgrades for Busy Professionals",
+    "meta_title": "Bathroom Remodel Southfield, MI 2025 | Modern & Functional Designs",
+    "meta_description": "Southfield bathroom remodels in 2025 focus on convenience, efficiency, and style. Learn about design tips, costs, and popular features.",
+    "excerpt": "In Southfield, busy professionals are upgrading bathrooms with sleek, low-maintenance features that save time without sacrificing luxury.",
+    "category": "bathroom-remodel",
+    "date": "2025-09-01",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic8.jpeg",
+    "slug": "bathroom-remodel-southfield-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic8.jpeg' alt='Modern bathroom remodel in Southfield, MI'><p class='lead'>Southfield professionals are investing in bathroom remodels that combine smart tech, easy maintenance, and sophisticated style in 2025.</p></div><h2>1. Low-Maintenance Materials</h2><p>Quartz countertops, large-format tiles, and frameless showers reduce cleaning time.</p><h2>2. Smart Technology</h2><p>Digital showers, smart lighting, and heated floors add comfort and convenience.</p><h2>3. Time-Saving Designs</h2><p>Custom storage and dual vanities help make morning routines more efficient.</p><div class='cta-section'><h3>Upgrade Your Southfield Bathroom</h3><p>We design bathrooms that fit your busy lifestyle — contact us today.</p></div>"
+  },
+  {
+    "id": 23,
+    "title": "Bathroom Remodel Troy, MI 2025 – High-End Upgrades & Design Trends",
+    "meta_title": "Bathroom Remodel Troy, MI 2025 | Premium Bathroom Trends",
+    "meta_description": "In 2025, Troy homeowners are investing in premium bathroom remodels. Explore the latest trends, materials, and design ideas.",
+    "excerpt": "Troy, MI is seeing a rise in luxury bathroom remodels featuring cutting-edge fixtures and timeless materials.",
+    "category": "bathroom-remodel",
+    "date": "2025-09-01",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic1.jpeg",
+    "slug": "bathroom-remodel-troy-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic1.jpeg' alt='Luxury bathroom remodel in Troy, MI'><p class='lead'>Troy homeowners are combining premium finishes and innovative layouts to create bathrooms that feel like private retreats in 2025.</p></div><h2>1. Statement Fixtures</h2><p>Freestanding tubs, waterfall faucets, and designer lighting make a bold impression.</p><h2>2. Natural Materials</h2><p>Marble, granite, and wood accents add warmth and elegance.</p><h2>3. Custom Layouts</h2><p>Personalized designs ensure every inch of space is functional and beautiful.</p><div class='cta-section'><h3>Create Your Luxury Bathroom</h3><p>Work with our Troy team to design a bathroom that exceeds your expectations.</p></div>"
   },
 
 ]
