@@ -1664,18 +1664,17 @@ export const blogPosts: BlogPost[] = [
     "slug": "bathroom-remodel-southfield-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic8.jpeg' alt='Modern bathroom remodel in Southfield, MI'><p class='lead'>Southfield professionals are investing in bathroom remodels that combine smart tech, easy maintenance, and sophisticated style in 2025.</p></div><h2>1. Low-Maintenance Materials</h2><p>Quartz countertops, large-format tiles, and frameless showers reduce cleaning time.</p><h2>2. Smart Technology</h2><p>Digital showers, smart lighting, and heated floors add comfort and convenience.</p><h2>3. Time-Saving Designs</h2><p>Custom storage and dual vanities help make morning routines more efficient.</p><div class='cta-section'><h3>Upgrade Your Southfield Bathroom</h3><p>We design bathrooms that fit your busy lifestyle — contact us today.</p></div>"
   },
-  {
+    {
     "id": 23,
-    "title": "Bathroom Remodel Troy, MI 2025 – High-End Upgrades & Design Trends",
-    "meta_title": "Bathroom Remodel Troy, MI 2025 | Premium Bathroom Trends",
-    "meta_description": "In 2025, Troy homeowners are investing in premium bathroom remodels. Explore the latest trends, materials, and design ideas.",
-    "excerpt": "Troy, MI is seeing a rise in luxury bathroom remodels featuring cutting-edge fixtures and timeless materials.",
+    "title": "Bathroom Remodel Canton, MI 2025 – Stylish & Affordable Renovations",
+    "meta_title": "Bathroom Remodel Canton, MI 2025 | Affordable & Stylish Ideas",
+    "meta_description": "Canton homeowners in 2025 are choosing stylish yet affordable bathroom remodels. Learn how to upgrade without overspending.",
+    "excerpt": "In Canton, MI, 2025 remodel trends show that you don’t need to break the bank to create a beautiful, functional bathroom.",
     "category": "bathroom-remodel",
-    "date": "2025-10-01",
+    "date": "2025-08-10",
     "author": "Valjon Qejvani",
-    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic1.jpeg",
-    "slug": "bathroom-remodel-troy-mi-2025",
-    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic1.jpeg' alt='Luxury bathroom remodel in Troy, MI'><p class='lead'>Troy homeowners are combining premium finishes and innovative layouts to create bathrooms that feel like private retreats in 2025.</p></div><h2>1. Statement Fixtures</h2><p>Freestanding tubs, waterfall faucets, and designer lighting make a bold impression.</p><h2>2. Natural Materials</h2><p>Marble, granite, and wood accents add warmth and elegance.</p><h2>3. Custom Layouts</h2><p>Personalized designs ensure every inch of space is functional and beautiful.</p><div class='cta-section'><h3>Create Your Luxury Bathroom</h3><p>Work with our Troy team to design a bathroom that exceeds your expectations.</p></div>"
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg",
+    "slug": "bathroom-remodel-canton-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg' alt='Affordable bathroom remodel in Canton, MI'><p class='lead'>Canton homeowners are proving that budget-friendly bathroom remodels can still look luxurious in 2025.</p></div><h2>1. Cost-Effective Materials</h2><p>Laminate countertops, vinyl flooring, and prefabricated vanities cut costs without sacrificing style.</p><h2>2. DIY-Friendly Upgrades</h2><p>Painting cabinets, replacing hardware, and adding new lighting are simple ways to refresh a bathroom.</p><h2>3. Strategic Planning</h2><p>Focusing on high-impact changes like updated fixtures can stretch your budget further.</p><div class='cta-section'><h3>Start Your Affordable Remodel</h3><p>Our Canton team can help you design a stylish bathroom that works within your budget.</p></div>"
   },
-
 ]
