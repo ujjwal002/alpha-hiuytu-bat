@@ -11,33 +11,36 @@ const Footer = () => {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Organization",
+            "@type": "HomeAndConstructionBusiness",
             "name": "Stone Works Remodeling",
             "url": "https://stoneworkremodeling.com",
             "logo": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp",
-            "contactPoint": [
-              {
-                "@type": "ContactPoint",
-                "telephone": "+12483468926",
-                "contactType": "Customer Service",
-                "email": "info@stoneworkremodeling.com",
-                "areaServed": "US",
-                "availableLanguage": "English",
-              },
-            ],
+            "telephone": "+12483468926",
+            "email": "info@stoneworkremodeling.com",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "4671 Sugar Camp Road",
               "addressLocality": "Metro Detroit",
-              "addressRegion": "MN",
+              "addressRegion": "MI",
               "postalCode": "55060",
-              "addressCountry": "US",
+              "addressCountry": "US"
             },
+            "areaServed": ["Metro Detroit", "Detroit", "Rochester", "Livonia"],
             "sameAs": [
               "https://www.facebook.com/stoneworkremodeling",
               "https://www.instagram.com/stoneworkremodeling",
-              "https://www.linkedin.com/company/stoneworkremodeling",
+              "https://www.linkedin.com/company/stoneworkremodeling"
             ],
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+                "opens": "09:00",
+                "closes": "17:00"
+              }
+            ],
+            "priceRange": "$$$",
+            "description": "Stone Works Remodeling provides premium bathroom remodeling, shower conversions, walk-in tubs, and custom tilework in Metro Detroit, MI."
           }),
         }}
       />
@@ -49,12 +52,11 @@ const Footer = () => {
             <div className="flex items-center gap-4 group hover:scale-105 transition-transform duration-300">
               <div className="w-16 h-16 overflow-hidden shadow-md">
                 <Image
-                  src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/stone.webp" // S3-hosted WebP logo
-                  alt="Stone Works Remodeling logo for premium stone bathroom remodeling in Metro Detroit, MI"
+                  src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/stone.webp"
+                  alt="Stone Works Remodeling logo for premium bathroom remodeling in Metro Detroit, MI"
                   className="w-full h-full object-cover"
                   width={64}
                   height={64}
-                  sizes="64px"
                   placeholder="blur"
                   blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/+F9PQAI8wNPk43HLQAAAABJRU5ErkJggg=="
                   quality={80}
@@ -65,12 +67,11 @@ const Footer = () => {
                 <h1 className="font-extralight text-gray-900 tracking-tight">
                   Stone Works <span className="text-blue-600">Remodeling</span>
                 </h1>
-                <span className="text-sm text-gray-500">Your Trusted Remodeling Partner</span>
+                <span className="text-sm text-gray-500">Premium Bathroom Remodeling in Metro Detroit</span>
               </div>
             </div>
             <p className="text-gray-600 mb-4 mt-4">
-              Stone Works Remodeling is your trusted expert in premium  bathroom remodeling and
-              custom tile in Metro Detroit, MI. Unmatched craftsmanship and exceptional service.
+              Expert bathroom remodeling, shower conversions, walk-in tubs, and custom stonework in Metro Detroit, MI. Free quotes available.
             </p>
             <div className="flex space-x-4" aria-label="Social media links">
               <a
@@ -115,32 +116,32 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link href="/about" className="text-gray-600 hover:text-blue-600">
-                  About Us
+                  About Stone Works Remodeling
                 </Link>
               </li>
               <li>
                 <Link href="/services" className="text-gray-600 hover:text-blue-600">
-                  Our Services
+                  Bathroom Remodeling Services
                 </Link>
               </li>
               <li>
                 <Link href="/gallery" className="text-gray-600 hover:text-blue-600">
-                  Gallery
+                  Remodeling Gallery
                 </Link>
               </li>
               <li>
                 <Link href="/testimonials" className="text-gray-600 hover:text-blue-600">
-                  Testimonials
+                  Customer Testimonials
                 </Link>
               </li>
               <li>
                 <Link href="/blog" className="text-gray-600 hover:text-blue-600">
-                  Blog
+                  Remodeling Blog
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="text-gray-600 hover:text-blue-600">
-                  Contact Us
+                  Contact Stone Works
                 </Link>
               </li>
             </ul>
@@ -155,28 +156,28 @@ const Footer = () => {
                   href="/services/bathroom-remodeling"
                   className="text-gray-600 hover:text-blue-600"
                 >
-                  Bathroom Remodeling
+                  Bathroom Remodeling in Metro Detroit
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/services/shower-conversion"
+                  href="/services/shower-conversions"
                   className="text-gray-600 hover:text-blue-600"
                 >
-                  Shower Conversion
+                  Shower Conversion Services
                 </Link>
               </li>
               <li>
                 <Link href="/services/walk-in-tubs" className="text-gray-600 hover:text-blue-600">
-                  Walk-in Tubs
+                  Walk-in Tubs Installation
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/services/custom-stonework"
+                  href="/services/custom-works"
                   className="text-gray-600 hover:text-blue-600"
                 >
-                  Custom Tile
+                  Custom Stone & Tile Work
                 </Link>
               </li>
             </ul>
@@ -203,9 +204,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 text-gray-500 mt-1" aria-hidden="true" />
-                <span>
-                  Livonia, Michigan 
-                </span>
+                <span>Livonia, Metro Detroit, MI, USA</span>
               </li>
             </ul>
           </address>
