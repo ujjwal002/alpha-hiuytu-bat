@@ -3,6 +3,9 @@ import { useState, useEffect } from "react";
 import { Star, Check, Phone, ArrowRight, Clock, ChevronRight, Shield, Award, ThumbsUp, Play, Users, Hammer, Palette, Ruler, Zap, Heart, MapPin, Calendar, DollarSign } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
+import { event } from '../lib/gtag';
+
+
 // SEO Metadata Component - ENHANCED
 function SEOMetadata() {
   return (
@@ -277,6 +280,13 @@ export default function HomePage() {
     return () => clearInterval(interval);
   }, []);
 
+
+  const phone = '(248) 346-8926';
+
+  const onCallClick = () => {
+    event({ action: 'phone_click', category: 'engagement', label: phone });
+  };
+
   // Updated testimonials with CONSISTENT locations
   const testimonials = [
     {
@@ -440,6 +450,7 @@ export default function HomePage() {
         <a
           href="tel:+12483468926"
           className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-4 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 flex items-center space-x-2"
+          onClick={onCallClick}
         >
           <Phone className="h-5 w-5" />
           <span className="font-semibold">Free Quote</span>
@@ -512,6 +523,7 @@ export default function HomePage() {
                   <a
                     href="tel:+12483468926"
                     className="bg-gradient-to-r from-blue-600 to-blue-700 text-white hover:from-blue-700 hover:to-blue-800 px-6 py-3 sm:px-8 sm:py-4 rounded-xl text-base sm:text-s font-bold transition-all duration-300 shadow-2xl hover:shadow-3xl flex items-center justify-center group transform hover:-translate-y-2 hover:scale-105 w-full sm:w-auto"
+                    onClick={onCallClick}
                   >
                     <Phone className="mr-2 h-5 w-5" />
                     (248) 346-8926
@@ -615,6 +627,7 @@ export default function HomePage() {
                   <a
                     href="tel:+12483468926"
                     className="block w-full bg-gradient-to-r from-green-500 to-green-600 text-white py-3 sm:py-4 rounded-xl text-center font-bold hover:from-green-600 hover:to-green-700 transition-all duration-300 mt-6 shadow-lg text-sm sm:text-base"
+                    onClick={onCallClick}
                   >
                     <Phone className="inline mr-2 h-5 w-5" />
                     Call Now to Claim Offer
@@ -676,7 +689,7 @@ export default function HomePage() {
               ))}
             </div>
             <div className="text-center mt-6">
-              <p className="text-sm text-slate-600">Don&apos;t see your city? <a href="tel:+12483468926" className="text-blue-600 font-semibold hover:underline">Call us</a> - we likely serve your area!</p>
+              <p className="text-sm text-slate-600">Don&apos;t see your city? <a href="tel:+12483468926" className="text-blue-600 font-semibold hover:underline" onClick={onCallClick}>Call us</a> - we likely serve your area!</p>
             </div>
           </div>
         </section>
@@ -810,6 +823,7 @@ export default function HomePage() {
               <a
                 href="tel:+12483468926"
                 className="inline-flex items-center bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 sm:px-10 sm:py-4 rounded-xl font-bold transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 text-sm sm:text-base"
+                onClick={onCallClick}
               >
                 <Phone className="mr-2 h-5 w-5" />
                 Call (248) 346-8926 for Free Consultation
@@ -923,6 +937,7 @@ export default function HomePage() {
               <a
                 href="tel:+12483468926"
                 className="inline-flex items-center bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 sm:px-10 sm:py-4 rounded-xl font-bold transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 text-sm sm:text-base"
+                onClick={onCallClick}
               >
                 <Phone className="mr-2 h-5 w-5" />
                 Call to See More Projects
@@ -1003,6 +1018,7 @@ export default function HomePage() {
               <a
                 href="tel:+12483468926"
                 className="inline-flex items-center bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-xl font-bold transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 text-sm sm:text-base"
+                onClick={onCallClick}
               >
                 <Phone className="mr-2 h-5 w-5" />
                 Join Our Happy Customers
@@ -1066,6 +1082,7 @@ export default function HomePage() {
               <a
                 href="tel:+12483468926"
                 className="inline-flex items-center bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 sm:px-10 sm:py-4 rounded-xl font-bold transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 text-sm sm:text-base"
+                onClick={onCallClick}
               >
                 <Phone className="mr-2 h-5 w-5" />
                 Call (248) 346-8926 for Answers
