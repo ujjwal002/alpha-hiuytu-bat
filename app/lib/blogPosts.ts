@@ -1677,4 +1677,30 @@ export const blogPosts: BlogPost[] = [
     "slug": "bathroom-remodel-canton-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg' alt='Affordable bathroom remodel in Canton, MI'><p class='lead'>Canton homeowners are proving that budget-friendly bathroom remodels can still look luxurious in 2025.</p></div><h2>1. Cost-Effective Materials</h2><p>Laminate countertops, vinyl flooring, and prefabricated vanities cut costs without sacrificing style.</p><h2>2. DIY-Friendly Upgrades</h2><p>Painting cabinets, replacing hardware, and adding new lighting are simple ways to refresh a bathroom.</p><h2>3. Strategic Planning</h2><p>Focusing on high-impact changes like updated fixtures can stretch your budget further.</p><div class='cta-section'><h3>Start Your Affordable Remodel</h3><p>Our Canton team can help you design a stylish bathroom that works within your budget.</p></div>"
   },
+  {
+      "id": 24,
+    "title": "Bathroom Remodel West Bloomfield, MI 2025 – Elegant Designs & Trends",
+    "meta_title": "Bathroom Remodel West Bloomfield, MI 2025 | Elegant Bathroom Designs",
+    "meta_description": "West Bloomfield bathrooms in 2025 are embracing elegance through high-quality finishes and refined layouts. Discover trends and ideas.",
+    "excerpt": "West Bloomfield, MI remodels in 2025 feature elegant bathrooms that balance sophistication and comfort.",
+    "category": "bathroom-remodel",
+    "date": "2025-11-09",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg",
+    "slug": "bathroom-remodel-west-bloomfield-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg' alt='Elegant bathroom remodel in West Bloomfield, MI'><p class='lead'>West Bloomfield homeowners are investing in bathroom remodels that showcase timeless elegance in 2025.</p></div><h2>1. Elegant Fixtures</h2><p>Polished brass faucets, crystal lighting, and marble countertops elevate the space.</p><h2>2. Sophisticated Layouts</h2><p>Freestanding tubs and large walk-in showers create a spa-like feel.</p><h2>3. Premium Materials</h2><p>Natural stone, high-end tile, and custom cabinetry add lasting value.</p><div class='cta-section'><h3>Design Your Elegant Bathroom</h3><p>We bring elegance to life in West Bloomfield bathrooms — schedule a consultation today.</p></div>"
+  },
+  {
+    "id": 25,
+    "title": "Bathroom Remodel Novi, MI 2025 – Minimalist & Functional Designs",
+    "meta_title": "Bathroom Remodel Novi, MI 2025 | Minimalist Bathroom Ideas",
+    "meta_description": "Novi, MI bathroom remodels in 2025 are embracing minimalist designs with clean lines and functional layouts.",
+    "excerpt": "Minimalism is taking over Novi bathrooms in 2025, offering simplicity, efficiency, and beauty.",
+    "category": "bathroom-remodel",
+    "date": "2025-11-09",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg",
+    "slug": "bathroom-remodel-novi-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg' alt='Minimalist bathroom remodel in Novi, MI'><p class='lead'>Novi homeowners are choosing minimalism for its clean aesthetics and ease of maintenance in 2025 bathroom remodels.</p></div><h2>1. Clean Lines</h2><p>Floating vanities, frameless showers, and hidden storage keep the space uncluttered.</p><h2>2. Neutral Color Schemes</h2><p>Shades of white, beige, and gray create a calming atmosphere.</p><h2>3. Practical Layouts</h2><p>Functional floor plans maximize space while maintaining style.</p><div class='cta-section'><h3>Transform Your Bathroom</h3><p>Let us design a minimalist, functional bathroom for your Novi home.</p></div>"
+  }
 ]
