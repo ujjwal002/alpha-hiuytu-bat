@@ -1651,7 +1651,7 @@ export const blogPosts: BlogPost[] = [
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg' alt='Small bathroom remodel in Sterling Heights, MI'><p class='lead'>Homeowners in Sterling Heights are learning that even small bathrooms can feel luxurious with the right design in 2025.</p></div><h2>1. Space-Saving Fixtures</h2><p>Wall-mounted toilets, floating vanities, and corner showers maximize floor space.</p><h2>2. Light & Color</h2><p>Light color palettes and large mirrors make small rooms feel bigger.</p><h2>3. Custom Storage</h2><p>Built-in shelving and recessed medicine cabinets keep essentials organized.</p><div class='cta-section'><h3>Maximize Your Space</h3><p>Let us help you create a stunning, functional bathroom in Sterling Heights.</p></div>"
   },
 
-    {
+  {
     "id": 22,
     "title": "Bathroom Remodel Southfield, MI 2025 – Modern Upgrades for Busy Professionals",
     "meta_title": "Bathroom Remodel Southfield, MI 2025 | Modern & Functional Designs",
@@ -1664,7 +1664,7 @@ export const blogPosts: BlogPost[] = [
     "slug": "bathroom-remodel-southfield-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic8.jpeg' alt='Modern bathroom remodel in Southfield, MI'><p class='lead'>Southfield professionals are investing in bathroom remodels that combine smart tech, easy maintenance, and sophisticated style in 2025.</p></div><h2>1. Low-Maintenance Materials</h2><p>Quartz countertops, large-format tiles, and frameless showers reduce cleaning time.</p><h2>2. Smart Technology</h2><p>Digital showers, smart lighting, and heated floors add comfort and convenience.</p><h2>3. Time-Saving Designs</h2><p>Custom storage and dual vanities help make morning routines more efficient.</p><div class='cta-section'><h3>Upgrade Your Southfield Bathroom</h3><p>We design bathrooms that fit your busy lifestyle — contact us today.</p></div>"
   },
-    {
+  {
     "id": 23,
     "title": "Bathroom Remodel Canton, MI 2025 – Stylish & Affordable Renovations",
     "meta_title": "Bathroom Remodel Canton, MI 2025 | Affordable & Stylish Ideas",
@@ -1678,7 +1678,7 @@ export const blogPosts: BlogPost[] = [
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg' alt='Affordable bathroom remodel in Canton, MI'><p class='lead'>Canton homeowners are proving that budget-friendly bathroom remodels can still look luxurious in 2025.</p></div><h2>1. Cost-Effective Materials</h2><p>Laminate countertops, vinyl flooring, and prefabricated vanities cut costs without sacrificing style.</p><h2>2. DIY-Friendly Upgrades</h2><p>Painting cabinets, replacing hardware, and adding new lighting are simple ways to refresh a bathroom.</p><h2>3. Strategic Planning</h2><p>Focusing on high-impact changes like updated fixtures can stretch your budget further.</p><div class='cta-section'><h3>Start Your Affordable Remodel</h3><p>Our Canton team can help you design a stylish bathroom that works within your budget.</p></div>"
   },
   {
-      "id": 24,
+    "id": 24,
     "title": "Bathroom Remodel West Bloomfield, MI 2025 – Elegant Designs & Trends",
     "meta_title": "Bathroom Remodel West Bloomfield, MI 2025 | Elegant Bathroom Designs",
     "meta_description": "West Bloomfield bathrooms in 2025 are embracing elegance through high-quality finishes and refined layouts. Discover trends and ideas.",
@@ -1702,5 +1702,33 @@ export const blogPosts: BlogPost[] = [
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg",
     "slug": "bathroom-remodel-novi-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg' alt='Minimalist bathroom remodel in Novi, MI'><p class='lead'>Novi homeowners are choosing minimalism for its clean aesthetics and ease of maintenance in 2025 bathroom remodels.</p></div><h2>1. Clean Lines</h2><p>Floating vanities, frameless showers, and hidden storage keep the space uncluttered.</p><h2>2. Neutral Color Schemes</h2><p>Shades of white, beige, and gray create a calming atmosphere.</p><h2>3. Practical Layouts</h2><p>Functional floor plans maximize space while maintaining style.</p><div class='cta-section'><h3>Transform Your Bathroom</h3><p>Let us design a minimalist, functional bathroom for your Novi home.</p></div>"
+  },
+  {
+    "id": 26,
+    "title": "Bathroom Remodel Bloomfield Hills, MI 2025 – Luxury & Custom Craftsmanship",
+    "meta_title": "Bathroom Remodel Bloomfield Hills, MI 2025 | Luxury Bathroom Designs",
+    "meta_description": "Bloomfield Hills bathroom remodels in 2025 embrace luxury finishes, custom craftsmanship, and spa-inspired layouts. Explore trends, costs, and design ideas.",
+    "excerpt": "Bloomfield Hills homeowners in 2025 are choosing high-end materials, custom layouts, and spa-like bathrooms.",
+    "category": "bathroom-remodel",
+    "date": "2025-11-17",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg",
+    "slug": "bathroom-remodel-bloomfield-hills-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg' alt='Luxury bathroom remodel Bloomfield Hills MI'><p class='lead'>Bloomfield Hills homes are known for elegance — and in 2025, bathroom remodels are raising the bar with luxury finishes, custom stonework, and spa-quality layouts.</p></div><h2>1. High-End Materials</h2><p>Marble slabs, quartz vanities, natural stone floors, and premium brass fixtures define Bloomfield Hills bathrooms.</p><h2>2. Custom Layout Options</h2><p>Homeowners are choosing expanded walk-in showers, integrated shelving, and dual vanities for enhanced comfort.</p><h2>3. Spa-Level Upgrades</h2><p>Heated flooring, steam showers, towel warmers, and ambient lighting bring resort-style relaxation to everyday living.</p><div class='cta-section'><h3>Build a Luxury Bathroom</h3><p>Let our design team create a custom, high-end bathroom for your Bloomfield Hills home.</p></div>"
+  },
+  {
+    "id": 27,
+    "title": "Bathroom Remodel Royal Oak, MI 2025 – Modern, Trendy & Space-Smart",
+    "meta_title": "Bathroom Remodel Royal Oak, MI 2025 | Modern Bathroom Ideas",
+    "meta_description": "Royal Oak, MI bathroom remodel trends in 2025 highlight modern designs, clever space-saving layouts, and stylish finishes. Discover ideas and costs.",
+    "excerpt": "Royal Oak homeowners in 2025 are embracing modern, trendy, and space-smart bathroom remodels.",
+    "category": "bathroom-remodel",
+    "date": "2025-11-17",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg",
+    "slug": "bathroom-remodel-royal-oak-mi-2025",
+    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg' alt='Modern bathroom remodel Royal Oak MI'><p class='lead'>In Royal Oak, MI, bathroom remodels in 2025 combine trendy aesthetics with practical layouts perfect for smaller urban homes.</p></div><h2>1. Modern Design Trends</h2><p>Floating vanities, geometric tile patterns, matte black fixtures, and LED mirrors dominate 2025 designs.</p><h2>2. Smart Space Use</h2><p>Compact layouts benefit from corner showers, recessed storage, and wall-mounted vanities to open up floor space.</p><h2>3. Affordable Luxury</h2><p>Quartz countertops, porcelain tile, and frameless glass provide a high-end look without overspending.</p><div class='cta-section'><h3>Upgrade Your Royal Oak Bathroom</h3><p>We design stylish, modern bathrooms tailored for Royal Oak homes — start your project today.</p></div>"
   }
+
+
 ]

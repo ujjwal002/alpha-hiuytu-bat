@@ -2,8 +2,10 @@
 import { useState, useEffect } from "react";
 import { Star, Check, Phone, ArrowRight, Clock, ChevronRight, Shield, Award, ThumbsUp, Play, Users, Hammer, Palette, Ruler, Zap, Heart, MapPin, Calendar, DollarSign } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 import { event } from '../lib/gtag';
+
 
 
 // SEO Metadata Component - ENHANCED
@@ -13,6 +15,7 @@ function SEOMetadata() {
       {/* Primary Metadata - ENHANCED */}
       <title>Bathroom Remodeling Metro Detroit MI | Stone Works Remodeling | Free Quote</title>
       <meta
+
         name="description"
         content="#1 Bathroom Remodeling Metro Detroit MI ⭐ Expert shower conversions, walk-in tubs & complete bathroom renovations. Licensed, insured, 500+ 5-star reviews. Call (248) 346-8926 for FREE quote!"
       />
@@ -69,7 +72,7 @@ function SEOMetadata() {
       {/* Canonical & Favicon */}
       <link rel="canonical" href="https://stoneworkremodeling.com" />
       <link rel="icon" href="/favicon.ico" />
-      
+
       {/* Additional SEO Tags */}
       <meta name="rating" content="general" />
       <meta name="distribution" content="global" />
@@ -107,7 +110,7 @@ function SEOMetadata() {
               "openingHoursSpecification": [
                 {
                   "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
                   "opens": "08:00",
                   "closes": "18:00"
                 },
@@ -408,16 +411,16 @@ export default function HomePage() {
 
   // Stats for section
   const stats = [
-    { label: "Projects Completed", value: "500+", icon: Users },
-    { label: "Years Experience", value: "15+", icon: Award },
+    { label: "Projects Completed", value: "150+", icon: Users },
+    { label: "Years Experience", value: "10+", icon: Award },
     { label: "Customer Satisfaction", value: "100%", icon: Heart },
     { label: "Service Areas", value: "3 Counties", icon: MapPin },
   ];
 
   // Service Areas for new section
   const serviceAreas = [
-    "Detroit", "Rochester", "Livonia", "Troy", "Sterling Heights", 
-    "Royal Oak", "Birmingham", "Bloomfield Hills", "Farmington Hills", 
+    "Northville", "Rochester", "Livonia", "Troy", "Sterling Heights",
+    "Royal Oak", "Birmingham", "Bloomfield Hills", "Farmington Hills",
     "Warren", "Dearborn", "Canton", "Novi", "Southfield", "Westland"
   ];
 
@@ -512,11 +515,11 @@ export default function HomePage() {
                 <h1
                   className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-4 sm:mb-6 tracking-tight bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent"
                 >
-                  Bathroom Remodeling <br className="hidden sm:block" />
-                  <span className="block">Metro Detroit, MI</span>
+                  Bathroom Remodeling Services<br className="hidden sm:block" />
+                  {/* <span className="block">Services</span> */}
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-blue-100 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                  Transform your bathroom with Metro Detroit&apos;s trusted remodeling experts. Serving Wayne, Oakland & Macomb Counties with premium craftsmanship, custom designs, and 5-year warranties. Licensed, insured & 500+ 5-star reviews!
+                  Upgrade your bathroom with a team that actually cares about the details. Stone Works Remodeling delivers premium craftsmanship, custom designs, and a smooth, stress-free experience from start to finish. Fully licensed and led by an engineer. We serve Wayne, Oakland, and Macomb Counties — backed by warranties. Check out our 5 star reviews!
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-12 justify-center lg:justify-start">
@@ -572,7 +575,7 @@ export default function HomePage() {
                       ))}
                     </div>
                     <p className="text-blue-100 text-sm sm:text-base font-bold">
-                      500+ Happy Customers in Metro Detroit
+                    Happy Customers in Metro Detroit
                     </p>
                   </div>
                 </motion.div>
@@ -604,14 +607,14 @@ export default function HomePage() {
                   <div className="bg-white/20 rounded-xl p-2 sm:p-3">
                     <p className="text-xs sm:text-sm text-white font-medium text-center mb-0">— OR —</p>
                   </div>
-                  <motion.div
+                  {/* <motion.div
                     initial={{ scale: 0.8 }}
                     animate={{ scale: 1 }}
                     transition={{ delay: 0.7 }}
                   >
                     <h3 className="text-3xl sm:text-4xl md:text-5xl font-black text-white mb-2">$1,000 OFF</h3>
                     <p className="text-lg sm:text-xl font-semibold text-blue-100">Tub or Shower Replacement</p>
-                  </motion.div>
+                  </motion.div> */}
                   <motion.div
                     className="bg-red-600 text-white px-3 py-2 sm:px-4 sm:py-3 rounded-xl font-bold text-sm sm:text-base"
                     initial={{ scale: 0.9 }}
@@ -619,9 +622,9 @@ export default function HomePage() {
                     transition={{ delay: 0.8 }}
                   >
                     <DollarSign className="inline h-5 w-5 mr-1" />
-                    Only 5 Spots Left This Month!
+                    Only 2 Spots Left This Month!
                   </motion.div>
-                  <p className="text-xs text-blue-200 italic text-center">*Valid for Metro Detroit, Wayne, Oakland & Macomb Counties</p>
+                  <p className="text-xs text-blue-200 italic text-center">*Valid for Wayne, Oakland & Macomb Counties</p>
                 </div>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                   <a
@@ -1027,6 +1030,8 @@ export default function HomePage() {
           </div>
         </section>
 
+       
+
         {/* ENHANCED FAQ Section with LOCAL context */}
         <section className="py-16 sm:py-20 md:py-24 bg-white">
           <div className="container mx-auto px-4">
@@ -1159,11 +1164,107 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Enhanced CTA Section with Contact Form */}
+
+{/* Instagram Section */}
+<section className="py-16 bg-white border-t border-slate-200">
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl sm:text-4xl font-black text-gray-900 text-center mb-10">
+      Latest Instagram Posts
+    </h2>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {/* Instagram Post 1 */}
+      <a
+        href="https://www.instagram.com/reel/DNQxTAGOaTg/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block bg-slate-50 rounded-2xl p-4 shadow-md hover:shadow-xl transition-all group"
+      >
+        <div className="relative overflow-hidden rounded-lg h-80">
+          <Image
+            src="/instagram/image.png"
+            alt="Instagram Post 1"
+            width={400}
+            height={320}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            sizes="(max-width: 768px) 100vw, 33vw"
+          />
+        </div>
+      </a>
+      {/* Instagram Post 2 */}
+      <a
+        href="https://www.instagram.com/reel/DOHl_86EZJU/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block bg-slate-50 rounded-2xl p-4 shadow-md hover:shadow-xl transition-all group"
+      >
+        <div className="relative overflow-hidden rounded-lg h-80">
+          <Image
+            src="/instagram/image-2.png"
+            alt="Instagram Post 2"
+            width={400}
+            height={320}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            sizes="(max-width: 768px) 100vw, 33vw"
+          />
+        </div>
+      </a>
+      {/* Instagram Post 3 */}
+      <a
+        href="https://www.instagram.com/reel/DPwbEMDkaW8/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block bg-slate-50 rounded-2xl p-4 shadow-md hover:shadow-xl transition-all group"
+      >
+        <div className="relative overflow-hidden rounded-lg h-80">
+          <Image
+            src="/instagram/image-3.png"
+            alt="Instagram Post 3"
+            width={400}
+            height={320}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            sizes="(max-width: 768px) 100vw, 33vw"
+          />
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+{/* Facebook Section */}
+<section className="py-16 bg-slate-50 border-t border-slate-200">
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl sm:text-4xl font-black text-gray-900 text-center mb-10">
+      Latest Facebook Updates
+    </h2>
+    <div className="max-w-2xl mx-auto">
+      <div className="bg-white rounded-2xl p-4 shadow-md">
+        <iframe
+          src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/Stone-Works-Remodeling-61567020355631&tabs=timeline&width=500&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true"
+          width="100%"
+          height="600"
+          style={{ border: "none", overflow: "hidden" }}
+          scrolling="no"
+          frameBorder="0"
+          allow="encrypted-media"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</section>
         
 
-        {/* NEW: Local SEO Footer Section */}
        
+
+
+
+
+
+
+        {/* Enhanced CTA Section with Contact Form */}
+
+
+        {/* NEW: Local SEO Footer Section */}
+
       </main>
     </div>
   );
