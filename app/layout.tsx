@@ -67,6 +67,22 @@ export default function RootLayout({
         {/* ✅ Mobile responsiveness */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+        <link
+          rel="alternate"
+          href="https://www.stoneworksremodeling.com/"
+          hrefLang="en-us"
+        />
+        <link
+          rel="alternate"
+          href="https://www.stoneworksremodeling.com/"
+          hrefLang="en"
+        />
+        <link
+          rel="alternate"
+          href="https://www.stoneworksremodeling.com/"
+          hrefLang="x-default"
+        />
+
         {/* ✅ Structured data for Local Business */}
         <script
           type="application/ld+json"
