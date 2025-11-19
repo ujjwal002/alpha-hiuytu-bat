@@ -56,6 +56,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     alternates: {
       canonical: `https://www.stoneworksremodeling.com/blog/${post.slug}`,
     },
+    
   };
 }
 

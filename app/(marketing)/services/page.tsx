@@ -253,6 +253,8 @@ export default function Services() {
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href="https://www.yourwebsite.com/services" />
+        <link rel="alternate" hrefLang="en-us" href="https://stoneworkremodeling.com/" />
+
         <script type="application/ld+json">
           {`
             {

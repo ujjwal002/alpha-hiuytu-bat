@@ -173,6 +173,8 @@ export default function ContactPage() {
           content="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp"
         />
         <link rel="canonical" href="https://stoneworkremodeling.com/contact" />
+        <link rel="alternate" hrefLang="en-us" href="https://stoneworkremodeling.com/" />
+
       </Head>
 
       {/* Structured Data */}

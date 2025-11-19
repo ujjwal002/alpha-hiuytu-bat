@@ -27,6 +27,8 @@ function SEOMetadata() {
       <meta property="og:url" content="https://www.stoneworksremodeling.com/blog" />
       <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" />
       <link rel="canonical" href="https://www.stoneworksremodeling.com/blog" />
+      <link rel="alternate" hrefLang="en-us" href="https://stoneworkremodeling.com/" />
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

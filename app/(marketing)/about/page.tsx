@@ -69,6 +69,8 @@ function SEOMetadata() {
           content="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp"
         />
         <link rel="canonical" href="https://stoneworkremodeling.com/about" />
+        <link rel="alternate" hrefLang="en-us" href="https://stoneworkremodeling.com/" />
+
       </Head>
       <script
         type="application/ld+json"
