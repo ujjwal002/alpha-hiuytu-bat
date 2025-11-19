@@ -1728,7 +1728,145 @@ export const blogPosts: BlogPost[] = [
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg",
     "slug": "bathroom-remodel-royal-oak-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg' alt='Modern bathroom remodel Royal Oak MI'><p class='lead'>In Royal Oak, MI, bathroom remodels in 2025 combine trendy aesthetics with practical layouts perfect for smaller urban homes.</p></div><h2>1. Modern Design Trends</h2><p>Floating vanities, geometric tile patterns, matte black fixtures, and LED mirrors dominate 2025 designs.</p><h2>2. Smart Space Use</h2><p>Compact layouts benefit from corner showers, recessed storage, and wall-mounted vanities to open up floor space.</p><h2>3. Affordable Luxury</h2><p>Quartz countertops, porcelain tile, and frameless glass provide a high-end look without overspending.</p><div class='cta-section'><h3>Upgrade Your Royal Oak Bathroom</h3><p>We design stylish, modern bathrooms tailored for Royal Oak homes — start your project today.</p></div>"
-  }
+  },
+  {
+    "id": 28,
+    "title": "The Ultimate Shower Grout Guide: Types, Colors & Maintenance (2025)",
+    "meta_title": "Shower Grout Guide 2025 | Best Grout Types, Colors & Maintenance Tips",
+    "meta_description": "Learn the best grout types for showers in 2025, including epoxy, sanded, and unsanded grout. Discover color tips, durability, and maintenance advice.",
+    "excerpt": "A complete 2025 guide to choosing the right grout for your shower — types, colors, pros, cons, and maintenance.",
+    "category": "remodeling-tips",
+    "date": "2025-11-19",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/grout.jpeg",
+    "slug": "shower-grout-guide",
+    "content": "<div class='blog-intro'><p class='lead'>Choosing the right grout is essential for a long-lasting, waterproof shower. Here’s your 2025 guide to the best grout types, colors, and maintenance tips.</p></div><h2>1. Grout Types</h2><ul><li><strong>Epoxy Grout:</strong> Waterproof, stain-proof, ideal for showers</li><li><strong>Sanded Grout:</strong> Best for wider joints (⅛ inch+)</li><li><strong>Unsanded Grout:</strong> Best for delicate stone tiles</li></ul><h2>2. Choosing Colors</h2><p>Light grout brightens bathrooms; darker grout hides stains and creates modern contrast.</p><h2>3. Maintenance Tips</h2><p>Seal cement grout annually and clean weekly with pH-neutral cleaners.</p>"
+  },
+  {
+    "id": 29,
+    "title": "Shower Niche Design Ideas for 2025: Stylish & Functional Storage",
+    "meta_title": "Shower Niche Design Ideas 2025 | Modern & Functional Storage",
+    "meta_description": "Explore 2025 shower niche design ideas including recessed niches, LED-lit shelves, stone finishes, and waterproofing tips.",
+    "excerpt": "Modern shower niche ideas that improve storage, style, and functionality in 2025 bathrooms.",
+    "category": "remodeling-tips",
+    "date": "2025-11-19",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/niche.jpeg",
+    "slug": "shower-niche-design",
+    "content": "<div class='blog-intro'><p class='lead'>Shower niches are a must-have in 2025 bathroom remodels. They add storage while enhancing modern design.</p></div><h2>1. Recessed Niches</h2><p>Clean, built-in storage that blends seamlessly into tilework.</p><h2>2. Accent Tile Niches</h2><p>Use mosaic, marble, or contrasting colors to create a focal point.</p><h2>3. LED-Lit Niches</h2><p>Low-voltage LED strips add spa-like ambience.</p><h2>4. Waterproofing</h2><p>Always ensure niches are fully waterproofed with a membrane system.</p>"
+  },
+  {
+    "id": 30,
+    "title": "Best Materials for Steam Showers in 2025",
+    "meta_title": "Steam Shower Materials 2025 | Best Tile, Stone & Waterproof Options",
+    "meta_description": "Learn the top materials for 2025 steam showers including porcelain tile, marble, quartz, and vapor-proof membranes.",
+    "excerpt": "A complete guide to the best steam shower materials — heat-resistant, waterproof, and elegant options for 2025.",
+    "category": "remodeling-tips",
+    "date": "2025-11-19",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/steam.jpeg",
+    "slug": "steam-shower-materials",
+    "content": "<div class='blog-intro'><p class='lead'>Steam showers require specific materials that handle heat, moisture, and pressure. These 2025 recommendations ensure durability and luxury.</p></div><h2>1. Porcelain Tile</h2><p>Non-porous, heat resistant, low maintenance — ideal for steam showers.</p><h2>2. Natural Stone</h2><p>Marble and quartzite offer luxury but require sealing for longevity.</p><h2>3. Quartz Panels</h2><p>Large seamless panels reduce grout and improve waterproofing.</p><h2>4. Vapor Barriers</h2><p>A vapor-proof membrane is mandatory to protect walls from moisture.</p>"
+  },
+  {
+    "id": 31,
+    "title": "Slate vs Quartzite: Which Stone Is Best for Your Bathroom?",
+    "meta_title": "Slate vs Quartzite | Best Stone for Bathroom Remodels 2025",
+    "meta_description": "Compare slate and quartzite to choose the best stone for your 2025 bathroom remodel. Learn durability, cost, slip resistance, and maintenance differences.",
+    "excerpt": "Slate vs quartzite — a complete comparison for bathroom floors, showers, and walls.",
+    "category": "stone-design",
+    "date": "2025-11-20",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/slatevquartz.jpeg",
+    "slug": "slate-vs-quartzite",
+    "content": "<div class='blog-intro'><p class='lead'>Slate and quartzite are two of the top natural stones for 2025 bathroom remodels. Here’s how they compare.</p></div><h2>1. Durability</h2><p>Quartzite is harder and more scratch-resistant; slate offers natural texture for safety.</p><h2>2. Appearance</h2><p>Slate features earthy variation; quartzite offers marble-like veining.</p><h2>3. Maintenance</h2><p>Both require sealing; quartzite resists staining more effectively.</p><h2>4. Best Uses</h2><p>Slate excels in shower floors; quartzite shines in vanities and walls.</p>"
+  },
+  {
+    "id": 32,
+    "title": "Slate Maintenance Guide: How to Care for Slate Bathrooms in 2025",
+    "meta_title": "Slate Bathroom Maintenance 2025 | Cleaning & Sealing Tips",
+    "meta_description": "Learn how to maintain slate in 2025 bathrooms with proper sealing, cleaning, and care techniques for long-lasting beauty.",
+    "excerpt": "Everything you need to know to keep slate tile looking beautiful in your bathroom.",
+    "category": "stone-design",
+    "date": "2025-11-19",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/slateclean.jpeg",
+    "slug": "slate-maintenance",
+    "content": "<div class='blog-intro'><p class='lead'>Slate is durable and beautiful, but proper maintenance ensures it lasts for decades. Here’s the 2025 care guide.</p></div><h2>1. Cleaning</h2><p>Use pH-neutral stone cleaners weekly. Avoid acidic or abrasive products.</p><h2>2. Sealing</h2><p>Seal slate every 12 months to protect against water absorption and stains.</p><h2>3. Enhancing Sealers</h2><p>Color-enhancing sealers bring out slate’s natural tones.</p><h2>4. Daily Care</h2><p>Use a squeegee after every shower to reduce mineral buildup.</p>"
+  },
+  {
+    "id": 33,
+    "title": "Natural Stone Bathroom Trends for 2025",
+    "meta_title": "2025 Natural Stone Bathroom Trends | Marble, Slate, Quartzite & More",
+    "meta_description": "Explore the top natural stone bathroom trends for 2025 including marble, slate, quartzite, and large format slabs.",
+    "excerpt": "Discover the top natural stone design trends shaping 2025 bathroom remodels.",
+    "category": "stone-design",
+    "date": "2025-11-19",
+    "author": "Emily Davis",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/stone.jpeg",
+    "slug": "natural-stone-trends",
+    "content": "<div class='blog-intro'><p class='lead'>Natural stone continues to define luxury bathroom design in 2025. These trending materials elevate your remodel with timeless beauty.</p></div><h2>1. Large Format Stone Slabs</h2><p>Minimal grout, maximum impact.</p><h2>2. Veined Marble</h2><p>Dramatic, bookmatched patterns are in demand.</p><h2>3. Textured Slate</h2><p>Adds depth and grip to wet areas.</p><h2>4. Quartzite</h2><p>Hard, durable, and stunning — perfect for high-end bathrooms.</p>"
+  },
+  {
+  "id": 34,
+  "title": "Water-Saving Bathroom Remodel Ideas for 2025",
+  "meta_title": "Water-Saving Bathroom Ideas 2025 | Eco-Friendly Remodeling Tips",
+  "meta_description": "Reduce water usage with 2025 bathroom remodel ideas like low-flow fixtures, smart showers, and water-efficient layouts.",
+  "excerpt": "Easy ways to save water in your 2025 bathroom remodel without compromising style.",
+  "category": "remodeling-tips",
+  "date": "2025-11-19",
+  "author": "Emily Davis",
+  "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/water.jpeg",
+  "slug": "water-saving-remodels",
+  "content": "<div class='blog-intro'><p class='lead'>Water efficiency is a top priority in 2025 bathroom remodels. These upgrades help reduce your water bill and environmental impact.</p></div><h2>1. Low-Flow Fixtures</h2><p>Modern low-flow faucets and showerheads save up to 40% water.</p><h2>2. Smart Showers</h2><p>Digital temperature controls prevent water waste.</p><h2>3. Dual-Flush Toilets</h2><p>Cut down toilet water usage by 50%.</p><h2>4. Efficient Layout</h2><p>Shorter pipe runs reduce heat loss and water usage.</p>"
+},
+{
+  "id": 35,
+  "title": "Eco-Friendly Bathroom Remodel Ideas for 2025",
+  "meta_title": "Eco-Friendly Bathroom Ideas 2025 | Sustainable Remodeling Tips",
+  "meta_description": "Explore sustainable bathroom remodel ideas including recycled materials, low-VOC products, water-saving fixtures, and energy-efficient lighting.",
+  "excerpt": "A 2025 guide to building an eco-friendly bathroom using sustainable materials and efficient fixtures.",
+  "category": "remodeling-tips",
+  "date": "2025-11-19",
+  "author": "Emily Davis",
+  "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/eco.jpeg",
+  "slug": "eco-friendly-bathrooms",
+  "content": "<div class='blog-intro'><p class='lead'>Eco-friendly bathroom remodels are trending in 2025 as homeowners prioritize sustainability. Here’s how to build a greener, healthier space.</p></div><h2>1. Sustainable Materials</h2><p>Recycled glass tile, bamboo vanities, and reclaimed wood are popular choices.</p><h2>2. Efficient Lighting</h2><p>LED and motion-sensor lighting reduce energy consumption.</p><h2>3. Water Conservation</h2><p>Low-flow fixtures drastically cut water waste.</p><h2>4. Eco-Friendly Paint</h2><p>Use low-VOC paint for cleaner indoor air.</p>"
+},
+{
+  "id": 36,
+  "title": "Healthy Bathroom Materials Guide for 2025",
+  "meta_title": "Healthy Bathroom Materials 2025 | Low-VOC, Non-Toxic Options",
+  "meta_description": "Learn the healthiest bathroom materials for 2025 including low-VOC paints, non-toxic sealants, mold-resistant tile, and safe flooring.",
+  "excerpt": "The healthiest and safest materials for your 2025 bathroom remodel.",
+  "category": "remodeling-tips",
+  "date": "2025-11-19",
+  "author": "Emily Davis",
+  "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/healthy.jpeg",
+  "slug": "healthy-home-materials",
+  "content": "<div class='blog-intro'><p class='lead'>Healthy bathrooms start with the right materials. Choose options that improve indoor air quality and resist mold.</p></div><h2>1. Low-VOC Paints</h2><p>Reduce harmful fumes and improve indoor air quality.</p><h2>2. Mold-Resistant Tile</h2><p>Porcelain and slate naturally resist moisture and bacteria.</p><h2>3. Non-Toxic Sealants</h2><p>Safe, long-lasting protection for stone and grout.</p><h2>4. Natural Ventilation</h2><p>Proper ventilation reduces humidity and improves health.</p>"
+},
+{
+  "id": 37,
+  "title": "Terms & Conditions",
+  "excerpt": "Read the terms and conditions for using Stone Works Remodeling services and website.",
+  "category": "company-updates",
+  "date": "2025-11-20",
+  "author": "Stone Works Remodeling",
+  "image": "",
+  "slug": "terms",
+  "content": "<div class='blog-intro'><p class='lead'>These Terms & Conditions outline the rules and regulations for using Stone Works Remodeling’s website and services.</p></div><h2>1. Acceptance of Terms</h2><p>By accessing our website, you agree to all terms listed on this page.</p><h2>2. Services</h2><p>All remodeling services are subject to a written contract and final approval.</p><h2>3. Privacy Policy</h2><p>Your personal information is kept secure and never sold to third parties.</p><h2>4. Liability</h2><p>Stone Works Remodeling is not responsible for damages resulting from misuse of the website.</p><h2>5. Contact Us</h2><p>For questions regarding these terms, please contact our support team.</p>"
+}
+
+
+
+
+
+
+
+
+
+
 
 
 ]
