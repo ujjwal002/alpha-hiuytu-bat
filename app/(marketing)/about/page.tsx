@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import {  Quote } from "lucide-react";
+import { Quote } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Head from "next/head";
 
@@ -73,70 +73,72 @@ function SEOMetadata() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify([
-            {
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "Stone Works Remodeling",
-              url: "https://stoneworkremodeling.com",
-              logo: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp",
-              description:
-                "Stone Works Remodeling specializes in premium bathroom remodeling in Metro Detroit, MI, delivering exceptional craftsmanship",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "4671 Sugar Camp Road",
-                addressLocality: "Metro Detroit",
-                addressRegion: "MI",
-                postalCode: "55060",
-                addressCountry: "US",
-              },
-              contactPoint: {
-                "@type": "ContactPoint",
-                telephone: "+1-248-346-8926",
-                contactType: "Customer Service",
-                email: "info@stoneworkremodeling.com",
-              },
-              openingHours: ["Mo-Fr 08:00-18:00", "Sa 09:00-14:00"],
-              sameAs: [
-                "https://www.facebook.com/stoneworkremodeling",
-                "https://www.instagram.com/stoneworkremodeling",
-                "https://www.linkedin.com/company/stoneworkremodeling",
-              ],
-            },
-            {
-              "@context": "https://schema.org",
-              "@type": "WebPage",
-              name: "About Stone Works Remodeling",
-              url: "https://stoneworkremodeling.com/about",
-              description:
-                "Learn about Stone Works Remodeling’s mission, expert team, and commitment to luxury bathroom remodeling in Metro Detroit, MI.",
-              isPartOf: {
-                "@type": "WebSite",
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Organization",
+                "@id": "https://www.stoneworksremodeling.com/#organization",
                 name: "Stone Works Remodeling",
-                url: "https://stoneworkremodeling.com",
+                url: "https://www.stoneworksremodeling.com",
+                logo: "https://stoneworksremodeling.s3.ap-south-1.amazonaws.com/logo.webp",
+                description:
+                  "Stone Works Remodeling specializes in premium bathroom remodeling in Metro Detroit, MI, delivering exceptional craftsmanship",
+                address: {
+                  "@type": "PostalAddress",
+                  streetAddress: "4671 Sugar Camp Road",
+                  addressLocality: "Metro Detroit",
+                  addressRegion: "MI",
+                  postalCode: "55060",
+                  addressCountry: "US",
+                },
+                contactPoint: {
+                  "@type": "ContactPoint",
+                  telephone: "+1-248-346-8926",
+                  contactType: "Customer Service",
+                  email: "info@stoneworksremodeling.com",
+                },
+                sameAs: [
+                  "https://www.facebook.com/stoneworkremodeling",
+                  "https://www.instagram.com/stoneworkremodeling",
+                  "https://www.linkedin.com/company/stoneworkremodeling"
+                ]
               },
-            },
-            {
-              "@context": "https://schema.org",
-              "@type": "BreadcrumbList",
-              itemListElement: [
-                {
-                  "@type": "ListItem",
-                  position: 1,
-                  name: "Home",
-                  item: "https://stoneworkremodeling.com",
-                },
-                {
-                  "@type": "ListItem",
-                  position: 2,
-                  name: "About",
-                  item: "https://stoneworkremodeling.com/about",
-                },
-              ],
-            },
-          ]),
+              {
+                "@type": "WebPage",
+                "@id": "https://www.stoneworksremodeling.com/about#webpage",
+                name: "About Stone Works Remodeling",
+                url: "https://www.stoneworksremodeling.com/about",
+                description:
+                  "Learn about Stone Works Remodeling’s mission, expert team, and commitment to luxury bathroom remodeling in Metro Detroit, MI.",
+                isPartOf: {
+                  "@type": "WebSite",
+                  name: "Stone Works Remodeling",
+                  url: "https://www.stoneworksremodeling.com"
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                itemListElement: [
+                  {
+                    "@type": "ListItem",
+                    position: 1,
+                    name: "Home",
+                    item: "https://www.stoneworksremodeling.com"
+                  },
+                  {
+                    "@type": "ListItem",
+                    position: 2,
+                    name: "About",
+                    item: "https://www.stoneworksremodeling.com/about"
+                  }
+                ]
+              }
+            ]
+          }),
         }}
       />
+
     </>
   );
 }
@@ -678,13 +680,13 @@ export default function AboutPage() {
                     bestRating: 5,
                   },
                   itemReviewed: {
-                    "@type": "Organization",
-                    name: "Stone Works Remodeling",
+                    "@id": "https://www.stoneworksremodeling.com/#organization",
                   },
                 }))
               ),
             }}
           />
+
         </div>
       </section>
 
