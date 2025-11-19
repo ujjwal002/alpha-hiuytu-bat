@@ -5,12 +5,12 @@ export async function GET() {
 
   const urls = [
     `${baseUrl}/`,
-    `${baseUrl}/about`,
-    `${baseUrl}/services`,
-    `${baseUrl}/contact`,
-    `${baseUrl}/gallery`,
-    `${baseUrl}/testimonials`,
-    `${baseUrl}/blog`,
+    `${baseUrl}/about/`,
+    `${baseUrl}/services/`,
+    `${baseUrl}/contact/`,
+    `${baseUrl}/gallery/`,
+    `${baseUrl}/testimonials/`,
+    `${baseUrl}/blog/`,
   ];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
