@@ -13,7 +13,7 @@ const Footer = () => {
             "@context": "https://schema.org",
             "@type": "HomeAndConstructionBusiness",
             "name": "Stone Works Remodeling",
-            "url": "https://stoneworkremodeling.com",
+            "url": "https://www.stoneworksremodeling.com",
             "logo": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp",
             "telephone": "+12483468926",
             "email": "info@stoneworkremodeling.com",

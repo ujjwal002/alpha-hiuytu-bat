@@ -50,7 +50,7 @@ function SEOMetadata() {
           content="Explore Stone Works Remodeling’s dedication to crafting luxurious bathrooms in Metro Detroit, MI. Meet our expert team and see why clients trust us."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://stoneworkremodeling.com/about" />
+        <meta property="og:url" content="https://www.stoneworksremodeling.com/about" />
         <meta
           property="og:image"
           content="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp"
@@ -68,8 +68,8 @@ function SEOMetadata() {
           name="twitter:image"
           content="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp"
         />
-        <link rel="canonical" href="https://stoneworkremodeling.com/about" />
-        <link rel="alternate" hrefLang="en-us" href="https://stoneworkremodeling.com/" />
+        <link rel="canonical" href="https://www.stoneworksremodeling.com/about" />
+        <link rel="alternate" hrefLang="en-us" href="https://www.stoneworksremodeling.com/" />
 
       </Head>
       <script

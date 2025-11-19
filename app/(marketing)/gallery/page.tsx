@@ -142,7 +142,7 @@ export default function Gallery() {
             }
           `}
         </script>
-        <link rel="alternate" hrefLang="en-us" href="https://stoneworkremodeling.com/" />
+        <link rel="alternate" hrefLang="en-us" href="https://www.stoneworksremodeling.com/" />
 
       </Head>
 

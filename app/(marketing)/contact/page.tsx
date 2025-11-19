@@ -166,14 +166,14 @@ export default function ContactPage() {
           property="og:description"
           content="Request a free quote for luxurious stone bathroom remodeling in Metro Detroit, MI. Call (248) 346-8926 or fill out our contact form."
         />
-        <meta property="og:url" content="https://stoneworkremodeling.com/contact" />
+        <meta property="og:url" content="https://www.stoneworksremodeling.com/contact" />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
           content="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp"
         />
-        <link rel="canonical" href="https://stoneworkremodeling.com/contact" />
-        <link rel="alternate" hrefLang="en-us" href="https://stoneworkremodeling.com/" />
+        <link rel="canonical" href="https://www.stoneworksremodeling.com/contact" />
+        <link rel="alternate" hrefLang="en-us" href="https://www.stoneworksremodeling.com/" />
 
       </Head>
 
@@ -186,7 +186,7 @@ export default function ContactPage() {
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               "name": "Stone Works Remodeling",
-              "url": "https://stoneworkremodeling.com",
+              "url": "https://www.stoneworksremodeling.com",
               "logo": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp",
               "telephone": "+12483468926",
               "email": "stoneworksremodeling8@gmail.com",
@@ -204,7 +204,7 @@ export default function ContactPage() {
               "@context": "https://schema.org",
               "@type": "WebPage",
               "name": "Contact Stone Works Remodeling",
-              "url": "https://stoneworkremodeling.com/contact",
+              "url": "https://www.stoneworksremodeling.com/contact",
               "description": "Contact Stone Works Remodeling for a free bathroom remodeling quote in Metro Detroit, MI.",
             },
           ]),

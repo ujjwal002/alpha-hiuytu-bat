@@ -37,7 +37,7 @@ function SEOMetadata() {
       <meta name="coverage" content="Metro Detroit, Wayne County, Oakland County, Macomb County, Michigan" />
 
       {/* Hreflang */}
-      <link rel="alternate" hrefLang="en-us" href="https://stoneworkremodeling.com/" />
+      <link rel="alternate" hrefLang="en-us" href="https://www.stoneworksremodeling.com/" />
 
       {/* Open Graph / Social Metadata - ENHANCED */}
       <meta property="og:title" content="Best Bathroom Remodeling Metro Detroit MI | Stone Works Remodeling" />
@@ -46,7 +46,7 @@ function SEOMetadata() {
         content="Transform your bathroom with Stone Works Remodeling. Expert bathroom remodeling, shower conversions & walk-in tubs in Metro Detroit. 500+ satisfied customers. Free quotes!"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://stoneworkremodeling.com" />
+      <meta property="og:url" content="https://www.stoneworksremodeling.com" />
       <meta
         property="og:image"
         content="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/webp/mHSA0TExdMsQjnyxRC3Wq.webp"
@@ -70,7 +70,7 @@ function SEOMetadata() {
       />
 
       {/* Canonical & Favicon */}
-      <link rel="canonical" href="https://stoneworkremodeling.com" />
+      <link rel="canonical" href="https://www.stoneworksremodeling.com" />
       <link rel="icon" href="/favicon.ico" />
 
       {/* Additional SEO Tags */}
@@ -90,7 +90,7 @@ function SEOMetadata() {
               "description": "Expert bathroom remodeling services in Metro Detroit, MI. Specializing in complete bathroom renovations, shower conversions, walk-in tubs, and accessible bathroom solutions.",
               "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/webp/mHSA0TExdMsQjnyxRC3Wq.webp",
               "logo": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp",
-              "url": "https://stoneworkremodeling.com",
+              "url": "https://www.stoneworksremodeling.com",
               "telephone": "+12483468926",
               "email": "info@stoneworkremodeling.com",
               "priceRange": "$$-$$$",
@@ -246,19 +246,19 @@ function SEOMetadata() {
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://stoneworkremodeling.com"
+                  "item": "https://www.stoneworksremodeling.com"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "Services",
-                  "item": "https://stoneworkremodeling.com/services"
+                  "item": "https://www.stoneworksremodeling.com/services"
                 },
                 {
                   "@type": "ListItem",
                   "position": 3,
                   "name": "Bathroom Remodeling",
-                  "item": "https://stoneworkremodeling.com/services/bathroom-remodeling"
+                  "item": "https://www.stoneworksremodeling.com/services/bathroom-remodeling"
                 }
               ]
             }
@@ -473,7 +473,7 @@ export default function HomePage() {
                 "@type": "WebPage",
                 "name": "Bathroom Remodeling Metro Detroit MI | Stone Works Remodeling",
                 "description": "Expert bathroom remodeling services in Metro Detroit. Complete renovations, shower conversions, walk-in tubs. Licensed & insured. Call (248) 346-8926 for free quote!",
-                "url": "https://stoneworkremodeling.com",
+                "url": "https://www.stoneworksremodeling.com",
                 "mainEntity": {
                   "@type": "HomeAndConstructionBusiness",
                   "name": "Stone Works Remodeling",

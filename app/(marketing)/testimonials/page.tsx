@@ -48,7 +48,7 @@ function SEOMetadata() {
         content="Discover what our clients say about their bathroom remodeling experiences with Stone Works Remodeling in Metro Detroit, MI."
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://stoneworkremodeling.com/testimonials" />
+      <meta property="og:url" content="https://www.stoneworksremodeling.com/testimonials" />
       <meta
         property="og:image"
         content="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp"
@@ -66,8 +66,8 @@ function SEOMetadata() {
         name="twitter:image"
         content="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp"
       />
-      <link rel="canonical" href="https://stoneworkremodeling.com/testimonials" />
-      <link rel="alternate" hrefLang="en-us" href="https://stoneworkremodeling.com/" />
+      <link rel="canonical" href="https://www.stoneworksremodeling.com/testimonials" />
+      <link rel="alternate" hrefLang="en-us" href="https://www.stoneworksremodeling.com/" />
 
       <script
         type="application/ld+json"
@@ -76,13 +76,13 @@ function SEOMetadata() {
             "@context": "https://schema.org",
             "@type": "WebPage",
             name: "Testimonials | Stone Works Remodeling",
-            url: "https://stoneworkremodeling.com/testimonials",
+            url: "https://www.stoneworksremodeling.com/testimonials",
             description:
               "Read client testimonials showcasing Stone Works Remodeling’s expertise in bathroom remodeling in Metro Detroit, MI.",
             isPartOf: {
               "@type": "WebSite",
               name: "Stone Works Remodeling",
-              url: "https://stoneworkremodeling.com",
+              url: "https://www.stoneworksremodeling.com",
             },
             breadcrumb: {
               "@type": "BreadcrumbList",
@@ -91,13 +91,13 @@ function SEOMetadata() {
                   "@type": "ListItem",
                   position: 1,
                   name: "Home",
-                  item: "https://stoneworkremodeling.com",
+                  item: "https://www.stoneworksremodeling.com",
                 },
                 {
                   "@type": "ListItem",
                   position: 2,
                   name: "Testimonials",
-                  item: "https://stoneworkremodeling.com/testimonials",
+                  item: "https://www.stoneworksremodeling.com/testimonials",
                 },
               ],
             },
