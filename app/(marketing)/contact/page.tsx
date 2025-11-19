@@ -812,9 +812,9 @@ export default function ContactPage() {
                           <div className="ml-3 text-sm">
                             <label htmlFor="terms" className="font-medium text-gray-700">
                               I agree to the{" "}
-                              <a href="/terms" className="text-blue-600 hover:text-blue-500">
+                              <div className="text-blue-600 hover:text-blue-500">
                                 terms and conditions
-                              </a>{" "}
+                              </div>{" "}
                               <span className="text-red-500">*</span>
                             </label>
                           </div>
