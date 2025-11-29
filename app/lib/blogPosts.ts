@@ -1674,7 +1674,7 @@ export const blogPosts: BlogPost[] = [
     "date": "2025-08-10",
     "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg",
-    "slug": "bathroom-remodel-canton-mi-2025",
+    "slug": "bathroom-remodel-canton-mi-2026",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg' alt='Affordable bathroom remodel in Canton, MI'><p class='lead'>Canton homeowners are proving that budget-friendly bathroom remodels can still look luxurious in 2025.</p></div><h2>1. Cost-Effective Materials</h2><p>Laminate countertops, vinyl flooring, and prefabricated vanities cut costs without sacrificing style.</p><h2>2. DIY-Friendly Upgrades</h2><p>Painting cabinets, replacing hardware, and adding new lighting are simple ways to refresh a bathroom.</p><h2>3. Strategic Planning</h2><p>Focusing on high-impact changes like updated fixtures can stretch your budget further.</p><div class='cta-section'><h3>Start Your Affordable Remodel</h3><p>Our Canton team can help you design a stylish bathroom that works within your budget.</p></div>"
   },
   {

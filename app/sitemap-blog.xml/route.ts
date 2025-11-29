@@ -27,7 +27,19 @@ export async function GET() {
     { slug: "bathroom-remodel-rochester-hills-mi-2025" },
     { slug: "bathroom-remodel-sterling-heights-mi-2025" },
     { slug: "bathroom-remodel-southfield-mi-2025" },
-    { slug: "bathroom-remodel-canton-mi-2025" }, // Duplicate slug (id 23 matches id 14)
+    { slug: "bathroom-remodel-west-bloomfield-mi-2025" },
+    { slug: "bathroom-remodel-bloomfield-hills-mi-2025" },
+    { slug: "bathroom-remodel-royal-oak-mi-2025" },
+    { slug: "shower-grout-guide" },
+    { slug: "shower-niche-design" },
+    { slug: "steam-shower-materials" },
+    { slug: "slate-vs-quartzite" },
+    { slug: "slate-maintenance" },
+    { slug: "natural-stone-trends" },
+    { slug: "water-saving-remodels" },
+    { slug: "eco-friendly-bathrooms" },
+    { slug: "healthy-home-materials" },
+    { slug: "terms" }
   ];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
