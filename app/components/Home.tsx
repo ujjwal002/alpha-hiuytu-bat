@@ -375,6 +375,7 @@ export default function HomePage() {
                             className="object-cover w-full h-full"
                             sizes="(max-width: 768px) 40px, 64px"
                             priority={index < 2}
+                            fetchPriority="high"
                             quality={70}
                           />
                         </motion.div>
@@ -509,6 +510,7 @@ export default function HomePage() {
                           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                           loading={index === 0 ? "eager" : "lazy"}
                           quality={70}
+                          fetchPriority="high"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         <motion.div
@@ -647,6 +649,7 @@ export default function HomePage() {
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         loading={index > 0 ? "lazy" : "eager"}
                         quality={70}
+                        fetchPriority="high"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                       <Play className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-8 w-8 sm:h-12 sm:w-12 text-white opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -707,6 +710,7 @@ export default function HomePage() {
                         sizes="(max-width: 768px) 64px, 80px"
                         loading="lazy"
                         quality={70}
+                        fetchPriority="high"
                       />
                       <div className="text-center sm:text-left">
                         <h3 className="font-bold text-gray-900 text-lg sm:text-xl">{testimonials[activeTestimonial].name}</h3>
@@ -876,6 +880,7 @@ export default function HomePage() {
                       sizes="(max-width: 768px) 100vw, 33vw"
                       loading="lazy"
                       quality={70}
+                      fetchPriority="high"
                     />
                   </div>
                 </a>
@@ -890,6 +895,7 @@ export default function HomePage() {
                       sizes="(max-width: 768px) 100vw, 33vw"
                       loading="lazy"
                       quality={70}
+                      fetchPriority="high"
                     />
                   </div>
                 </a>
@@ -904,6 +910,7 @@ export default function HomePage() {
                       sizes="(max-width: 768px) 100vw, 33vw"
                       loading="lazy"
                       quality={70}
+                      fetchPriority="high"
                     />
                   </div>
                 </a>
