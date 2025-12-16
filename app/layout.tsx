@@ -1,15 +1,16 @@
+// app/layout.tsx
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import Header from "@/components/Header";
-import Footer from "./components/Footer";
+import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
 import { GA_MEASUREMENT_ID } from "../app/lib/gtag";
 
 /* =========================
-   FONTS (CORRECT WAY)
+   FONTS (BEST PRACTICE)
    ========================= */
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,44 +25,22 @@ const geistMono = Geist_Mono({
 });
 
 /* =========================
-   METADATA (SEO PERFECT)
+   GLOBAL METADATA (BRAND ONLY)
    ========================= */
 export const metadata: Metadata = {
-  title: "Bathroom Remodeling Experts | Metro Detroit MI Contractors",
-  description:
-    "Upgrade your bathroom with top-rated remodeling experts in Metro Detroit. Full renovations, tub-to-shower conversions, walk-in tubs. Free quote today! Licensed & insured.",
-  keywords: [
-    "bathroom remodeling",
-    "shower installation",
-    "Metro Detroit bathroom renovation",
-  ],
   metadataBase: new URL("https://www.stoneworksremodeling.com"),
+  title: {
+    default: "Stone Works Remodeling | Metro Detroit Bathroom Experts",
+    template: "%s | Stone Works Remodeling",
+  },
+  description:
+    "Licensed bathroom remodeling experts serving Metro Detroit, MI. Full renovations, tub-to-shower conversions & walk-in tubs.",
   alternates: {
-    canonical: "https://www.stoneworksremodeling.com/",
+    canonical: "/",
   },
-  openGraph: {
-    title: "Bathroom Remodeling Experts | Metro Detroit",
-    description:
-      "Transform your bathroom with expert remodeling in Metro Detroit. Free quotes available!",
-    url: "https://www.stoneworksremodeling.com",
-    siteName: "Stone Works Remodeling",
-    locale: "en_US",
-    type: "website",
-    images: [
-      {
-        url: "https://www.stoneworksremodeling.com/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Stone Works Remodeling Bathroom Design",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Bathroom Remodeling Experts | Metro Detroit",
-    description:
-      "Transform your bathroom with our expert remodeling services. Free quotes!",
-    images: ["https://www.stoneworksremodeling.com/og-image.jpg"],
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -76,54 +55,40 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* ✅ Preload HERO image (LCP boost) */}
-        <link
-          rel="preload"
-          href="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/webp/NctOfmDbqGoQGM2Qm9a8C.webp"
-          as="image"
-          type="image/webp"
-          crossOrigin="anonymous"
-        />
-
-        {/* ✅ Preload Critical CSS (replace [CHUNK_HASH] post-build; no onLoad to avoid serialization error) */}
-        <link rel="preload" href="/_next/static/css/[CHUNK_HASH].css" as="style" />
-        <link rel="stylesheet" href="/_next/static/css/[CHUNK_HASH].css" /> {/* ✅ Simplified: No media/onLoad */}
-
-        {/* ✅ Preload Fonts (replace [HASH] post-build from _next/static/media/) */}
-        <link
-          rel="preload"
-          href="/_next/static/media/[GEIST_SANS_HASH]-s.p.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin=""
-        />
-        <link
-          rel="preload"
-          href="/_next/static/media/[GEIST_MONO_HASH]-s.p.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin=""
-        />
-
-        {/* ✅ Local Business Schema */}
+        {/* ✅ SINGLE Local Business Schema (NO DUPLICATES) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "HomeAndConstructionBusiness",
+              "@id": "https://www.stoneworksremodeling.com/#business",
               name: "Stone Works Remodeling",
               url: "https://www.stoneworksremodeling.com",
               telephone: "+1-248-346-8926",
+              priceRange: "$5000-$50000",
+              image:
+                "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/webp/NctOfmDbqGoQGM2Qm9a8C.webp",
               address: {
                 "@type": "PostalAddress",
-                addressLocality: "Metro Detroit",
                 addressRegion: "MI",
                 addressCountry: "US",
               },
-              image: "https://www.stoneworksremodeling.com/og-image.jpg",
-              description:
-                "Expert bathroom remodeling and shower installation in Metro Detroit.",
+              areaServed: [
+                "Detroit",
+                "Livonia",
+                "Troy",
+                "Sterling Heights",
+                "Royal Oak",
+                "Birmingham",
+                "Farmington Hills",
+                "Novi",
+              ],
+              sameAs: [
+                "https://www.instagram.com/stoneworksremodeling",
+                "https://www.facebook.com/stoneworksremodeling",
+                "https://www.youtube.com/@stoneworksremodeling",
+              ],
             }),
           }}
         />
@@ -159,7 +124,6 @@ export default function RootLayout({
             </Script>
           </>
         )}
-
       </body>
     </html>
   );
