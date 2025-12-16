@@ -85,6 +85,26 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
 
+        {/* ✅ Preload Critical CSS (replace [CHUNK_HASH] post-build; no onLoad to avoid serialization error) */}
+        <link rel="preload" href="/_next/static/css/[CHUNK_HASH].css" as="style" />
+        <link rel="stylesheet" href="/_next/static/css/[CHUNK_HASH].css" /> {/* ✅ Simplified: No media/onLoad */}
+
+        {/* ✅ Preload Fonts (replace [HASH] post-build from _next/static/media/) */}
+        <link
+          rel="preload"
+          href="/_next/static/media/[GEIST_SANS_HASH]-s.p.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/_next/static/media/[GEIST_MONO_HASH]-s.p.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin=""
+        />
+
         {/* ✅ Local Business Schema */}
         <script
           type="application/ld+json"
@@ -141,9 +161,9 @@ export default function RootLayout({
         )}
 
         {/* =========================
-           FACEBOOK PIXEL (LAZY)
+           FACEBOOK PIXEL (LAZY - REPLACE YOUR_PIXEL_ID)
            ========================= */}
-        <Script id="facebook-pixel" strategy="afterInteractive">
+        {/* <Script id="facebook-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -153,10 +173,10 @@ export default function RootLayout({
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', 'YOUR_PIXEL_ID');
+            fbq('init', 'YOUR_ACTUAL_PIXEL_ID'); // e.g., '1234567890'
             fbq('track', 'PageView');
           `}
-        </Script>
+        </Script> */}
       </body>
     </html>
   );

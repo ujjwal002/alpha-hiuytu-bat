@@ -258,7 +258,7 @@ export default function HomePage() {
   const motionConfig = {
     initial: { opacity: 0, y: shouldReduceMotion ? 0 : 50 },
     animate: { opacity: 1, y: 0 },
-    transition: { duration: shouldReduceMotion ? 0.3 : 0.8, ease: "easeOut" },
+    transition: { duration: shouldReduceMotion ? 0.3 : 0.5, ease: "easeOut" },
   };
 
   return (
@@ -270,7 +270,7 @@ export default function HomePage() {
           className="fixed bottom-4 right-4 left-4 md:left-auto md:right-6 z-50 md:hidden"
           initial={{ scale: shouldReduceMotion ? 1 : 0, rotate: -180 }}
           animate={{ scale: 1, rotate: 0 }}
-          transition={{ type: "spring", stiffness: 260, damping: 20, duration: shouldReduceMotion ? 0.2 : 0.6 }}
+          transition={{ type: "spring", stiffness: 260, damping: 20, duration: shouldReduceMotion ? 0.2 : 0.4 }}
         >
           <a
             href="/contact"
@@ -356,7 +356,7 @@ export default function HomePage() {
                   <motion.div
                     className="flex items-center justify-center lg:justify-start space-x-4 sm:space-x-6"
                     {...motionConfig}
-                    transition={{ duration: shouldReduceMotion ? 0.3 : 0.8, delay: 0.4 }}
+                    transition={{ duration: shouldReduceMotion ? 0.3 : 0.5, delay: 0.4 }}
                   >
                     <div className="flex -space-x-2 sm:-space-x-3 relative">
                       {customerImages.slice(0, 4).map((image, index) => (
@@ -365,7 +365,7 @@ export default function HomePage() {
                           className="w-10 h-10 sm:w-16 sm:h-16 rounded-full border-3 border-white/80 bg-blue-300/50 overflow-hidden shadow-lg"
                           initial={{ scale: shouldReduceMotion ? 1 : 0, rotate: -180 }}
                           animate={{ scale: 1, rotate: 0 }}
-                          transition={{ duration: shouldReduceMotion ? 0.3 : 0.6, delay: index * 0.1 }}
+                          transition={{ duration: shouldReduceMotion ? 0.3 : 0.5, delay: index * 0.1 }}
                         >
                           <Image
                             src={image.src}
@@ -375,6 +375,7 @@ export default function HomePage() {
                             className="object-cover w-full h-full"
                             sizes="(max-width: 768px) 40px, 64px"
                             priority={index < 2}
+                            quality={70}
                           />
                         </motion.div>
                       ))}
@@ -401,7 +402,7 @@ export default function HomePage() {
                   initial={{ opacity: 0, x: 50, rotate: shouldReduceMotion ? 1 : 5 }}
                   animate={{ opacity: 1, x: 0, rotate: 1 }}
                   whileHover={{ scale: 1.02, rotate: 0 }}
-                  transition={{ duration: shouldReduceMotion ? 0.4 : 0.8, ease: "easeOut" }}
+                  transition={{ duration: shouldReduceMotion ? 0.4 : 0.6, ease: "easeOut" }}
                 >
                   <div className="bg-gradient-to-r from-blue-500/90 to-blue-600/90 rounded-2xl -mt-4 sm:-mt-6 -mx-4 sm:-mx-6 mb-6 pt-4 sm:pt-6 pb-3 sm:pb-4 px-3 sm:px-4 text-center border-b border-white/20">
                     <p className="text-blue-100 text-xs sm:text-sm font-bold uppercase tracking-wider mb-1 flex items-center justify-center">
@@ -459,7 +460,7 @@ export default function HomePage() {
                       className="text-center bg-white rounded-2xl p-4 sm:p-6 shadow-lg hover:shadow-xl transition-shadow duration-300"
                       initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 20 }}
                       animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: index * 0.1, duration: shouldReduceMotion ? 0.3 : 0.6 }}
+                      transition={{ delay: index * 0.1, duration: shouldReduceMotion ? 0.3 : 0.5 }}
                     >
                       <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4">
                         <Icon className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
@@ -507,6 +508,7 @@ export default function HomePage() {
                           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                           loading={index === 0 ? "eager" : "lazy"}
+                          quality={70}
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         <motion.div
@@ -644,6 +646,7 @@ export default function HomePage() {
                         className="w-full h-48 sm:h-64 object-cover transition-transform duration-700 group-hover:scale-110"
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         loading={index > 0 ? "lazy" : "eager"}
+                        quality={70}
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                       <Play className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-8 w-8 sm:h-12 sm:w-12 text-white opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -703,6 +706,7 @@ export default function HomePage() {
                         className="w-16 h-16 sm:w-20 sm:h-20 rounded-full mr-0 sm:mr-6 mb-4 sm:mb-0 object-cover shadow-lg border-4 border-blue-100"
                         sizes="(max-width: 768px) 64px, 80px"
                         loading="lazy"
+                        quality={70}
                       />
                       <div className="text-center sm:text-left">
                         <h3 className="font-bold text-gray-900 text-lg sm:text-xl">{testimonials[activeTestimonial].name}</h3>
@@ -724,12 +728,12 @@ export default function HomePage() {
                   </motion.div>
                 </AnimatePresence>
 
-                {/* Navigation Dots */}
+                {/* Navigation Dots - Larger for touch targets */}
                 <div className="flex justify-center mt-6 sm:mt-8 space-x-2 sm:space-x-3">
                   {testimonials.map((_, index) => (
                     <button
                       key={index}
-                      className={`h-2 w-2 sm:h-3 sm:w-3 rounded-full transition-all duration-300 ${activeTestimonial === index ? "bg-blue-600 scale-125" : "bg-slate-300 hover:bg-slate-400"
+                      className={`h-3 w-3 sm:h-4 sm:w-4 rounded-full transition-all duration-300 ${activeTestimonial === index ? "bg-blue-600 scale-125" : "bg-slate-300 hover:bg-slate-400"
                         }`}
                       onClick={() => setActiveTestimonial(index)}
                       aria-label={`Show testimonial ${index + 1}`}
@@ -871,6 +875,7 @@ export default function HomePage() {
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       sizes="(max-width: 768px) 100vw, 33vw"
                       loading="lazy"
+                      quality={70}
                     />
                   </div>
                 </a>
@@ -884,6 +889,7 @@ export default function HomePage() {
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       sizes="(max-width: 768px) 100vw, 33vw"
                       loading="lazy"
+                      quality={70}
                     />
                   </div>
                 </a>
@@ -897,6 +903,7 @@ export default function HomePage() {
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       sizes="(max-width: 768px) 100vw, 33vw"
                       loading="lazy"
+                      quality={70}
                     />
                   </div>
                 </a>
@@ -906,7 +913,7 @@ export default function HomePage() {
                 <h3 className="text-xl font-bold mb-4">Follow Us on Social Media</h3>
                 <div className="flex justify-center space-x-4">
                   <a
-                    href="https://www.facebook.com/stoneworksremodeling"
+                    href="https://www.facebook.com/people/Stone-Works-Remodeling/61567020355631/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-xl font-bold hover:bg-blue-700 transition"

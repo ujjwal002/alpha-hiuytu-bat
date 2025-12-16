@@ -7,9 +7,12 @@ const nextConfig: NextConfig = {
   // Prevent Turbopack/Webpack conflict in Next.js 16
   turbopack: {},
 
+  // JS minification is enabled by default in Next.js
+
   experimental: {
     optimizeCss: true,
     optimizePackageImports: ["lucide-react", "framer-motion"],
+    bundlePagesExternals: true, // ✅ Reduce unused JS
   },
 
   images: {
@@ -30,6 +33,7 @@ const nextConfig: NextConfig = {
         headers: [
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains; preload" }, // ✅ HSTS for Best Practices
         ],
       },
       {

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import HomePage from "./components/Home";
 import SeoSchema from "./components/SeoSchema";
 import HomeClient from "./components/HomeClient";
@@ -46,7 +47,9 @@ export default function Home() {
   return (
     <>
       <SeoSchema />
-      <HomeClient />
+      <Suspense fallback={<div className="animate-pulse h-96 bg-gray-200 mx-auto max-w-7xl" />}>
+        <HomeClient />
+      </Suspense>
     </>
   );
 }
