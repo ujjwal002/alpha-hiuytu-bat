@@ -19,6 +19,8 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "stoneworksremodlling.s3.ap-south-1.amazonaws.com" },
       { protocol: "https", hostname: "images.unsplash.com" },
     ],
+    formats: ["image/avif", "image/webp"],
+    qualities: [60, 70, 75, 80], // ✅ FIX
   },
 
   async headers() {

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import HomePage from "./components/Home";
 import SeoSchema from "./components/SeoSchema";
+import HomeClient from "./components/HomeClient";
 
 export const metadata: Metadata = {
   title: "Bathroom Remodeling Metro Detroit MI | Stone Works Remodeling Experts",
@@ -45,7 +46,7 @@ export default function Home() {
   return (
     <>
       <SeoSchema />
-      <HomePage />
+      <HomeClient />
     </>
   );
 }

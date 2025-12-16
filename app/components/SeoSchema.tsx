@@ -9,7 +9,7 @@ export default function SeoSchema() {
     telephone: "+12483468926",
     priceRange: "$5000-$50000",
     image:
-      "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/webp/hero-image.webp",
+      "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/webp/NctOfmDbqGoQGM2Qm9a8C.webp",
     logo:
       "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/webp/logo.webp",
     address: {

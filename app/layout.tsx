@@ -5,27 +5,31 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "./components/Footer";
 import { Analytics } from "@vercel/analytics/next";
-import { GA_MEASUREMENT_ID } from "../app/lib/gtag";
 import Script from "next/script";
+import { GA_MEASUREMENT_ID } from "../app/lib/gtag";
 
+/* =========================
+   FONTS (CORRECT WAY)
+   ========================= */
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
-  display: "swap", // ✅ Improves font loading for mobile
-  preload: true,
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
   display: "swap",
-  preload: true,
 });
 
-// ✅ Optimized SEO metadata - Updated title to 55 chars, description to 142 chars
+/* =========================
+   METADATA (SEO PERFECT)
+   ========================= */
 export const metadata: Metadata = {
   title: "Bathroom Remodeling Experts | Metro Detroit MI Contractors",
-  description: "Upgrade your bathroom with top-rated remodeling experts in Metro Detroit. Full renovations, tub-to-shower conversions, walk-in tubs. Free quote today! Licensed & insured.",
+  description:
+    "Upgrade your bathroom with top-rated remodeling experts in Metro Detroit. Full renovations, tub-to-shower conversions, walk-in tubs. Free quote today! Licensed & insured.",
   keywords: [
     "bathroom remodeling",
     "shower installation",
@@ -37,29 +41,33 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Bathroom Remodeling Experts | Metro Detroit",
-    description: "Transform your bathroom with expert remodeling in Metro Detroit. Free quotes available!",
+    description:
+      "Transform your bathroom with expert remodeling in Metro Detroit. Free quotes available!",
     url: "https://www.stoneworksremodeling.com",
     siteName: "Stone Works Remodeling",
+    locale: "en_US",
+    type: "website",
     images: [
       {
-        url: "https://www.stoneworksremodeling.com/og-image.jpg", // Replace with actual image URL
+        url: "https://www.stoneworksremodeling.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Stone Works Remodeling Bathroom Design",
       },
     ],
-    locale: "en_US",
-    type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    site: "@StoneWorksRemodeling", // replace with real handle
     title: "Bathroom Remodeling Experts | Metro Detroit",
-    description: "Transform your bathroom with our expert remodeling services. Free quotes!",
+    description:
+      "Transform your bathroom with our expert remodeling services. Free quotes!",
     images: ["https://www.stoneworksremodeling.com/og-image.jpg"],
   },
 };
 
+/* =========================
+   ROOT LAYOUT
+   ========================= */
 export default function RootLayout({
   children,
 }: {
@@ -68,19 +76,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* ✅ Mobile responsiveness */}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        {/* ✅ Preload critical resources for LCP improvement */}
+        {/* ✅ Preload HERO image (LCP boost) */}
         <link
           rel="preload"
-          href="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/webp/hero-image.webp"
+          href="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/webp/NctOfmDbqGoQGM2Qm9a8C.webp"
           as="image"
           type="image/webp"
+          crossOrigin="anonymous"
         />
-        <link rel="preload" href="/fonts/geist.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
 
-        {/* ✅ Structured data for Local Business */}
+        {/* ✅ Local Business Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -92,10 +97,8 @@ export default function RootLayout({
               telephone: "+1-248-346-8926",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Your Business Address",
                 addressLocality: "Metro Detroit",
                 addressRegion: "MI",
-                postalCode: "48067",
                 addressCountry: "US",
               },
               image: "https://www.stoneworksremodeling.com/og-image.jpg",
@@ -104,36 +107,21 @@ export default function RootLayout({
             }),
           }}
         />
+      </head>
 
-        {/* ✅ Facebook Pixel - Lazy loaded with afterInteractive to reduce initial JS */}
-        <Script
-          id="facebook-pixel"
-          strategy="afterInteractive"
-        >
-          {`
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', 'YOUR_PIXEL_ID'); // Replace with actual Pixel ID
-            fbq('track', 'PageView');
-          `}
-        </Script>
-        <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{ display: "absolute", top: "-100%", left: "-100%" }}
-            alt=""
-            src={`https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1`} // Replace with actual Pixel ID
-          />
-        </noscript>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <Header />
 
-        {/* ✅ Google Analytics - afterInteractive to not block render */}
+        {children}
+
+        <Footer />
+        <Analytics />
+
+        {/* =========================
+           GOOGLE ANALYTICS (NON-BLOCKING)
+           ========================= */}
         {GA_MEASUREMENT_ID && (
           <>
             <Script
@@ -144,23 +132,31 @@ export default function RootLayout({
               {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
-                window.gtag = gtag;
                 gtag('js', new Date());
-                gtag('config', '${GA_MEASUREMENT_ID}', {
-                  page_path: window.location.pathname,
-                });
+                gtag('config', '${GA_MEASUREMENT_ID}');
                 gtag('config', 'AW-16672718243');
               `}
             </Script>
           </>
         )}
-      </head>
 
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <Header />
-        {children}
-        <Analytics />
-        <Footer />
+        {/* =========================
+           FACEBOOK PIXEL (LAZY)
+           ========================= */}
+        <Script id="facebook-pixel" strategy="afterInteractive">
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', 'YOUR_PIXEL_ID');
+            fbq('track', 'PageView');
+          `}
+        </Script>
       </body>
     </html>
   );
