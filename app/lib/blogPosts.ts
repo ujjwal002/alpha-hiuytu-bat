@@ -1808,55 +1808,269 @@ export const blogPosts: BlogPost[] = [
     "content": "<div class='blog-intro'><p class='lead'>Natural stone continues to define luxury bathroom design in 2025. These trending materials elevate your remodel with timeless beauty.</p></div><h2>1. Large Format Stone Slabs</h2><p>Minimal grout, maximum impact.</p><h2>2. Veined Marble</h2><p>Dramatic, bookmatched patterns are in demand.</p><h2>3. Textured Slate</h2><p>Adds depth and grip to wet areas.</p><h2>4. Quartzite</h2><p>Hard, durable, and stunning — perfect for high-end bathrooms.</p>"
   },
   {
-  "id": 34,
-  "title": "Water-Saving Bathroom Remodel Ideas for 2025",
-  "meta_title": "Water-Saving Bathroom Ideas 2025 | Eco-Friendly Remodeling Tips",
-  "meta_description": "Reduce water usage with 2025 bathroom remodel ideas like low-flow fixtures, smart showers, and water-efficient layouts.",
-  "excerpt": "Easy ways to save water in your 2025 bathroom remodel without compromising style.",
+    "id": 34,
+    "title": "Water-Saving Bathroom Remodel Ideas for 2025",
+    "meta_title": "Water-Saving Bathroom Ideas 2025 | Eco-Friendly Remodeling Tips",
+    "meta_description": "Reduce water usage with 2025 bathroom remodel ideas like low-flow fixtures, smart showers, and water-efficient layouts.",
+    "excerpt": "Easy ways to save water in your 2025 bathroom remodel without compromising style.",
+    "category": "remodeling-tips",
+    "date": "2025-11-19",
+    "author": "Emily Davis",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/water.jpeg",
+    "slug": "water-saving-remodels",
+    "content": "<div class='blog-intro'><p class='lead'>Water efficiency is a top priority in 2025 bathroom remodels. These upgrades help reduce your water bill and environmental impact.</p></div><h2>1. Low-Flow Fixtures</h2><p>Modern low-flow faucets and showerheads save up to 40% water.</p><h2>2. Smart Showers</h2><p>Digital temperature controls prevent water waste.</p><h2>3. Dual-Flush Toilets</h2><p>Cut down toilet water usage by 50%.</p><h2>4. Efficient Layout</h2><p>Shorter pipe runs reduce heat loss and water usage.</p>"
+  },
+  {
+    "id": 35,
+    "title": "Eco-Friendly Bathroom Remodel Ideas for 2025",
+    "meta_title": "Eco-Friendly Bathroom Ideas 2025 | Sustainable Remodeling Tips",
+    "meta_description": "Explore sustainable bathroom remodel ideas including recycled materials, low-VOC products, water-saving fixtures, and energy-efficient lighting.",
+    "excerpt": "A 2025 guide to building an eco-friendly bathroom using sustainable materials and efficient fixtures.",
+    "category": "remodeling-tips",
+    "date": "2025-11-19",
+    "author": "Emily Davis",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/eco.jpeg",
+    "slug": "eco-friendly-bathrooms",
+    "content": "<div class='blog-intro'><p class='lead'>Eco-friendly bathroom remodels are trending in 2025 as homeowners prioritize sustainability. Here’s how to build a greener, healthier space.</p></div><h2>1. Sustainable Materials</h2><p>Recycled glass tile, bamboo vanities, and reclaimed wood are popular choices.</p><h2>2. Efficient Lighting</h2><p>LED and motion-sensor lighting reduce energy consumption.</p><h2>3. Water Conservation</h2><p>Low-flow fixtures drastically cut water waste.</p><h2>4. Eco-Friendly Paint</h2><p>Use low-VOC paint for cleaner indoor air.</p>"
+  },
+  {
+    "id": 36,
+    "title": "Healthy Bathroom Materials Guide for 2025",
+    "meta_title": "Healthy Bathroom Materials 2025 | Low-VOC, Non-Toxic Options",
+    "meta_description": "Learn the healthiest bathroom materials for 2025 including low-VOC paints, non-toxic sealants, mold-resistant tile, and safe flooring.",
+    "excerpt": "The healthiest and safest materials for your 2025 bathroom remodel.",
+    "category": "remodeling-tips",
+    "date": "2025-11-19",
+    "author": "Emily Davis",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/healthy.jpeg",
+    "slug": "healthy-home-materials",
+    "content": "<div class='blog-intro'><p class='lead'>Healthy bathrooms start with the right materials. Choose options that improve indoor air quality and resist mold.</p></div><h2>1. Low-VOC Paints</h2><p>Reduce harmful fumes and improve indoor air quality.</p><h2>2. Mold-Resistant Tile</h2><p>Porcelain and slate naturally resist moisture and bacteria.</p><h2>3. Non-Toxic Sealants</h2><p>Safe, long-lasting protection for stone and grout.</p><h2>4. Natural Ventilation</h2><p>Proper ventilation reduces humidity and improves health.</p>"
+  },
+  {
+    "id": 37,
+    "title": "Terms & Conditions",
+    "excerpt": "Read the terms and conditions for using Stone Works Remodeling services and website.",
+    "category": "company-updates",
+    "date": "2025-11-20",
+    "author": "Stone Works Remodeling",
+    "image": "",
+    "slug": "terms",
+    "content": "<div class='blog-intro'><p class='lead'>These Terms & Conditions outline the rules and regulations for using Stone Works Remodeling’s website and services.</p></div><h2>1. Acceptance of Terms</h2><p>By accessing our website, you agree to all terms listed on this page.</p><h2>2. Services</h2><p>All remodeling services are subject to a written contract and final approval.</p><h2>3. Privacy Policy</h2><p>Your personal information is kept secure and never sold to third parties.</p><h2>4. Liability</h2><p>Stone Works Remodeling is not responsible for damages resulting from misuse of the website.</p><h2>5. Contact Us</h2><p>For questions regarding these terms, please contact our support team.</p>"
+  },
+  {
+    "id": 38,
+    "title": "How Much Does a Bathroom Remodel Cost in Detroit, MI? (2026 Guide)",
+    "meta_title": "Bathroom Remodel Cost in Detroit MI (2026) | Prices, Permits & Options",
+    "meta_description": "Learn how much a bathroom remodel costs in Detroit, MI in 2026. See price ranges, walk-in shower costs, permits, and tips for hiring the best bathroom remodelers.",
+    "excerpt": "Wondering how much a bathroom remodel costs in Detroit, MI? This 2026 guide breaks down prices, permits, and popular upgrades to help you plan your renovation.",
+    "category": "remodeling-tips",
+    "date": "2026-01-02",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg",
+    "slug": "bathroom-remodel-cost-detroit-mi",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+
+  <!-- Intro -->
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      Bathroom remodeling costs in Detroit, MI vary depending on size, materials, and scope of work.
+      In 2026, homeowners across Metro Detroit are upgrading bathrooms for comfort, value, and
+      energy efficiency. This guide explains average costs, popular upgrades, permit fees, and how
+      to choose the right bathroom remodel contractor.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    Average Bathroom Remodel Cost in Detroit, MI (2026)
+  </h2>
+
+  <p style="margin-bottom:16px;">
+    In Detroit, bathroom remodeling costs typically fall into three categories:
+  </p>
+
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">
+      <strong style="color:#111827;">Small Bathroom Remodel:</strong> $7,500 – $15,000
+    </li>
+    <li style="margin-bottom:10px;">
+      <strong style="color:#111827;">Mid-Range Bathroom Remodel:</strong> $15,000 – $30,000
+    </li>
+    <li style="margin-bottom:10px;">
+      <strong style="color:#111827;">Luxury or Master Bathroom Renovation:</strong> $30,000 – $60,000+
+    </li>
+  </ul>
+
+  <p style="margin-bottom:16px;">
+    Homes in older Detroit neighborhoods may require plumbing or electrical upgrades, which can
+    affect final pricing.
+  </p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    Walk-In Shower Remodel Cost in Detroit, MI
+  </h2>
+
+  <p style="margin-bottom:16px;">
+    Walk-in showers are one of the most requested upgrades in Detroit homes.
+  </p>
+
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">
+      <strong style="color:#111827;">Basic walk-in shower:</strong> $4,000 – $7,500
+    </li>
+    <li style="margin-bottom:10px;">
+      <strong style="color:#111827;">Custom tiled walk-in shower:</strong> $8,000 – $15,000+
+    </li>
+  </ul>
+
+  <p style="margin-bottom:16px;">
+    Popular features include frameless glass, built-in niches, and slip-resistant tile.
+  </p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    Bathroom Remodel Permit Cost in Michigan
+  </h2>
+
+  <p style="margin-bottom:16px;">
+    Most bathroom remodels in Michigan require permits, especially for plumbing or electrical work.
+  </p>
+
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Plumbing permit: $50 – $300</li>
+    <li style="margin-bottom:10px;">Electrical permit: $75 – $250</li>
+    <li style="margin-bottom:10px;">Total permit costs: $150 – $600 (varies by city)</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    Final Thoughts
+  </h2>
+
+  <p style="margin-bottom:24px;">
+    A bathroom remodel in Detroit, MI is a smart investment in 2026, improving both comfort and
+    home value. Whether you’re planning a small bathroom update or a full renovation,
+    understanding costs upfront helps you plan with confidence.
+  </p>
+
+  <!-- CTA -->
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">
+      Planning a Bathroom Remodel in Detroit?
+    </h3>
+    <p style="margin-bottom:16px;font-size:1rem;opacity:0.95;">
+      Get expert guidance, transparent pricing, and high-quality craftsmanship from local professionals.
+    </p>
+    <a href="/contact"
+       style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
+      Request a Free Bathroom Remodel Estimate
+    </a>
+  </div>
+
+</div>
+
+`
+  },
+  {
+  "id": 39,
+  "title": "Small Bathroom Remodel Ideas in Lansing, MI (2026 Guide)",
+  "meta_title": "Small Bathroom Remodel Ideas Lansing MI (2026) | Smart Space-Saving Designs",
+  "meta_description": "Explore the best small bathroom remodel ideas in Lansing, MI for 2026. Learn smart layouts, affordable upgrades, and space-saving design tips.",
+  "excerpt": "Smart and affordable small bathroom remodel ideas for Lansing homeowners in 2026.",
   "category": "remodeling-tips",
-  "date": "2025-11-19",
+  "date": "2026-01-02",
   "author": "Emily Davis",
-  "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/water.jpeg",
-  "slug": "water-saving-remodels",
-  "content": "<div class='blog-intro'><p class='lead'>Water efficiency is a top priority in 2025 bathroom remodels. These upgrades help reduce your water bill and environmental impact.</p></div><h2>1. Low-Flow Fixtures</h2><p>Modern low-flow faucets and showerheads save up to 40% water.</p><h2>2. Smart Showers</h2><p>Digital temperature controls prevent water waste.</p><h2>3. Dual-Flush Toilets</h2><p>Cut down toilet water usage by 50%.</p><h2>4. Efficient Layout</h2><p>Shorter pipe runs reduce heat loss and water usage.</p>"
-},
-{
-  "id": 35,
-  "title": "Eco-Friendly Bathroom Remodel Ideas for 2025",
-  "meta_title": "Eco-Friendly Bathroom Ideas 2025 | Sustainable Remodeling Tips",
-  "meta_description": "Explore sustainable bathroom remodel ideas including recycled materials, low-VOC products, water-saving fixtures, and energy-efficient lighting.",
-  "excerpt": "A 2025 guide to building an eco-friendly bathroom using sustainable materials and efficient fixtures.",
-  "category": "remodeling-tips",
-  "date": "2025-11-19",
-  "author": "Emily Davis",
-  "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/eco.jpeg",
-  "slug": "eco-friendly-bathrooms",
-  "content": "<div class='blog-intro'><p class='lead'>Eco-friendly bathroom remodels are trending in 2025 as homeowners prioritize sustainability. Here’s how to build a greener, healthier space.</p></div><h2>1. Sustainable Materials</h2><p>Recycled glass tile, bamboo vanities, and reclaimed wood are popular choices.</p><h2>2. Efficient Lighting</h2><p>LED and motion-sensor lighting reduce energy consumption.</p><h2>3. Water Conservation</h2><p>Low-flow fixtures drastically cut water waste.</p><h2>4. Eco-Friendly Paint</h2><p>Use low-VOC paint for cleaner indoor air.</p>"
-},
-{
-  "id": 36,
-  "title": "Healthy Bathroom Materials Guide for 2025",
-  "meta_title": "Healthy Bathroom Materials 2025 | Low-VOC, Non-Toxic Options",
-  "meta_description": "Learn the healthiest bathroom materials for 2025 including low-VOC paints, non-toxic sealants, mold-resistant tile, and safe flooring.",
-  "excerpt": "The healthiest and safest materials for your 2025 bathroom remodel.",
-  "category": "remodeling-tips",
-  "date": "2025-11-19",
-  "author": "Emily Davis",
-  "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/healthy.jpeg",
-  "slug": "healthy-home-materials",
-  "content": "<div class='blog-intro'><p class='lead'>Healthy bathrooms start with the right materials. Choose options that improve indoor air quality and resist mold.</p></div><h2>1. Low-VOC Paints</h2><p>Reduce harmful fumes and improve indoor air quality.</p><h2>2. Mold-Resistant Tile</h2><p>Porcelain and slate naturally resist moisture and bacteria.</p><h2>3. Non-Toxic Sealants</h2><p>Safe, long-lasting protection for stone and grout.</p><h2>4. Natural Ventilation</h2><p>Proper ventilation reduces humidity and improves health.</p>"
-},
-{
-  "id": 37,
-  "title": "Terms & Conditions",
-  "excerpt": "Read the terms and conditions for using Stone Works Remodeling services and website.",
-  "category": "company-updates",
-  "date": "2025-11-20",
-  "author": "Stone Works Remodeling",
-  "image": "",
-  "slug": "terms",
-  "content": "<div class='blog-intro'><p class='lead'>These Terms & Conditions outline the rules and regulations for using Stone Works Remodeling’s website and services.</p></div><h2>1. Acceptance of Terms</h2><p>By accessing our website, you agree to all terms listed on this page.</p><h2>2. Services</h2><p>All remodeling services are subject to a written contract and final approval.</p><h2>3. Privacy Policy</h2><p>Your personal information is kept secure and never sold to third parties.</p><h2>4. Liability</h2><p>Stone Works Remodeling is not responsible for damages resulting from misuse of the website.</p><h2>5. Contact Us</h2><p>For questions regarding these terms, please contact our support team.</p>"
+  "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic1.jpeg",
+  "slug": "small-bathroom-remodel-ideas-lansing-mi",
+  "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      Small bathrooms are common in Lansing homes, but limited space doesn’t mean limited style.
+      With the right design choices, a small bathroom remodel in 2026 can feel modern, functional,
+      and surprisingly spacious.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    Smart Layout Ideas for Small Bathrooms
+  </h2>
+
+  <p style="margin-bottom:16px;">
+    Keeping the existing plumbing layout is one of the easiest ways to control costs while
+    maximizing space.
+  </p>
+
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Replace tubs with walk-in showers</li>
+    <li style="margin-bottom:10px;">Use wall-mounted vanities</li>
+    <li style="margin-bottom:10px;">Install pocket or sliding doors</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    Space-Saving Design Features
+  </h2>
+
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Large-format tiles to reduce visual clutter</li>
+    <li style="margin-bottom:10px;">Light, neutral color palettes</li>
+    <li style="margin-bottom:10px;">Recessed shelves and niches</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    Affordable Small Bathroom Remodel Tips
+  </h2>
+
+  <p style="margin-bottom:16px;">
+    Many Lansing homeowners want stylish results without overspending. These upgrades deliver
+    the most value:
+  </p>
+
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Upgrade lighting instead of expanding the space</li>
+    <li style="margin-bottom:10px;">Choose mid-range fixtures with modern finishes</li>
+    <li style="margin-bottom:10px;">Focus on shower and vanity upgrades</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    Small Bathroom Remodel Cost in Lansing, MI
+  </h2>
+
+  <p style="margin-bottom:16px;">
+    In 2026, small bathroom remodels in Lansing typically range between:
+  </p>
+
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong style="color:#111827;">Basic remodel:</strong> $6,000 – $10,000</li>
+    <li style="margin-bottom:10px;"><strong style="color:#111827;">Mid-range remodel:</strong> $10,000 – $18,000</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    Final Thoughts
+  </h2>
+
+  <p style="margin-bottom:24px;">
+    A small bathroom remodel in Lansing, MI can dramatically improve comfort and home value
+    when designed correctly. With smart layouts, space-saving features, and the right contractor,
+    even the smallest bathroom can feel brand new.
+  </p>
+
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">
+      Ready to Remodel Your Small Bathroom?
+    </h3>
+    <p style="margin-bottom:16px;font-size:1rem;opacity:0.95;">
+      Get expert design advice and transparent pricing from local Lansing bathroom remodelers.
+    </p>
+    <a href="/contact"
+       style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
+      Get a Free Bathroom Remodel Quote
+    </a>
+  </div>
+
+</div>
+`
 }
+
 
 
 

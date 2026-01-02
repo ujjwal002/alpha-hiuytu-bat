@@ -39,6 +39,8 @@ export async function GET() {
     { slug: "water-saving-remodels" },
     { slug: "eco-friendly-bathrooms" },
     { slug: "healthy-home-materials" },
+    { slug: "small-bathroom-remodel-ideas-lansing-mi" },
+    { slug: "bathroom-remodel-cost-detroit-mi" },
     { slug: "terms" }
   ];
 
