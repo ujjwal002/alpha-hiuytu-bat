@@ -22,7 +22,7 @@ const Footer = () => {
               "streetAddress": "4671 Sugar Camp Road",
               "addressLocality": "Metro Detroit",
               "addressRegion": "MI",
-              "postalCode": "55060",
+              "postalCode": "48150",
               "addressCountry": "US"
             },
             "areaServed": ["Metro Detroit", "Detroit", "Rochester", "Livonia"],

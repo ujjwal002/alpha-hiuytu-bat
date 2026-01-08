@@ -265,7 +265,7 @@ export default function Services() {
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Metro Detroit",
-                "addressRegion": "MN",
+                "addressRegion": "MI",
                 "addressCountry": "US"
               },
               "geo": {

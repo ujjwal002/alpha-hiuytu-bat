@@ -67,7 +67,7 @@ export default function Header() {
                 "streetAddress": "4671 Sugar Camp Road",
                 "addressLocality": "Metro Detroit",
                 "addressRegion": "MN",
-                "postalCode": "55060",
+                "postalCode": "48150",
                 "addressCountry": "US",
               },
             },

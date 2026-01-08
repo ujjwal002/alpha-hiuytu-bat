@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Quote } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import Head from "next/head";
 
 // Interfaces
 
@@ -27,123 +26,7 @@ interface Review {
 }
 
 // SEO Metadata Component
-function SEOMetadata() {
-  return (
-    <>
-      <Head>
-        <title>About Stone Works Remodeling | Premier Bathroom Remodeling in Metro Detroit, MI</title>
-        <meta
-          name="description"
-          content="Learn about Stone Works Remodeling, Metro Detroit's leading experts in bathroom remodeling. Discover our story, meet our team, and read client testimonials."
-        />
-        <meta
-          name="keywords"
-          content="Stone Works Remodeling, bathroom remodeling Metro Detroit, bathroom renovation, Metro Detroit MI remodelers, luxury bathroom design"
-        />
-        <meta name="robots" content="index, follow" />
-        <meta
-          property="og:title"
-          content="About Stone Works Remodeling | Luxury Bathroom Remodeling in Metro Detroit, MI"
-        />
-        <meta
-          property="og:description"
-          content="Explore Stone Works Remodeling’s dedication to crafting luxurious bathrooms in Metro Detroit, MI. Meet our expert team and see why clients trust us."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.stoneworksremodeling.com/about" />
-        <meta
-          property="og:image"
-          content="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="About Stone Works Remodeling | Luxury Bathroom Remodeling in Metro Detroit, MI"
-        />
-        <meta
-          name="twitter:description"
-          content="Discover Stone Works Remodeling’s mission to transform bathrooms with premium craftsmanship in Metro Detroit, MI."
-        />
-        <meta
-          name="twitter:image"
-          content="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp"
-        />
-        <link rel="canonical" href="https://www.stoneworksremodeling.com/about" />
-        <link rel="alternate" hrefLang="en-us" href="https://www.stoneworksremodeling.com/" />
 
-      </Head>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@graph": [
-              {
-                "@type": "Organization",
-                "@id": "https://www.stoneworksremodeling.com/#organization",
-                name: "Stone Works Remodeling",
-                url: "https://www.stoneworksremodeling.com",
-                logo: "https://stoneworksremodeling.s3.ap-south-1.amazonaws.com/logo.webp",
-                description:
-                  "Stone Works Remodeling specializes in premium bathroom remodeling in Metro Detroit, MI, delivering exceptional craftsmanship",
-                address: {
-                  "@type": "PostalAddress",
-                  streetAddress: "4671 Sugar Camp Road",
-                  addressLocality: "Metro Detroit",
-                  addressRegion: "MI",
-                  postalCode: "55060",
-                  addressCountry: "US",
-                },
-                contactPoint: {
-                  "@type": "ContactPoint",
-                  telephone: "+1-248-346-8926",
-                  contactType: "Customer Service",
-                  email: "info@stoneworksremodeling.com",
-                },
-                sameAs: [
-                  "https://www.facebook.com/stoneworkremodeling",
-                  "https://www.instagram.com/stoneworkremodeling",
-                  "https://www.linkedin.com/company/stoneworkremodeling"
-                ]
-              },
-              {
-                "@type": "WebPage",
-                "@id": "https://www.stoneworksremodeling.com/about#webpage",
-                name: "About Stone Works Remodeling",
-                url: "https://www.stoneworksremodeling.com/about",
-                description:
-                  "Learn about Stone Works Remodeling’s mission, expert team, and commitment to luxury bathroom remodeling in Metro Detroit, MI.",
-                isPartOf: {
-                  "@type": "WebSite",
-                  name: "Stone Works Remodeling",
-                  url: "https://www.stoneworksremodeling.com"
-                }
-              },
-              {
-                "@type": "BreadcrumbList",
-                itemListElement: [
-                  {
-                    "@type": "ListItem",
-                    position: 1,
-                    name: "Home",
-                    item: "https://www.stoneworksremodeling.com"
-                  },
-                  {
-                    "@type": "ListItem",
-                    position: 2,
-                    name: "About",
-                    item: "https://www.stoneworksremodeling.com/about"
-                  }
-                ]
-              }
-            ]
-          }),
-        }}
-      />
-
-    </>
-  );
-}
 
 export default function AboutPage() {
   // Team data
@@ -487,7 +370,6 @@ export default function AboutPage() {
         }
       `}</style>
 
-      <SEOMetadata />
 
       {/* Hero Section */}
       <section className="py-16 sm:py-24 bg-white">
