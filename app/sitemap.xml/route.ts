@@ -6,12 +6,12 @@ export async function GET() {
   // All static marketing pages
   const staticUrls = [
     "/",
-    "/about",
-    "/services",
-    "/contact",
-    "/gallery",
-    "/testimonials",
-    "/blog",
+    "/about/",
+    "/services/",
+    "/contact/",
+    "/gallery/",
+    "/testimonials/",
+    "/blog/",
   ];
 
   // All city landing pages (same list you used for dynamic routing)
