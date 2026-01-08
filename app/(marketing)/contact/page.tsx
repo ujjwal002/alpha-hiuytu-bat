@@ -5,7 +5,6 @@ import { FaBath, FaPalette, FaCalendarAlt, FaHome } from "react-icons/fa";
 import { Formik, Form, Field, ErrorMessage, FieldArray, FormikHelpers } from "formik";
 import * as Yup from "yup";
 import { motion } from "framer-motion";
-import Head from "next/head";
 import { event } from '../../lib/gtag';
 
 
@@ -150,32 +149,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-gray-800 py-12 px-4 sm:px-6 lg:px-8 font-sans">
       {/* SEO Meta Tags */}
-      <Head>
-        <title>Contact Stone Works Remodeling | Free Bathroom Remodeling Quote in Metro Detroit, MI</title>
-        <meta
-          name="description"
-          content="Get a free consultation for stone bathroom remodeling in Metro Detroit, MI. Contact Stone Works Remodeling at (248) 346-8926 or submit our detailed form."
-        />
-        <meta
-          name="keywords"
-          content="stone bathroom remodeling Metro Detroit, bathroom renovation quote, Stone Works Remodeling contact, Metro Detroit MN bathroom remodel"
-        />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Contact Stone Works Remodeling for Bathroom Remodeling in Metro Detroit, MI" />
-        <meta
-          property="og:description"
-          content="Request a free quote for luxurious stone bathroom remodeling in Metro Detroit, MI. Call (248) 346-8926 or fill out our contact form."
-        />
-        <meta property="og:url" content="https://www.stoneworksremodeling.com/contact" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:image"
-          content="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp"
-        />
-        <link rel="canonical" href="https://www.stoneworksremodeling.com/contact" />
-        <link rel="alternate" hrefLang="en-us" href="https://www.stoneworksremodeling.com/" />
-
-      </Head>
+     
 
       {/* Structured Data */}
       <script
@@ -194,8 +168,8 @@ export default function ContactPage() {
                 "@type": "PostalAddress",
                 "streetAddress": "4671 Sugar Camp Road",
                 "addressLocality": "Metro Detroit",
-                "addressRegion": "MN",
-                "postalCode": "55060",
+                "addressRegion": "MI",
+                "postalCode": "48150",
                 "addressCountry": "US",
               },
               "openingHours": ["Mo-Fr 08:00-18:00", "Sa 09:00-14:00"],
@@ -204,7 +178,7 @@ export default function ContactPage() {
               "@context": "https://schema.org",
               "@type": "WebPage",
               "name": "Contact Stone Works Remodeling",
-              "url": "https://www.stoneworksremodeling.com/contact",
+              "url": "https://www.stoneworksremodeling.com/contact/",
               "description": "Contact Stone Works Remodeling for a free bathroom remodeling quote in Metro Detroit, MI.",
             },
           ]),
