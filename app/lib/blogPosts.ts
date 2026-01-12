@@ -2139,7 +2139,7 @@ export const blogPosts: BlogPost[] = [
 `
 },
 {
-  "id": 40,
+  "id": 41,
   "title": "Bathroom Remodel Permit Cost in Michigan (2026 Guide)",
   "meta_title": "Bathroom Remodel Permit Cost Michigan (2026) | What Homeowners Should Know",
   "meta_description": "Do you need a permit for a bathroom remodel in Michigan? Learn permit costs, requirements, and city differences in this 2026 homeowner guide.",
