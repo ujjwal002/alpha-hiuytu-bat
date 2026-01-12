@@ -40,21 +40,23 @@ export async function GET() {
     "healthy-home-materials",
     "small-bathroom-remodel-ideas-lansing-mi",
     "bathroom-remodel-cost-detroit-mi",
+    "bathroom-remodel-contractors-near-me-grand-rapids-mi",
+    "bathroom-remodel-permit-cost-michigan",
   ];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${blogs
-  .map(
-    (slug) => `
+      .map(
+        (slug) => `
   <url>
     <loc>${baseUrl}/blog/${slug}/</loc>
     <lastmod>${new Date().toISOString()}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>`
-  )
-  .join("")}
+      )
+      .join("")}
 </urlset>`;
 
   return new NextResponse(sitemap, {
