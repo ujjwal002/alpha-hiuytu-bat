@@ -2069,7 +2069,151 @@ export const blogPosts: BlogPost[] = [
 
 </div>
 `
+},
+{
+  "id": 43,
+  "title": "Bathroom Remodel Contractors Near Me in Grand Rapids, MI (2026 Guide)",
+  "meta_title": "Bathroom Remodel Contractors Near Me Grand Rapids MI (2026)",
+  "meta_description": "Looking for trusted bathroom remodel contractors near you in Grand Rapids, MI? Learn how to choose the best remodelers, costs, and what to expect in 2026.",
+  "excerpt": "A complete 2026 guide to finding the best bathroom remodel contractors near you in Grand Rapids, MI.",
+  "category": "remodeling-tips",
+  "date": "2026-01-02",
+  "author": "Emily Davis",
+  "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/grand-rapids.jpeg",
+  "slug": "bathroom-remodel-contractors-near-me-grand-rapids-mi",
+  "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      Searching for bathroom remodel contractors near you in Grand Rapids, MI? In 2026, homeowners
+      are prioritizing licensed professionals who deliver quality, transparency, and long-lasting results.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    How to Choose the Best Bathroom Remodelers in Grand Rapids
+  </h2>
+
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li>Licensed and insured Michigan contractors</li>
+    <li>Strong Google reviews and local references</li>
+    <li>Clear written estimates and timelines</li>
+    <li>Experience with Grand Rapids homes</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    Bathroom Remodel Cost in Grand Rapids, MI
+  </h2>
+
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li><strong>Small remodel:</strong> $8,000 – $14,000</li>
+    <li><strong>Mid-range remodel:</strong> $14,000 – $28,000</li>
+    <li><strong>Master bathroom:</strong> $30,000+</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    Popular Bathroom Upgrades in 2026
+  </h2>
+
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li>Walk-in showers with glass enclosures</li>
+    <li>Heated floors</li>
+    <li>Water-saving fixtures</li>
+    <li>Modern vanities with storage</li>
+  </ul>
+
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">
+      Need a Bathroom Remodel in Grand Rapids?
+    </h3>
+    <p style="margin-bottom:16px;">
+      Get expert craftsmanship and transparent pricing from trusted local remodelers.
+    </p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
+      Get a Free Estimate
+    </a>
+  </div>
+
+</div>
+`
+},
+{
+  "id": 44,
+  "title": "Bathroom Remodel Permit Cost in Michigan (2026 Guide)",
+  "meta_title": "Bathroom Remodel Permit Cost Michigan (2026) | What Homeowners Should Know",
+  "meta_description": "Do you need a permit for a bathroom remodel in Michigan? Learn permit costs, requirements, and city differences in this 2026 homeowner guide.",
+  "excerpt": "A 2026 homeowner guide to bathroom remodel permit costs and requirements across Michigan.",
+  "category": "remodeling-tips",
+  "date": "2026-01-02",
+  "author": "Emily Davis",
+  "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/permit.jpeg",
+  "slug": "bathroom-remodel-permit-cost-michigan",
+  "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      Many homeowners ask whether a bathroom remodel requires a permit in Michigan.
+      In 2026, permits are mandatory for most plumbing, electrical, and structural changes.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    Do You Need a Permit for a Bathroom Remodel in Michigan?
+  </h2>
+
+  <p>
+    Yes. Most Michigan cities require permits for bathroom remodels involving plumbing,
+    electrical work, or layout changes.
+  </p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    Average Bathroom Remodel Permit Cost in Michigan
+  </h2>
+
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li>Plumbing permit: $50 – $300</li>
+    <li>Electrical permit: $75 – $250</li>
+    <li>Total permit costs: $150 – $600</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    Permit Costs by City
+  </h2>
+
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li>Detroit: $200 – $600</li>
+    <li>Grand Rapids: $150 – $450</li>
+    <li>Lansing: $120 – $400</li>
+    <li>Ann Arbor: $250 – $700</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">
+    Why Hiring a Licensed Contractor Matters
+  </h2>
+
+  <p>
+    Licensed contractors handle permits, inspections, and code compliance,
+    helping homeowners avoid fines, delays, and resale issues.
+  </p>
+
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">
+      Planning a Bathroom Remodel in Michigan?
+    </h3>
+    <p style="margin-bottom:16px;">
+      Work with professionals who handle permits and inspections for you.
+    </p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
+      Request a Free Consultation
+    </a>
+  </div>
+
+</div>
+`
 }
+
 
 
 
