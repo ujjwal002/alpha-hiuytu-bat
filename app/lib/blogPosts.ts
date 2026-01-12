@@ -2071,7 +2071,7 @@ export const blogPosts: BlogPost[] = [
 `
 },
 {
-  "id": 43,
+  "id": 40,
   "title": "Bathroom Remodel Contractors Near Me in Grand Rapids, MI (2026 Guide)",
   "meta_title": "Bathroom Remodel Contractors Near Me Grand Rapids MI (2026)",
   "meta_description": "Looking for trusted bathroom remodel contractors near you in Grand Rapids, MI? Learn how to choose the best remodelers, costs, and what to expect in 2026.",
@@ -2079,7 +2079,7 @@ export const blogPosts: BlogPost[] = [
   "category": "remodeling-tips",
   "date": "2026-01-02",
   "author": "Emily Davis",
-  "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/grand-rapids.jpeg",
+  "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic1.jpeg",
   "slug": "bathroom-remodel-contractors-near-me-grand-rapids-mi",
   "content": `
 <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
@@ -2139,7 +2139,7 @@ export const blogPosts: BlogPost[] = [
 `
 },
 {
-  "id": 44,
+  "id": 40,
   "title": "Bathroom Remodel Permit Cost in Michigan (2026 Guide)",
   "meta_title": "Bathroom Remodel Permit Cost Michigan (2026) | What Homeowners Should Know",
   "meta_description": "Do you need a permit for a bathroom remodel in Michigan? Learn permit costs, requirements, and city differences in this 2026 homeowner guide.",
@@ -2147,7 +2147,7 @@ export const blogPosts: BlogPost[] = [
   "category": "remodeling-tips",
   "date": "2026-01-02",
   "author": "Emily Davis",
-  "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/permit.jpeg",
+  "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg",
   "slug": "bathroom-remodel-permit-cost-michigan",
   "content": `
 <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
