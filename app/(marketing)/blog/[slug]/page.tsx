@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import { blogPosts, categories } from "@/lib/blogPosts";
 import { ArrowRight, Clock, User } from "lucide-react";
 import sanitizeHtml from "sanitize-html";
+import RelatedService from "@/components/RelatedService";
 
 // Define the params type for the dynamic route
 type BlogParams = {
@@ -134,6 +135,15 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 ← Back to Blog
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+        {/* ================= RELATED SERVICE (AUTO GEO LINK) ================= */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <RelatedService />
           </div>
         </div>
       </section>

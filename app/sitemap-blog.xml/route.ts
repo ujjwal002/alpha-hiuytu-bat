@@ -41,7 +41,10 @@ export async function GET() {
     "small-bathroom-remodel-ideas-lansing-mi",
     "bathroom-remodel-cost-detroit-mi",
     "bathroom-remodel-contractors-near-me-grand-rapids-mi",
+     // ✅ NEW AUTHORITY BLOGS (2026 GEO)
     "bathroom-remodel-permit-cost-michigan",
+    "bathroom-remodeling-cost-michigan",
+    "marble-vs-tile-bathroom-michigan",
   ];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
