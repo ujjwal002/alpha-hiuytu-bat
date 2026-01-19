@@ -110,6 +110,12 @@ export default function ContactPage() {
           send_to: "AW-16672718243/imcOCNPL6aEbEKP7lY4-",
           value: 1.0,
           currency: "USD",
+
+          // ✅ Enhanced Conversions user data
+          user_data: {
+            email: values.email,          // raw email (Google hashes automatically)
+            phone_number: values.phone,   // raw phone
+          },
         });
         console.log("✅ Google Ads conversion fired");
       }
@@ -149,7 +155,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-gray-800 py-12 px-4 sm:px-6 lg:px-8 font-sans">
       {/* SEO Meta Tags */}
-     
+
 
       {/* Structured Data */}
       <script
