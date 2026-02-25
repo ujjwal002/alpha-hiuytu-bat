@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     template: "%s | Stone Works Remodeling",
   },
   description:
-    "Licensed bathroom remodeling experts serving Metro Detroit, MI. Full renovations, tub-to-shower conversions & walk-in tubs.",
+    "Bathroom remodeling experts serving Metro Detroit, MI. Full renovations, tub-to-shower conversions & walk-in tubs.",
   alternates: {
     canonical: "/",
   },

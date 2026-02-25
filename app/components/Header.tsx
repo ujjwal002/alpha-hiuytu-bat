@@ -149,9 +149,9 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center group" aria-label="Stone Works Remodeling Home">
             <div className="flex items-center gap-3 sm:gap-4 group hover:scale-105 transition-transform duration-300">
-              <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full overflow-hidden shadow-md border border-gray-200">
+              <div className="w-12 h-12 sm:w-16 sm:h-16  overflow-hidden shadow-md border border-gray-200">
                 <Image
-                  src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/stone.webp"
+                  src="/instagram/logo.jpeg"
                   alt="Stone Works Remodeling logo for premium stone bathroom remodeling in Metro Detroit, MI"
                   className="w-full h-full object-cover"
                   width={64}

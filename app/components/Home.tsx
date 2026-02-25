@@ -103,21 +103,21 @@ const customerImages = [
 
 const recentProjects = [
   {
-    src: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/webp/NctOfmDbqGoQGM2Qm9a8C.webp",
+    src: "/bathroom/bath1.jpeg",
     alt: "Luxury bathroom remodeling project in Livonia Metro Detroit - full bathroom renovation",
     title: "Complete Bathroom Renovation - Livonia",
     width: 500,
     height: 300
   },
   {
-    src: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/webp/i5a_set3C7bnEDegPuZld.webp",
+    src: "/bathroom/bath2.jpeg",
     alt: "Modern walk-in shower conversion in Rochester Metro Detroit - tub to shower conversion",
     title: "Walk-in Shower Conversion - Rochester",
     width: 500,
     height: 300
   },
   {
-    src: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/webp/krY1iLp90R9l3kcrrUhu-.webp",
+    src: "/bathroom/bath3.jpeg",
     alt: "Accessible walk-in tub installation in Troy Metro Detroit - walk-in tub installation",
     title: "Walk-in Tub Installation - Troy",
     width: 500,
@@ -199,15 +199,15 @@ const services = [
 const processSteps = [
   { step: 1, title: "Free In-Home Consultation", desc: "We measure, discuss your vision, and provide a transparent estimate including a bathroom remodel cost breakdown." },
   { step: 2, title: "Custom Design & Quote", desc: "3D design options, material selection, and transparent pricing. Modern small bathroom remodel ideas included." },
-  { step: 3, title: "Professional Installation", desc: "Licensed Michigan contractors complete your bathroom remodel efficiently — tub to shower conversions, tile, plumbing, and finish work." },
+  { step: 3, title: "Professional Installation", desc: "Insured Michigan contractors complete your bathroom remodel efficiently — tub to shower conversions, tile, plumbing, and finish work." },
   { step: 4, title: "Final Inspection & Warranty", desc: "Final walkthrough, permit compliance, and a 5-year workmanship warranty for peace of mind." },
 ];
 
 const whyChooseFeatures = [
   {
     icon: Shield,
-    title: "Licensed & Insured in Michigan",
-    desc: "Fully licensed contractors and comprehensive insurance coverage for your peace of mind."
+    title: "Insured in Michigan",
+    desc: "Comprehensive insurance coverage for your peace of mind."
   },
   {
     icon: Award,
@@ -329,7 +329,7 @@ export default function HomePage() {
                   </h1>
 
                   <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 text-blue-100 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                    Upgrade your bathroom with a team that cares. Stone Works Remodeling provides full bathroom renovations, small bathroom remodels, tub-to-shower conversions, walk-in tub installations, and eco-friendly bathroom renovation options across Wayne, Oakland, and Macomb Counties. Licensed, insured, and backed by a 5-year workmanship warranty — see why homeowners rate us 5-stars. Our services include complete bathroom remodeling, tub replacement, and accessible designs for modern living in Metro Detroit.
+                    Upgrade your bathroom with a team that cares. Stone Works Remodeling provides full bathroom renovations, small bathroom remodels, tub-to-shower conversions, walk-in tub installations, and eco-friendly bathroom renovation options across Wayne, Oakland, and Macomb Counties. Insured, and backed by a 5-year workmanship warranty — see why homeowners rate us 5-stars. Our services include complete bathroom remodeling, tub replacement, and accessible designs for modern living in Metro Detroit.
                   </p>
 
                   <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-12 justify-center lg:justify-start">
@@ -483,7 +483,7 @@ export default function HomePage() {
                   Bathroom Remodeling Services in Metro Detroit
                 </h2>
                 <p className="text-lg sm:text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
-                  Full-service bathroom renovations, tub-to-shower conversions, walk-in tub installations, small bathroom remodels, and luxury bathroom redesigns — licensed Michigan contractors serving Detroit, Livonia, Troy, Rochester and surrounding areas.
+                  Full-service bathroom renovations, tub-to-shower conversions, walk-in tub installations, small bathroom remodels, and luxury bathroom redesigns —  Michigan contractors serving Detroit, Livonia, Troy, Rochester and surrounding areas.
                 </p>
               </motion.div>
 
@@ -529,7 +529,7 @@ export default function HomePage() {
                         <ul className="space-y-2 sm:space-y-3 mb-4 sm:mb-6">
                           {[
                             "Free in-home consultation",
-                            "Licensed MI contractors",
+                            "MI contractors",
                             "5-year workmanship warranty",
                           ].map((item, i) => (
                             <li key={i} className="flex items-center text-slate-700 group-hover:text-blue-600 transition-colors text-sm">
@@ -572,7 +572,7 @@ export default function HomePage() {
                   Our Simple 4-Step Bathroom Remodeling Process
                 </h2>
                 <p className="text-lg sm:text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
-                  From consultation to completion: transparent timelines, licensed trades, and eco-friendly options for homeowners in Metro Detroit.
+                  From consultation to completion: transparent timelines, trades, and eco-friendly options for homeowners in Metro Detroit.
                 </p>
               </motion.div>
 
@@ -835,7 +835,7 @@ export default function HomePage() {
               <motion.div className="text-center mb-12 sm:mb-16" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}>
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-gray-900 mb-4 sm:mb-6">Why Choose Stone Works Remodeling?</h2>
                 <p className="text-lg sm:text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
-                  Metro Detroit&apos;s trusted bathroom remodeling contractor — licensed, insured, experienced, and focused on beautiful, durable results.
+                  Metro Detroit&apos;s trusted bathroom remodeling contractor — insured, experienced, and focused on beautiful, durable results.
                 </p>
               </motion.div>
 

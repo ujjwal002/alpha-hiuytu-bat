@@ -6,7 +6,7 @@ import HomeClient from "./components/HomeClient";
 export const metadata: Metadata = {
   title: "Bathroom Remodeling Metro Detroit MI",
   description:
-    "Bathroom remodeling experts in Metro Detroit. Full renovations, tub-to-shower conversions & walk-in tubs. Free in-home quotes from licensed MI contractors.",
+    "Bathroom remodeling experts in Metro Detroit. Full renovations, tub-to-shower conversions & walk-in tubs. Free in-home quotes from MI contractors.",
   alternates: {
     canonical: "https://www.stoneworksremodeling.com/",
   },

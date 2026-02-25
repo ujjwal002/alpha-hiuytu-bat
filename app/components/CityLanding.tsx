@@ -62,7 +62,7 @@ export default function CityLanding({ city, state = "MI", phone = DEFAULT_PHONE,
   ].join(", ");
 
   const pageTitle = `Bathroom Remodeling ${city}, ${state} | Stone Works Remodeling`;
-  const pageDescription = `${city} bathroom remodeling — full bathroom renovations, tub-to-shower conversions, walk-in tubs, and small bathroom remodels. Licensed & insured ${city} contractors. Call ${phone} for a free in-home quote.`;
+  const pageDescription = `${city} bathroom remodeling — full bathroom renovations, tub-to-shower conversions, walk-in tubs, and small bathroom remodels. insured ${city} contractors. Call ${phone} for a free in-home quote.`;
 
   // FAQ vary slightly per city
   const faqs = [
@@ -111,7 +111,7 @@ export default function CityLanding({ city, state = "MI", phone = DEFAULT_PHONE,
           </h1>
 
           <p className="max-w-2xl mx-auto text-blue-100 text-lg leading-relaxed mb-8">
-            Stone Works Remodeling delivers expert bathroom renovations across {city} — including full remodels, tub-to-shower conversions, walk-in tubs, and affordable small bathroom updates. Licensed, insured, and trusted by {city} homeowners.
+            Stone Works Remodeling delivers expert bathroom renovations across {city} — including full remodels, tub-to-shower conversions, walk-in tubs, and affordable small bathroom updates. insured, and trusted by {city} homeowners.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -179,7 +179,7 @@ export default function CityLanding({ city, state = "MI", phone = DEFAULT_PHONE,
 
         <div className="max-w-3xl mx-auto space-y-6 text-slate-800">
           {[
-            "Licensed & insured Michigan contractors for local projects.",
+            "Insured Michigan contractors for local projects.",
             "Fast installation — most remodels completed in 5–10 business days.",
             "Upfront, transparent pricing with detailed cost breakdown.",
             "5-year workmanship warranty on all remodels.",
@@ -224,7 +224,7 @@ export default function CityLanding({ city, state = "MI", phone = DEFAULT_PHONE,
       <section id="contact" className="py-16 bg-gradient-to-r from-blue-50 to-slate-50 text-center px-6">
         <h2 className="text-3xl font-black mb-4">Ready to Remodel Your Bathroom in {city}?</h2>
         <p className="text-slate-700 max-w-2xl mx-auto mb-6">
-          Get a free in-home quote from a licensed local contractor. Transparent pricing, fast installs, and a trusted team serving {city}.
+          Get a free in-home quote from a local contractor. Transparent pricing, fast installs, and a trusted team serving {city}.
         </p>
 
         <a
@@ -240,7 +240,7 @@ export default function CityLanding({ city, state = "MI", phone = DEFAULT_PHONE,
       <footer className="py-8 text-center text-slate-600 border-t">
         © {new Date().getFullYear()} Stone Works Remodeling — {city}, {state}  
         <br />
-        Licensed • Insured • Trusted Bathroom Contractors
+        Insured • Trusted Bathroom Contractors
       </footer>
     </div>
   );
