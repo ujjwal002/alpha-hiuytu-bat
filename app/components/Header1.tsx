@@ -57,7 +57,7 @@ export default function Header() {
                   "@type": "ContactPoint",
                   "telephone": "+12483468926",
                   "contactType": "Customer Service",
-                  "email": "stoneworksremodeling8@gmail.com",
+                  "email": "val@stoneworksremodeling.com",
                   "areaServed": "US",
                   "availableLanguage": "English",
                 },
@@ -120,10 +120,10 @@ export default function Header() {
             <div className="hidden md:flex items-center space-x-2 group">
               <Mail className="h-4 w-4 text-blue-400 group-hover:text-blue-300 transition-colors" />
               <a
-                href="mailto:stoneworksremodeling8@gmail.com"
+                href="mailto:val@stoneworksremodeling.com"
                 className="text-sm font-medium text-gray-200 group-hover:text-white transition-colors"
               >
-                stoneworksremodeling8@gmail.com
+                val@stoneworksremodeling.com
               </a>
             </div>
           </div>
@@ -510,10 +510,10 @@ export default function Header() {
           <div className="flex items-center space-x-2 py-2">
             <Mail className="h-4 w-4 text-blue-600" />
             <a
-              href="mailto:stoneworksremodeling8@gmail.com"
+              href="mailto:val@stoneworksremodeling.com"
               className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors"
             >
-              stoneworksremodeling8@gmail.com
+              val@stoneworksremodeling.com
             </a>
           </div>
           <div className="flex items-center space-x-2 py-2">

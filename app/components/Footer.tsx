@@ -196,10 +196,10 @@ const Footer = () => {
               <li className="flex items-center">
                 <MessageCircle className="h-5 w-5 mr-2 text-gray-500" aria-hidden="true" />
                 <a
-                  href="mailto:stoneworksremodeling8@gmail.com"
+                  href="mailto:val@stoneworksremodeling.com"
                   className="hover:text-blue-600"
                 >
-                  stoneworksremodeling8@gmail.com
+                  val@stoneworksremodeling.com
                 </a>
               </li>
               <li className="flex items-start">

@@ -169,7 +169,7 @@ export default function ContactPage() {
               "url": "https://www.stoneworksremodeling.com",
               "logo": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp",
               "telephone": "+12483468926",
-              "email": "stoneworksremodeling8@gmail.com",
+              "email": "val@stoneworksremodeling.com",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "4671 Sugar Camp Road",
@@ -878,10 +878,10 @@ export default function ContactPage() {
                     </a>
                     <p className="mt-1 text-gray-600">
                       <a
-                        href="mailto:stoneworksremodeling8@gmail.com"
+                        href="mailto:val@stoneworksremodeling.com"
                         className="text-blue-600 hover:text-blue-500"
                       >
-                        stoneworksremodeling8@gmail.com
+                        val@stoneworksremodeling.com
                       </a>
                     </p>
                   </div>
