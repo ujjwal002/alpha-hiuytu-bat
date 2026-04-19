@@ -871,6 +871,13 @@ export default function ContactPage() {
                     <h3 className="text-lg font-medium text-gray-900">Phone</h3>
                     <a
                       href="tel:+12483468926"
+                      onClick={() =>
+                        event({
+                          action: 'phone_click',
+                          category: 'engagement',
+                          label: '+12483468926',
+                        })
+                      }
                       className="mt-1 text-blue-600 hover:text-blue-500"
                       aria-label="Call Stone Works Remodeling at (248) 346-8926"
                     >

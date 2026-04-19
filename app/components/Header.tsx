@@ -45,9 +45,8 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
-        isScrolled ? "bg-white/98 backdrop-blur-sm shadow-lg" : "bg-white/95"
-      }`}
+      className={`sticky top-0 z-50 w-full transition-all duration-300 ${isScrolled ? "bg-white/98 backdrop-blur-sm shadow-lg" : "bg-white/95"
+        }`}
     >
       {/* Structured Data */}
       <script
@@ -176,11 +175,10 @@ export default function Header() {
           <div className="hidden lg:flex items-center space-x-1">
             <Link
               href="/"
-              className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${
-                isActive("/")
+              className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${isActive("/")
                   ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 hover:bg-blue-50"
                   : "hover:text-blue-600 after:bg-blue-600 hover:bg-gray-50"
-              }`}
+                }`}
             >
               Home
             </Link>
@@ -188,11 +186,10 @@ export default function Header() {
             {/* Services Dropdown */}
             <div className="relative group">
               <button
-                className={`flex items-center px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 group-hover:after:w-full after:transition-all after:duration-300 ${
-                  isActive("/services")
+                className={`flex items-center px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 group-hover:after:w-full after:transition-all after:duration-300 ${isActive("/services")
                     ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 group-hover:bg-blue-50"
                     : "group-hover:text-blue-600 after:bg-blue-600 group-hover:bg-gray-50"
-                }`}
+                  }`}
                 onClick={() => setServicesDropdownOpen(!servicesDropdownOpen)}
                 aria-expanded={servicesDropdownOpen}
                 aria-controls="services-dropdown"
@@ -219,7 +216,7 @@ export default function Header() {
                     </div>
                     <div>
                       <h4 className="font-medium text-sm sm:text-base text-gray-900 group-hover/item:text-blue-600 transition-colors">
-                         Bathroom Remodeling
+                        Bathroom Remodeling
                       </h4>
                       <p className="text-xs sm:text-sm text-gray-500 mt-1">Complete  bathroom renovations</p>
                     </div>
@@ -291,41 +288,37 @@ export default function Header() {
 
             <Link
               href="/gallery"
-              className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${
-                isActive("/gallery")
+              className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${isActive("/gallery")
                   ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 hover:bg-blue-50"
                   : "hover:text-blue-600 after:bg-blue-600 hover:bg-gray-50"
-              }`}
+                }`}
             >
               Gallery
             </Link>
             <Link
               href="/about"
-              className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${
-                isActive("/about")
+              className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${isActive("/about")
                   ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 hover:bg-blue-50"
                   : "hover:text-blue-600 after:bg-blue-600 hover:bg-gray-50"
-              }`}
+                }`}
             >
               About Us
             </Link>
             <Link
               href="/blog"
-              className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${
-                isActive("/blog")
+              className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${isActive("/blog")
                   ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 hover:bg-blue-50"
                   : "hover:text-blue-600 after:bg-blue-600 hover:bg-gray-50"
-              }`}
+                }`}
             >
               Blog
             </Link>
             <Link
               href="/contact"
-              className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${
-                isActive("/contact")
+              className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${isActive("/contact")
                   ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 hover:bg-blue-50"
                   : "hover:text-blue-600 after:bg-blue-600 hover:bg-gray-50"
-              }`}
+                }`}
             >
               Contact
             </Link>
@@ -355,15 +348,13 @@ export default function Header() {
       {/* Mobile Menu */}
       <div
         id="mobile-menu"
-        className={`lg:hidden bg-white py-4 px-4 sm:px-6 shadow-lg transform transition-all duration-300 ease-in-out ${
-          mobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"
-        } ${mobileMenuOpen ? "block" : "hidden"}`}
+        className={`lg:hidden bg-white py-4 px-4 sm:px-6 shadow-lg transform transition-all duration-300 ease-in-out ${mobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"
+          } ${mobileMenuOpen ? "block" : "hidden"}`}
       >
         <Link
           href="/"
-          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${
-            isActive("/") ? "text-blue-600" : ""
-          }`}
+          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/") ? "text-blue-600" : ""
+            }`}
           onClick={() => setMobileMenuOpen(false)}
         >
           Home
@@ -373,9 +364,8 @@ export default function Header() {
         <div>
           <button
             onClick={() => setServicesDropdownOpen(!servicesDropdownOpen)}
-            className={`flex items-center justify-between w-full py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${
-              isActive("/services") ? "text-blue-600" : ""
-            }`}
+            className={`flex items-center justify-between w-full py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/services") ? "text-blue-600" : ""
+              }`}
             aria-expanded={servicesDropdownOpen}
             aria-controls="mobile-services-dropdown"
           >
@@ -386,15 +376,13 @@ export default function Header() {
           </button>
           <div
             id="mobile-services-dropdown"
-            className={`py-2 bg-gray-50 rounded-md mb-2 overflow-hidden transition-all duration-300 ${
-              servicesDropdownOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-            }`}
+            className={`py-2 bg-gray-50 rounded-md mb-2 overflow-hidden transition-all duration-300 ${servicesDropdownOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+              }`}
           >
             <Link
               href="/services/bathroom-remodeling"
-              className={`flex items-center px-4 py-2 text-sm hover:bg-blue-50 transition-all ${
-                pathname === "/services/bathroom-remodeling" ? "text-blue-600 font-medium" : "text-gray-700 hover:text-blue-600"
-              }`}
+              className={`flex items-center px-4 py-2 text-sm hover:bg-blue-50 transition-all ${pathname === "/services/bathroom-remodeling" ? "text-blue-600 font-medium" : "text-gray-700 hover:text-blue-600"
+                }`}
               onClick={() => setMobileMenuOpen(false)}
             >
               <div className="p-1 rounded-full bg-blue-100 mr-3">
@@ -404,9 +392,8 @@ export default function Header() {
             </Link>
             <Link
               href="/services/shower-conversions"
-              className={`flex items-center px-4 py-2 text-sm hover:bg-blue-50 transition-all ${
-                pathname === "/services/shower-conversions" ? "text-blue-600 font-medium" : "text-gray-700 hover:text-blue-600"
-              }`}
+              className={`flex items-center px-4 py-2 text-sm hover:bg-blue-50 transition-all ${pathname === "/services/shower-conversions" ? "text-blue-600 font-medium" : "text-gray-700 hover:text-blue-600"
+                }`}
               onClick={() => setMobileMenuOpen(false)}
             >
               <div className="p-1 rounded-full bg-blue-100 mr-3">
@@ -416,9 +403,8 @@ export default function Header() {
             </Link>
             <Link
               href="/services/walk-in-tubs"
-              className={`flex items-center px-4 py-2 text-sm hover:bg-blue-50 transition-all ${
-                pathname === "/services/walk-in-tubs" ? "text-blue-600 font-medium" : "text-gray-700 hover:text-blue-600"
-              }`}
+              className={`flex items-center px-4 py-2 text-sm hover:bg-blue-50 transition-all ${pathname === "/services/walk-in-tubs" ? "text-blue-600 font-medium" : "text-gray-700 hover:text-blue-600"
+                }`}
               onClick={() => setMobileMenuOpen(false)}
             >
               <div className="p-1 rounded-full bg-blue-100 mr-3">
@@ -428,9 +414,8 @@ export default function Header() {
             </Link>
             <Link
               href="/services/custom-works"
-              className={`flex items-center px-4 py-2 text-sm hover:bg-blue-50 transition-all ${
-                pathname === "/services/custom-works" ? "text-blue-600 font-medium" : "text-gray-700 hover:text-blue-600"
-              }`}
+              className={`flex items-center px-4 py-2 text-sm hover:bg-blue-50 transition-all ${pathname === "/services/custom-works" ? "text-blue-600 font-medium" : "text-gray-700 hover:text-blue-600"
+                }`}
               onClick={() => setMobileMenuOpen(false)}
             >
               <div className="p-1 rounded-full bg-blue-100 mr-3">
@@ -459,36 +444,32 @@ export default function Header() {
 
         <Link
           href="/gallery"
-          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${
-            isActive("/gallery") ? "text-blue-600" : ""
-          }`}
+          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/gallery") ? "text-blue-600" : ""
+            }`}
           onClick={() => setMobileMenuOpen(false)}
         >
           Gallery
         </Link>
         <Link
           href="/about"
-          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${
-            isActive("/about") ? "text-blue-600" : ""
-          }`}
+          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/about") ? "text-blue-600" : ""
+            }`}
           onClick={() => setMobileMenuOpen(false)}
         >
           About Us
         </Link>
         <Link
           href="/blog"
-          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${
-            isActive("/blog") ? "text-blue-600" : ""
-          }`}
+          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/blog") ? "text-blue-600" : ""
+            }`}
           onClick={() => setMobileMenuOpen(false)}
         >
           Blog
         </Link>
         <Link
           href="/contact"
-          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${
-            isActive("/contact") ? "text-blue-600" : ""
-          }`}
+          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/contact") ? "text-blue-600" : ""
+            }`}
           onClick={() => setMobileMenuOpen(false)}
         >
           Contact
@@ -511,6 +492,13 @@ export default function Header() {
             <Phone className="h-4 w-4 text-blue-600" />
             <a
               href="tel:+12483468926"
+              onClick={() =>
+                event({
+                  action: 'phone_click',
+                  category: 'engagement',
+                  label: '+12483468926',
+                })
+              }
               className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors"
             >
               (248) 346-8926
