@@ -2214,17 +2214,17 @@ export const blogPosts: BlogPost[] = [
 `
   },
   {
-  "id": 42,
-  "title": "Bathroom Remodeling Cost in Michigan (2026 Guide)",
-  "meta_title": "Bathroom Remodeling Cost in Michigan (2026) | Average Prices & Factors",
-  "meta_description": "How much does bathroom remodeling cost in Michigan in 2026? Learn average prices, cost factors, and what affects your final budget.",
-  "excerpt": "A complete 2026 guide to average bathroom remodeling costs across Michigan.",
-  "category": "remodeling-tips",
-  "date": "2026-01-05",
-  "author": "Emily Davis",
-  "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg",
-  "slug": "bathroom-remodeling-cost-michigan",
-  "content": `
+    "id": 42,
+    "title": "Bathroom Remodeling Cost in Michigan (2026 Guide)",
+    "meta_title": "Bathroom Remodeling Cost in Michigan (2026) | Average Prices & Factors",
+    "meta_description": "How much does bathroom remodeling cost in Michigan in 2026? Learn average prices, cost factors, and what affects your final budget.",
+    "excerpt": "A complete 2026 guide to average bathroom remodeling costs across Michigan.",
+    "category": "remodeling-tips",
+    "date": "2026-01-05",
+    "author": "Emily Davis",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg",
+    "slug": "bathroom-remodeling-cost-michigan",
+    "content": `
 <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
 
   <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
@@ -2278,19 +2278,19 @@ export const blogPosts: BlogPost[] = [
 
 </div>
 `
-},
-{
-  "id": 43,
-  "title": "Marble vs Tile Bathroom: What Works Best for Michigan Homes?",
-  "meta_title": "Marble vs Tile Bathroom (Michigan Guide 2026) | Pros & Cons",
-  "meta_description": "Marble or tile bathroom? Compare durability, cost, and maintenance for Michigan homes in this 2026 guide.",
-  "excerpt": "A homeowner-friendly comparison of marble and tile bathrooms for Michigan climates.",
-  "category": "design-guides",
-  "date": "2026-01-08",
-  "author": "Emily Davis",
-  "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg",
-  "slug": "marble-vs-tile-bathroom-michigan",
-  "content": `
+  },
+  {
+    "id": 43,
+    "title": "Marble vs Tile Bathroom: What Works Best for Michigan Homes?",
+    "meta_title": "Marble vs Tile Bathroom (Michigan Guide 2026) | Pros & Cons",
+    "meta_description": "Marble or tile bathroom? Compare durability, cost, and maintenance for Michigan homes in this 2026 guide.",
+    "excerpt": "A homeowner-friendly comparison of marble and tile bathrooms for Michigan climates.",
+    "category": "design-guides",
+    "date": "2026-01-08",
+    "author": "Emily Davis",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg",
+    "slug": "marble-vs-tile-bathroom-michigan",
+    "content": `
 <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
 
   <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
@@ -2344,7 +2344,374 @@ export const blogPosts: BlogPost[] = [
 
 </div>
 `
-}
+  },
+  // ============================================================
+  // 7 NEW LOCATION-TARGETED BLOG POSTS — Add to blogPosts array
+  // ============================================================
+
+  {
+    "id": 44,
+    "title": "Bathroom Remodel Warren, MI 2026 – Trends, Designs & Local Tips",
+    "meta_title": "Bathroom Remodel Warren, MI 2026 | Trends & Design Ideas",
+    "meta_description": "Discover the top bathroom remodel trends in Warren, MI for 2026. From modern fixtures to stone tile upgrades, learn what's popular and how to plan your renovation.",
+    "excerpt": "Warren homeowners are upgrading bathrooms with bold stone tile, walk-in showers, and smart storage in 2026. See what's trending locally.",
+    "category": "bathroom-remodel",
+    "date": "2026-04-19",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg",
+    "slug": "bathroom-remodel-warren-mi-2026",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg" alt="Modern bathroom remodel in Warren MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      Warren is Michigan's largest suburb — and in 2026, homeowners here are investing in bathroom upgrades that increase comfort, home value, and daily luxury. From stone tile showers to modern vanities, here's what's trending in Warren bathroom remodels right now.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. Stone Tile Showers Are Taking Over</h2>
+  <p>Warren homeowners are moving away from standard ceramic and embracing natural stone. Slate, marble, and quartzite tiles are showing up in walk-in showers across the city, offering a high-end look at a range of price points.</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Slate shower floors for natural slip resistance</li>
+    <li style="margin-bottom:10px;">Large-format marble wall tiles with minimal grout lines</li>
+    <li style="margin-bottom:10px;">Quartzite accent niches for built-in storage</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Frameless Glass & Open Shower Designs</h2>
+  <p>Open, frameless shower enclosures are the most requested upgrade in Warren in 2026. They make bathrooms feel larger and are easier to clean than framed alternatives — a big win for busy households.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. Double Vanities for Growing Families</h2>
+  <p>With Warren's strong family-oriented communities, double vanities are in high demand. Floating vanity designs with under-cabinet lighting are especially popular for their modern feel and extra storage.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Warm Neutral Color Palettes</h2>
+  <p>Greige, warm white, and soft taupe tones dominate Warren bathroom designs in 2026. These shades work beautifully with natural stone and brass or matte black fixtures.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Heated Floors for Michigan Winters</h2>
+  <p>Radiant floor heating is a popular add-on for Warren homeowners who want that spa-like warmth underfoot during cold Michigan mornings. Stone tile conducts heat especially well.</p>
+
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">Ready to Remodel Your Warren Bathroom?</h3>
+    <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling serves Warren and all of Metro Detroit. Get expert design and quality craftsmanship.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule a Free Consultation</a>
+  </div>
+
+</div>
+`
+  },
+
+  {
+    "id": 45,
+    "title": "Bathroom Remodel Westland, MI 2026 – Modern Trends & Design Ideas",
+    "meta_title": "Bathroom Remodel Westland, MI 2026 | Modern Trends & Ideas",
+    "meta_description": "Explore 2026 bathroom remodel trends in Westland, MI. From stone tile showers to space-saving layouts, discover what local homeowners are choosing.",
+    "excerpt": "Westland homeowners in 2026 are choosing modern, functional bathroom designs with natural stone, smart storage, and bold fixture upgrades.",
+    "category": "bathroom-remodel",
+    "date": "2026-04-19",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg",
+    "slug": "bathroom-remodel-westland-mi-2026",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg" alt="Bathroom remodel in Westland MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      Westland is one of Wayne County's most active home renovation markets — and bathrooms are leading the charge in 2026. Homeowners here are trading dated tile and cramped layouts for open, spa-inspired spaces that feel luxurious every day.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. Natural Stone Is Replacing Ceramic</h2>
+  <p>Westland homeowners are upgrading from basic ceramic tile to natural stone — particularly slate and travertine — for a warmer, more premium look that also adds resale value.</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Travertine flooring with warm cream and gold tones</li>
+    <li style="margin-bottom:10px;">Slate shower walls for texture and grip</li>
+    <li style="margin-bottom:10px;">Marble-look porcelain for budget-conscious upgrades</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Walk-In Showers Replacing Tubs</h2>
+  <p>The bathtub-to-shower conversion is the #1 remodel request in Westland this year. Removing an unused tub opens up floor space and allows for a beautifully tiled walk-in shower with built-in niches and benches.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. Matte Black Fixtures Are In</h2>
+  <p>Matte black faucets, showerheads, and towel bars are dominating Westland bathrooms in 2026. They pair perfectly with light stone tile and white or gray vanities for a high-contrast modern look.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Better Lighting Makes a Huge Difference</h2>
+  <p>Layered lighting — vanity lights, recessed ceiling fixtures, and LED mirror backlighting — is a trend that transforms how a bathroom feels without requiring a full renovation.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Smart Storage Solutions</h2>
+  <p>Recessed medicine cabinets, floating vanities with drawers, and built-in shower niches are helping Westland homeowners maximize even smaller bathrooms without clutter.</p>
+
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">Transform Your Westland Bathroom</h3>
+    <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling brings expert craftsmanship to Westland homeowners. Let's design your dream bathroom.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get a Free Design Consultation</a>
+  </div>
+
+</div>
+`
+  },
+
+  {
+    "id": 46,
+    "title": "Bathroom Remodel Dearborn Heights, MI 2026 – Design Trends & Local Ideas",
+    "meta_title": "Bathroom Remodel Dearborn Heights, MI 2026 | Trends & Design Ideas",
+    "meta_description": "See the top bathroom remodel trends in Dearborn Heights, MI for 2026. Discover stone tile, modern vanities, and design ideas for local homes.",
+    "excerpt": "Dearborn Heights homeowners are modernizing bathrooms in 2026 with stone tile, frameless showers, and warm design palettes that honor the area's character.",
+    "category": "bathroom-remodel",
+    "date": "2026-04-19",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg",
+    "slug": "bathroom-remodel-dearborn-heights-mi-2026",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg" alt="Bathroom remodel in Dearborn Heights MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      Neighboring Dearborn, Dearborn Heights shares the same rich housing stock — and in 2026, homeowners here are giving their bathrooms a serious upgrade. The most popular projects blend warm, classic aesthetics with modern functionality and natural stone.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. Warm Stone Tones Are Dominating</h2>
+  <p>Cream travertine, warm beige slate, and honey-toned marble are the top stone choices in Dearborn Heights this year. These earthy tones complement the area's traditional home architecture beautifully.</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Travertine floors with a honed matte finish</li>
+    <li style="margin-bottom:10px;">Warm marble vanity tops replacing laminate</li>
+    <li style="margin-bottom:10px;">Slate accent walls in shower niches</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Shower-Tub Combos Getting Upgraded</h2>
+  <p>Many Dearborn Heights homes have older shower-tub combos. In 2026, homeowners are either converting these to walk-in showers or retiling the surround with large-format stone for a completely fresh look.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. Brushed Gold Fixtures Are Trending</h2>
+  <p>Brushed gold and champagne bronze hardware is gaining serious popularity in Dearborn Heights, adding warmth to bathroom spaces without the maintenance of polished finishes.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Vanity Replacements Are High-Impact & Affordable</h2>
+  <p>One of the most popular budget-friendly upgrades is replacing an old vanity with a modern floating model in white oak or navy blue — paired with a quartz or marble top for an instant luxury feel.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Accessibility Features Growing in Demand</h2>
+  <p>As many Dearborn Heights homeowners are aging in place, features like zero-threshold showers, grab bars integrated into tile design, and comfort-height toilets are becoming standard requests.</p>
+
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">Planning a Bathroom Remodel in Dearborn Heights?</h3>
+    <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling serves Dearborn Heights with expert stone tile installation and full bathroom renovation services.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Request a Free Estimate</a>
+  </div>
+
+</div>
+`
+  },
+
+//   {
+//     "id": 47,
+//     "title": "Bathroom Remodel Taylor, MI 2026 – Trends, Styles & What Locals Are Choosing",
+//     "meta_title": "Bathroom Remodel Taylor, MI 2026 | Trends & Design Ideas",
+//     "meta_description": "Explore the latest bathroom remodel trends in Taylor, MI for 2026. See what local homeowners are choosing — stone tile, modern layouts, and more.",
+//     "excerpt": "Taylor homeowners are upgrading bathrooms in 2026 with stone tile showers, modern vanities, and bold design choices that maximize value on any budget.",
+//     "category": "bathroom-remodel",
+//     "date": "2026-04-19",
+//     "author": "Valjon Qejvani",
+//     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg",
+//     "slug": "bathroom-remodel-taylor-mi-2026",
+//     "content": `
+// <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+
+//   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg" alt="Bathroom remodel in Taylor MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+//   <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+//     <p style="font-size:1.1rem;font-weight:500;margin:0;">
+//       Taylor homeowners are proving that you don't need a massive budget to get a stunning bathroom. In 2026, smart material choices, bold tile designs, and strategic upgrades are turning ordinary bathrooms into spaces homeowners genuinely love.
+//     </p>
+//   </div>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. Slate Tile — The Value Champion</h2>
+//   <p>Slate is one of the most popular stone choices in Taylor because it delivers a high-end natural look at a lower cost than marble. Its built-in texture also makes it naturally slip resistant — ideal for families.</p>
+//   <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+//     <li style="margin-bottom:10px;">Multicolor slate for shower walls and floors</li>
+//     <li style="margin-bottom:10px;">Dark charcoal slate for a dramatic modern feel</li>
+//     <li style="margin-bottom:10px;">Slate paired with white grout for crisp contrast</li>
+//   </ul>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Converting Tubs to Walk-In Showers</h2>
+//   <p>The tub-to-shower conversion remains the most popular full bathroom remodel in Taylor. It opens up the room, reduces maintenance, and allows for creative tile layouts that make a real design statement.</p>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. Bold Accent Tile Walls</h2>
+//   <p>Taylor homeowners are getting creative with accent walls — a single wall tiled in a contrasting stone or mosaic pattern behind the vanity or in the shower creates a focal point without breaking the budget.</p>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Upgraded Vanity & Mirror Combos</h2>
+//   <p>Swapping an old vanity for a modern wood-finish cabinet paired with a large LED-lit mirror is one of the highest-impact, most affordable upgrades Taylor homeowners are making in 2026.</p>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Better Ventilation — Often Overlooked</h2>
+//   <p>A quality exhaust fan is one of the most functional upgrades in any Michigan bathroom. Proper ventilation protects stone and grout from moisture damage and prevents mold — especially important in older Taylor homes.</p>
+
+//   <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+//     <h3 style="margin-bottom:8px;font-size:1.5rem;">Let's Remodel Your Taylor Bathroom</h3>
+//     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling delivers high-quality bathroom renovations across Taylor and all of downriver Metro Detroit.</p>
+//     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get Your Free Consultation</a>
+//   </div>
+
+// </div>
+// `
+//   },
+
+//   {
+//     "id": 48,
+//     "title": "Bathroom Remodel Shelby Township, MI 2026 – Luxury Trends & Stone Designs",
+//     "meta_title": "Bathroom Remodel Shelby Township, MI 2026 | Luxury Trends & Stone Design",
+//     "meta_description": "Discover luxury bathroom remodel trends in Shelby Township, MI for 2026. Explore marble, quartzite, and high-end design ideas for upscale homes.",
+//     "excerpt": "Shelby Township homeowners are raising the bar in 2026 with marble showers, heated stone floors, and spa-level bathroom upgrades that reflect the area's upscale character.",
+//     "category": "bathroom-remodel",
+//     "date": "2026-04-19",
+//     "author": "Valjon Qejvani",
+//     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg",
+//     "slug": "bathroom-remodel-shelby-township-mi-2026",
+//     "content": `
+// <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+
+//   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg" alt="Luxury bathroom remodel in Shelby Township MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+//   <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+//     <p style="font-size:1.1rem;font-weight:500;margin:0;">
+//       Shelby Township is one of Macomb County's most affluent communities — and bathroom remodels here reflect that. In 2026, homeowners are investing in high-end stone, custom layouts, and spa-level features that rival five-star hotels.
+//     </p>
+//   </div>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. Marble — The Stone of Choice in Shelby Township</h2>
+//   <p>Carrara and Calacatta marble dominate Shelby Township bathroom remodels in 2026. Large-format slabs with dramatic veining are being used on shower walls, floors, and even vanity tops for a seamless, luxurious finish.</p>
+//   <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+//     <li style="margin-bottom:10px;">Book-matched marble panels for symmetrical elegance</li>
+//     <li style="margin-bottom:10px;">Honed marble floors for a sophisticated matte look</li>
+//     <li style="margin-bottom:10px;">Marble shower benches and built-in shelving</li>
+//   </ul>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Quartzite for Countertops & Feature Walls</h2>
+//   <p>Quartzite is gaining popularity in Shelby Township for its marble-like beauty combined with granite-level hardness. It's a top choice for vanity tops and shower accent walls where durability matters.</p>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. Heated Stone Floors Are Standard</h2>
+//   <p>Radiant floor heating under stone tile is now a standard feature in Shelby Township master bathroom remodels. The combination of warm stone underfoot and Michigan winter practicality makes this one of the most requested upgrades.</p>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Steam Showers & Spa Features</h2>
+//   <p>Custom steam showers with digital controls, rainfall showerheads, and body jets are trending in Shelby Township. These are paired with waterproof stone tile systems and vapor-sealed walls for long-term performance.</p>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Freestanding Soaking Tubs</h2>
+//   <p>Freestanding tubs positioned against a stone feature wall create a stunning focal point in Shelby Township master bathrooms. Matte white and stone-finish tubs are the most popular choices in 2026.</p>
+
+//   <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+//     <h3 style="margin-bottom:8px;font-size:1.5rem;">Build Your Luxury Shelby Township Bathroom</h3>
+//     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling specializes in high-end stone bathroom renovations across Shelby Township and Macomb County.</p>
+//     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule a Design Consultation</a>
+//   </div>
+
+// </div>
+// `
+//   },
+
+//   {
+//     "id": 49,
+//     "title": "Bathroom Remodel Macomb Township, MI 2026 – What Homeowners Are Choosing",
+//     "meta_title": "Bathroom Remodel Macomb Township, MI 2026 | Trends & Design Ideas",
+//     "meta_description": "See what Macomb Township homeowners are choosing for bathroom remodels in 2026 — stone tile, modern layouts, and smart upgrades for new and established homes.",
+//     "excerpt": "Macomb Township is one of Metro Detroit's fastest-growing communities. In 2026, new and established homeowners alike are upgrading bathrooms with stone tile, custom showers, and modern design.",
+//     "category": "bathroom-remodel",
+//     "date": "2026-04-19",
+//     "author": "Valjon Qejvani",
+//     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg",
+//     "slug": "bathroom-remodel-macomb-township-mi-2026",
+//     "content": `
+// <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+
+//   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg" alt="Bathroom remodel in Macomb Township MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+//   <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+//     <p style="font-size:1.1rem;font-weight:500;margin:0;">
+//       Macomb Township has grown rapidly over the past decade — and with that growth comes a wave of homeowners ready to personalize and upgrade their spaces. Bathroom remodeling is one of the top home improvement projects here in 2026, with stone tile and custom shower designs leading the way.
+//     </p>
+//   </div>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. Large-Format Tile Is the New Standard</h2>
+//   <p>In Macomb Township's newer construction homes, large-format porcelain and natural stone tiles (24"x48" and larger) are replacing smaller builder-grade tile. Fewer grout lines means a cleaner, more modern look.</p>
+//   <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+//     <li style="margin-bottom:10px;">Oversized marble-look porcelain for easy maintenance</li>
+//     <li style="margin-bottom:10px;">Natural quartzite slabs for a true luxury statement</li>
+//     <li style="margin-bottom:10px;">Continuous floor-to-ceiling tile in showers</li>
+//   </ul>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Upgrading Builder-Grade Bathrooms</h2>
+//   <p>Many Macomb Township homes were built with basic fixtures and standard tile. A targeted upgrade — new stone tile shower, floating vanity, and frameless glass — dramatically elevates these bathrooms without a full gut renovation.</p>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. His & Hers Vanity Setups</h2>
+//   <p>Double vanities with individual storage zones are a top request for Macomb Township master bathrooms. Couples want defined space without sharing — and design-forward vanities deliver both function and style.</p>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Shower Niches & Custom Storage</h2>
+//   <p>Built-in shower niches tiled in contrasting stone are both practical and beautiful. They eliminate the need for wire caddies and create a polished, intentional look that buyers love.</p>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Neutral Palettes with One Bold Element</h2>
+//   <p>Macomb Township homeowners tend to favor safe, sellable neutral tones — but they're adding one bold element, like a feature wall in a dramatic veined marble or a matte black fixtures set, to give the space personality.</p>
+
+//   <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+//     <h3 style="margin-bottom:8px;font-size:1.5rem;">Upgrade Your Macomb Township Bathroom</h3>
+//     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling brings premium bathroom renovation services to Macomb Township and all of Macomb County.</p>
+//     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Book a Free Consultation</a>
+//   </div>
+
+// </div>
+// `
+//   },
+
+//   {
+//     "id": 50,
+//     "title": "Bathroom Remodel Pontiac, MI 2026 – Trends, Stone Design & Local Ideas",
+//     "meta_title": "Bathroom Remodel Pontiac, MI 2026 | Trends & Stone Design Ideas",
+//     "meta_description": "Discover bathroom remodel trends in Pontiac, MI for 2026. See how local homeowners are using stone tile, modern vanities, and bold design to transform their spaces.",
+//     "excerpt": "Pontiac homeowners are embracing bold, design-forward bathroom remodels in 2026 — with natural stone, dramatic tile work, and modern upgrades that reflect Oakland County's evolving market.",
+//     "category": "bathroom-remodel",
+//     "date": "2026-04-19",
+//     "author": "Valjon Qejvani",
+//     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg",
+//     "slug": "bathroom-remodel-pontiac-mi-2026",
+//     "content": `
+// <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+
+//   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg" alt="Bathroom remodel in Pontiac MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+//   <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+//     <p style="font-size:1.1rem;font-weight:500;margin:0;">
+//       Pontiac's real estate market is rebounding — and savvy homeowners are investing in bathroom remodels to build equity and improve their quality of life. In 2026, natural stone and bold, intentional design are the defining features of Pontiac's best bathroom renovations.
+//     </p>
+//   </div>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. Slate & Granite — Character-Rich Stone for Pontiac Homes</h2>
+//   <p>Slate and granite are top choices in Pontiac in 2026 — both offer exceptional durability and a raw, natural aesthetic that feels at home in the area's mix of historic and mid-century properties.</p>
+//   <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+//     <li style="margin-bottom:10px;">Dark slate shower walls for a dramatic, moody look</li>
+//     <li style="margin-bottom:10px;">Granite vanity tops that resist scratching and staining</li>
+//     <li style="margin-bottom:10px;">Mixed stone mosaic floors for a unique, custom feel</li>
+//   </ul>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Industrial-Modern Aesthetic Is Popular</h2>
+//   <p>Pontiac's design-forward homeowners are gravitating toward an industrial-modern style — matte black fixtures, concrete-look tile, and exposed stone surfaces that feel raw yet refined.</p>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. Full Shower Replacements Driving Equity</h2>
+//   <p>Replacing a cracked or dated shower surround with a fresh stone tile system is one of the best ROI upgrades in Pontiac's current market. It significantly improves both daily experience and home resale value.</p>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Creative Tile Patterns Making Statements</h2>
+//   <p>Herringbone, stacked vertical, and diagonal tile layouts are trending in Pontiac showers and feature walls. These patterns use standard materials to create a custom, high-end look without a premium price tag.</p>
+
+//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Lighting Upgrades Completing the Look</h2>
+//   <p>New vanity lighting, backlit mirrors, and shower-rated recessed lights make a dramatic difference in how a bathroom feels. Pontiac homeowners are pairing these lighting upgrades with stone tile remodels for a complete transformation.</p>
+
+//   <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+//     <h3 style="margin-bottom:8px;font-size:1.5rem;">Ready to Remodel Your Pontiac Bathroom?</h3>
+//     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling serves Pontiac and Oakland County with expert stone tile work and full bathroom renovation services.</p>
+//     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule Your Free Consultation</a>
+//   </div>
+
+// </div>
+// `
+//   },
 
 
 
