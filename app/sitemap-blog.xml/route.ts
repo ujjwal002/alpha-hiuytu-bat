@@ -48,8 +48,8 @@ export async function GET() {
      "bathroom-remodel-warren-mi-2026",
     "bathroom-remodel-westland-mi-2026",
     "bathroom-remodel-dearborn-heights-mi-2026",
-    // "bathroom-remodel-taylor-mi-2026",
-    // "bathroom-remodel-shelby-township-mi-2026",
+    "bathroom-remodel-taylor-mi-2026",
+    "bathroom-remodel-shelby-township-mi-2026",
     // "bathroom-remodel-macomb-township-mi-2026",
     // "bathroom-remodel-pontiac-mi-2026",
   ];

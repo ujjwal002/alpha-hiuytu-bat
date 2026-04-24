@@ -2505,109 +2505,109 @@ export const blogPosts: BlogPost[] = [
 `
   },
 
-//   {
-//     "id": 47,
-//     "title": "Bathroom Remodel Taylor, MI 2026 – Trends, Styles & What Locals Are Choosing",
-//     "meta_title": "Bathroom Remodel Taylor, MI 2026 | Trends & Design Ideas",
-//     "meta_description": "Explore the latest bathroom remodel trends in Taylor, MI for 2026. See what local homeowners are choosing — stone tile, modern layouts, and more.",
-//     "excerpt": "Taylor homeowners are upgrading bathrooms in 2026 with stone tile showers, modern vanities, and bold design choices that maximize value on any budget.",
-//     "category": "bathroom-remodel",
-//     "date": "2026-04-19",
-//     "author": "Valjon Qejvani",
-//     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg",
-//     "slug": "bathroom-remodel-taylor-mi-2026",
-//     "content": `
-// <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+  {
+    "id": 47,
+    "title": "Bathroom Remodel Taylor, MI 2026 – Trends, Styles & What Locals Are Choosing",
+    "meta_title": "Bathroom Remodel Taylor, MI 2026 | Trends & Design Ideas",
+    "meta_description": "Explore the latest bathroom remodel trends in Taylor, MI for 2026. See what local homeowners are choosing — stone tile, modern layouts, and more.",
+    "excerpt": "Taylor homeowners are upgrading bathrooms in 2026 with stone tile showers, modern vanities, and bold design choices that maximize value on any budget.",
+    "category": "bathroom-remodel",
+    "date": "2026-04-19",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg",
+    "slug": "bathroom-remodel-taylor-mi-2026",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
 
-//   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg" alt="Bathroom remodel in Taylor MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg" alt="Bathroom remodel in Taylor MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-//   <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
-//     <p style="font-size:1.1rem;font-weight:500;margin:0;">
-//       Taylor homeowners are proving that you don't need a massive budget to get a stunning bathroom. In 2026, smart material choices, bold tile designs, and strategic upgrades are turning ordinary bathrooms into spaces homeowners genuinely love.
-//     </p>
-//   </div>
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      Taylor homeowners are proving that you don't need a massive budget to get a stunning bathroom. In 2026, smart material choices, bold tile designs, and strategic upgrades are turning ordinary bathrooms into spaces homeowners genuinely love.
+    </p>
+  </div>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. Slate Tile — The Value Champion</h2>
-//   <p>Slate is one of the most popular stone choices in Taylor because it delivers a high-end natural look at a lower cost than marble. Its built-in texture also makes it naturally slip resistant — ideal for families.</p>
-//   <ul style="margin:16px 0 24px 20px;padding-left:16px;">
-//     <li style="margin-bottom:10px;">Multicolor slate for shower walls and floors</li>
-//     <li style="margin-bottom:10px;">Dark charcoal slate for a dramatic modern feel</li>
-//     <li style="margin-bottom:10px;">Slate paired with white grout for crisp contrast</li>
-//   </ul>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. Slate Tile — The Value Champion</h2>
+  <p>Slate is one of the most popular stone choices in Taylor because it delivers a high-end natural look at a lower cost than marble. Its built-in texture also makes it naturally slip resistant — ideal for families.</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Multicolor slate for shower walls and floors</li>
+    <li style="margin-bottom:10px;">Dark charcoal slate for a dramatic modern feel</li>
+    <li style="margin-bottom:10px;">Slate paired with white grout for crisp contrast</li>
+  </ul>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Converting Tubs to Walk-In Showers</h2>
-//   <p>The tub-to-shower conversion remains the most popular full bathroom remodel in Taylor. It opens up the room, reduces maintenance, and allows for creative tile layouts that make a real design statement.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Converting Tubs to Walk-In Showers</h2>
+  <p>The tub-to-shower conversion remains the most popular full bathroom remodel in Taylor. It opens up the room, reduces maintenance, and allows for creative tile layouts that make a real design statement.</p>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. Bold Accent Tile Walls</h2>
-//   <p>Taylor homeowners are getting creative with accent walls — a single wall tiled in a contrasting stone or mosaic pattern behind the vanity or in the shower creates a focal point without breaking the budget.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. Bold Accent Tile Walls</h2>
+  <p>Taylor homeowners are getting creative with accent walls — a single wall tiled in a contrasting stone or mosaic pattern behind the vanity or in the shower creates a focal point without breaking the budget.</p>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Upgraded Vanity & Mirror Combos</h2>
-//   <p>Swapping an old vanity for a modern wood-finish cabinet paired with a large LED-lit mirror is one of the highest-impact, most affordable upgrades Taylor homeowners are making in 2026.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Upgraded Vanity & Mirror Combos</h2>
+  <p>Swapping an old vanity for a modern wood-finish cabinet paired with a large LED-lit mirror is one of the highest-impact, most affordable upgrades Taylor homeowners are making in 2026.</p>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Better Ventilation — Often Overlooked</h2>
-//   <p>A quality exhaust fan is one of the most functional upgrades in any Michigan bathroom. Proper ventilation protects stone and grout from moisture damage and prevents mold — especially important in older Taylor homes.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Better Ventilation — Often Overlooked</h2>
+  <p>A quality exhaust fan is one of the most functional upgrades in any Michigan bathroom. Proper ventilation protects stone and grout from moisture damage and prevents mold — especially important in older Taylor homes.</p>
 
-//   <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
-//     <h3 style="margin-bottom:8px;font-size:1.5rem;">Let's Remodel Your Taylor Bathroom</h3>
-//     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling delivers high-quality bathroom renovations across Taylor and all of downriver Metro Detroit.</p>
-//     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get Your Free Consultation</a>
-//   </div>
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">Let's Remodel Your Taylor Bathroom</h3>
+    <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling delivers high-quality bathroom renovations across Taylor and all of downriver Metro Detroit.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get Your Free Consultation</a>
+  </div>
 
-// </div>
-// `
-//   },
+</div>
+`
+  },
 
-//   {
-//     "id": 48,
-//     "title": "Bathroom Remodel Shelby Township, MI 2026 – Luxury Trends & Stone Designs",
-//     "meta_title": "Bathroom Remodel Shelby Township, MI 2026 | Luxury Trends & Stone Design",
-//     "meta_description": "Discover luxury bathroom remodel trends in Shelby Township, MI for 2026. Explore marble, quartzite, and high-end design ideas for upscale homes.",
-//     "excerpt": "Shelby Township homeowners are raising the bar in 2026 with marble showers, heated stone floors, and spa-level bathroom upgrades that reflect the area's upscale character.",
-//     "category": "bathroom-remodel",
-//     "date": "2026-04-19",
-//     "author": "Valjon Qejvani",
-//     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg",
-//     "slug": "bathroom-remodel-shelby-township-mi-2026",
-//     "content": `
-// <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+  {
+    "id": 48,
+    "title": "Bathroom Remodel Shelby Township, MI 2026 – Luxury Trends & Stone Designs",
+    "meta_title": "Bathroom Remodel Shelby Township, MI 2026 | Luxury Trends & Stone Design",
+    "meta_description": "Discover luxury bathroom remodel trends in Shelby Township, MI for 2026. Explore marble, quartzite, and high-end design ideas for upscale homes.",
+    "excerpt": "Shelby Township homeowners are raising the bar in 2026 with marble showers, heated stone floors, and spa-level bathroom upgrades that reflect the area's upscale character.",
+    "category": "bathroom-remodel",
+    "date": "2026-04-19",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg",
+    "slug": "bathroom-remodel-shelby-township-mi-2026",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
 
-//   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg" alt="Luxury bathroom remodel in Shelby Township MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg" alt="Luxury bathroom remodel in Shelby Township MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-//   <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
-//     <p style="font-size:1.1rem;font-weight:500;margin:0;">
-//       Shelby Township is one of Macomb County's most affluent communities — and bathroom remodels here reflect that. In 2026, homeowners are investing in high-end stone, custom layouts, and spa-level features that rival five-star hotels.
-//     </p>
-//   </div>
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      Shelby Township is one of Macomb County's most affluent communities — and bathroom remodels here reflect that. In 2026, homeowners are investing in high-end stone, custom layouts, and spa-level features that rival five-star hotels.
+    </p>
+  </div>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. Marble — The Stone of Choice in Shelby Township</h2>
-//   <p>Carrara and Calacatta marble dominate Shelby Township bathroom remodels in 2026. Large-format slabs with dramatic veining are being used on shower walls, floors, and even vanity tops for a seamless, luxurious finish.</p>
-//   <ul style="margin:16px 0 24px 20px;padding-left:16px;">
-//     <li style="margin-bottom:10px;">Book-matched marble panels for symmetrical elegance</li>
-//     <li style="margin-bottom:10px;">Honed marble floors for a sophisticated matte look</li>
-//     <li style="margin-bottom:10px;">Marble shower benches and built-in shelving</li>
-//   </ul>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. Marble — The Stone of Choice in Shelby Township</h2>
+  <p>Carrara and Calacatta marble dominate Shelby Township bathroom remodels in 2026. Large-format slabs with dramatic veining are being used on shower walls, floors, and even vanity tops for a seamless, luxurious finish.</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Book-matched marble panels for symmetrical elegance</li>
+    <li style="margin-bottom:10px;">Honed marble floors for a sophisticated matte look</li>
+    <li style="margin-bottom:10px;">Marble shower benches and built-in shelving</li>
+  </ul>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Quartzite for Countertops & Feature Walls</h2>
-//   <p>Quartzite is gaining popularity in Shelby Township for its marble-like beauty combined with granite-level hardness. It's a top choice for vanity tops and shower accent walls where durability matters.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Quartzite for Countertops & Feature Walls</h2>
+  <p>Quartzite is gaining popularity in Shelby Township for its marble-like beauty combined with granite-level hardness. It's a top choice for vanity tops and shower accent walls where durability matters.</p>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. Heated Stone Floors Are Standard</h2>
-//   <p>Radiant floor heating under stone tile is now a standard feature in Shelby Township master bathroom remodels. The combination of warm stone underfoot and Michigan winter practicality makes this one of the most requested upgrades.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. Heated Stone Floors Are Standard</h2>
+  <p>Radiant floor heating under stone tile is now a standard feature in Shelby Township master bathroom remodels. The combination of warm stone underfoot and Michigan winter practicality makes this one of the most requested upgrades.</p>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Steam Showers & Spa Features</h2>
-//   <p>Custom steam showers with digital controls, rainfall showerheads, and body jets are trending in Shelby Township. These are paired with waterproof stone tile systems and vapor-sealed walls for long-term performance.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Steam Showers & Spa Features</h2>
+  <p>Custom steam showers with digital controls, rainfall showerheads, and body jets are trending in Shelby Township. These are paired with waterproof stone tile systems and vapor-sealed walls for long-term performance.</p>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Freestanding Soaking Tubs</h2>
-//   <p>Freestanding tubs positioned against a stone feature wall create a stunning focal point in Shelby Township master bathrooms. Matte white and stone-finish tubs are the most popular choices in 2026.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Freestanding Soaking Tubs</h2>
+  <p>Freestanding tubs positioned against a stone feature wall create a stunning focal point in Shelby Township master bathrooms. Matte white and stone-finish tubs are the most popular choices in 2026.</p>
 
-//   <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
-//     <h3 style="margin-bottom:8px;font-size:1.5rem;">Build Your Luxury Shelby Township Bathroom</h3>
-//     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling specializes in high-end stone bathroom renovations across Shelby Township and Macomb County.</p>
-//     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule a Design Consultation</a>
-//   </div>
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">Build Your Luxury Shelby Township Bathroom</h3>
+    <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling specializes in high-end stone bathroom renovations across Shelby Township and Macomb County.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule a Design Consultation</a>
+  </div>
 
-// </div>
-// `
-//   },
+</div>
+`
+  },
 
 //   {
 //     "id": 49,
