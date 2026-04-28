@@ -2609,109 +2609,109 @@ export const blogPosts: BlogPost[] = [
 `
   },
 
-//   {
-//     "id": 49,
-//     "title": "Bathroom Remodel Macomb Township, MI 2026 – What Homeowners Are Choosing",
-//     "meta_title": "Bathroom Remodel Macomb Township, MI 2026 | Trends & Design Ideas",
-//     "meta_description": "See what Macomb Township homeowners are choosing for bathroom remodels in 2026 — stone tile, modern layouts, and smart upgrades for new and established homes.",
-//     "excerpt": "Macomb Township is one of Metro Detroit's fastest-growing communities. In 2026, new and established homeowners alike are upgrading bathrooms with stone tile, custom showers, and modern design.",
-//     "category": "bathroom-remodel",
-//     "date": "2026-04-19",
-//     "author": "Valjon Qejvani",
-//     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg",
-//     "slug": "bathroom-remodel-macomb-township-mi-2026",
-//     "content": `
-// <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+  {
+    "id": 49,
+    "title": "Bathroom Remodel Macomb Township, MI 2026 – What Homeowners Are Choosing",
+    "meta_title": "Bathroom Remodel Macomb Township, MI 2026 | Trends & Design Ideas",
+    "meta_description": "See what Macomb Township homeowners are choosing for bathroom remodels in 2026 — stone tile, modern layouts, and smart upgrades for new and established homes.",
+    "excerpt": "Macomb Township is one of Metro Detroit's fastest-growing communities. In 2026, new and established homeowners alike are upgrading bathrooms with stone tile, custom showers, and modern design.",
+    "category": "bathroom-remodel",
+    "date": "2026-04-28",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg",
+    "slug": "bathroom-remodel-macomb-township-mi-2026",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
 
-//   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg" alt="Bathroom remodel in Macomb Township MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg" alt="Bathroom remodel in Macomb Township MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-//   <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
-//     <p style="font-size:1.1rem;font-weight:500;margin:0;">
-//       Macomb Township has grown rapidly over the past decade — and with that growth comes a wave of homeowners ready to personalize and upgrade their spaces. Bathroom remodeling is one of the top home improvement projects here in 2026, with stone tile and custom shower designs leading the way.
-//     </p>
-//   </div>
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      Macomb Township has grown rapidly over the past decade — and with that growth comes a wave of homeowners ready to personalize and upgrade their spaces. Bathroom remodeling is one of the top home improvement projects here in 2026, with stone tile and custom shower designs leading the way.
+    </p>
+  </div>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. Large-Format Tile Is the New Standard</h2>
-//   <p>In Macomb Township's newer construction homes, large-format porcelain and natural stone tiles (24"x48" and larger) are replacing smaller builder-grade tile. Fewer grout lines means a cleaner, more modern look.</p>
-//   <ul style="margin:16px 0 24px 20px;padding-left:16px;">
-//     <li style="margin-bottom:10px;">Oversized marble-look porcelain for easy maintenance</li>
-//     <li style="margin-bottom:10px;">Natural quartzite slabs for a true luxury statement</li>
-//     <li style="margin-bottom:10px;">Continuous floor-to-ceiling tile in showers</li>
-//   </ul>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. Large-Format Tile Is the New Standard</h2>
+  <p>In Macomb Township's newer construction homes, large-format porcelain and natural stone tiles (24"x48" and larger) are replacing smaller builder-grade tile. Fewer grout lines means a cleaner, more modern look.</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Oversized marble-look porcelain for easy maintenance</li>
+    <li style="margin-bottom:10px;">Natural quartzite slabs for a true luxury statement</li>
+    <li style="margin-bottom:10px;">Continuous floor-to-ceiling tile in showers</li>
+  </ul>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Upgrading Builder-Grade Bathrooms</h2>
-//   <p>Many Macomb Township homes were built with basic fixtures and standard tile. A targeted upgrade — new stone tile shower, floating vanity, and frameless glass — dramatically elevates these bathrooms without a full gut renovation.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Upgrading Builder-Grade Bathrooms</h2>
+  <p>Many Macomb Township homes were built with basic fixtures and standard tile. A targeted upgrade — new stone tile shower, floating vanity, and frameless glass — dramatically elevates these bathrooms without a full gut renovation.</p>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. His & Hers Vanity Setups</h2>
-//   <p>Double vanities with individual storage zones are a top request for Macomb Township master bathrooms. Couples want defined space without sharing — and design-forward vanities deliver both function and style.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. His & Hers Vanity Setups</h2>
+  <p>Double vanities with individual storage zones are a top request for Macomb Township master bathrooms. Couples want defined space without sharing — and design-forward vanities deliver both function and style.</p>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Shower Niches & Custom Storage</h2>
-//   <p>Built-in shower niches tiled in contrasting stone are both practical and beautiful. They eliminate the need for wire caddies and create a polished, intentional look that buyers love.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Shower Niches & Custom Storage</h2>
+  <p>Built-in shower niches tiled in contrasting stone are both practical and beautiful. They eliminate the need for wire caddies and create a polished, intentional look that buyers love.</p>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Neutral Palettes with One Bold Element</h2>
-//   <p>Macomb Township homeowners tend to favor safe, sellable neutral tones — but they're adding one bold element, like a feature wall in a dramatic veined marble or a matte black fixtures set, to give the space personality.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Neutral Palettes with One Bold Element</h2>
+  <p>Macomb Township homeowners tend to favor safe, sellable neutral tones — but they're adding one bold element, like a feature wall in a dramatic veined marble or a matte black fixtures set, to give the space personality.</p>
 
-//   <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
-//     <h3 style="margin-bottom:8px;font-size:1.5rem;">Upgrade Your Macomb Township Bathroom</h3>
-//     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling brings premium bathroom renovation services to Macomb Township and all of Macomb County.</p>
-//     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Book a Free Consultation</a>
-//   </div>
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">Upgrade Your Macomb Township Bathroom</h3>
+    <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling brings premium bathroom renovation services to Macomb Township and all of Macomb County.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Book a Free Consultation</a>
+  </div>
 
-// </div>
-// `
-//   },
+</div>
+`
+  },
 
-//   {
-//     "id": 50,
-//     "title": "Bathroom Remodel Pontiac, MI 2026 – Trends, Stone Design & Local Ideas",
-//     "meta_title": "Bathroom Remodel Pontiac, MI 2026 | Trends & Stone Design Ideas",
-//     "meta_description": "Discover bathroom remodel trends in Pontiac, MI for 2026. See how local homeowners are using stone tile, modern vanities, and bold design to transform their spaces.",
-//     "excerpt": "Pontiac homeowners are embracing bold, design-forward bathroom remodels in 2026 — with natural stone, dramatic tile work, and modern upgrades that reflect Oakland County's evolving market.",
-//     "category": "bathroom-remodel",
-//     "date": "2026-04-19",
-//     "author": "Valjon Qejvani",
-//     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg",
-//     "slug": "bathroom-remodel-pontiac-mi-2026",
-//     "content": `
-// <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+  {
+    "id": 50,
+    "title": "Bathroom Remodel Pontiac, MI 2026 – Trends, Stone Design & Local Ideas",
+    "meta_title": "Bathroom Remodel Pontiac, MI 2026 | Trends & Stone Design Ideas",
+    "meta_description": "Discover bathroom remodel trends in Pontiac, MI for 2026. See how local homeowners are using stone tile, modern vanities, and bold design to transform their spaces.",
+    "excerpt": "Pontiac homeowners are embracing bold, design-forward bathroom remodels in 2026 — with natural stone, dramatic tile work, and modern upgrades that reflect Oakland County's evolving market.",
+    "category": "bathroom-remodel",
+    "date": "2026-04-28",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg",
+    "slug": "bathroom-remodel-pontiac-mi-2026",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
 
-//   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg" alt="Bathroom remodel in Pontiac MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg" alt="Bathroom remodel in Pontiac MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-//   <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
-//     <p style="font-size:1.1rem;font-weight:500;margin:0;">
-//       Pontiac's real estate market is rebounding — and savvy homeowners are investing in bathroom remodels to build equity and improve their quality of life. In 2026, natural stone and bold, intentional design are the defining features of Pontiac's best bathroom renovations.
-//     </p>
-//   </div>
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      Pontiac's real estate market is rebounding — and savvy homeowners are investing in bathroom remodels to build equity and improve their quality of life. In 2026, natural stone and bold, intentional design are the defining features of Pontiac's best bathroom renovations.
+    </p>
+  </div>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. Slate & Granite — Character-Rich Stone for Pontiac Homes</h2>
-//   <p>Slate and granite are top choices in Pontiac in 2026 — both offer exceptional durability and a raw, natural aesthetic that feels at home in the area's mix of historic and mid-century properties.</p>
-//   <ul style="margin:16px 0 24px 20px;padding-left:16px;">
-//     <li style="margin-bottom:10px;">Dark slate shower walls for a dramatic, moody look</li>
-//     <li style="margin-bottom:10px;">Granite vanity tops that resist scratching and staining</li>
-//     <li style="margin-bottom:10px;">Mixed stone mosaic floors for a unique, custom feel</li>
-//   </ul>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. Slate & Granite — Character-Rich Stone for Pontiac Homes</h2>
+  <p>Slate and granite are top choices in Pontiac in 2026 — both offer exceptional durability and a raw, natural aesthetic that feels at home in the area's mix of historic and mid-century properties.</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Dark slate shower walls for a dramatic, moody look</li>
+    <li style="margin-bottom:10px;">Granite vanity tops that resist scratching and staining</li>
+    <li style="margin-bottom:10px;">Mixed stone mosaic floors for a unique, custom feel</li>
+  </ul>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Industrial-Modern Aesthetic Is Popular</h2>
-//   <p>Pontiac's design-forward homeowners are gravitating toward an industrial-modern style — matte black fixtures, concrete-look tile, and exposed stone surfaces that feel raw yet refined.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Industrial-Modern Aesthetic Is Popular</h2>
+  <p>Pontiac's design-forward homeowners are gravitating toward an industrial-modern style — matte black fixtures, concrete-look tile, and exposed stone surfaces that feel raw yet refined.</p>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. Full Shower Replacements Driving Equity</h2>
-//   <p>Replacing a cracked or dated shower surround with a fresh stone tile system is one of the best ROI upgrades in Pontiac's current market. It significantly improves both daily experience and home resale value.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. Full Shower Replacements Driving Equity</h2>
+  <p>Replacing a cracked or dated shower surround with a fresh stone tile system is one of the best ROI upgrades in Pontiac's current market. It significantly improves both daily experience and home resale value.</p>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Creative Tile Patterns Making Statements</h2>
-//   <p>Herringbone, stacked vertical, and diagonal tile layouts are trending in Pontiac showers and feature walls. These patterns use standard materials to create a custom, high-end look without a premium price tag.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Creative Tile Patterns Making Statements</h2>
+  <p>Herringbone, stacked vertical, and diagonal tile layouts are trending in Pontiac showers and feature walls. These patterns use standard materials to create a custom, high-end look without a premium price tag.</p>
 
-//   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Lighting Upgrades Completing the Look</h2>
-//   <p>New vanity lighting, backlit mirrors, and shower-rated recessed lights make a dramatic difference in how a bathroom feels. Pontiac homeowners are pairing these lighting upgrades with stone tile remodels for a complete transformation.</p>
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Lighting Upgrades Completing the Look</h2>
+  <p>New vanity lighting, backlit mirrors, and shower-rated recessed lights make a dramatic difference in how a bathroom feels. Pontiac homeowners are pairing these lighting upgrades with stone tile remodels for a complete transformation.</p>
 
-//   <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
-//     <h3 style="margin-bottom:8px;font-size:1.5rem;">Ready to Remodel Your Pontiac Bathroom?</h3>
-//     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling serves Pontiac and Oakland County with expert stone tile work and full bathroom renovation services.</p>
-//     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule Your Free Consultation</a>
-//   </div>
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">Ready to Remodel Your Pontiac Bathroom?</h3>
+    <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling serves Pontiac and Oakland County with expert stone tile work and full bathroom renovation services.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule Your Free Consultation</a>
+  </div>
 
-// </div>
-// `
-//   },
+</div>
+`
+  },
 
 
 

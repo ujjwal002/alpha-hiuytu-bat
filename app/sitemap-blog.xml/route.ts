@@ -50,8 +50,8 @@ export async function GET() {
     "bathroom-remodel-dearborn-heights-mi-2026",
     "bathroom-remodel-taylor-mi-2026",
     "bathroom-remodel-shelby-township-mi-2026",
-    // "bathroom-remodel-macomb-township-mi-2026",
-    // "bathroom-remodel-pontiac-mi-2026",
+    "bathroom-remodel-macomb-township-mi-2026",
+    "bathroom-remodel-pontiac-mi-2026",
   ];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
