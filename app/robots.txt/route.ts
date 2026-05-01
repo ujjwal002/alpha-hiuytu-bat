@@ -9,6 +9,7 @@ Disallow: /_next
 Disallow: /api
 
 Sitemap: https://www.stoneworksremodeling.com/sitemap.xml
+Sitemap: https://www.stoneworksremodeling.com/sitemap-blog.xml
 `;
 
   return new NextResponse(content, {

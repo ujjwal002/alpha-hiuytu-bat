@@ -48,67 +48,7 @@ export default function Header() {
       className={`sticky top-0 z-50 w-full transition-all duration-300 ${isScrolled ? "bg-white/98 backdrop-blur-sm shadow-lg" : "bg-white/95"
         }`}
     >
-      {/* Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify([
-            {
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "Stone Works Remodeling",
-              "url": "https://www.stoneworksremodeling.com",
-              "logo": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/stone.webp",
-              "contactPoint": [
-                {
-                  "@type": "ContactPoint",
-                  "telephone": "+12483468926",
-                  "contactType": "Customer Service",
-                  "email": "val@stoneworksremodeling.com",
-                  "areaServed": "US",
-                  "availableLanguage": "English",
-                },
-              ],
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "4671 Sugar Camp Road",
-                "addressLocality": "Metro Detroit",
-                "addressRegion": "MI",
-                "postalCode": "48150",
-                "addressCountry": "US",
-              },
-            },
-            {
-              "@context": "https://schema.org",
-              "@type": "SiteNavigationElement",
-              "name": [
-                "Home",
-                "Services",
-                "Gallery",
-                "About Us",
-                "Blog",
-                "Contact",
-                "Stone Bathroom Remodeling",
-                "Shower Conversion",
-                "Walk-in Tubs",
-                "Custom Stonework",
-              ],
-              "url": [
-                "https://www.stoneworksremodeling.com/",
-                "https://www.stoneworksremodeling.com/services",
-                "https://www.stoneworksremodeling.com/gallery",
-                "https://www.stoneworksremodeling.com/about",
-                "https://www.stoneworksremodeling.com/blog",
-                "https://www.stoneworksremodeling.com/contact",
-                "https://www.stoneworksremodeling.com/services/bathroom-remodeling",
-                "https://www.stoneworksremodeling.com/services/shower-conversions",
-                "https://www.stoneworksremodeling.com/services/walk-in-tubs",
-                "https://www.stoneworksremodeling.com/services/custom-works",
-              ],
-            },
-          ]),
-        }}
-      />
+      {/* LocalBusiness schema lives in layout.tsx — no duplicates here */}
 
       {/* Top Bar */}
       <div className="bg-gray-900 text-white py-2 px-4 sm:px-6">
@@ -163,9 +103,9 @@ export default function Header() {
                 />
               </div>
               <div className="flex flex-col">
-                <h1 className="text-xl sm:text-2xl font-extralight text-gray-900 tracking-tight">
+                <span className="text-xl sm:text-2xl font-extralight text-gray-900 tracking-tight">
                   Stone Works <span className="text-blue-600">Remodeling</span>
-                </h1>
+                </span>
                 <span className="text-xs sm:text-sm text-gray-500">Your Trusted Remodeling Partner</span>
               </div>
             </div>

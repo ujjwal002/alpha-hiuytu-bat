@@ -5,45 +5,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="bg-white text-gray-800 py-12" role="contentinfo" aria-label="Footer">
-      {/* Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "HomeAndConstructionBusiness",
-            "name": "Stone Works Remodeling",
-            "url": "https://www.stoneworksremodeling.com",
-            "logo": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp",
-            "telephone": "+12483468926",
-            "email": "info@stoneworkremodeling.com",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "4671 Sugar Camp Road",
-              "addressLocality": "Metro Detroit",
-              "addressRegion": "MI",
-              "postalCode": "48150",
-              "addressCountry": "US"
-            },
-            "areaServed": ["Metro Detroit", "Detroit", "Rochester", "Livonia"],
-            "sameAs": [
-              "https://www.facebook.com/stoneworkremodeling",
-              "https://www.instagram.com/stoneworkremodeling",
-              "https://www.linkedin.com/company/stoneworkremodeling"
-            ],
-            "openingHoursSpecification": [
-              {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-                "opens": "09:00",
-                "closes": "17:00"
-              }
-            ],
-            "priceRange": "$$$",
-            "description": "Stone Works Remodeling provides premium bathroom remodeling, shower conversions, walk-in tubs, and custom tilework in Metro Detroit, MI."
-          }),
-        }}
-      />
+      {/* LocalBusiness schema lives in layout.tsx — no duplicates here */}
 
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -64,9 +26,9 @@ const Footer = () => {
                 />
               </div>
               <div className="flex flex-col">
-                <h1 className="font-extralight text-gray-900 tracking-tight">
+                <span className="font-extralight text-gray-900 tracking-tight">
                   Stone Works <span className="text-blue-600">Remodeling</span>
-                </h1>
+                </span>
                 <span className="text-sm text-gray-500">Premium Bathroom Remodeling in Metro Detroit</span>
               </div>
             </div>

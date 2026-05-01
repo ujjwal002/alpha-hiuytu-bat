@@ -19,6 +19,7 @@ export default function HomeClient() {
             <Image
                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
                 alt=""
+                role="presentation"
                 width={1}
                 height={1}
                 priority
