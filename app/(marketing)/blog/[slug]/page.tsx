@@ -6,91 +6,99 @@ import { ArrowRight, Clock, User } from "lucide-react";
 import sanitizeHtml from "sanitize-html";
 import RelatedService from "@/components/RelatedService";
 
-// Define the params type for the dynamic route
-type BlogParams = {
-  slug: string;
-};
+type BlogParams = { slug: string };
+interface BlogPostPageProps { params: Promise<BlogParams> }
 
-// Define the props type for the page
-interface BlogPostPageProps {
-  params: Promise<BlogParams>;// params is a plain object, not a Promise
-}
-
-// Metadata generation
+// ── Metadata ──────────────────────────────────────────────────────────────────
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
+  const { slug } = await params;
 
-  const resolvedParams = await params;
-  const slug = resolvedParams.slug;
-
-  // Ensure slug exists
-  if (!slug) {
-    console.error("Slug is undefined");
-    return {
-      title: "Blog Post Not Found | Stone Works Remodeling",
-      description: "The requested blog post could not be found.",
-    };
-  }
+  if (!slug) return {
+    title: "Blog Post Not Found | Stone Works Remodeling",
+    description: "The requested blog post could not be found.",
+  };
 
   const post = blogPosts.find((p) => p.slug === slug);
+  if (!post) return {
+    title: "Blog Post Not Found | Stone Works Remodeling",
+    description: "The requested blog post could not be found.",
+  };
 
-  if (!post) {
-    return {
-      title: "Blog Post Not Found | Stone Works Remodeling",
-      description: "The requested blog post could not be found.",
-    };
-  }
+  // FIX: use meta_title / meta_description when provided, fall back to title/excerpt
+  const metaTitle = post.meta_title || `${post.title} | Stone Works Remodeling`;
+  const metaDescription = post.meta_description || post.excerpt;
 
   return {
-    title: `${post.title} | Stone Works Remodeling Blog`,
-    description: post.excerpt,
-    keywords: `${post.title.toLowerCase()}, stone works remodeling, bathroom remodeling, ${post.category}`,
+    title: metaTitle,
+    description: metaDescription,
+    keywords: `${post.title.toLowerCase()}, bathroom remodeling metro detroit, stone works remodeling, ${post.category}`,
     openGraph: {
-      title: post.title,
-      description: post.excerpt,
-      images: [{ url: post.image }],
+      title: post.meta_title || post.title,
+      description: metaDescription,
+      images: post.image ? [{ url: post.image, alt: post.title }] : [],
       type: "article",
       url: `https://www.stoneworksremodeling.com/blog/${post.slug}`,
     },
     twitter: {
       card: "summary_large_image",
+      title: post.meta_title || post.title,
+      description: metaDescription,
+      images: post.image ? [post.image] : [],
     },
+    // FIX: relative canonical — metadataBase in layout.tsx handles domain
     alternates: {
-      canonical: `https://www.stoneworksremodeling.com/blog/${post.slug}`,
+      canonical: `/blog/${post.slug}`,
     },
-    
   };
 }
 
-// Page component
-export default async function BlogPostPage({ params }: BlogPostPageProps) {
-  console.log("Params:", params); // Check what params are received
-  console.log("All posts:", blogPosts); // Verify posts are loaded
+// ── Page ──────────────────────────────────────────────────────────────────────
 
-  const resolvedParams = await params;
-  const post = blogPosts.find((p) => p.slug === resolvedParams.slug);
-  console.log("Found post:", post); // Check if post is found
+// Map post topics to relevant service pages so every post passes authority
+// to money pages — the single biggest internal linking win
+function getRelatedServices(post: (typeof blogPosts)[number]) {
+  const slug = post.slug.toLowerCase();
+  const title = post.title.toLowerCase();
+  const category = post.category.toLowerCase();
+  const links: { label: string; href: string; desc: string }[] = [];
 
-  if (!post) {
-    console.error(`Post not found for slug: ${resolvedParams.slug}`);
-    notFound();
+  if (title.includes("shower") || slug.includes("shower") || title.includes("tub to shower")) {
+    links.push({ label: "Tub-to-Shower Conversion", href: "/services/shower-conversions", desc: "Transform your tub into a modern walk-in shower." });
   }
+  if (title.includes("walk-in tub") || slug.includes("walk-in-tub") || title.includes("accessible")) {
+    links.push({ label: "Walk-in Tub Installation", href: "/services/walk-in-tubs", desc: "Safe, accessible tubs for seniors and all ages." });
+  }
+  if (title.includes("bathroom remodel") || title.includes("bathroom renovation") || category.includes("bathroom-remodel") || category.includes("remodeling-tip")) {
+    links.push({ label: "Complete Bathroom Remodeling", href: "/services/bathroom-remodeling", desc: "Full renovations from design to final inspection." });
+  }
+  if (title.includes("stone") || title.includes("tile") || title.includes("marble") || title.includes("slate") || category === "stone-design") {
+    links.push({ label: "Custom Stone & Tile Work", href: "/services/custom-works", desc: "Premium stone, marble, slate and custom tile installation." });
+  }
+  const seen = new Set<string>();
+  return links.filter((l) => { if (seen.has(l.href)) return false; seen.add(l.href); return true; }).slice(0, 3);
+}
+
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  const { slug } = await params;
+  const post = blogPosts.find((p) => p.slug === slug);
+
+  if (!post) notFound();
+
+  const relatedServices = getRelatedServices(post);
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero Section */}
+
+      {/* Hero */}
       <section
         className="hero-bg py-24 sm:py-32 text-center text-white"
-        style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${post.image})`,
-        }}
+        style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(${post.image})` }}
       >
         <div className="container mx-auto px-4">
           <span className="inline-block bg-gold-100 text-gold-800 text-xs font-semibold px-2.5 py-0.5 rounded-full mb-4">
             {categories.find((c) => c.id === post.category)?.label}
           </span>
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4 fade-in visible">
-            {post.title}
-          </h1>
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4">{post.title}</h1>
           <div className="flex justify-center items-center text-sm text-gray-200">
             <Clock className="h-4 w-4 mr-1" />
             <span>{post.date}</span>
@@ -101,37 +109,32 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </div>
       </section>
 
-      {/* Content Section */}
+      {/* Content */}
       <section className="py-12 sm:py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <div
-              className="prose prose-lg text-gray-700 fade-in visible"
+              className="prose prose-lg text-gray-700"
               dangerouslySetInnerHTML={{
                 __html: sanitizeHtml(post.content, {
                   allowedTags: [
-                    "p", "h1", "h2", "h3", "h4", "h5", "h6",
-                    "ul", "ol", "li", "blockquote", "pre",
-                    "strong", "em", "u", "s", "code", "hr",
-                    "br", "a", "img", "div", "span", "table",
-                    "thead", "tbody", "tr", "th", "td"
+                    "p","h1","h2","h3","h4","h5","h6",
+                    "ul","ol","li","blockquote","pre",
+                    "strong","em","u","s","code","hr",
+                    "br","a","img","div","span","table",
+                    "thead","tbody","tr","th","td",
                   ],
                   allowedAttributes: {
-                    a: ["href", "name", "target", "rel"],
-                    img: ["src", "alt", "width", "height"],
-                    "*": ["class", "style"], // Allow class and style attributes globally
+                    a: ["href","name","target","rel"],
+                    img: ["src","alt","width","height"],
+                    "*": ["class","style"],
                   },
-                  allowedClasses: {
-                    "*": ["*"], // Allow all classes
-                  },
+                  allowedClasses: { "*": ["*"] },
                 }),
               }}
             />
             <div className="mt-8">
-              <Link
-                href="/blog"
-                className="text-navy-600 hover:text-navy-800 font-medium flex items-center"
-              >
+              <Link href="/blog" className="text-blue-600 hover:text-blue-800 font-medium flex items-center">
                 ← Back to Blog
               </Link>
             </div>
@@ -139,7 +142,30 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </div>
       </section>
 
-        {/* ================= RELATED SERVICE (AUTO GEO LINK) ================= */}
+      {/* Internal service links — passes SEO authority to money pages */}
+      {relatedServices.length > 0 && (
+        <section className="py-10 bg-slate-50 border-t border-slate-100">
+          <div className="container mx-auto px-4">
+            <div className="max-w-3xl mx-auto">
+              <p className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-4">Our Related Services</p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                {relatedServices.map((s) => (
+                  <Link
+                    key={s.href}
+                    href={s.href}
+                    className="bg-white border border-slate-200 hover:border-blue-400 rounded-xl p-4 group transition-all"
+                  >
+                    <p className="font-bold text-gray-900 text-sm group-hover:text-blue-600 transition-colors mb-1">{s.label}</p>
+                    <p className="text-slate-500 text-xs leading-relaxed">{s.desc}</p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Related service auto-link */}
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
@@ -148,18 +174,18 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-12 sm:py-16 bg-gradient-to-r from-navy-50 to-navy-100">
+      {/* CTA */}
+      <section className="py-12 sm:py-16 bg-slate-50">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-navy-900 mb-4 fade-in visible">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             Transform Your Bathroom with Stone Works Remodeling
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8 fade-in visible">
-            Inspired by this article? Contact our expert team to bring your stone-inspired bathroom vision to life.
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
+            Inspired by this article? Contact our expert team to bring your bathroom vision to life in Metro Detroit.
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center bg-gold-500 hover:bg-gold-600 text-gray-900 px-8 py-4 rounded-full text-lg font-semibold transition-all shadow-lg hover:shadow-xl fade-in visible"
+            className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl text-lg font-semibold transition-all shadow-lg"
           >
             Get a Free Consultation
             <ArrowRight className="ml-2 h-5 w-5" />
@@ -167,15 +193,15 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </div>
       </section>
 
-      {/* Structured Data */}
+      {/* FIX: BlogPosting schema — correct logo URL, relative URL for article */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "BlogPosting",
-            headline: post.title,
-            description: post.excerpt,
+            headline: post.meta_title || post.title,
+            description: post.meta_description || post.excerpt,
             author: {
               "@type": "Person",
               name: post.author,
@@ -185,13 +211,19 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               name: "Stone Works Remodeling",
               logo: {
                 "@type": "ImageObject",
-                url: "https://www.stoneworksremodeling.com/images/logo.png",
+                // FIX: was /images/logo.png which doesn't exist
+                url: "https://www.stoneworksremodeling.com/instagram/logo.jpeg",
               },
             },
             datePublished: post.date,
-            image: post.image,
-            articleSection: categories.find((c) => c.id === post.category)?.label,
+            dateModified: post.date,
+            image: post.image || "https://www.stoneworksremodeling.com/bathroom/bath1.jpeg",
+            articleSection: categories.find((c) => c.id === post.category)?.label || "Bathroom Remodeling",
             url: `https://www.stoneworksremodeling.com/blog/${post.slug}`,
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": `https://www.stoneworksremodeling.com/blog/${post.slug}`,
+            },
           }),
         }}
       />
@@ -199,9 +231,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   );
 }
 
-// Generate static params for static site generation
+// Static params for SSG
 export async function generateStaticParams() {
-  return blogPosts.map((post) => ({
-    slug: post.slug,
-  }));
+  return blogPosts.map((post) => ({ slug: post.slug }));
 }

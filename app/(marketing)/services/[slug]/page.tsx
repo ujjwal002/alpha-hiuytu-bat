@@ -28,13 +28,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   return {
-    title: `${service.title} | Stone Works Remodeling | Metro Detroit, MI`,
+    title: `${service.title} in Metro Detroit, MI | Stone Works Remodeling`,
     description: service.shortDescription,
-    keywords: `${service.title.toLowerCase()}, bathroom remodeling, metro detroit, michigan, stone works remodeling`,
+    keywords: `${service.title.toLowerCase()}, bathroom remodeling metro detroit, michigan, stone works remodeling`,
+    // FIX: relative canonical so metadataBase handles the domain
+    alternates: {
+      canonical: `/services/${slug}`,
+    },
     openGraph: {
-      title: `${service.title} | Stone Works Remodeling`,
+      title: `${service.title} | Stone Works Remodeling — Metro Detroit`,
       description: service.shortDescription,
-      images: [service.imageSrc],
+      images: [{ url: service.imageSrc, alt: `${service.title} — Stone Works Remodeling Metro Detroit` }],
       type: "website",
       url: `https://www.stoneworksremodeling.com/services/${slug}`,
     },

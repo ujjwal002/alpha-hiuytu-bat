@@ -36,6 +36,8 @@ export const blogPosts: BlogPost[] = [
     author: "Valjon Qejvani",
     image: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg",
     slug: "stone-tile-trends-2025",
+    meta_title: "5 Stone Tile Trends for 2025 Bathrooms | Stone Works Remodeling",
+    meta_description: "Top 5 stone tile trends shaping 2025 bathrooms — marble, slate, travertine, hexagonal mosaics & quartzite. Design inspiration from Metro Detroit's bathroom experts.",
     content: `
         <p class="lead">As we move into 2025, natural stone continues to dominate bathroom design trends, offering both timeless elegance and modern sophistication. Homeowners in Metro Detroit are increasingly turning to stone materials to create spa-like retreats in their own homes.</p>
         
@@ -116,6 +118,8 @@ export const blogPosts: BlogPost[] = [
     author: "Mike Johnson",
     image: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg",
     slug: "marble-bathroom-transformation",
+    meta_title: "Marble Bathroom Transformation Bloomfield Hills MI | Stone Works",
+    meta_description: "See how we turned a dated Bloomfield Hills bathroom into a marble luxury retreat — before & after photos, materials, challenges, and results from Stone Works Remodeling.",
     content: `
         <h2>Project Overview</h2>
         <div class="before-after">
@@ -186,6 +190,8 @@ export const blogPosts: BlogPost[] = [
     author: "Emily Davis",
     image: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg",
     slug: "choose-stone-shower",
+    meta_title: "Best Stone for Your Shower 2025 | Marble, Slate, Granite & Quartz",
+    meta_description: "Choosing shower stone in Metro Detroit? Compare marble, granite, slate, and quartz — cost, durability, slip resistance, and maintenance in this expert guide.",
     content: `
           <div class="blog-intro">
             <p class="lead">Your shower is the centerpiece of your bathroom, and choosing the right stone material can mean the difference between a daily spa experience and constant maintenance headaches. As Metro Detroit's stone shower specialists, we've installed hundreds of stone showers and know exactly what works in our climate.</p>
@@ -415,6 +421,8 @@ export const blogPosts: BlogPost[] = [
     author: "John Doe",
     image: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg",
     slug: "slate-bathroom-remodeling",
+    meta_title: "Slate Bathroom Remodeling Guide | Benefits, Colors & Care Tips",
+    meta_description: "Why slate is perfect for Metro Detroit bathroom remodels — natural slip resistance, thermal properties, stunning color variety, and minimal maintenance required.",
     content: `
           <div class="blog-intro">
             <p class="lead">In the world of natural stone for bathrooms, slate stands out as a uniquely versatile material that combines rugged durability with sophisticated aesthetics. At Stone Works Remodeling, we've seen slate transform ordinary bathrooms into stunning natural retreats that stand the test of time.</p>
@@ -568,6 +576,8 @@ export const blogPosts: BlogPost[] = [
     author: "Valjon Qejvani",
     image: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic14.jpeg",
     slug: "stone-work-sustainability",
+    meta_title: "Sustainable Stone Remodeling Practices | Stone Works Remodeling",
+    meta_description: "How Stone Works Remodeling blends luxury with sustainability — ethical stone sourcing, reclaimed materials, low-VOC products, and green installation across Metro Detroit.",
     content: `
           <div class="blog-intro">
             <p class="lead">At Stone Works Remodeling, we believe luxury and environmental responsibility should go hand-in-hand. As Michigan's premier stone remodeling specialists, we've implemented comprehensive sustainability initiatives that reduce our environmental impact without compromising quality or design.</p>
@@ -716,6 +726,8 @@ export const blogPosts: BlogPost[] = [
     author: "Alex Johnson",
     image: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic15.jpeg",
     slug: "bathroom-trends-2025",
+    meta_title: "Top Luxury Bathroom Remodeling Trends 2025 | Stone Works Remodeling",
+    meta_description: "Discover 2025's top bathroom trends — smart wellness tech, organic stone, biophilic design, and bold color combos. Expert insights from Metro Detroit remodelers.",
     content: `
       <div class="blog-intro">
         <p class="lead">As we move deeper into 2025, bathroom design has evolved beyond mere functionality to become a holistic wellness experience. At Stone Works Remodeling, we're at the forefront of these innovations, blending cutting-edge technology with timeless natural materials to create sanctuaries that pamper both body and soul.</p>
@@ -1013,6 +1025,8 @@ export const blogPosts: BlogPost[] = [
   {
     "id": 7,
     "title": "5 Mistakes to Avoid When Remodeling Your Bathroom in 2025",
+    "meta_title": "5 Bathroom Remodeling Mistakes to Avoid in 2025 | Stone Works Remodeling",
+    "meta_description": "Avoid the top bathroom remodeling mistakes in 2025 — poor planning, ignoring functionality, cheap materials, and more. Expert tips from Metro Detroit contractors.",
     "excerpt": "Discover the top 2.5 mistakes to steer clear of during your bathroom remodel to save time, money, and stress while creating a functional, stylish space.",
     "category": "remodeling-tips",
     "date": "2025-06-25",
@@ -1129,6 +1143,8 @@ export const blogPosts: BlogPost[] = [
   {
     "id": 8,
     "title": "Is a DIY Bathroom Remodel Worth It? Here's What the Pros Say",
+    "meta_title": "DIY Bathroom Remodel Worth It? Pros vs Cons 2025 | Stone Works",
+    "meta_description": "Is a DIY bathroom remodel worth it in 2025? Compare savings vs risks, which tasks are DIY-friendly, and when to hire a professional contractor in Metro Detroit.",
     "excerpt": "Explore the pros and cons of a DIY bathroom remodel in 2025 to decide if it’s worth your time, money, and effort for a stylish, functional upgrade.",
     "category": "remodeling-tips",
     "date": "2025-07-08",
@@ -1137,7 +1153,7 @@ export const blogPosts: BlogPost[] = [
     "slug": "diy-bathroom-remodel-2025",
     "content": `
       <div class="blog-intro">
-        <img Raman src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/bathroom-renovation-mc-main-200707.avif" alt="Modern bathroom with sleek fixtures">
+        <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/bathroom-renovation-mc-main-200707.avif" alt="Modern bathroom with sleek fixtures">
         <p class="lead">Remodeling a bathroom can transform your home, but should you tackle it yourself? In 2025, with rising material costs and advanced design trends, the question of whether a DIY bathroom remodel is worth it has never been more relevant. At Stone Works Remodeling, we’ve consulted our experts to weigh the pros and cons, helping you decide if a DIY approach suits your skills, budget, and goals.</p>
         <div class="trend-badge">
           <span>2025 DIY Remodeling Guide</span>
@@ -1244,6 +1260,8 @@ export const blogPosts: BlogPost[] = [
   {
     "id": 9,
     "title": "5 Questions to Ask Your Contractor Before Starting a Bathroom Renovation",
+    "meta_title": "5 Questions to Ask Your Bathroom Contractor | Stone Works Remodeling",
+    "meta_description": "Before hiring a bathroom remodeling contractor, ask these 5 crucial questions about cost estimates, licensing, timelines, references, and handling unexpected issues.",
     "excerpt": "Before you begin your bathroom remodel, make sure you ask these 5 crucial questions to avoid costly mistakes and get the dream bathroom you want.",
     "category": "remodeling-tips",
     "date": "2025-07-01",
@@ -1328,6 +1346,8 @@ export const blogPosts: BlogPost[] = [
   {
     "id": 10,
     "title": "Bathroom Remodel Cost in 2025: Complete Price Breakdown & Money-Saving Tips",
+    "meta_title": "Bathroom Remodel Cost 2025 | Complete Price Breakdown & Tips",
+    "meta_description": "How much does a bathroom remodel cost in 2025? Small remodel $7,500–$15K, mid-range $15K–$30K, luxury $30K+. Expert money-saving tips for Metro Detroit homeowners.",
     "excerpt": "Discover the average bathroom remodel cost in 2025, including small, mid-range, and luxury renovations — plus expert tips to save money without cutting quality.",
     "category": "remodeling-tips",
     "date": "2025-07-03",
@@ -1432,6 +1452,8 @@ export const blogPosts: BlogPost[] = [
   {
     "id": 11,
     "title": "Bathroom Remodel Cost in Livonia, MI (2025): Local Pricing & Expert Tips",
+    "meta_title": "Bathroom Remodel Cost Livonia MI (2025) | Local Prices & Tips",
+    "meta_description": "How much does a bathroom remodel cost in Livonia, MI? Small remodel $8K–$15.5K, mid-range up to $28.5K. Local contractor tips and money-saving advice.",
     "excerpt": "Find out how much a bathroom remodel costs in Livonia, MI in 2025, with local price ranges, contractor tips, and ways to save money on your renovation.",
     "category": "remodeling-tips",
     "date": "2025-08-13",
@@ -1558,33 +1580,7 @@ export const blogPosts: BlogPost[] = [
     "slug": "bathroom-remodel-troy-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg' alt='Troy MI modern bathroom'><p class='lead'>In Troy, MI, 2025 bathroom remodels lean toward high-end materials, clean lines, and custom storage to fit suburban lifestyles.</p></div><h2>1. Top Troy Trends</h2><ul><li>Quartz and marble vanities</li><li>Frameless glass showers</li><li>Built-in shelving for storage</li></ul><h2>2. Average Costs</h2><p>Standard remodels: $10,000–$26,000. High-end: $38,000+ with luxury finishes.</p><h2>3. DIY or Hire?</h2><p>DIY: minor paint, replacing cabinet hardware. Pro: plumbing and electrical work require permits from Troy’s Building Department.</p><div class='cta-section'><a href='/contact'>Plan Your Troy Bathroom Remodel</a></div>"
   },
-  {
-    "id": 15,
-    "title": "Bathroom Remodel Canton, MI 2025 – Design & Budget Guide",
-    "meta_title": "Bathroom Remodel Canton, MI 2025 | Trends & Budget",
-    "meta_description": "2025 Canton, MI bathroom remodel guide with costs, ideas, and trends. Learn when to DIY and when to hire a professional.",
-    "excerpt": "Canton’s bathroom remodels in 2025 mix practical upgrades with luxury touches, especially in neighborhoods like Cherry Hill Village.",
-    "category": "bathroom-remodel",
-    "date": "2025-07-19",
-    "author": "Valjon Qejvani",
-    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg",
-    "slug": "bathroom-remodel-canton-mi-2025",
-    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg' alt='Bathroom remodel in Canton MI'><p class='lead'>In Canton, MI, bathroom remodeling in 2025 is about balancing cost efficiency with stylish upgrades for growing families.</p></div><h2>1. Canton Trends</h2><ul><li>Double vanities for busy mornings</li><li>Neutral tones with accent walls</li><li>Low-flow fixtures for water savings</li></ul><h2>2. Cost Guide</h2><p>Remodels start at $8,000 for small updates and reach $28,000+ for luxury builds.</p><h2>3. DIY vs Pro</h2><p>DIY: installing mirrors, towel bars. Pro: structural changes or plumbing require a permit from Canton Township.</p><div class='cta-section'><a href='/contact'>Start Your Canton Remodel Project</a></div>"
-  },
-  {
-    "id": 16,
-    "title": "Bathroom Remodel Novi, MI 2025 – Local Trends & Cost Insights",
-    "meta_title": "Bathroom Remodel Novi, MI 2025 | Costs, Trends, Ideas",
-    "meta_description": "Learn Novi, MI bathroom remodel costs, trends, and design tips for 2025. Get inspired with modern layouts and luxury finishes.",
-    "excerpt": "Novi homeowners in 2025 are choosing sleek, low-maintenance bathroom designs with high-tech features.",
-    "category": "bathroom-remodel",
-    "date": "2025-07-22",
-    "author": "Valjon Qejvani",
-    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg",
-    "slug": "bathroom-remodel-novi-mi-2025",
-    "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg' alt='Novi MI bathroom remodel'><p class='lead'>In Novi, MI, 2025 bathroom remodel trends combine minimalism with smart technology for a modern lifestyle.</p></div><h2>1. Novi Bathroom Trends</h2><ul><li>Smart mirrors with lighting and defoggers</li><li>Porcelain tile floors</li><li>Wall-mounted vanities for more space</li></ul><h2>2. Cost Details</h2><p>Standard remodel: $9,500–$24,000. Luxury: $37,000+ with premium fixtures.</p><h2>3. DIY vs Pro</h2><p>DIY: paint touch-ups, replacing faucets. Pro: advanced electrical or plumbing jobs require Novi’s Building Department permits.</p><div class='cta-section'><a href='/contact'>Book a Novi Remodel Consultation</a></div>"
-  },
-
+    
   {
     "id": 17,
     "title": "Bathroom Remodel Ann Arbor, MI 2025 – Eco-Friendly Trends & Smart Design",
@@ -1700,7 +1696,7 @@ export const blogPosts: BlogPost[] = [
     "date": "2025-11-09",
     "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg",
-    "slug": "bathroom-remodel-novi-mi-2025",
+    "slug": "bathroom-remodel-novi-minimalist-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg' alt='Minimalist bathroom remodel in Novi, MI'><p class='lead'>Novi homeowners are choosing minimalism for its clean aesthetics and ease of maintenance in 2025 bathroom remodels.</p></div><h2>1. Clean Lines</h2><p>Floating vanities, frameless showers, and hidden storage keep the space uncluttered.</p><h2>2. Neutral Color Schemes</h2><p>Shades of white, beige, and gray create a calming atmosphere.</p><h2>3. Practical Layouts</h2><p>Functional floor plans maximize space while maintaining style.</p><div class='cta-section'><h3>Transform Your Bathroom</h3><p>Let us design a minimalist, functional bathroom for your Novi home.</p></div>"
   },
   {
@@ -1846,18 +1842,7 @@ export const blogPosts: BlogPost[] = [
     "slug": "healthy-home-materials",
     "content": "<div class='blog-intro'><p class='lead'>Healthy bathrooms start with the right materials. Choose options that improve indoor air quality and resist mold.</p></div><h2>1. Low-VOC Paints</h2><p>Reduce harmful fumes and improve indoor air quality.</p><h2>2. Mold-Resistant Tile</h2><p>Porcelain and slate naturally resist moisture and bacteria.</p><h2>3. Non-Toxic Sealants</h2><p>Safe, long-lasting protection for stone and grout.</p><h2>4. Natural Ventilation</h2><p>Proper ventilation reduces humidity and improves health.</p>"
   },
-  {
-    "id": 37,
-    "title": "Terms & Conditions",
-    "excerpt": "Read the terms and conditions for using Stone Works Remodeling services and website.",
-    "category": "company-updates",
-    "date": "2025-11-20",
-    "author": "Stone Works Remodeling",
-    "image": "",
-    "slug": "terms",
-    "content": "<div class='blog-intro'><p class='lead'>These Terms & Conditions outline the rules and regulations for using Stone Works Remodeling’s website and services.</p></div><h2>1. Acceptance of Terms</h2><p>By accessing our website, you agree to all terms listed on this page.</p><h2>2. Services</h2><p>All remodeling services are subject to a written contract and final approval.</p><h2>3. Privacy Policy</h2><p>Your personal information is kept secure and never sold to third parties.</p><h2>4. Liability</h2><p>Stone Works Remodeling is not responsible for damages resulting from misuse of the website.</p><h2>5. Contact Us</h2><p>For questions regarding these terms, please contact our support team.</p>"
-  },
-  {
+    {
     "id": 38,
     "title": "How Much Does a Bathroom Remodel Cost in Detroit, MI? (2026 Guide)",
     "meta_title": "Bathroom Remodel Cost in Detroit MI (2026) | Prices, Permits & Options",
