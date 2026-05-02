@@ -1580,7 +1580,7 @@ export const blogPosts: BlogPost[] = [
     "slug": "bathroom-remodel-troy-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg' alt='Troy MI modern bathroom'><p class='lead'>In Troy, MI, 2025 bathroom remodels lean toward high-end materials, clean lines, and custom storage to fit suburban lifestyles.</p></div><h2>1. Top Troy Trends</h2><ul><li>Quartz and marble vanities</li><li>Frameless glass showers</li><li>Built-in shelving for storage</li></ul><h2>2. Average Costs</h2><p>Standard remodels: $10,000–$26,000. High-end: $38,000+ with luxury finishes.</p><h2>3. DIY or Hire?</h2><p>DIY: minor paint, replacing cabinet hardware. Pro: plumbing and electrical work require permits from Troy’s Building Department.</p><div class='cta-section'><a href='/contact'>Plan Your Troy Bathroom Remodel</a></div>"
   },
-    
+
   {
     "id": 17,
     "title": "Bathroom Remodel Ann Arbor, MI 2025 – Eco-Friendly Trends & Smart Design",
@@ -1842,7 +1842,7 @@ export const blogPosts: BlogPost[] = [
     "slug": "healthy-home-materials",
     "content": "<div class='blog-intro'><p class='lead'>Healthy bathrooms start with the right materials. Choose options that improve indoor air quality and resist mold.</p></div><h2>1. Low-VOC Paints</h2><p>Reduce harmful fumes and improve indoor air quality.</p><h2>2. Mold-Resistant Tile</h2><p>Porcelain and slate naturally resist moisture and bacteria.</p><h2>3. Non-Toxic Sealants</h2><p>Safe, long-lasting protection for stone and grout.</p><h2>4. Natural Ventilation</h2><p>Proper ventilation reduces humidity and improves health.</p>"
   },
-    {
+  {
     "id": 38,
     "title": "How Much Does a Bathroom Remodel Cost in Detroit, MI? (2026 Guide)",
     "meta_title": "Bathroom Remodel Cost in Detroit MI (2026) | Prices, Permits & Options",
@@ -2697,6 +2697,257 @@ export const blogPosts: BlogPost[] = [
 </div>
 `
   },
+
+  // ── BLOG POST 51 ──────────────────────────────────────────────────────────────
+  {
+    "id": 51,
+    "title": "How Much Does a Bathroom Remodel Cost in Metro Detroit, MI? (2026 Guide)",
+    "meta_title": "Bathroom Remodel Cost Metro Detroit MI (2026) | Stone Works Remodeling",
+    "meta_description": "How much does a bathroom remodel cost in Metro Detroit in 2026? Small remodels start at $8,000. Full guide with local pricing, what affects cost, and how to save money.",
+    "excerpt": "Planning a bathroom remodel in Metro Detroit? This 2026 guide breaks down real local costs — from small updates to full luxury renovations — so you know exactly what to expect before calling a contractor.",
+    "category": "remodeling-tips",
+    "date": "2026-05-02",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg",
+    "slug": "bathroom-remodel-cost-metro-detroit-2026",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
+
+  <div style="background:#f0f7ff;border-left:4px solid #2563eb;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
+      One of the first questions every Metro Detroit homeowner asks when thinking about a bathroom remodel is: <strong>how much is this going to cost?</strong> The honest answer — it depends. But this guide gives you real local numbers so you can plan with confidence and avoid being overcharged.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Average Bathroom Remodel Cost in Metro Detroit (2026)</h2>
+  <p style="margin-bottom:16px;">Based on projects we've completed across Wayne, Oakland, and Macomb Counties, here's what Metro Detroit homeowners are paying in 2026:</p>
+
+  <table style="width:100%;border-collapse:collapse;margin:20px 0 32px;">
+    <thead>
+      <tr style="background:#2563eb;color:white;">
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Remodel Type</th>
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Typical Cost Range</th>
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">What's Included</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#f9fafb;border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Small Bathroom Update</td>
+        <td style="padding:12px 16px;">$5,000 – $10,000</td>
+        <td style="padding:12px 16px;">New tile, fixtures, vanity top, lighting</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Mid-Range Full Remodel</td>
+        <td style="padding:12px 16px;">$10,000 – $25,000</td>
+        <td style="padding:12px 16px;">Full demo, new tile, vanity, shower, plumbing</td>
+      </tr>
+      <tr style="background:#f9fafb;border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Tub-to-Shower Conversion</td>
+        <td style="padding:12px 16px;">$4,000 – $12,000</td>
+        <td style="padding:12px 16px;">Remove tub, custom tile shower, glass door</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Walk-in Tub Installation</td>
+        <td style="padding:12px 16px;">$5,000 – $15,000</td>
+        <td style="padding:12px 16px;">Accessible tub with safety features</td>
+      </tr>
+      <tr style="background:#f9fafb;">
+        <td style="padding:12px 16px;font-weight:500;">Luxury Master Bathroom</td>
+        <td style="padding:12px 16px;">$25,000 – $60,000+</td>
+        <td style="padding:12px 16px;">Marble, steam shower, heated floors, custom tile</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="margin-bottom:24px;">These are real numbers from real Metro Detroit jobs — not national averages pulled from a calculator. Your final cost will depend on your bathroom's size, the materials you choose, and whether any plumbing or electrical work is needed.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">What Affects the Cost of a Bathroom Remodel in Michigan?</h2>
+
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">1. Bathroom Size</h3>
+  <p style="margin-bottom:16px;">The most obvious factor. A 50 sq ft powder room costs a fraction of a 120 sq ft master bathroom. Tile work, waterproofing, and labor are all priced per square foot, so size directly drives cost. Most Metro Detroit homes have bathrooms between 40–80 sq ft, which puts them squarely in the mid-range category.</p>
+
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">2. Material Selection</h3>
+  <p style="margin-bottom:16px;">This is where costs vary the most. There's a big difference between ceramic tile at $3/sq ft and marble at $25/sq ft — but both can look stunning when installed correctly. At Stone Works Remodeling, we help clients find the right balance between budget and beauty. Natural stone (marble, slate, quartzite) adds resale value and luxury feel. Porcelain tile offers a high-end look at a lower price point.</p>
+
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">3. Plumbing & Electrical Changes</h3>
+  <p style="margin-bottom:16px;">If you're keeping the same layout — toilet, vanity, and shower in the same spots — costs stay controlled. The moment you start moving plumbing, expect to add $1,500–$5,000 depending on complexity. Many older Metro Detroit homes (built in the 1960s–1980s) also need electrical updates to meet current code, which adds to the budget.</p>
+
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">4. Labor & Contractor Quality</h3>
+  <p style="margin-bottom:16px;">Labor typically accounts for 40–50% of your total project cost. Choosing a licensed, insured Michigan contractor protects you legally and ensures the work is done right the first time. Unlicensed contractors often quote lower but end up costing more when work needs to be redone. All Stone Works Remodeling projects come with a 5-year workmanship warranty — something most budget contractors can't offer.</p>
+
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">5. Michigan Permits</h3>
+  <p style="margin-bottom:16px;">Most cities in Metro Detroit require permits for plumbing, electrical, and structural work. Permit fees typically run $150–$600 depending on the city (Livonia, Troy, Warren, etc.). We handle all permits for our clients — you never have to deal with the building department yourself.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">How to Save Money on Your Metro Detroit Bathroom Remodel</h2>
+
+  <div style="display:grid;gap:16px;margin:20px 0 32px;">
+    <div style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:16px 20px;">
+      <p style="font-weight:600;color:#111827;margin-bottom:6px;">✅ Keep the existing layout</p>
+      <p style="color:#4b5563;margin:0;">Moving plumbing is expensive. If your layout works, keep it. You can completely transform the look without moving a single pipe.</p>
+    </div>
+    <div style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:16px 20px;">
+      <p style="font-weight:600;color:#111827;margin-bottom:6px;">✅ Choose porcelain over natural stone</p>
+      <p style="color:#4b5563;margin:0;">Modern porcelain tile can mimic marble, slate, or wood perfectly — at 40–60% of the cost. Most visitors can't tell the difference.</p>
+    </div>
+    <div style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:16px 20px;">
+      <p style="font-weight:600;color:#111827;margin-bottom:6px;">✅ Get multiple quotes — and compare carefully</p>
+      <p style="color:#4b5563;margin:0;">Get at least 3 quotes. But don't just compare the bottom line — compare what's included. A quote that's $2,000 cheaper may not include waterproofing, permits, or cleanup.</p>
+    </div>
+    <div style="background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:16px 20px;">
+      <p style="font-weight:600;color:#111827;margin-bottom:6px;">✅ Book during off-peak season</p>
+      <p style="color:#4b5563;margin:0;">January through March is our slower season in Michigan. Contractors are more flexible on pricing and scheduling. Book early in the year and save.</p>
+    </div>
+  </div>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">What Does Stone Works Remodeling Charge?</h2>
+  <p style="margin-bottom:16px;">We're transparent about pricing because we believe you deserve to know what you're paying for. Our standard full bathroom remodels in Livonia, Troy, Warren, and surrounding Metro Detroit cities start at <strong>$8,000</strong> and most fall in the $12,000–$22,000 range depending on scope and materials.</p>
+  <p style="margin-bottom:16px;">Every project starts with a <strong>free in-home consultation</strong> where we measure your space, discuss your vision, and give you a detailed written quote — broken down line by line. No surprises, no hidden fees.</p>
+  <p style="margin-bottom:32px;">We also offer <strong>flexible financing</strong> for qualified homeowners, so you don't have to wait to get the bathroom you deserve.</p>
+
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:12px;text-align:center;">
+    <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Get a Free, Itemized Quote for Your Metro Detroit Bathroom</h3>
+    <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:500px;margin-left:auto;margin-right:auto;">No pressure. No obligation. Just an honest number from a licensed Michigan contractor who's been serving Wayne, Oakland, and Macomb Counties since 2009.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Schedule Your Free In-Home Consultation</a>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12483468926" style="color:#fff;font-weight:700;">(248) 346-8926</a></p>
+  </div>
+
+</div>
+  `
+  },
+
+  // ── BLOG POST 52 ──────────────────────────────────────────────────────────────
+  {
+    "id": 52,
+    "title": "Tub to Shower Conversion in Metro Detroit, MI — Cost, Process & What to Expect (2026)",
+    "meta_title": "Tub to Shower Conversion Metro Detroit MI (2026) | Cost & Process Guide",
+    "meta_description": "Everything Metro Detroit homeowners need to know about tub to shower conversions in 2026 — cost, how long it takes, what's included, and how to find the right contractor.",
+    "excerpt": "Thinking about converting your bathtub to a walk-in shower in Metro Detroit? This guide covers everything — real costs, the installation process, how long it takes, and what to look for in a Michigan contractor.",
+    "category": "remodeling-tips",
+    "date": "2026-05-02",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic8.jpeg",
+    "slug": "tub-to-shower-conversion-metro-detroit-2026",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
+
+  <div style="background:#f0f7ff;border-left:4px solid #2563eb;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
+      Tub-to-shower conversions are the most popular bathroom upgrade we do across Metro Detroit — and it's easy to see why. Most homeowners haven't used their bathtub in years, and converting that space into a custom walk-in shower instantly modernizes the bathroom, improves accessibility, and increases home value.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Why Metro Detroit Homeowners Are Choosing Shower Conversions</h2>
+  <p style="margin-bottom:16px;">We get calls every week from homeowners in Livonia, Troy, Warren, Dearborn, and surrounding cities who say the same thing: <em>"We never use the tub. It just collects cleaning products."</em> If that sounds familiar, a tub-to-shower conversion might be the best investment you can make in your home right now.</p>
+
+  <p style="margin-bottom:24px;">Here's why conversions are so popular in Metro Detroit in 2026:</p>
+
+  <ul style="margin:0 0 32px 20px;padding-left:16px;">
+    <li style="margin-bottom:12px;"><strong>Accessibility</strong> — Walk-in showers are safer and easier to use for all ages, especially as Michigan families age in place.</li>
+    <li style="margin-bottom:12px;"><strong>Space</strong> — Removing the tub and replacing it with a custom shower makes even a small bathroom feel significantly larger and more open.</li>
+    <li style="margin-bottom:12px;"><strong>Resale value</strong> — Updated bathrooms are one of the top factors buyers look for in Metro Detroit homes. A modern walk-in shower is a strong selling point.</li>
+    <li style="margin-bottom:12px;"><strong>Easier cleaning</strong> — Custom tile showers with frameless glass are far easier to clean than old fiberglass tub surrounds.</li>
+    <li style="margin-bottom:0;"><strong>Daily luxury</strong> — A rainfall showerhead, built-in bench, and custom niche makes every morning feel like a hotel experience.</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">How Much Does a Tub-to-Shower Conversion Cost in Metro Detroit?</h2>
+  <p style="margin-bottom:16px;">Costs vary based on the size of your existing tub space, the materials you choose, and whether any plumbing changes are needed. Here's a realistic breakdown for Metro Detroit in 2026:</p>
+
+  <table style="width:100%;border-collapse:collapse;margin:20px 0 32px;">
+    <thead>
+      <tr style="background:#2563eb;color:white;">
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Conversion Type</th>
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Cost Range</th>
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#f9fafb;border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Basic Conversion</td>
+        <td style="padding:12px 16px;">$4,000 – $7,000</td>
+        <td style="padding:12px 16px;">Standard tile, basic fixtures, no layout changes</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Mid-Range with Glass Door</td>
+        <td style="padding:12px 16px;">$7,000 – $12,000</td>
+        <td style="padding:12px 16px;">Custom tile, frameless glass, built-in niche, upgraded fixtures</td>
+      </tr>
+      <tr style="background:#f9fafb;">
+        <td style="padding:12px 16px;font-weight:500;">Premium Custom Shower</td>
+        <td style="padding:12px 16px;">$12,000 – $20,000+</td>
+        <td style="padding:12px 16px;">Natural stone, rainfall head, bench, steam option, full custom design</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="margin-bottom:32px;">Most of our Metro Detroit customers end up in the $7,000–$12,000 range — a mid-range conversion with custom tile, frameless glass, and upgraded fixtures. That's where you get the best value: a shower that looks stunning without going overboard on cost.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">The Tub-to-Shower Conversion Process — Step by Step</h2>
+  <p style="margin-bottom:20px;">Here's exactly what happens when Stone Works Remodeling does a conversion in your Metro Detroit home:</p>
+
+  <div style="display:grid;gap:16px;margin:0 0 32px;">
+    <div style="display:flex;gap:16px;align-items:flex-start;background:#f9fafb;border-radius:8px;padding:16px 20px;border:1px solid #e5e7eb;">
+      <div style="background:#2563eb;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">1</div>
+      <div>
+        <p style="font-weight:600;color:#111827;margin-bottom:4px;">Free In-Home Consultation</p>
+        <p style="color:#4b5563;margin:0;">We come to your home, measure the space, discuss tile and fixture options, and give you a detailed written quote. No pressure, no obligation.</p>
+      </div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;background:#f9fafb;border-radius:8px;padding:16px 20px;border:1px solid #e5e7eb;">
+      <div style="background:#2563eb;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">2</div>
+      <div>
+        <p style="font-weight:600;color:#111827;margin-bottom:4px;">Demolition & Removal</p>
+        <p style="color:#4b5563;margin:0;">We remove the existing tub, surround, and any old waterproofing. We protect your floors and surrounding areas throughout the entire process.</p>
+      </div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;background:#f9fafb;border-radius:8px;padding:16px 20px;border:1px solid #e5e7eb;">
+      <div style="background:#2563eb;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">3</div>
+      <div>
+        <p style="font-weight:600;color:#111827;margin-bottom:4px;">Waterproofing & Cement Board</p>
+        <p style="color:#4b5563;margin:0;">This is the step many contractors skip — and the reason showers fail. We apply a full waterproofing membrane system before any tile goes up. This is what gives us confidence in our 5-year warranty.</p>
+      </div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;background:#f9fafb;border-radius:8px;padding:16px 20px;border:1px solid #e5e7eb;">
+      <div style="background:#2563eb;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">4</div>
+      <div>
+        <p style="font-weight:600;color:#111827;margin-bottom:4px;">Custom Tile Installation</p>
+        <p style="color:#4b5563;margin:0;">Floor tile, wall tile, niche, and bench — all installed precisely to your design. We work with any tile you choose, from basic porcelain to natural marble and slate.</p>
+      </div>
+    </div>
+    <div style="display:flex;gap:16px;align-items:flex-start;background:#f9fafb;border-radius:8px;padding:16px 20px;border:1px solid #e5e7eb;">
+      <div style="background:#2563eb;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">5</div>
+      <div>
+        <p style="font-weight:600;color:#111827;margin-bottom:4px;">Fixtures, Glass & Final Touches</p>
+        <p style="color:#4b5563;margin:0;">Showerhead, valve, glass door or enclosure, and any accessories are installed. We do a full quality inspection and final walkthrough with you before we consider the job done.</p>
+      </div>
+    </div>
+  </div>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">How Long Does a Tub-to-Shower Conversion Take?</h2>
+  <p style="margin-bottom:16px;">Most standard conversions in Metro Detroit homes take <strong>3–5 business days</strong> from demolition to final walkthrough. More complex projects with custom tile patterns, natural stone, or additional plumbing work may take 5–8 days.</p>
+  <p style="margin-bottom:32px;">We work efficiently and respect your home — we clean up at the end of every single day, and your bathroom will typically be usable within a week.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Do You Need a Permit for a Shower Conversion in Michigan?</h2>
+  <p style="margin-bottom:16px;">If you're converting a tub to a shower in the same footprint with no plumbing changes, most Michigan cities do not require a permit. However, if any plumbing is being moved or modified, a permit is required. We pull all necessary permits for our clients — you never have to deal with the city building department yourself.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">What to Look For in a Metro Detroit Shower Contractor</h2>
+  <ul style="margin:0 0 32px 20px;padding-left:16px;">
+    <li style="margin-bottom:12px;"><strong>Licensed & insured in Michigan</strong> — Always ask to see their license number. An unlicensed contractor cannot legally pull permits and their work won't be protected.</li>
+    <li style="margin-bottom:12px;"><strong>Waterproofing process</strong> — Ask how they waterproof. If they say "we use cement board," that's not enough. A proper waterproofing membrane is essential.</li>
+    <li style="margin-bottom:12px;"><strong>Written quote with line items</strong> — Never accept a verbal quote or a single number. You should know exactly what you're paying for.</li>
+    <li style="margin-bottom:12px;"><strong>Workmanship warranty</strong> — Any contractor confident in their work will back it up. We offer a 5-year warranty on every project.</li>
+    <li style="margin-bottom:0;"><strong>Local references and reviews</strong> — Check Google reviews specifically for Metro Detroit projects. National franchise reviews don't reflect local quality.</li>
+  </ul>
+
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:12px;text-align:center;">
+    <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Ready to Convert Your Tub to a Custom Shower?</h3>
+    <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling has completed hundreds of tub-to-shower conversions across Metro Detroit. We're licensed, insured, and ready to give you a free in-home quote with no pressure and no obligation.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Get Your Free Shower Conversion Quote</a>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Call us directly: <a href="tel:+12483468926" style="color:#fff;font-weight:700;">(248) 346-8926</a> · Mon–Fri 8am–6pm · Sat 9am–2pm</p>
+  </div>
+
+</div>
+  `
+  }
 
 
 
