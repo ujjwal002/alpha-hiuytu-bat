@@ -2947,21 +2947,347 @@ export const blogPosts: BlogPost[] = [
 
 </div>
   `
-  }
+  },
+  // ============================================================
+// 5 NEW KEYWORD-TARGETED BLOG POSTS — Add to blogPosts array
+// ============================================================
 
+  {
+    "id": 53,
+    "title": "Can You Renovate a Bathroom for $15,000 in Michigan? (2026 Guide)",
+    "meta_title": "Can You Renovate a Bathroom for $15,000 in Michigan? | 2026 Guide",
+    "meta_description": "Wondering if $15,000 is enough for a bathroom remodel in Michigan? See exactly what you can get, what to prioritize, and how to make the most of your budget.",
+    "excerpt": "Yes, $15,000 is a solid bathroom remodel budget in Michigan — if you spend it in the right places. Here's exactly what you can get in 2026.",
+    "category": "remodeling-tips",
+    "date": "2026-05-05",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg",
+    "slug": "can-you-renovate-bathroom-15000-michigan",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
 
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg" alt="Bathroom remodel for $15000 in Michigan" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      $15,000 is one of the most common bathroom remodel budgets in Michigan — and the good news is, it's absolutely enough to create a beautiful, functional bathroom if you know where to spend it. Here's exactly what you can get in 2026.
+    </p>
+  </div>
 
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">What $15,000 Gets You in a Michigan Bathroom Remodel</h2>
+  <p>At this budget, you can comfortably complete a full mid-range bathroom renovation including:</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">A new tiled walk-in shower with frameless glass</li>
+    <li style="margin-bottom:10px;">New vanity with quartz or stone countertop</li>
+    <li style="margin-bottom:10px;">New flooring — stone tile or large-format porcelain</li>
+    <li style="margin-bottom:10px;">New toilet, faucets, and fixtures</li>
+    <li style="margin-bottom:10px;">Fresh paint and updated lighting</li>
+  </ul>
 
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">How to Break Down a $15,000 Bathroom Budget</h2>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>Labor:</strong> $6,000 – $7,500 (40–50% of budget)</li>
+    <li style="margin-bottom:10px;"><strong>Shower tile & installation:</strong> $3,000 – $4,000</li>
+    <li style="margin-bottom:10px;"><strong>Vanity & countertop:</strong> $1,500 – $2,500</li>
+    <li style="margin-bottom:10px;"><strong>Flooring:</strong> $1,000 – $1,500</li>
+    <li style="margin-bottom:10px;"><strong>Fixtures & toilet:</strong> $800 – $1,200</li>
+    <li style="margin-bottom:10px;"><strong>Permits & misc:</strong> $300 – $600</li>
+  </ul>
 
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">Where to Spend vs. Where to Save</h2>
+  <p><strong>Spend on:</strong> Shower tile and waterproofing — this is what you see every day and what buyers notice most.</p>
+  <p><strong>Save on:</strong> Vanity — mid-range options from local suppliers look great and cost half of custom.</p>
+  <p><strong>Avoid:</strong> Moving plumbing — keeping fixtures in the same location saves $1,500–$3,000 in labor alone.</p>
 
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">What You WON'T Get at $15,000</h2>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Full marble slab walls (add $5,000–$10,000)</li>
+    <li style="margin-bottom:10px;">Heated floors (add $1,500–$2,500)</li>
+    <li style="margin-bottom:10px;">Steam shower system (add $3,000–$5,000)</li>
+    <li style="margin-bottom:10px;">Layout changes or wall removal</li>
+  </ul>
 
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">Pro Tip: Always Keep a 10–15% Contingency</h2>
+  <p>On a $15,000 budget, set aside $1,500–$2,000 for surprises — older Michigan homes often reveal hidden plumbing issues, mold, or outdated wiring once walls are opened up.</p>
 
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">Working With a $15,000 Bathroom Budget?</h3>
+    <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling helps Michigan homeowners get the most out of every dollar. Let's design a bathroom that looks twice the price.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get a Free Estimate</a>
+  </div>
 
+</div>
+`
+  },
 
+  {
+    "id": 54,
+    "title": "Can You Remodel a Bathroom for $5,000 in Michigan? (Honest 2026 Answer)",
+    "meta_title": "Can You Remodel a Bathroom for $5,000 in Michigan? | Honest 2026 Guide",
+    "meta_description": "Is $5,000 enough for a bathroom remodel in Michigan? Get an honest answer, see what's possible, and learn the smartest ways to stretch a tight budget.",
+    "excerpt": "The honest answer: $5,000 won't cover a full remodel — but it can make a real difference in the right places. Here's what Michigan homeowners can realistically expect.",
+    "category": "remodeling-tips",
+    "date": "2026-05-05",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg",
+    "slug": "can-you-remodel-bathroom-5000-michigan",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
 
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg" alt="Budget bathroom remodel Michigan $5000" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      $5,000 is a tight budget for a full bathroom remodel in Michigan in 2026 — but it's not nothing. With the right priorities, you can make a dramatic difference in how your bathroom looks and functions. Here's the honest breakdown.
+    </p>
+  </div>
 
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">The Honest Answer</h2>
+  <p>A complete gut-renovation for $5,000 is not realistic in Michigan in 2026. Labor alone on a full remodel runs $6,000–$8,000. But a targeted, high-impact refresh? Absolutely doable.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">What You CAN Do With $5,000 in Michigan</h2>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>Shower retile:</strong> Replace old surround tile with new stone or porcelain — $2,500–$4,000</li>
+    <li style="margin-bottom:10px;"><strong>New vanity + faucet:</strong> Swap out an old vanity for a modern floating model — $800–$1,500</li>
+    <li style="margin-bottom:10px;"><strong>New flooring:</strong> Vinyl plank or basic tile — $600–$1,200</li>
+    <li style="margin-bottom:10px;"><strong>Paint + fixtures:</strong> Fresh paint, new towel bars, mirror — $300–$600</li>
+    <li style="margin-bottom:10px;"><strong>New toilet:</strong> Comfort height upgrade — $400–$700</li>
+  </ul>
+  <p>Pick 2–3 of these and you'll have a bathroom that feels completely transformed.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">The Smartest $5,000 Spend</h2>
+  <p>If we had to pick the single best use of $5,000 in a Michigan bathroom, it's a <strong>shower retile.</strong> It's the most visible part of the bathroom, it protects against water damage, and it immediately updates the entire feel of the space.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">What to Avoid at This Budget</h2>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Moving plumbing — instantly eats your entire budget</li>
+    <li style="margin-bottom:10px;">Trying to do everything — partial work on many things looks worse than one completed upgrade</li>
+    <li style="margin-bottom:10px;">Cheap materials that need replacing in 2–3 years</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">Should You Save Up for a Bigger Budget?</h2>
+  <p>If your bathroom needs a full overhaul, it's worth saving to $12,000–$15,000 before starting. A piecemeal approach often costs more in the long run and the results are never as cohesive. Many Michigan contractors also offer <strong>financing options</strong> — ask about them before assuming a full remodel is out of reach.</p>
+
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">Not Sure What Your Budget Can Get You?</h3>
+    <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling offers free consultations across Metro Detroit. We'll tell you exactly what's possible at your budget — no pressure.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get a Free Honest Estimate</a>
+  </div>
+
+</div>
+`
+  },
+
+  {
+    "id": 55,
+    "title": "What Does a $50,000 Bathroom Renovation Get You in Michigan? (2026)",
+    "meta_title": "What Does a $50,000 Bathroom Renovation Get You in Michigan? | 2026",
+    "meta_description": "Spending $50,000 on a bathroom remodel in Michigan? See exactly what luxury features, materials, and upgrades you can expect at this budget in 2026.",
+    "excerpt": "A $50,000 bathroom renovation in Michigan buys you a true luxury spa experience. Here's every premium feature and material you can expect at this budget.",
+    "category": "remodeling-tips",
+    "date": "2026-05-05",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg",
+    "slug": "what-does-50000-bathroom-renovation-get-you-michigan",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg" alt="Luxury $50000 bathroom remodel Michigan" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      A $50,000 bathroom renovation in Michigan puts you firmly in luxury territory. This is the budget where you stop making compromises — and start building the kind of spa bathroom you see in high-end design magazines. Here's exactly what that investment delivers in 2026.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">The Full $50,000 Luxury Bathroom Breakdown</h2>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>Custom marble or quartzite shower:</strong> $12,000 – $18,000</li>
+    <li style="margin-bottom:10px;"><strong>Heated stone tile floors:</strong> $4,000 – $6,000</li>
+    <li style="margin-bottom:10px;"><strong>Custom double vanity with stone top:</strong> $5,000 – $8,000</li>
+    <li style="margin-bottom:10px;"><strong>Freestanding soaking tub:</strong> $3,000 – $6,000</li>
+    <li style="margin-bottom:10px;"><strong>Steam shower system:</strong> $4,000 – $7,000</li>
+    <li style="margin-bottom:10px;"><strong>Smart mirrors, lighting & fixtures:</strong> $3,000 – $5,000</li>
+    <li style="margin-bottom:10px;"><strong>Labor & project management:</strong> $10,000 – $15,000</li>
+    <li style="margin-bottom:10px;"><strong>Permits & contingency:</strong> $2,000 – $3,000</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">Premium Features You Can Expect</h2>
+
+  <h3 style="font-size:1.2rem;margin:24px 0 8px;color:#1d4ed8;">Marble & Natural Stone Throughout</h3>
+  <p>At $50,000, you're not limited to accent stone — you can have full marble slab walls in your shower, marble flooring, and a quartzite vanity top. Book-matched marble panels with dramatic veining are achievable at this level.</p>
+
+  <h3 style="font-size:1.2rem;margin:24px 0 8px;color:#1d4ed8;">Heated Floors</h3>
+  <p>Radiant floor heating under stone tile is standard at this budget. Perfect for Michigan winters — warm stone underfoot from the moment you step out of the shower.</p>
+
+  <h3 style="font-size:1.2rem;margin:24px 0 8px;color:#1d4ed8;">Steam Shower</h3>
+  <p>A fully enclosed steam shower with digital controls, rainfall head, and body jets transforms your daily routine into a spa experience. Properly waterproofed and stone-tiled for long-term performance.</p>
+
+  <h3 style="font-size:1.2rem;margin:24px 0 8px;color:#1d4ed8;">Freestanding Soaking Tub</h3>
+  <p>A statement freestanding tub positioned against a stone feature wall is the defining element of a $50,000 bathroom. Matte white, stone-resin, or copper finishes are all on the table.</p>
+
+  <h3 style="font-size:1.2rem;margin:24px 0 8px;color:#1d4ed8;">Custom Vanity & Smart Features</h3>
+  <p>Custom-built double vanity with integrated storage, LED-backlit mirrors, smart lighting controls, and high-end brushed brass or matte black fixtures complete the picture.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">Is a $50,000 Bathroom Worth It in Michigan?</h2>
+  <p>In markets like Bloomfield Hills, Shelby Township, and West Bloomfield — absolutely. A luxury master bath renovation typically adds <strong>$40,000–$60,000</strong> to home value in these areas, making it one of the highest-ROI home improvements you can make.</p>
+
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">Ready to Build Your Dream Bathroom?</h3>
+    <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling specializes in luxury stone bathroom renovations across Metro Detroit. Let's create something extraordinary.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule a Luxury Consultation</a>
+  </div>
+
+</div>
+`
+  },
+
+  {
+    "id": 56,
+    "title": "Master Bathroom Remodel Ideas for Michigan Homes (2026 Guide)",
+    "meta_title": "Master Bathroom Remodel Ideas Michigan 2026 | Designs & Inspiration",
+    "meta_description": "Discover the best master bathroom remodel ideas for Michigan homes in 2026. From marble showers to heated floors, get inspired and learn what local homeowners are choosing.",
+    "excerpt": "Transform your master bathroom into a personal retreat. These 2026 design ideas are tailored for Michigan homes — from spa showers to luxurious stone finishes.",
+    "category": "remodeling-tips",
+    "date": "2026-05-05",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg",
+    "slug": "master-bathroom-remodel-ideas-michigan",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg" alt="Master bathroom remodel ideas Michigan 2026" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      Your master bathroom should be the most personal, comfortable space in your home. In 2026, Michigan homeowners are transforming their master baths into private retreats — here are the most inspiring ideas we're seeing across Metro Detroit right now.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">1. The Spa Shower — Michigan's #1 Master Bath Upgrade</h2>
+  <p>The oversized walk-in shower with no tub is the defining feature of modern Michigan master bathrooms. Key elements include:</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Floor-to-ceiling natural stone tile — marble, quartzite, or slate</li>
+    <li style="margin-bottom:10px;">Frameless glass enclosure for an open, airy feel</li>
+    <li style="margin-bottom:10px;">Rainfall showerhead plus handheld wand</li>
+    <li style="margin-bottom:10px;">Built-in stone bench and recessed niches</li>
+    <li style="margin-bottom:10px;">Linear drain for a seamless floor look</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2. Heated Stone Floors — Essential for Michigan Winters</h2>
+  <p>Radiant floor heating under stone or large-format porcelain tile is one of the most requested master bath features across Metro Detroit. Waking up to warm floors on a January morning is genuinely life-changing — and it adds real resale value.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">3. His & Hers Vanity Setups</h2>
+  <p>Double vanities with dedicated storage zones on each side are the new standard for Michigan master bathrooms. Popular configurations in 2026 include:</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Floating vanities in white oak or navy blue with quartz tops</li>
+    <li style="margin-bottom:10px;">Individual LED-backlit mirrors above each sink</li>
+    <li style="margin-bottom:10px;">Integrated electrical outlets inside drawers for appliance storage</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">4. Freestanding Soaking Tub as a Statement Piece</h2>
+  <p>While many Michigan homeowners are removing tubs from primary bathrooms, master baths are where the freestanding soaking tub shines. Positioned against a dramatic stone feature wall or under a window, it creates an instant focal point.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Natural Stone Feature Walls</h2>
+  <p>A full-height stone wall — in marble, slate, or quartzite — behind the freestanding tub or as the shower's back wall is the design element that separates a good master bath from a truly stunning one.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">6. Smart Lighting & Mirror Upgrades</h2>
+  <p>Backlit mirrors, dimmable vanity lights, and recessed shower lighting allow you to set the mood — bright and energizing in the morning, warm and relaxing in the evening. This is an easy upgrade with maximum impact.</p>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">Master Bathroom Remodel Cost in Michigan (2026)</h2>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>Mid-range master bath remodel:</strong> $20,000 – $35,000</li>
+    <li style="margin-bottom:10px;"><strong>High-end master bath remodel:</strong> $35,000 – $60,000+</li>
+  </ul>
+
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">Design Your Dream Master Bathroom</h3>
+    <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling specializes in master bathroom renovations across Metro Detroit. Let's turn your vision into reality.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Book a Free Design Consultation</a>
+  </div>
+
+</div>
+`
+  },
+
+  {
+    "id": 57,
+    "title": "Bathroom Remodel Ideas for Michigan Homes (2026 Inspiration Guide)",
+    "meta_title": "Bathroom Remodel Ideas Michigan 2026 | Designs, Trends & Inspiration",
+    "meta_description": "Get inspired with the best bathroom remodel ideas for Michigan homes in 2026. Discover stone tile designs, layout ideas, budget tips, and what local homeowners are choosing.",
+    "excerpt": "From stone tile showers to spa-inspired layouts, these are the best bathroom remodel ideas for Michigan homes in 2026 — at every budget level.",
+    "category": "remodeling-tips",
+    "date": "2026-05-05",
+    "author": "Emily Davis",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg",
+    "slug": "bathroom-remodel-ideas-michigan-2026",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
+
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg" alt="Bathroom remodel ideas Michigan 2026" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;">
+      Whether you're planning a quick refresh or a full renovation, Michigan homeowners in 2026 have more beautiful options than ever. Here's a complete inspiration guide — organized by budget and style — to help you plan the perfect bathroom remodel.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">Budget Refresh Ideas ($5,000 – $10,000)</h2>
+  <p>Big impact without a full renovation:</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Retile the shower surround with slate or porcelain</li>
+    <li style="margin-bottom:10px;">Replace the vanity and add a stone countertop</li>
+    <li style="margin-bottom:10px;">Upgrade to matte black or brushed gold fixtures throughout</li>
+    <li style="margin-bottom:10px;">Add a large backlit mirror above the vanity</li>
+    <li style="margin-bottom:10px;">Fresh paint in a warm neutral tone</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">Mid-Range Remodel Ideas ($10,000 – $25,000)</h2>
+  <p>Complete transformations that don't break the bank:</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Convert a tub to a walk-in shower with frameless glass</li>
+    <li style="margin-bottom:10px;">New large-format stone tile floors throughout</li>
+    <li style="margin-bottom:10px;">Double vanity with quartz top and under-cabinet lighting</li>
+    <li style="margin-bottom:10px;">Built-in shower niches with accent tile</li>
+    <li style="margin-bottom:10px;">New toilet, heated towel bar, and updated lighting</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">Luxury Renovation Ideas ($25,000+)</h2>
+  <p>The full spa experience at home:</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Full marble shower with floor-to-ceiling stone slabs</li>
+    <li style="margin-bottom:10px;">Heated stone floors with smart thermostat control</li>
+    <li style="margin-bottom:10px;">Freestanding soaking tub against a stone feature wall</li>
+    <li style="margin-bottom:10px;">Steam shower with digital controls and rainfall head</li>
+    <li style="margin-bottom:10px;">Custom double vanity with integrated lighting</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">Top Stone Tile Ideas for Michigan Bathrooms</h2>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>Marble:</strong> Classic luxury, best for master baths in Bloomfield Hills, Shelby Township</li>
+    <li style="margin-bottom:10px;"><strong>Slate:</strong> Natural texture, slip-resistant, great for family bathrooms</li>
+    <li style="margin-bottom:10px;"><strong>Quartzite:</strong> Marble look with granite durability — the best of both worlds</li>
+    <li style="margin-bottom:10px;"><strong>Travertine:</strong> Warm earthy tones, perfect for cozy traditional Michigan homes</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">2026 Color & Style Trends in Michigan</h2>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Warm neutrals — greige, warm white, soft taupe</li>
+    <li style="margin-bottom:10px;">Matte black fixtures for a modern contrast look</li>
+    <li style="margin-bottom:10px;">Brushed brass for warmth and elegance</li>
+    <li style="margin-bottom:10px;">Dark dramatic stone in powder rooms and accent walls</li>
+    <li style="margin-bottom:10px;">Wood-look vanities paired with white stone countertops</li>
+  </ul>
+
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+    <h3 style="margin-bottom:8px;font-size:1.5rem;">Found Your Inspiration?</h3>
+    <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling brings bathroom remodel ideas to life across all of Metro Detroit. Let's talk about your project.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get a Free Consultation</a>
+  </div>
+
+</div>
+`
+  },
 
 
 ]

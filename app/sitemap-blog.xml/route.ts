@@ -41,17 +41,22 @@ export async function GET() {
     "small-bathroom-remodel-ideas-lansing-mi",
     "bathroom-remodel-cost-detroit-mi",
     "bathroom-remodel-contractors-near-me-grand-rapids-mi",
-     // ✅ NEW AUTHORITY BLOGS (2026 GEO)
+    // ✅ NEW AUTHORITY BLOGS (2026 GEO)
     // "bathroom-remodel-permit-cost-michigan",
     // "bathroom-remodeling-cost-michigan",
     // "marble-vs-tile-bathroom-michigan",
-     "bathroom-remodel-warren-mi-2026",
+    "bathroom-remodel-warren-mi-2026",
     "bathroom-remodel-westland-mi-2026",
     "bathroom-remodel-dearborn-heights-mi-2026",
     "bathroom-remodel-taylor-mi-2026",
     "bathroom-remodel-shelby-township-mi-2026",
     "bathroom-remodel-macomb-township-mi-2026",
     "bathroom-remodel-pontiac-mi-2026",
+    "can-you-renovate-bathroom-15000-michigan",
+    "can-you-remodel-bathroom-5000-michigan",
+    "what-does-50000-bathroom-renovation-get-you-michigan",
+    "master-bathroom-remodel-ideas-michigan",
+    "bathroom-remodel-ideas-michigan-2026",
   ];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
