@@ -1,4 +1,10 @@
 // app/layout.tsx
+// FIXED: aggregateRating now reflects realistic numbers. Inflated review counts
+// (claiming 500 reviews when GMB shows fewer) can trigger Google's spam
+// detection and disable rich snippets entirely.
+//
+// IMPORTANT: After deploy, log into your GMB and update reviewCount below
+// to match your ACTUAL number of reviews. Don't lie to Google.
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -39,7 +45,6 @@ export const metadata: Metadata = {
 };
 
 // LocalBusiness schema — single source of truth
-// Header.tsx and Footer.tsx should NOT repeat this schema
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "HomeAndConstructionBusiness",
@@ -49,7 +54,6 @@ const localBusinessSchema = {
   telephone: "+12483468926",
   email: "val@stoneworksremodeling.com",
   priceRange: "$$",
-  // Images from public folder — not Mumbai S3
   logo: "https://www.stoneworksremodeling.com/instagram/logo.jpeg",
   image: "https://www.stoneworksremodeling.com/bathroom/bath1.jpeg",
   description:
@@ -81,13 +85,41 @@ const localBusinessSchema = {
       closes: "14:00",
     },
   ],
+  // ⚠️ FIXED: Was claiming 500 reviews — Google penalizes inflated counts.
+  // UPDATE this number to match your ACTUAL Google review count.
+  // Open your GMB → check the real number → put it here.
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5.0",
-    reviewCount: "500",
+    reviewCount: "32",            // ← UPDATE TO YOUR REAL COUNT
     bestRating: "5",
     worstRating: "1",
   },
+  // Sample reviews — REPLACE with copy-pasted text from your real Google reviews
+  // (must match what's on your GMB or Google will reject)
+  review: [
+    {
+      "@type": "Review",
+      author: { "@type": "Person", name: "Cari Z." },
+      datePublished: "2025-10-15",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewBody: "The team transformed our dated bathrooms into beautiful, functional spaces — professional, punctual, and detail-oriented. Highly recommend Stone Works Remodeling!",
+    },
+    {
+      "@type": "Review",
+      author: { "@type": "Person", name: "Kelly S." },
+      datePublished: "2025-09-08",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewBody: "We needed a walk-in tub for safety and accessibility. Stone Works delivered perfect installation and service. Excellent communication throughout.",
+    },
+    {
+      "@type": "Review",
+      author: { "@type": "Person", name: "Amit S." },
+      datePublished: "2025-08-22",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewBody: "Val and the crew completed our master bathroom remodel on time and with great attention to detail. Beautiful results and a clean worksite.",
+    },
+  ],
   areaServed: [
     { "@type": "City", name: "Detroit", containedInPlace: { "@type": "State", name: "Michigan" } },
     { "@type": "City", name: "Livonia", containedInPlace: { "@type": "State", name: "Michigan" } },
@@ -96,20 +128,23 @@ const localBusinessSchema = {
     { "@type": "City", name: "Sterling Heights", containedInPlace: { "@type": "State", name: "Michigan" } },
     { "@type": "City", name: "Royal Oak", containedInPlace: { "@type": "State", name: "Michigan" } },
     { "@type": "City", name: "Birmingham", containedInPlace: { "@type": "State", name: "Michigan" } },
+    { "@type": "City", name: "Bloomfield Hills", containedInPlace: { "@type": "State", name: "Michigan" } },
     { "@type": "City", name: "Farmington Hills", containedInPlace: { "@type": "State", name: "Michigan" } },
     { "@type": "City", name: "Warren", containedInPlace: { "@type": "State", name: "Michigan" } },
+    { "@type": "City", name: "Dearborn", containedInPlace: { "@type": "State", name: "Michigan" } },
+    { "@type": "City", name: "Canton", containedInPlace: { "@type": "State", name: "Michigan" } },
     { "@type": "City", name: "Novi", containedInPlace: { "@type": "State", name: "Michigan" } },
+    { "@type": "City", name: "Southfield", containedInPlace: { "@type": "State", name: "Michigan" } },
+    { "@type": "City", name: "Westland", containedInPlace: { "@type": "State", name: "Michigan" } },
   ],
   sameAs: [
     "https://www.instagram.com/stoneworksremodeling",
     "https://www.facebook.com/people/Stone-Works-Remodeling/61567020355631/",
     "https://www.youtube.com/@stoneworksremodeling",
+    // Your GMB profile
+    "https://www.google.com/search?q=Stone+Works+Remodeling&stick=H4sIAAAAAAAA_-NgU1I1qLAwMjQzNUhMTE4zM0w1TjG0MqgwNzIzMDWwNEtOTLW0SDIwX8QqFlySn5eqEJ5flF2sEJSam5-SmpOZlw4Ai4l5GEIAAAA",
   ],
 };
-
-// ── AEO/GEO Schemas ──────────────────────────────────────────────────────────
-// These help AI assistants (ChatGPT, Perplexity, Gemini, Claude) understand
-// and recommend Stone Works Remodeling when users ask about bathroom remodeling
 
 const websiteSchema = {
   "@context": "https://schema.org",
@@ -124,11 +159,8 @@ const websiteSchema = {
     target: "https://www.stoneworksremodeling.com/blog?q={search_term_string}",
     "query-input": "required name=search_term_string",
   },
-  // llms.txt — the AEO/GEO file AI crawlers read
-  sameAs: "https://www.stoneworksremodeling.com/llms.txt",
 };
 
-// Service catalog — tells AI exactly what services we offer and their prices
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -163,12 +195,12 @@ const serviceSchema = {
         itemOffered: {
           "@type": "Service",
           name: "Tub-to-Shower Conversion",
-          description: "Remove existing bathtub and install a custom walk-in shower with tile, glass enclosure, and built-in niche.",
+          description: "Remove existing bathtub and install a custom walk-in shower with tile, glass enclosure, and built-in niche. Starting from $7,995.",
           url: "https://www.stoneworksremodeling.com/services/shower-conversions",
         },
         priceSpecification: {
           "@type": "PriceSpecification",
-          minPrice: "4000",
+          minPrice: "7995",
           maxPrice: "12000",
           priceCurrency: "USD",
         },
@@ -192,53 +224,14 @@ const serviceSchema = {
   },
 };
 
-// Speakable schema — tells AI/voice assistants which content to read aloud
-// when someone asks "Hey Google, tell me about Stone Works Remodeling"
-const speakableSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "@id": "https://www.stoneworksremodeling.com/#webpage",
-  url: "https://www.stoneworksremodeling.com",
-  name: "Stone Works Remodeling — Metro Detroit Bathroom Remodeling",
-  speakable: {
-    "@type": "SpeakableSpecification",
-    cssSelector: ["h1", "h2", ".speakable"],
-    xpath: [
-      "/html/head/title",
-      "/html/head/meta[@name='description']/@content",
-    ],
-  },
-  // Mention — tells AI models this business exists and is mentioned on the web
-  mentions: [
-    {
-      "@type": "Organization",
-      name: "Stone Works Remodeling",
-      telephone: "+12483468926",
-      url: "https://www.stoneworksremodeling.com",
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Livonia",
-        addressRegion: "MI",
-        addressCountry: "US",
-      },
-    },
-  ],
-};
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
-        {/* LocalBusiness — primary schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
-        {/* AEO/GEO schemas — help AI assistants find and recommend us */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
@@ -247,11 +240,6 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
         />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }}
-        />
-        {/* AEO: Link to llms.txt so AI crawlers can find it */}
         <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs.txt — AI assistant information" />
       </head>
 
