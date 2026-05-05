@@ -11,11 +11,16 @@ import Link from "next/link";
 import { event } from "../lib/gtag";
 
 // New components
-import BeforeAfter from "./BeforeAfter";
-import GoogleReviews from "./GoogleReviews";
-import FinancingBanner from "./FinancingBanner";
-import TrustBar from "./TrustBar";
-import ExitIntentPopup from "./ExitIntentPopup";
+import dynamic from "next/dynamic";
+import TrustBar from "./TrustBar"; // above-fold, keep eager
+
+// Lazy-load below-fold components — they don't block initial paint
+const BeforeAfter = dynamic(() => import("./BeforeAfter"), {
+  loading: () => <div className="h-[400px] bg-slate-100 animate-pulse rounded-xl" />,
+});
+const GoogleReviews = dynamic(() => import("./GoogleReviews"));
+const FinancingBanner = dynamic(() => import("./FinancingBanner"));
+const ExitIntentPopup = dynamic(() => import("./ExitIntentPopup"), { ssr: false });
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
 // Note: testimonials moved to GoogleReviews.tsx (with real Google styling).
@@ -472,7 +477,8 @@ export default function HomePage() {
                   return (
                     <div key={service.title} className="bg-white rounded-xl overflow-hidden shadow-sm border border-slate-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 group">
                       <div className="relative overflow-hidden" style={{ aspectRatio: "4/3" }}>
-                        <Image src={service.image} alt={service.alt} fill className="object-cover group-hover:scale-105 transition-transform duration-300" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" loading={i === 0 ? "eager" : "lazy"} quality={75} />
+                        <Image src={service.image} alt={service.alt} fill className="object-cover group-hover:scale-105 transition-transform duration-300" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" priority={i === 0} fetchPriority={i === 0 ? "high" : "auto"} quality={75} />
+
                       </div>
                       <div className="p-5">
                         <div className="flex items-center gap-2 mb-2">

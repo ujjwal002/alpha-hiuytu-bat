@@ -241,13 +241,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
         />
         <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs.txt — AI assistant information" />
+        <link
+          rel="preload"
+          as="image"
+          href="/bathroom/bath1.jpeg"
+          imageSrcSet="/_next/image?url=%2Fbathroom%2Fbath1.jpeg&w=640&q=75 640w, /_next/image?url=%2Fbathroom%2Fbath1.jpeg&w=828&q=75 828w"
+          imageSizes="(max-width: 640px) 100vw, 50vw"
+          fetchPriority="high"
+        />
       </head>
 
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Header />
         {children}
         <Footer />
-        <Analytics />
+        {process.env.NODE_ENV === "production" && <Analytics />}
 
         {GA_MEASUREMENT_ID && (
           <>
