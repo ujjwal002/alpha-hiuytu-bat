@@ -102,6 +102,16 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/guides/plan-bathroom-remodel" className="text-gray-600 hover:text-blue-600">
+                  Bathroom Remodel Planning Guide
+                </Link>
+              </li>
+              <li>
+                <Link href="/compare" className="text-gray-600 hover:text-blue-600">
+                  Compare Bathroom Remodelers
+                </Link>
+              </li>
+              <li>
                 <Link href="/contact" className="text-gray-600 hover:text-blue-600">
                   Contact Stone Works
                 </Link>

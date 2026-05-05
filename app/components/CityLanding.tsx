@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { event } from "../lib/gtag";
 import { getCityInfo } from "../lib/cityData";
+import Breadcrumbs from "./Breadcrumbs";
 
 type CityLandingProps = {
   city: string;
@@ -147,13 +148,11 @@ export default function CityLanding({
       />
 
       {/* HERO */}
-      <section className="bg-gray-900 py-16 sm:py-20 px-6 text-white">
+      <section className="bg-gray-900 py-16 sm:py-20 px-4 text-white">
         <div className="container mx-auto max-w-5xl">
-          <nav aria-label="Breadcrumb" className="text-sm mb-6">
-            <Link href="/" className="text-blue-300 hover:text-white">Home</Link>
-            <span className="mx-2 text-slate-500">/</span>
-            <span className="text-slate-300">{city}, {state}</span>
-          </nav>
+          <div className="text-blue-200 mb-6">
+            <Breadcrumbs items={[{ label: `${city}, ${state}` }]} className="text-sm" />
+          </div>
 
           <span className="inline-flex items-center gap-1.5 bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
             <MapPin className="h-3 w-3" aria-hidden="true" />

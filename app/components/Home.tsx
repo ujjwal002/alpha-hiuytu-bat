@@ -11,16 +11,15 @@ import Link from "next/link";
 import { event } from "../lib/gtag";
 
 // New components
-import dynamic from "next/dynamic";
-import TrustBar from "./TrustBar"; // above-fold, keep eager
+import BeforeAfter from "./BeforeAfter";
+import GoogleReviews from "./GoogleReviews";
+import FinancingBanner from "./FinancingBanner";
+import TrustBar from "./TrustBar";
+import ExitIntentPopup from "./ExitIntentPopup";
 
-// Lazy-load below-fold components — they don't block initial paint
-const BeforeAfter = dynamic(() => import("./BeforeAfter"), {
-  loading: () => <div className="h-[400px] bg-slate-100 animate-pulse rounded-xl" />,
-});
-const GoogleReviews = dynamic(() => import("./GoogleReviews"));
-const FinancingBanner = dynamic(() => import("./FinancingBanner"));
-const ExitIntentPopup = dynamic(() => import("./ExitIntentPopup"), { ssr: false });
+// AEO/GEO schemas — surfaces structured data to AI assistants
+import { HomepageProductSchemas } from "./schemas/ProductSchema";
+import { HomepageVideoSchemas } from "./schemas/VideoSchema";
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
 // Note: testimonials moved to GoogleReviews.tsx (with real Google styling).
@@ -290,6 +289,12 @@ export default function HomePage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
+      {/* AEO/GEO: Product schemas for fixed-price service offerings */}
+      <HomepageProductSchemas />
+
+      {/* AEO/GEO: Video schemas for embedded Instagram reels */}
+      <HomepageVideoSchemas />
+
       <ExitIntentPopup />
 
       <div className="min-h-screen bg-white overflow-x-hidden">
@@ -477,8 +482,7 @@ export default function HomePage() {
                   return (
                     <div key={service.title} className="bg-white rounded-xl overflow-hidden shadow-sm border border-slate-100 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 group">
                       <div className="relative overflow-hidden" style={{ aspectRatio: "4/3" }}>
-                        <Image src={service.image} alt={service.alt} fill className="object-cover group-hover:scale-105 transition-transform duration-300" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" priority={i === 0} fetchPriority={i === 0 ? "high" : "auto"} quality={75} />
-
+                        <Image src={service.image} alt={service.alt} fill className="object-cover group-hover:scale-105 transition-transform duration-300" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" loading={i === 0 ? "eager" : "lazy"} quality={75} />
                       </div>
                       <div className="p-5">
                         <div className="flex items-center gap-2 mb-2">
@@ -525,10 +529,14 @@ export default function HomePage() {
                   </div>
                 ))}
               </div>
-              <div className="mt-10 text-center">
+              <div className="mt-10 text-center flex flex-col sm:flex-row gap-3 justify-center items-center">
                 <a href="#quote-form" className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold transition-colors gap-2">
                   Start Your Project Today<ArrowRight className="h-5 w-5" aria-hidden="true" />
                 </a>
+                <Link href="/guides/plan-bathroom-remodel" className="inline-flex items-center text-blue-600 hover:text-blue-800 font-bold gap-1 px-4 py-2">
+                  Or read our free planning guide
+                  <ArrowRight className="h-4 w-4" aria-hidden="true" />
+                </Link>
               </div>
             </div>
           </section>

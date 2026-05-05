@@ -5,6 +5,8 @@ import { blogPosts, categories } from "@/lib/blogPosts";
 import { ArrowRight, Clock, User } from "lucide-react";
 import sanitizeHtml from "sanitize-html";
 import RelatedService from "@/components/RelatedService";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import ArticleSchema from "@/components/schemas/ArticleSchema";
 
 type BlogParams = { slug: string };
 interface BlogPostPageProps { params: Promise<BlogParams> }
@@ -24,7 +26,6 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     description: "The requested blog post could not be found.",
   };
 
-  // FIX: use meta_title / meta_description when provided, fall back to title/excerpt
   const metaTitle = post.meta_title || `${post.title} | Stone Works Remodeling`;
   const metaDescription = post.meta_description || post.excerpt;
 
@@ -45,7 +46,6 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
       description: metaDescription,
       images: post.image ? [post.image] : [],
     },
-    // FIX: relative canonical — metadataBase in layout.tsx handles domain
     alternates: {
       canonical: `/blog/${post.slug}`,
     },
@@ -85,9 +85,35 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   if (!post) notFound();
 
   const relatedServices = getRelatedServices(post);
+  const categoryLabel = categories.find((c) => c.id === post.category)?.label || "Bathroom Remodeling";
 
   return (
     <div className="min-h-screen bg-gray-50">
+
+      {/* AEO/GEO: Article schema connects this post to the Person + Business schemas */}
+      <ArticleSchema
+        headline={post.meta_title || post.title}
+        description={post.meta_description || post.excerpt}
+        image={post.image || "https://www.stoneworksremodeling.com/bathroom/bath1.jpeg"}
+        datePublished={post.date}
+        dateModified={post.date}
+        slug={post.slug}
+        articleSection={categoryLabel}
+        keywords={[
+          post.title.toLowerCase(),
+          "bathroom remodeling metro detroit",
+          "stone works remodeling",
+          post.category,
+        ]}
+      />
+
+      {/* Breadcrumbs with BreadcrumbList schema */}
+      <div className="container mx-auto px-4 py-4 bg-white border-b border-slate-100">
+        <Breadcrumbs items={[
+          { label: "Blog", href: "/blog" },
+          { label: post.title },
+        ]} />
+      </div>
 
       {/* Hero */}
       <section
@@ -96,7 +122,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       >
         <div className="container mx-auto px-4">
           <span className="inline-block bg-gold-100 text-gold-800 text-xs font-semibold px-2.5 py-0.5 rounded-full mb-4">
-            {categories.find((c) => c.id === post.category)?.label}
+            {categoryLabel}
           </span>
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">{post.title}</h1>
           <div className="flex justify-center items-center text-sm text-gray-200">
@@ -192,41 +218,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </Link>
         </div>
       </section>
-
-      {/* FIX: BlogPosting schema — correct logo URL, relative URL for article */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            headline: post.meta_title || post.title,
-            description: post.meta_description || post.excerpt,
-            author: {
-              "@type": "Person",
-              name: post.author,
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "Stone Works Remodeling",
-              logo: {
-                "@type": "ImageObject",
-                // FIX: was /images/logo.png which doesn't exist
-                url: "https://www.stoneworksremodeling.com/instagram/logo.jpeg",
-              },
-            },
-            datePublished: post.date,
-            dateModified: post.date,
-            image: post.image || "https://www.stoneworksremodeling.com/bathroom/bath1.jpeg",
-            articleSection: categories.find((c) => c.id === post.category)?.label || "Bathroom Remodeling",
-            url: `https://www.stoneworksremodeling.com/blog/${post.slug}`,
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id": `https://www.stoneworksremodeling.com/blog/${post.slug}`,
-            },
-          }),
-        }}
-      />
     </div>
   );
 }

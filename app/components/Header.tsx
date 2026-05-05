@@ -254,6 +254,24 @@ export default function Header() {
               Blog
             </Link>
             <Link
+              href="/guides/plan-bathroom-remodel"
+              className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${isActive("/guides")
+                  ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 hover:bg-blue-50"
+                  : "hover:text-blue-600 after:bg-blue-600 hover:bg-gray-50"
+                }`}
+            >
+              Planning Guide
+            </Link>
+            <Link
+              href="/compare"
+              className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${isActive("/compare")
+                  ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 hover:bg-blue-50"
+                  : "hover:text-blue-600 after:bg-blue-600 hover:bg-gray-50"
+                }`}
+            >
+              Compare
+            </Link>
+            <Link
               href="/contact"
               className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${isActive("/contact")
                   ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 hover:bg-blue-50"
@@ -405,6 +423,22 @@ export default function Header() {
           onClick={() => setMobileMenuOpen(false)}
         >
           Blog
+        </Link>
+        <Link
+          href="/guides/plan-bathroom-remodel"
+          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/guides") ? "text-blue-600" : ""
+            }`}
+          onClick={() => setMobileMenuOpen(false)}
+        >
+          Planning Guide
+        </Link>
+        <Link
+          href="/compare"
+          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/compare") ? "text-blue-600" : ""
+            }`}
+          onClick={() => setMobileMenuOpen(false)}
+        >
+          Compare
         </Link>
         <Link
           href="/contact"
