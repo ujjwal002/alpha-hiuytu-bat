@@ -1696,7 +1696,7 @@ export const blogPosts: BlogPost[] = [
     "date": "2025-11-09",
     "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg",
-    "slug": "bathroom-remodel-novi-minimalist-mi-2025",
+    "slug": "bathroom-remodel-novi-mi-2025",
     "content": "<div class='blog-intro'><img src='https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg' alt='Minimalist bathroom remodel in Novi, MI'><p class='lead'>Novi homeowners are choosing minimalism for its clean aesthetics and ease of maintenance in 2025 bathroom remodels.</p></div><h2>1. Clean Lines</h2><p>Floating vanities, frameless showers, and hidden storage keep the space uncluttered.</p><h2>2. Neutral Color Schemes</h2><p>Shades of white, beige, and gray create a calming atmosphere.</p><h2>3. Practical Layouts</h2><p>Functional floor plans maximize space while maintaining style.</p><div class='cta-section'><h3>Transform Your Bathroom</h3><p>Let us design a minimalist, functional bathroom for your Novi home.</p></div>"
   },
   {
@@ -3606,6 +3606,126 @@ export const blogPosts: BlogPost[] = [
     <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Planning an Accessible Bathroom in Michigan?</h3>
     <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling designs safe, beautiful aging-in-place bathrooms across Metro Detroit — walk-in tubs, curbless showers, grab bars built into the tile, and heated floors. Get an honest recommendation for your needs.</p>
     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Book a Free Accessibility Consultation</a>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12483468926" style="color:#fff;font-weight:700;">(248) 346-8926</a></p>
+  </div>
+
+</div>
+`
+  },
+
+  // ============================================================
+// NEW BLOG POST — fixes the 404 at:
+// /blog/bathroom-remodel-novi-mi-2025/
+//
+// HOW TO ADD: paste this object into the blogPosts array in
+// lib/blogPosts.ts, directly BEFORE the closing  ]  of the array.
+//
+// IMPORTANT — avoid duplicate Novi content:
+//  - You already have post #25 (slug: bathroom-remodel-novi-minimalist-mi-2025).
+//  - Recommended: delete/unpublish post #25, then 301-redirect
+//    /blog/bathroom-remodel-novi-minimalist-mi-2025
+//      -> /blog/bathroom-remodel-novi-mi-2025
+//  - The slug below is intentionally "...-2025" so it matches the
+//    URL Google already knows and clears the 404. (Once a post uses
+//    this slug, the trailing-slash version will normalize on its own.)
+//
+// NOTE ON ID: this uses id 61, assuming posts 58-60 were added.
+// If you have NOT added 58-60 yet, change this id to 58.
+// ============================================================
+
+  {
+    "id": 61,
+    "title": "Bathroom Remodel Novi, MI: 2026 Cost, Trends & Design Guide",
+    "meta_title": "Bathroom Remodel Novi, MI (2026) | Cost, Trends & Design Guide",
+    "meta_description": "How much does a bathroom remodel cost in Novi, MI in 2026? Local price ranges, top design trends, builder-grade upgrade tips, and how to choose a Novi contractor.",
+    "excerpt": "Planning a bathroom remodel in Novi, MI? This 2026 guide covers real local cost ranges, the design trends Novi homeowners are choosing, and smart ways to upgrade a builder-grade bathroom.",
+    "category": "bathroom-remodel",
+    "date": "2026-05-17",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic3.jpeg",
+    "slug": "bathroom-remodel-novi-mi-2025",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
+
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic3.jpeg" alt="Bathroom remodel in Novi, MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+  <div style="background:#f0f7ff;border-left:4px solid #2563eb;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
+      Novi is one of Oakland County's most desirable communities — strong schools, well-kept subdivisions, and a steady mix of newer construction and established homes. In 2026, bathroom remodeling is one of the top home-improvement projects here, and homeowners want the same thing: a cleaner, more functional, more valuable bathroom without overspending. This guide breaks down real local costs, the trends Novi homeowners are choosing, and how to plan the project well.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Average Bathroom Remodel Cost in Novi, MI (2026)</h2>
+  <p style="margin-bottom:16px;">Costs vary with bathroom size, materials, and how much plumbing or electrical work is involved. Here are realistic 2026 ranges for Novi homes:</p>
+
+  <table style="width:100%;border-collapse:collapse;margin:20px 0 32px;">
+    <thead>
+      <tr style="background:#2563eb;color:white;">
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Remodel Type</th>
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Typical Cost Range</th>
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">What's Included</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#f9fafb;border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Small / Powder Room</td>
+        <td style="padding:12px 16px;">$9,000 – $15,000</td>
+        <td style="padding:12px 16px;">New tile, vanity, fixtures, lighting</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Mid-Range Full Remodel</td>
+        <td style="padding:12px 16px;">$15,000 – $30,000</td>
+        <td style="padding:12px 16px;">Full demo, new shower, tile, vanity, fixtures</td>
+      </tr>
+      <tr style="background:#f9fafb;">
+        <td style="padding:12px 16px;font-weight:500;">Luxury Master Bathroom</td>
+        <td style="padding:12px 16px;">$30,000 – $55,000+</td>
+        <td style="padding:12px 16px;">Natural stone, heated floors, custom shower, soaking tub</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="margin-bottom:24px;">Novi's pricing tends to sit a little above the Michigan state average, in line with neighboring Oakland County communities like Northville and Farmington Hills. The single biggest cost variable is whether you keep the existing plumbing layout — moving fixtures adds $1,500–$5,000 quickly.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">What's Driving Novi Bathroom Remodels in 2026</h2>
+  <p style="margin-bottom:16px;">Across the projects we see in Novi, a few clear trends stand out this year:</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>Tub-to-walk-in-shower conversions</strong> — many Novi homeowners haven't used the tub in years and want the space back as a clean, modern shower.</li>
+    <li style="margin-bottom:10px;"><strong>Large-format stone and porcelain tile</strong> — fewer grout lines, a more upscale look, and easier cleaning.</li>
+    <li style="margin-bottom:10px;"><strong>Frameless glass enclosures</strong> — they make the room feel larger and brighter.</li>
+    <li style="margin-bottom:10px;"><strong>Heated floors</strong> — a genuinely practical upgrade for Michigan winters, especially under stone tile.</li>
+    <li style="margin-bottom:0;"><strong>Warm neutral palettes</strong> — greige, soft taupe, and warm white paired with matte black or brushed brass fixtures.</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Upgrading a Builder-Grade Novi Bathroom</h2>
+  <p style="margin-bottom:16px;">A large share of Novi's housing stock was built in the 1990s through the 2010s, and many of those bathrooms still have the original builder-grade finishes — basic ceramic tile, a fiberglass tub-shower unit, and a standard vanity. These bathrooms are excellent remodel candidates because the bones are usually sound; you're updating finishes, not fixing problems.</p>
+  <p style="margin-bottom:24px;">A targeted upgrade — a custom tiled shower, a new floating vanity with a stone top, frameless glass, and updated lighting — transforms a builder-grade bathroom without the cost of a full gut renovation or layout change. It's the highest-value path for most Novi homeowners.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Stone Tile Options Popular in Novi</h2>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>Marble</strong> — the luxury choice for Novi master bathrooms, with timeless veining and strong resale appeal.</li>
+    <li style="margin-bottom:10px;"><strong>Quartzite</strong> — a marble-like look with granite-level hardness; ideal for vanity tops and feature walls.</li>
+    <li style="margin-bottom:10px;"><strong>Slate</strong> — naturally slip-resistant and durable, a great fit for family bathrooms and shower floors.</li>
+    <li style="margin-bottom:0;"><strong>Large-format porcelain</strong> — a budget-friendly way to get a high-end stone look with very low maintenance.</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Permits for a Bathroom Remodel in Novi</h2>
+  <p style="margin-bottom:24px;">Most bathroom remodels in Novi require permits when plumbing, electrical, or structural work is involved — and these are handled through the City of Novi's building department. A swap of finishes with no plumbing changes may not need one, but anything involving moved fixtures or new circuits will. A licensed contractor pulls the permits and schedules inspections for you, so you never have to deal with the city paperwork yourself.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Why Work With a Local Novi Remodeler</h2>
+  <p style="margin-bottom:16px;">When you hire for a bathroom remodel in Novi, look for a few non-negotiables:</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Licensed and insured in Michigan, with a license number you can verify.</li>
+    <li style="margin-bottom:10px;">A clear, written, line-by-line estimate — never a single lump-sum number.</li>
+    <li style="margin-bottom:10px;">A proper waterproofing process behind any tiled shower, not just cement board.</li>
+    <li style="margin-bottom:10px;">A workmanship warranty backing the labor, not just the materials.</li>
+    <li style="margin-bottom:0;">Local references and reviews from real Metro Detroit projects.</li>
+  </ul>
+
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:12px;text-align:center;">
+    <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Planning a Bathroom Remodel in Novi, MI?</h3>
+    <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling serves Novi and all of Oakland County with expert stone tile work and full bathroom renovations. Get a free, itemized quote with no pressure and no obligation.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Schedule a Free In-Home Consultation</a>
     <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12483468926" style="color:#fff;font-weight:700;">(248) 346-8926</a></p>
   </div>
 
