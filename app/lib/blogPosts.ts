@@ -3288,6 +3288,330 @@ export const blogPosts: BlogPost[] = [
 </div>
 `
   },
+  // ============================================================
+// 3 NEW RESEARCH-DRIVEN BLOG POSTS
+// Paste these 3 objects into the blogPosts array in lib/blogPosts.ts,
+// directly BEFORE the closing  ]  of the array.
+// (Top Topic #1 from the research — tub-to-shower conversion — is
+//  already published as post #52, so these are research Topics #2, #3 & #4.)
+// ============================================================
+
+  {
+    "id": 58,
+    "title": "Bath Fitter, Re-Bath, or a Full Bathroom Remodel? An Honest Michigan Comparison (2026)",
+    "meta_title": "Bath Fitter vs Re-Bath vs Full Remodel Michigan (2026) | Honest Comparison",
+    "meta_description": "Got a $12,000 acrylic liner quote in Michigan? Compare one-day bath systems, prefab replacement, and full bathroom remodels honestly — cost, lifespan, and when each makes sense.",
+    "excerpt": "Got a quote from a one-day bath company and wondering if it's actually worth it? This honest 2026 comparison breaks down acrylic liner systems, prefab replacement, and full bathroom remodels for Michigan homeowners.",
+    "category": "remodeling-tips",
+    "date": "2026-05-18",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic8.jpeg",
+    "slug": "bath-fitter-vs-rebath-vs-full-remodel-michigan",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
+
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic8.jpeg" alt="Comparing bathroom remodel options in Michigan" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+  <div style="background:#f0f7ff;border-left:4px solid #2563eb;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
+      If you've had a one-day bath company in your home, you've probably heard the pitch — a brand-new bathroom in 24 hours, no demolition, no mess. Then you saw the quote. Many Metro Detroit homeowners call us at exactly this moment, holding a $9,000–$14,000 estimate for an acrylic system and asking one simple question: <strong>is this worth it, or should I just remodel the whole bathroom?</strong> This is an honest, no-spin answer.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">First — What Are You Actually Choosing Between?</h2>
+  <p style="margin-bottom:16px;">There are three genuinely different approaches on the market in Michigan, and the marketing language often blurs them together. Here's what each one actually means.</p>
+
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">1. Acrylic Liner / One-Day Systems</h3>
+  <p style="margin-bottom:16px;">Companies like Bath Fitter and similar one-day bath brands install a custom-molded acrylic shell <em>over</em> your existing tub and walls, or swap the tub for a prefabricated acrylic base and surround. The original surfaces usually stay in place underneath. The big selling points are speed and minimal disruption — most installs finish in one to two days.</p>
+
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">2. Prefab Replacement Systems</h3>
+  <p style="margin-bottom:16px;">Brands like Re-Bath remove the old tub or shower and install a factory-made replacement — typically a molded acrylic or composite base, wall panels, and fixtures. It's more involved than a liner because the old unit comes out, but it still relies on pre-manufactured panels rather than custom tile work.</p>
+
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">3. Full Bathroom Remodel</h3>
+  <p style="margin-bottom:16px;">A full remodel removes the old shower or tub down to the studs, installs a proper waterproofing membrane, and finishes with custom tile — porcelain or natural stone. It can also include a new vanity, flooring, lighting, and fixtures. It takes longer, but it's a permanent, fully customizable result.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Real Michigan Cost Ranges, Side by Side</h2>
+  <p style="margin-bottom:16px;">These are realistic 2026 ranges for Metro Detroit. The overlap is the part most homeowners don't expect.</p>
+
+  <table style="width:100%;border-collapse:collapse;margin:20px 0 32px;">
+    <thead>
+      <tr style="background:#2563eb;color:white;">
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Option</th>
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Typical Cost</th>
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Timeline</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#f9fafb;border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Acrylic liner / one-day system</td>
+        <td style="padding:12px 16px;">$4,000 – $14,000</td>
+        <td style="padding:12px 16px;">1 – 2 days</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Prefab replacement system</td>
+        <td style="padding:12px 16px;">$6,000 – $16,000</td>
+        <td style="padding:12px 16px;">2 – 5 days</td>
+      </tr>
+      <tr style="background:#f9fafb;">
+        <td style="padding:12px 16px;font-weight:500;">Full custom tile remodel</td>
+        <td style="padding:12px 16px;">$8,000 – $25,000+</td>
+        <td style="padding:12px 16px;">1 – 3 weeks</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="margin-bottom:24px;">Notice the overlap. A loaded acrylic or prefab quote in the $12,000–$16,000 range lands squarely in full-remodel territory. That's the exact realization behind a comment we hear constantly from homeowners reviewing one-day quotes: <em>"For what I'd be spending, I could have gutted the whole bathroom."</em></p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">The Lifespan Reality in Michigan's Climate</h2>
+  <p style="margin-bottom:16px;">Acrylic systems can perform well, but they live or die on two things: the quality of the installation and the caulk and seam joints. In Michigan, bathrooms swing from dry, heated winter air to humid summers, and that constant expansion and contraction works against sealed seams over time. The most common consumer complaints about one-day systems — across review sites generally, not any one company — fall into a few repeating categories:</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">Caulk lines failing or discoloring after a few years</li>
+    <li style="margin-bottom:10px;">Water finding its way behind the liner, sometimes onto an old surface that was never removed</li>
+    <li style="margin-bottom:10px;">Installation delays well beyond the promised "one day"</li>
+    <li style="margin-bottom:0;">Disputes over what the warranty actually covers</li>
+  </ul>
+  <p style="margin-bottom:24px;">A properly waterproofed and tiled shower works differently. The waterproofing membrane is the system — the tile is the finish on top of it. Done correctly, it doesn't depend on a perfect bead of caulk to keep water out of your walls, and stone or porcelain tile routinely lasts decades.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Read the Warranty Fine Print — On Any Option</h2>
+  <p style="margin-bottom:16px;">This applies whether you choose a one-day system or a full remodel. Before you sign anything, get clear answers in writing on:</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>What's covered vs. excluded</strong> — many warranties cover the product but not labor, or not water damage caused by seam failure.</li>
+    <li style="margin-bottom:10px;"><strong>Whether the warranty transfers</strong> if you sell the home.</li>
+    <li style="margin-bottom:10px;"><strong>Who you call</strong> for service — a local crew or a national line.</li>
+    <li style="margin-bottom:0;"><strong>What voids it</strong> — some warranties are voided by common cleaning products.</li>
+  </ul>
+  <p style="margin-bottom:24px;">A good rule of thumb: a contractor confident in the work will back the <em>workmanship</em>, not just the material. Stone Works Remodeling includes a 5-year workmanship warranty on full remodels.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">When a One-Day System Is Genuinely the Right Call</h2>
+  <p style="margin-bottom:16px;">This isn't a hit piece on acrylic systems — they have legitimate uses, and we'll tell you honestly when one makes sense:</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>Single-bathroom homes</strong> where you simply can't lose the bathroom for two weeks.</li>
+    <li style="margin-bottom:10px;"><strong>Rental or landlord properties</strong> where speed and a low-maintenance surface matter more than a custom look.</li>
+    <li style="margin-bottom:10px;"><strong>A short ownership horizon</strong> — if you're selling within a year or two, a fast refresh can make sense.</li>
+    <li style="margin-bottom:0;"><strong>A genuinely tight, fixed budget</strong> where a basic liner at the low end is the only option that fits.</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">When a Full Remodel Pays Back</h2>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>You're staying long-term</strong> — the durability and the daily experience compound over years.</li>
+    <li style="margin-bottom:10px;"><strong>You want accessibility AND style</strong> — a custom curbless tile shower delivers both; a liner usually forces a trade-off.</li>
+    <li style="margin-bottom:10px;"><strong>You're prepping to sell at a higher price point</strong> — buyers in Metro Detroit consistently respond to real tile work.</li>
+    <li style="margin-bottom:0;"><strong>Your quote is already $12,000+</strong> — at that number, you've left the "budget" conversation; you may as well get a permanent result.</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">The Resale Angle in Michigan</h2>
+  <p style="margin-bottom:24px;">Michigan's bathroom-remodel return on investment has historically trailed coastal markets, though it has been improving in recent reports. The practical takeaway: don't over-build for the neighborhood, but don't assume a thin acrylic refresh reads as "renovated" to a buyer's agent either. A clean, well-executed tile remodel is what most Metro Detroit buyers register as a genuine upgrade.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">The Bottom Line</h2>
+  <p style="margin-bottom:32px;">If your quote is at the low end and you need speed, a one-day system can be a reasonable choice — and we'll say so. But if you're staring at a $12,000-plus acrylic estimate, get one full-remodel quote before you sign. You owe it to your budget to know what the same money buys in permanent tile.</p>
+
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:12px;text-align:center;">
+    <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Have a One-Day Bath Quote? Let's Compare It Honestly.</h3>
+    <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Bring us your acrylic or prefab estimate. We'll give you a free, itemized full-remodel quote so you can compare apples to apples — no pressure, no obligation.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Get a Free Comparison Quote</a>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12483468926" style="color:#fff;font-weight:700;">(248) 346-8926</a></p>
+  </div>
+
+</div>
+`
+  },
+
+  {
+    "id": 59,
+    "title": "Remodeling a Bathroom in an Older Detroit-Area Home: Plaster, Cast Iron & the Hidden Costs (2026)",
+    "meta_title": "Older Detroit Home Bathroom Remodel (2026) | Plaster, Cast Iron & Hidden Costs",
+    "meta_description": "Remodeling a bathroom in a pre-1980 Detroit-area home? Learn about plaster walls, cast iron pipes, knob-and-tube wiring, asbestos tile, and the hidden costs to budget for in 2026.",
+    "excerpt": "Pre-1980 homes in Detroit, Dearborn, Ferndale and Royal Oak hide surprises behind the walls. Here's what plaster, cast iron, old wiring, and asbestos tile mean for your bathroom remodel budget — and how to plan for them.",
+    "category": "remodeling-tips",
+    "date": "2026-05-18",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic6.jpeg",
+    "slug": "older-detroit-home-bathroom-remodel",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
+
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic6.jpeg" alt="Bathroom remodel in an older Detroit-area home" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+  <div style="background:#f0f7ff;border-left:4px solid #2563eb;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
+      Detroit, Dearborn, Hamtramck, Ferndale, Royal Oak, Pontiac and the inner-ring suburbs are full of beautiful homes built between the 1920s and the 1970s. They have character a new build can't match — and they also have a habit of revealing surprises the moment a bathroom wall comes down. If you own one of these homes, this guide will help you remodel with your eyes open and your budget prepared.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Why Pre-1980 Detroit-Area Homes Are Different</h2>
+  <p style="margin-bottom:24px;">A bathroom remodel in a 2005 subdivision home and a bathroom remodel in a 1948 brick bungalow are not the same project — even if they look identical on the surface. Older homes were built with materials and methods that have since been replaced: plaster instead of drywall, cast iron instead of PVC, cloth-wrapped wiring instead of modern grounded circuits. None of this means your home is a problem. It just means an experienced contractor needs to plan for what's behind the walls, and you need a realistic budget with room for the unexpected.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Plaster-and-Lath Walls: Repair or Replace?</h2>
+  <p style="margin-bottom:16px;">Most pre-1950s Detroit-area homes have plaster-and-lath walls — wet plaster troweled over thin wood strips. It's solid and dense, but it doesn't behave like drywall. Once you open a wall for new plumbing, the surrounding plaster often cracks or crumbles at the edges.</p>
+  <p style="margin-bottom:24px;">In a bathroom remodel, the usual decision is to remove the old plaster in the wet areas entirely and rebuild with cement board and a modern waterproofing system — that's non-negotiable behind a tiled shower. Plaster on non-wet walls can sometimes be patched and saved. Either way, budget for more wall repair than a newer home would need.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Cast-Iron Drain Stacks: When They Have to Go</h2>
+  <p style="margin-bottom:16px;">Older homes drain through cast-iron pipe. Cast iron can last a very long time, but after 60 to 90 years it corrodes from the inside, scales up, and eventually cracks. If your bathroom is already open, it is almost always the right moment to assess the drain stack.</p>
+  <p style="margin-bottom:24px;">If the cast iron is failing, replacing the accessible section with modern PVC is a meaningful line item — often a few hundred to a few thousand dollars depending on access and how much pipe is involved. It is not a fun surprise, but discovering it during a planned remodel is far cheaper than discovering it as a leak through your ceiling next year.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Knob-and-Tube and Ungrounded Outlets</h2>
+  <p style="margin-bottom:16px;">Bathrooms in older Detroit-area homes frequently still have knob-and-tube wiring or two-prong ungrounded outlets. Modern Michigan electrical code requires GFCI protection for bathroom circuits, and any wiring you expose during a remodel needs to meet current standards.</p>
+  <p style="margin-bottom:24px;">In practice this means a licensed electrician will likely need to run a new grounded circuit and add GFCI protection. It's a safety upgrade you'd want regardless — water and outdated wiring are a genuinely dangerous combination — but it should be in the budget from day one, not treated as a surprise.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Asbestos Floor Tile and Mastic</h2>
+  <p style="margin-bottom:16px;">Many homes built before the early 1980s have vinyl or asphalt floor tile — often 9x9-inch tiles — and the black adhesive (mastic) underneath that may contain asbestos. Asbestos is only a hazard when it's disturbed and made airborne, which is exactly what demolition does.</p>
+  <p style="margin-bottom:24px;">If your home has suspect flooring, the safe path is to have it tested before demolition. If it tests positive, licensed abatement is the correct step — not a DIY weekend. This is one of the most important reasons not to start swinging a hammer in an old bathroom without a professional assessment first.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">The Original Cast-Iron Tub: Keep, Refinish, or Remove?</h2>
+  <p style="margin-bottom:16px;">Old Detroit-area homes often have a heavy, porcelain-coated cast-iron tub — and they're genuinely well-made. You have three options:</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>Keep it</strong> — if it's structurally sound and the look fits your design, a vintage cast-iron tub is a feature, not a flaw.</li>
+    <li style="margin-bottom:10px;"><strong>Refinish it</strong> — professional reglazing can make a tired surface look new for a fraction of replacement cost.</li>
+    <li style="margin-bottom:0;"><strong>Remove it</strong> — if you're converting to a walk-in shower, be aware that cast-iron tubs are extremely heavy and removal takes real labor (and sometimes breaking it up to get it out of a narrow space).</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Permits for a Substantial Older-Home Remodel</h2>
+  <p style="margin-bottom:24px;">Plumbing, electrical, and structural work in a Michigan bathroom remodel almost always require permits, and that's especially true once you're touching the systems in an older home. Cities across Metro Detroit each have their own process. A licensed contractor handles permits and inspections for you — and in an older home, the inspection is genuinely valuable, because it's a second set of trained eyes confirming the upgraded systems are safe.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Realistic Budget Bands for an Older-Home Bathroom Remodel</h2>
+  <p style="margin-bottom:16px;">Because of the factors above, a bathroom remodel in a pre-1980 Detroit-area home typically runs higher than the same-size project in newer construction. Realistic 2026 ranges:</p>
+
+  <table style="width:100%;border-collapse:collapse;margin:20px 0 24px;">
+    <thead>
+      <tr style="background:#2563eb;color:white;">
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Project Scope</th>
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Typical Range</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#f9fafb;border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Mid-range remodel, older home</td>
+        <td style="padding:12px 16px;">$18,000 – $35,000</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Full remodel with systems upgrades</td>
+        <td style="padding:12px 16px;">$30,000 – $50,000</td>
+      </tr>
+      <tr style="background:#f9fafb;">
+        <td style="padding:12px 16px;font-weight:500;">High-end / historic master bath</td>
+        <td style="padding:12px 16px;">$45,000 – $60,000+</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="margin-bottom:32px;">The single most important budgeting rule for an older home: <strong>set aside a 15–20% contingency.</strong> On a $30,000 remodel, that's $4,500–$6,000 held in reserve for whatever the walls reveal. If you don't need it, wonderful. If you do, you won't have to halt the project to find the money.</p>
+
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:12px;text-align:center;">
+    <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Remodeling a Bathroom in an Older Detroit-Area Home?</h3>
+    <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling has worked in the historic homes of Detroit, Ferndale, Royal Oak, Dearborn and Pontiac for years. We know what's behind those walls — and we'll give you an honest, realistic plan and quote.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Schedule a Free In-Home Assessment</a>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12483468926" style="color:#fff;font-weight:700;">(248) 346-8926</a></p>
+  </div>
+
+</div>
+`
+  },
+
+  {
+    "id": 60,
+    "title": "Walk-In Tub vs. Walk-In Shower in Michigan: Which Is Right for Aging in Place? (2026)",
+    "meta_title": "Walk-In Tub vs Walk-In Shower Michigan (2026) | Aging in Place Guide",
+    "meta_description": "Choosing between a walk-in tub and a walk-in shower for aging in place in Michigan? Compare safety, cost, accessibility, and funding programs in this honest 2026 guide.",
+    "excerpt": "Planning an accessible bathroom in Michigan? This 2026 guide compares walk-in tubs and walk-in showers for aging in place — cost, safety, daily use, and funding programs that may help cover it.",
+    "category": "remodeling-tips",
+    "date": "2026-05-18",
+    "author": "Emily Davis",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic2.jpeg",
+    "slug": "walk-in-tub-vs-walk-in-shower-michigan",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
+
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic2.jpeg" alt="Accessible bathroom remodel for aging in place in Michigan" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+  <div style="background:#f0f7ff;border-left:4px solid #2563eb;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
+      For many Michigan homeowners, the goal is simple: stay in the home they love, safely, for as long as possible. The bathroom is where that decision usually starts — it's the highest-risk room in the house. The two main accessible upgrades are a walk-in tub and a curbless walk-in shower, and they suit very different people. Here's an honest comparison to help you choose.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">What Is a Walk-In Tub?</h2>
+  <p style="margin-bottom:24px;">A walk-in tub has a watertight, hinged door built into the side, so you step in over a low threshold rather than climbing over a high tub wall. You sit on a built-in seat while the tub fills and drains around you. Most include grab bars, a non-slip floor, and many add therapeutic features like heated surfaces or water jets. The trade-off: you wait for the tub to fill and drain while seated inside it, so the door seal can stay closed.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">What Is a Walk-In (Curbless) Shower?</h2>
+  <p style="margin-bottom:24px;">A curbless walk-in shower removes the threshold entirely — the shower floor is level with the bathroom floor, so there's nothing to step over and nothing to trip on. It's the most universally accessible option: it works for someone using a walker, a shower wheelchair, or no aid at all. Add a fold-down or built-in bench, grab bars, and a handheld showerhead, and it serves people across a wide range of mobility levels.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Side-by-Side Comparison</h2>
+
+  <table style="width:100%;border-collapse:collapse;margin:20px 0 32px;">
+    <thead>
+      <tr style="background:#2563eb;color:white;">
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Factor</th>
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Walk-In Tub</th>
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Walk-In Shower</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#f9fafb;border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Threshold to cross</td>
+        <td style="padding:12px 16px;">Low step-in (a few inches)</td>
+        <td style="padding:12px 16px;">None — fully curbless</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Wheelchair / walker access</td>
+        <td style="padding:12px 16px;">Limited</td>
+        <td style="padding:12px 16px;">Excellent</td>
+      </tr>
+      <tr style="background:#f9fafb;border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Soaking / therapy</td>
+        <td style="padding:12px 16px;">Yes — its main strength</td>
+        <td style="padding:12px 16px;">No (shower only)</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Wait time</td>
+        <td style="padding:12px 16px;">Seated while filling/draining</td>
+        <td style="padding:12px 16px;">None</td>
+      </tr>
+      <tr style="background:#f9fafb;border-bottom:1px solid #e5e7eb;">
+        <td style="padding:12px 16px;font-weight:500;">Resale appeal</td>
+        <td style="padding:12px 16px;">Niche buyer</td>
+        <td style="padding:12px 16px;">Broad — modern and stylish</td>
+      </tr>
+      <tr>
+        <td style="padding:12px 16px;font-weight:500;">Typical Michigan cost</td>
+        <td style="padding:12px 16px;">$5,000 – $15,000</td>
+        <td style="padding:12px 16px;">$6,000 – $18,000+</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Safety: The Part That Matters Most</h2>
+  <p style="margin-bottom:16px;">Both options dramatically reduce fall risk compared to a standard tub. The right choice depends on the person:</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;">A <strong>walk-in tub</strong> shines for someone who loves a warm soak and can comfortably sit and stand from a built-in seat, but for whom climbing over a tub wall has become risky.</li>
+    <li style="margin-bottom:10px;">A <strong>curbless walk-in shower</strong> is the better choice for anyone who uses — or may soon use — a walker or wheelchair, or who finds sitting and waiting for a tub to fill uncomfortable.</li>
+    <li style="margin-bottom:0;">For Michigan winters, pairing either option with a <strong>heated floor</strong> and slip-resistant stone or textured tile is a meaningful comfort and safety upgrade.</li>
+  </ul>
+  <p style="margin-bottom:24px;">One honest point about walk-in tubs: because you're seated inside while it fills and drains, the experience involves sitting in air, then water, then air again. Some people love the soak enough that this doesn't bother them; others find it chilly. It's worth thinking through before you decide.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Funding Programs That May Help</h2>
+  <p style="margin-bottom:16px;">Accessible bathroom modifications can qualify for assistance through several programs. Caps and eligibility rules change, so confirm current figures directly with each agency before counting on them — but as a starting point:</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>VA HISA grant</strong> — the Home Improvements and Structural Alterations grant helps eligible veterans pay for medically necessary home modifications, including accessible bathrooms, up to a published lifetime maximum. Confirm your eligibility and the current cap with the VA.</li>
+    <li style="margin-bottom:10px;"><strong>USDA Section 504 Home Repair program</strong> — for eligible rural homeowners, this offers low-interest repair loans, and grants for very-low-income homeowners aged 62 and older to remove health and safety hazards. Loan and grant maximums are set by USDA Rural Development.</li>
+    <li style="margin-bottom:0;"><strong>Habitat for Humanity Aging in Place</strong> — many local Habitat affiliates run home modification programs for older homeowners. Availability varies by county.</li>
+  </ul>
+  <p style="margin-bottom:24px;">Some Medicaid waiver programs and long-term-care policies may also contribute toward medically necessary modifications. Standard Medicare generally does not cover walk-in tubs as a home improvement. A quick call to each program — or a benefits counselor — is the best way to learn what you actually qualify for.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">So Which Should You Choose?</h2>
+  <p style="margin-bottom:16px;"><strong>Choose a walk-in tub if:</strong> the person genuinely values soaking and warm-water therapy, can sit and rise from a seat comfortably, and the bathroom will primarily serve them rather than a wide range of users.</p>
+  <p style="margin-bottom:16px;"><strong>Choose a curbless walk-in shower if:</strong> you want the most universally accessible option, you're planning for changing mobility over time, or this is a shared or primary bathroom where everyday flexibility and resale appeal matter.</p>
+  <p style="margin-bottom:32px;">For most Michigan homeowners planning to age in place in a home they'll keep for years, a well-designed curbless shower is the more flexible long-term choice. But the walk-in tub is the right answer for the right person — and an honest contractor will tell you which one fits your situation.</p>
+
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:12px;text-align:center;">
+    <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Planning an Accessible Bathroom in Michigan?</h3>
+    <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling designs safe, beautiful aging-in-place bathrooms across Metro Detroit — walk-in tubs, curbless showers, grab bars built into the tile, and heated floors. Get an honest recommendation for your needs.</p>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Book a Free Accessibility Consultation</a>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12483468926" style="color:#fff;font-weight:700;">(248) 346-8926</a></p>
+  </div>
+
+</div>
+`
+  },
 
 
 ]
