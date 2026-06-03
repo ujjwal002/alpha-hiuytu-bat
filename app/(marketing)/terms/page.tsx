@@ -47,8 +47,8 @@ export default function TermsPage() {
                 val@stoneworksremodeling.com
               </a>{" "}
               or call us at{" "}
-              <a href="tel:+12483468926" className="text-blue-600 hover:underline">
-                (248) 346-8926
+              <a href="tel:+12489552952" className="text-blue-600 hover:underline">
+                (248) 955-2952
               </a>.
             </p>
           </section>

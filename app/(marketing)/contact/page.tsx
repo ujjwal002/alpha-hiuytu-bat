@@ -168,7 +168,7 @@ export default function ContactPage() {
               "name": "Stone Works Remodeling",
               "url": "https://www.stoneworksremodeling.com",
               "logo": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/logo.webp",
-              "telephone": "+12483468926",
+              "telephone": "+12489552952",
               "email": "val@stoneworksremodeling.com",
               "address": {
                 "@type": "PostalAddress",
@@ -445,7 +445,7 @@ export default function ContactPage() {
                               type="tel"
                               name="phone"
                               className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
-                              placeholder="+1 (248) 346-8926"
+                              placeholder="+1 (248) 955-2952"
                               aria-required="true"
                             />
                             <ErrorMessage
@@ -870,18 +870,18 @@ export default function ContactPage() {
                   <div className="ml-4">
                     <h3 className="text-lg font-medium text-gray-900">Phone</h3>
                     <a
-                      href="tel:+12483468926"
+                      href="tel:+12489552952"
                       onClick={() =>
                         event({
                           action: 'phone_click',
                           category: 'engagement',
-                          label: '+12483468926',
+                          label: '+12489552952',
                         })
                       }
                       className="mt-1 text-blue-600 hover:text-blue-500"
-                      aria-label="Call Stone Works Remodeling at (248) 346-8926"
+                      aria-label="Call Stone Works Remodeling at (248) 955-2952"
                     >
-                      +1 (248) 346-8926
+                      +1 (248) 955-2952
                     </a>
                     <p className="mt-1 text-gray-600">
                       <a

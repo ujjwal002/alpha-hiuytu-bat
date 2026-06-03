@@ -6,7 +6,7 @@ export default function SeoSchema() {
     "@id": "https://www.stoneworksremodeling.com/#business",
     name: "Stone Works Remodeling",
     url: "https://www.stoneworksremodeling.com/",
-    telephone: "+12483468926",
+    telephone: "+12489552952",
     priceRange: "$5000-$50000",
     image:
       "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/webp/NctOfmDbqGoQGM2Qm9a8C.webp",

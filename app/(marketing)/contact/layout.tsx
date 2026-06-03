@@ -17,7 +17,7 @@ export async function generateMetadata(): Promise<Metadata> {
       "Contact Stone Works Remodeling | Free Bathroom Remodeling Quote in Metro Detroit, MI",
 
     description:
-      "Get a free consultation for stone bathroom remodeling in Metro Detroit, MI. Call (248) 346-8926 or submit our detailed contact form today.",
+      "Get a free consultation for stone bathroom remodeling in Metro Detroit, MI. Call (248) 955-2952 or submit our detailed contact form today.",
 
     alternates: {
       canonical: "https://www.stoneworksremodeling.com/contact/",

@@ -27,8 +27,8 @@ export const metadata: Metadata = {
   },
 };
 
-const PHONE = "(248) 346-8926";
-const PHONE_HREF = "tel:+12483468926";
+const PHONE = "(248) 955-2952";
+const PHONE_HREF = "tel:+12489552952";
 
 // Comparison data — objective, factual. Updated periodically.
 const comparison = [

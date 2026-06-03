@@ -18,6 +18,7 @@ import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
 import { GA_MEASUREMENT_ID } from "../app/lib/gtag";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -48,7 +49,7 @@ const localBusinessSchema = {
   "@id": "https://www.stoneworksremodeling.com/#business",
   name: "Stone Works Remodeling",
   url: "https://www.stoneworksremodeling.com",
-  telephone: "+12483468926",
+  telephone: "+12489552952",
   email: "val@stoneworksremodeling.com",
   priceRange: "$$",
   logo: "https://www.stoneworksremodeling.com/instagram/logo.jpeg",

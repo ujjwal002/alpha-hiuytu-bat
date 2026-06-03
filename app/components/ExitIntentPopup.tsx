@@ -8,8 +8,8 @@ import { useEffect, useState } from "react";
 import { X, Phone, Send, DollarSign, Check } from "lucide-react";
 import { event } from "../lib/gtag";
 
-const PHONE = "(248) 346-8926";
-const PHONE_HREF = "tel:+12483468926";
+const PHONE = "(248) 955-2952";
+const PHONE_HREF = "tel:+12489552952";
 const SESSION_KEY = "swr_exit_intent_shown";
 
 const onCallClick = () => {

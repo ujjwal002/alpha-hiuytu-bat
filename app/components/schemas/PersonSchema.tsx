@@ -50,7 +50,7 @@ export default function PersonSchema() {
       addressRegion: "MI",
       addressCountry: "US",
     },
-    telephone: "+12483468926",
+    telephone: "+12489552952",
     email: "val@stoneworksremodeling.com",
     image: "https://www.stoneworksremodeling.com/team/val.jpg",
     sameAs: [

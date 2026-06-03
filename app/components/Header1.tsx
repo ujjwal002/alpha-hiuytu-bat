@@ -55,7 +55,7 @@ export default function Header() {
               "contactPoint": [
                 {
                   "@type": "ContactPoint",
-                  "telephone": "+12483468926",
+                  "telephone": "+12489552952",
                   "contactType": "Customer Service",
                   "email": "val@stoneworksremodeling.com",
                   "areaServed": "US",
@@ -110,11 +110,11 @@ export default function Header() {
             <div className="flex items-center space-x-2 group">
               <Phone className="h-4 w-4 text-blue-400 group-hover:text-blue-300 transition-colors" />
               <a
-                href="tel:+12483468926"
+                href="tel:+12489552952"
                 className="text-sm font-medium text-gray-200 group-hover:text-white transition-colors"
                 aria-label="Call Stone Works Remodeling for a free bathroom remodeling quote"
               >
-                (248) 346-8926
+                (248) 955-2952
               </a>
             </div>
             <div className="hidden md:flex items-center space-x-2 group">
@@ -501,10 +501,10 @@ export default function Header() {
           <div className="flex items-center space-x-2 py-2">
             <Phone className="h-4 w-4 text-blue-600" />
             <a
-              href="tel:+12483468926"
+              href="tel:+12489552952"
               className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors"
             >
-              (248) 346-8926
+              (248) 955-2952
             </a>
           </div>
           <div className="flex items-center space-x-2 py-2">

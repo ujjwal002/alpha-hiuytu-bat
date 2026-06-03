@@ -2808,7 +2808,7 @@ export const blogPosts: BlogPost[] = [
     <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Get a Free, Itemized Quote for Your Metro Detroit Bathroom</h3>
     <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:500px;margin-left:auto;margin-right:auto;">No pressure. No obligation. Just an honest number from a licensed Michigan contractor who's been serving Wayne, Oakland, and Macomb Counties since 2009.</p>
     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Schedule Your Free In-Home Consultation</a>
-    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12483468926" style="color:#fff;font-weight:700;">(248) 346-8926</a></p>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#fff;font-weight:700;">(248) 955-2952</a></p>
   </div>
 
 </div>
@@ -2942,7 +2942,7 @@ export const blogPosts: BlogPost[] = [
     <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Ready to Convert Your Tub to a Custom Shower?</h3>
     <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling has completed hundreds of tub-to-shower conversions across Metro Detroit. We're licensed, insured, and ready to give you a free in-home quote with no pressure and no obligation.</p>
     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Get Your Free Shower Conversion Quote</a>
-    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Call us directly: <a href="tel:+12483468926" style="color:#fff;font-weight:700;">(248) 346-8926</a> · Mon–Fri 8am–6pm · Sat 9am–2pm</p>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Call us directly: <a href="tel:+12489552952" style="color:#fff;font-weight:700;">(248) 955-2952</a> · Mon–Fri 8am–6pm · Sat 9am–2pm</p>
   </div>
 
 </div>
@@ -3409,7 +3409,7 @@ export const blogPosts: BlogPost[] = [
     <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Have a One-Day Bath Quote? Let's Compare It Honestly.</h3>
     <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Bring us your acrylic or prefab estimate. We'll give you a free, itemized full-remodel quote so you can compare apples to apples — no pressure, no obligation.</p>
     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Get a Free Comparison Quote</a>
-    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12483468926" style="color:#fff;font-weight:700;">(248) 346-8926</a></p>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#fff;font-weight:700;">(248) 955-2952</a></p>
   </div>
 
 </div>
@@ -3500,7 +3500,7 @@ export const blogPosts: BlogPost[] = [
     <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Remodeling a Bathroom in an Older Detroit-Area Home?</h3>
     <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling has worked in the historic homes of Detroit, Ferndale, Royal Oak, Dearborn and Pontiac for years. We know what's behind those walls — and we'll give you an honest, realistic plan and quote.</p>
     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Schedule a Free In-Home Assessment</a>
-    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12483468926" style="color:#fff;font-weight:700;">(248) 346-8926</a></p>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#fff;font-weight:700;">(248) 955-2952</a></p>
   </div>
 
 </div>
@@ -3606,7 +3606,7 @@ export const blogPosts: BlogPost[] = [
     <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Planning an Accessible Bathroom in Michigan?</h3>
     <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling designs safe, beautiful aging-in-place bathrooms across Metro Detroit — walk-in tubs, curbless showers, grab bars built into the tile, and heated floors. Get an honest recommendation for your needs.</p>
     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Book a Free Accessibility Consultation</a>
-    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12483468926" style="color:#fff;font-weight:700;">(248) 346-8926</a></p>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#fff;font-weight:700;">(248) 955-2952</a></p>
   </div>
 
 </div>
@@ -3726,7 +3726,7 @@ export const blogPosts: BlogPost[] = [
     <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Planning a Bathroom Remodel in Novi, MI?</h3>
     <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling serves Novi and all of Oakland County with expert stone tile work and full bathroom renovations. Get a free, itemized quote with no pressure and no obligation.</p>
     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Schedule a Free In-Home Consultation</a>
-    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12483468926" style="color:#fff;font-weight:700;">(248) 346-8926</a></p>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#fff;font-weight:700;">(248) 955-2952</a></p>
   </div>
 
 </div>

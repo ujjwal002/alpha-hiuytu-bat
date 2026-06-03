@@ -23,7 +23,7 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const phone = '(248) 346-8926';
+  const phone = '(248) 955-2952';
 
   const onCallClick = () => {
     event({ action: 'phone_click', category: 'engagement', label: phone });
@@ -465,17 +465,17 @@ export default function Header() {
           <div className="flex items-center space-x-2 py-2">
             <Phone className="h-4 w-4 text-blue-600" />
             <a
-              href="tel:+12483468926"
+              href="tel:+12489552952"
               onClick={() =>
                 event({
                   action: 'phone_click',
                   category: 'engagement',
-                  label: '+12483468926',
+                  label: '+12489552952',
                 })
               }
               className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors"
             >
-              (248) 346-8926
+              (248) 955-2952
             </a>
           </div>
           <div className="flex items-center space-x-2 py-2">

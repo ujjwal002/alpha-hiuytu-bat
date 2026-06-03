@@ -26,7 +26,7 @@ type CityLandingProps = {
   phone?: string;
 };
 
-const DEFAULT_PHONE = "(248) 346-8926";
+const DEFAULT_PHONE = "(248) 955-2952";
 
 export default function CityLanding({
   city,
@@ -99,7 +99,7 @@ export default function CityLanding({
     provider: {
       "@type": "HomeAndConstructionBusiness",
       name: "Stone Works Remodeling",
-      telephone: "+12483468926",
+      telephone: "+12489552952",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Livonia",
