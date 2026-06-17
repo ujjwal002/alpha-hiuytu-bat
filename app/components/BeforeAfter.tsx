@@ -1,18 +1,28 @@
 // app/components/BeforeAfter.tsx
 // Interactive Before/After slider — the single highest-engagement element on
 // any remodeling site. Drag the handle (or use arrow keys) to reveal.
-// Touch + mouse + keyboard accessible. Lazy-loaded images.
+// Touch + mouse + keyboard accessible. Premium stone/brass styling.
+// Relies on .font-display (Fraunces) set up in layout.tsx.
 "use client";
 import { useRef, useState, useCallback, useEffect } from "react";
 import Image from "next/image";
 import { ArrowLeftRight } from "lucide-react";
 
+const C = {
+  ink: "#1c1916",
+  bone: "#f4efe7",
+  stone: "#e4dccf",
+  brass: "#9c7c4a",
+  brassHi: "#b89968",
+  muted: "#8a8175",
+};
+
 type Pair = {
   before: string;
   after: string;
   alt: string;
-  label?: string;     // e.g. "Master Bath — Troy, MI"
-  service?: string;   // e.g. "Tub-to-Shower Conversion"
+  label?: string;
+  service?: string;
 };
 
 interface BeforeAfterProps {
@@ -35,7 +45,6 @@ function Slider({ pair }: { pair: Pair }) {
     setHasInteracted(true);
   }, []);
 
-  // Pointer events handle mouse + touch unified
   useEffect(() => {
     if (!dragging) return;
     const onMove = (e: PointerEvent) => updateFromClientX(e.clientX);
@@ -60,8 +69,8 @@ function Slider({ pair }: { pair: Pair }) {
   return (
     <div
       ref={containerRef}
-      className="relative w-full overflow-hidden rounded-xl select-none touch-none cursor-ew-resize"
-      style={{ aspectRatio: "4/3" }}
+      className="relative w-full overflow-hidden select-none touch-none cursor-ew-resize"
+      style={{ aspectRatio: "4/3", borderRadius: 14, border: `1px solid ${C.stone}` }}
       onPointerDown={(e) => {
         setDragging(true);
         updateFromClientX(e.clientX);
@@ -80,10 +89,7 @@ function Slider({ pair }: { pair: Pair }) {
       </div>
 
       {/* BEFORE — clipped layer */}
-      <div
-        className="absolute inset-0 overflow-hidden pointer-events-none"
-        style={{ width: `${pos}%` }}
-      >
+      <div className="absolute inset-0 overflow-hidden pointer-events-none" style={{ width: `${pos}%` }}>
         <div
           className="relative h-full"
           style={{ width: containerRef.current ? `${containerRef.current.offsetWidth}px` : "100%" }}
@@ -100,10 +106,10 @@ function Slider({ pair }: { pair: Pair }) {
       </div>
 
       {/* Labels */}
-      <div className="absolute top-3 left-3 bg-slate-900/85 text-white text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider pointer-events-none">
+      <div className="absolute top-3 left-3 text-xs font-medium px-3 py-1 uppercase tracking-[0.16em] pointer-events-none" style={{ background: "rgba(28,25,22,0.85)", color: C.bone }}>
         Before
       </div>
-      <div className="absolute top-3 right-3 bg-blue-600 text-white text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider pointer-events-none">
+      <div className="absolute top-3 right-3 text-xs font-medium px-3 py-1 uppercase tracking-[0.16em] pointer-events-none" style={{ background: C.brass, color: C.ink }}>
         After
       </div>
 
@@ -116,17 +122,17 @@ function Slider({ pair }: { pair: Pair }) {
         aria-valuenow={Math.round(pos)}
         tabIndex={0}
         onKeyDown={onKeyDown}
-        className="absolute top-0 bottom-0 w-[3px] bg-white shadow-[0_0_0_1px_rgba(0,0,0,0.15)]"
-        style={{ left: `${pos}%`, transform: "translateX(-50%)" }}
+        className="absolute top-0 bottom-0"
+        style={{ left: `${pos}%`, transform: "translateX(-50%)", width: 2, background: C.bone, boxShadow: "0 0 0 1px rgba(0,0,0,0.15)" }}
       >
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center border border-slate-200">
-          <ArrowLeftRight className="h-5 w-5 text-blue-600" aria-hidden="true" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 rounded-full shadow-lg flex items-center justify-center" style={{ background: C.bone, border: `1px solid ${C.brass}` }}>
+          <ArrowLeftRight className="h-5 w-5" style={{ color: C.brass }} aria-hidden="true" />
         </div>
       </div>
 
       {/* Hint until first interaction */}
       {!hasInteracted && (
-        <div className="absolute bottom-3 left-1/2 -translate-x-1/2 bg-white/95 text-slate-800 text-xs font-semibold px-3 py-1.5 rounded-full shadow-md pointer-events-none animate-pulse">
+        <div className="absolute bottom-3 left-1/2 -translate-x-1/2 text-xs font-medium px-4 py-1.5 rounded-full shadow-md pointer-events-none animate-pulse uppercase tracking-[0.12em]" style={{ background: "rgba(244,239,231,0.96)", color: C.ink }}>
           ← Drag to compare →
         </div>
       )}
@@ -145,38 +151,33 @@ export default function BeforeAfter({ pairs, className = "" }: BeforeAfterProps)
       <Slider key={active} pair={current} />
 
       {/* Caption */}
-      <div className="mt-4 text-center">
+      <div className="mt-5 text-center">
         {current.label && (
-          <p className="text-base font-bold text-gray-900">{current.label}</p>
+          <p className="font-display text-xl" style={{ color: C.ink }}>{current.label}</p>
         )}
         {current.service && (
-          <p className="text-sm text-blue-600 font-semibold mt-0.5">{current.service}</p>
+          <p className="text-xs uppercase tracking-[0.18em] font-medium mt-1.5" style={{ color: C.brass }}>{current.service}</p>
         )}
       </div>
 
       {/* Thumbnail nav */}
       {pairs.length > 1 && (
-        <div className="flex justify-center gap-2 mt-5 flex-wrap">
+        <div className="flex justify-center gap-3 mt-6 flex-wrap">
           {pairs.map((p, i) => (
             <button
               key={i}
               onClick={() => setActive(i)}
               aria-label={`Show ${p.label || `comparison ${i + 1}`}`}
               aria-pressed={active === i}
-              className={`relative h-14 w-20 rounded-md overflow-hidden border-2 transition-all ${
-                active === i
-                  ? "border-blue-600 ring-2 ring-blue-200"
-                  : "border-slate-200 opacity-70 hover:opacity-100"
-              }`}
+              className="relative h-14 w-20 overflow-hidden transition-all"
+              style={{
+                borderRadius: 8,
+                border: `1px solid ${active === i ? C.brass : C.stone}`,
+                boxShadow: active === i ? `0 0 0 2px rgba(184,153,104,0.4)` : "none",
+                opacity: active === i ? 1 : 0.65,
+              }}
             >
-              <Image
-                src={p.after}
-                alt=""
-                fill
-                className="object-cover"
-                sizes="80px"
-                quality={50}
-              />
+              <Image src={p.after} alt="" fill className="object-cover" sizes="80px" quality={50} />
             </button>
           ))}
         </div>

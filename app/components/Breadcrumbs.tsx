@@ -9,8 +9,16 @@
 //   ]} />
 //
 // Home is added automatically. Don't include it in items.
+// Premium stone/brass styling to match the site.
 import Link from "next/link";
 import { ChevronRight, Home } from "lucide-react";
+
+const C = {
+  ink: "#2a2520",
+  stone: "#cfc4b4",
+  brass: "#9c7c4a",
+  brassHi: "#b89968",
+};
 
 export type BreadcrumbItem = {
   label: string;
@@ -31,10 +39,8 @@ export default function Breadcrumbs({
   className = "",
   visible = true,
 }: BreadcrumbsProps) {
-  // Build full breadcrumb list with Home prepended
   const allItems: BreadcrumbItem[] = [{ label: "Home", href: "/" }, ...items];
 
-  // BreadcrumbList schema (Google + AI assistants love this)
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -54,42 +60,33 @@ export default function Breadcrumbs({
       />
 
       {visible && (
-        <nav aria-label="Breadcrumb" className={`text-sm ${className}`}>
-          <ol className="flex items-center flex-wrap gap-1">
+        <nav aria-label="Breadcrumb" className={`font-sans text-[13px] ${className}`}>
+          <ol className="flex items-center flex-wrap gap-1.5">
             {allItems.map((item, index) => {
               const isLast = index === allItems.length - 1;
               const isHome = index === 0;
 
               return (
-                <li key={index} className="flex items-center">
+                <li key={index} className="flex items-center gap-1.5">
                   {index > 0 && (
-                    <ChevronRight
-                      className="h-3.5 w-3.5 text-slate-400 mx-1 flex-shrink-0"
-                      aria-hidden="true"
-                    />
+                    <ChevronRight className="h-3 w-3 flex-shrink-0" style={{ color: C.stone }} aria-hidden="true" />
                   )}
 
                   {isLast || !item.href ? (
                     <span
-                      className="text-slate-700 font-medium"
+                      className="font-medium tracking-[0.02em]"
+                      style={{ color: C.ink }}
                       aria-current="page"
                     >
-                      {isHome ? (
-                        <Home className="h-3.5 w-3.5 inline" aria-label="Home" />
-                      ) : (
-                        item.label
-                      )}
+                      {isHome ? <Home className="h-3.5 w-3.5 inline" aria-label="Home" /> : item.label}
                     </span>
                   ) : (
                     <Link
                       href={item.href}
-                      className="text-blue-600 hover:text-blue-800 hover:underline transition-colors"
+                      className="tracking-[0.02em] transition-colors hover:underline"
+                      style={{ color: C.brass }}
                     >
-                      {isHome ? (
-                        <Home className="h-3.5 w-3.5 inline" aria-label="Home" />
-                      ) : (
-                        item.label
-                      )}
+                      {isHome ? <Home className="h-3.5 w-3.5 inline" aria-label="Home" /> : item.label}
                     </Link>
                   )}
                 </li>

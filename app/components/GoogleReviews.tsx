@@ -1,37 +1,45 @@
 // app/components/GoogleReviews.tsx
-// Replaces the fake ui-avatars.com testimonials. Styled to look like real
-// Google review cards with the official Google "G" badge and verification.
-// Links to your actual Google Business Profile for "View all reviews".
+// Real-Google-styled review cards. Premium stone/brass frame to match the site,
+// but the Google "G", gold stars, and avatar colors are kept authentic on
+// purpose — those cues are what make the reviews read as genuine Google reviews.
 //
-// IMPORTANT: After deploy, replace the placeholder reviews below with the real
-// reviews from your GMB. You can copy them word-for-word from Google.
+// IMPORTANT: replace the placeholder reviews below with the real reviews from
+// your GMB. Copy them word-for-word from Google. Relies on .font-display
+// (Fraunces) set up in layout.tsx.
 "use client";
 import { useState, useEffect } from "react";
 import { Star, ExternalLink } from "lucide-react";
 
 // ── Your real Google Business Profile links ──────────────────────────────────
-// "Read all reviews" — opens your Google search/maps result
 const GMB_VIEW_URL =
   "https://www.google.com/search?q=Stone+Works+Remodeling&stick=H4sIAAAAAAAA_-NgU1I1qLAwMjQzNUhMTE4zM0w1TjG0MqgwNzIzMDWwNEtOTLW0SDIwX8QqFlySn5eqEJ5flF2sEJSam5-SmpOZlw4Ai4l5GEIAAAA";
-
-// "Write a review" — paste your write-review URL here once you grab it from
-// Google Maps → your business → Write a review → copy the URL
+// "Write a review" — paste your write-review URL here once you grab it from Google Maps
 const GMB_WRITE_URL = GMB_VIEW_URL;
+
+// ── Premium palette (matches HomePage / Footer) ──────────────────────────────
+const C = {
+  ink: "#1c1916",
+  bone: "#f4efe7",
+  paper: "#fbf9f5",
+  stone: "#e4dccf",
+  brass: "#9c7c4a",
+  brassHi: "#b89968",
+  body: "#6b6258",
+  muted: "#8a8175",
+};
 
 type Review = {
   name: string;
   initials: string;
-  // Google avatar circle background — pick from Google's real palette
   color: "blue" | "green" | "red" | "amber" | "purple" | "teal";
   location: string;
   rating: 1 | 2 | 3 | 4 | 5;
-  date: string;       // e.g. "2 weeks ago"
+  date: string;
   service: string;
   text: string;
 };
 
 // REPLACE these with copy-pasted text from your real Google reviews.
-// Keep the same shape. Don't fabricate — use your actual customers.
 const reviews: Review[] = [
   {
     name: "Cari Z.",
@@ -68,16 +76,17 @@ const reviews: Review[] = [
   },
 ];
 
+// Authentic Google avatar palette — kept as-is for credibility
 const colorMap: Record<Review["color"], string> = {
-  blue: "bg-blue-600",
-  green: "bg-emerald-600",
-  red: "bg-rose-600",
-  amber: "bg-amber-600",
-  purple: "bg-violet-600",
-  teal: "bg-teal-600",
+  blue: "#1a73e8",
+  green: "#1e8e3e",
+  red: "#d93025",
+  amber: "#f29900",
+  purple: "#7b3fbf",
+  teal: "#12806a",
 };
 
-// Official Google "G" logo
+// Official Google "G" logo — colors intentionally unchanged
 const GoogleG = ({ className = "h-4 w-4" }: { className?: string }) => (
   <svg className={className} viewBox="0 0 24 24" aria-hidden="true">
     <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
@@ -88,7 +97,6 @@ const GoogleG = ({ className = "h-4 w-4" }: { className?: string }) => (
 );
 
 export default function GoogleReviews() {
-  // Auto-cycle for mobile carousel
   const [active, setActive] = useState(0);
   const [paused, setPaused] = useState(false);
 
@@ -99,38 +107,46 @@ export default function GoogleReviews() {
   }, [paused]);
 
   return (
-    <section className="py-16 bg-slate-50">
+    <section className="py-20 font-sans" style={{ background: C.paper }}>
       <div className="container mx-auto px-4">
-        {/* Header with real Google badge */}
+        {/* Header */}
         <div className="text-center mb-12">
+          {/* Seam eyebrow */}
+          <div className="flex items-center justify-center gap-4 mb-6">
+            <span className="h-px w-10 sm:w-16" style={{ background: C.stone }} aria-hidden="true" />
+            <span className="rotate-45 inline-block" style={{ width: 6, height: 6, background: C.brass }} aria-hidden="true" />
+            <span className="font-display italic text-sm sm:text-base" style={{ color: C.brass }}>In their words</span>
+            <span className="rotate-45 inline-block" style={{ width: 6, height: 6, background: C.brass }} aria-hidden="true" />
+            <span className="h-px w-10 sm:w-16" style={{ background: C.stone }} aria-hidden="true" />
+          </div>
+
+          <h2 className="font-display text-4xl sm:text-5xl font-light mb-5" style={{ color: C.ink }}>
+            What Metro Detroit homeowners say
+          </h2>
+
+          {/* Authentic Google rating badge */}
           <a
             href={GMB_VIEW_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-white border border-slate-200 rounded-full pl-2 pr-5 py-2 mb-6 shadow-sm hover:shadow-md transition-shadow"
+            className="inline-flex items-center gap-3 bg-white rounded-full pl-2 pr-5 py-2 transition-shadow hover:shadow-md"
+            style={{ border: `1px solid ${C.stone}` }}
             aria-label="View Stone Works Remodeling on Google"
           >
-            <span className="bg-white rounded-full p-1.5 border border-slate-200">
+            <span className="bg-white rounded-full p-1.5" style={{ border: `1px solid ${C.stone}` }}>
               <GoogleG className="h-5 w-5" />
             </span>
-            <div className="flex items-center gap-1.5">
-              <span className="font-bold text-gray-900 text-base">5.0</span>
-              <div className="flex items-center gap-0.5" aria-label="5 out of 5 stars">
+            <span className="flex items-center gap-1.5">
+              <span className="font-display text-lg" style={{ color: C.ink }}>5.0</span>
+              <span className="flex items-center gap-0.5" aria-label="5 out of 5 stars">
                 {[1, 2, 3, 4, 5].map((n) => (
                   <Star key={n} className="h-4 w-4 text-amber-400 fill-amber-400" aria-hidden="true" />
                 ))}
-              </div>
-            </div>
-            <span className="text-slate-600 text-sm">Google Reviews</span>
-            <ExternalLink className="h-3.5 w-3.5 text-slate-400" aria-hidden="true" />
+              </span>
+            </span>
+            <span className="text-sm" style={{ color: C.body }}>Google Reviews</span>
+            <ExternalLink className="h-3.5 w-3.5" style={{ color: C.muted }} aria-hidden="true" />
           </a>
-
-          <h2 className="text-3xl sm:text-4xl font-black text-gray-900 mb-4">
-            What Metro Detroit Homeowners Say
-          </h2>
-          <p className="text-lg text-slate-600 max-w-xl mx-auto">
-            Real reviews from real customers across Wayne, Oakland, and Macomb Counties.
-          </p>
         </div>
 
         {/* Desktop grid */}
@@ -147,38 +163,43 @@ export default function GoogleReviews() {
           onTouchEnd={() => setPaused(false)}
         >
           <ReviewCard review={reviews[active]} />
-          <div className="flex justify-center gap-2 mt-5" aria-label="Review navigation">
+          <div className="flex justify-center gap-2 mt-6" aria-label="Review navigation">
             {reviews.map((r, i) => (
               <button
                 key={i}
                 aria-label={`Show review from ${r.name}`}
                 aria-pressed={active === i}
                 onClick={() => setActive(i)}
-                className={`h-2.5 rounded-full transition-all duration-200 ${
-                  active === i ? "w-8 bg-blue-600" : "w-2.5 bg-slate-300"
-                }`}
+                className="h-1.5 rounded-full transition-all duration-200"
+                style={{
+                  width: active === i ? 32 : 10,
+                  background: active === i ? C.brass : C.stone,
+                }}
               />
             ))}
           </div>
         </div>
 
         {/* CTA bar */}
-        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-5">
           <a
             href={GMB_VIEW_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-white border-2 border-slate-200 hover:border-blue-400 text-gray-900 px-6 py-3 rounded-lg font-bold text-sm transition-colors"
+            className="inline-flex items-center gap-2 bg-white px-7 py-3.5 text-xs uppercase tracking-[0.16em] font-medium transition-colors"
+            style={{ border: `1px solid ${C.ink}`, color: C.ink }}
+            onMouseEnter={(e) => { e.currentTarget.style.background = C.ink; e.currentTarget.style.color = C.bone; }}
+            onMouseLeave={(e) => { e.currentTarget.style.background = "#fff"; e.currentTarget.style.color = C.ink; }}
           >
             <GoogleG className="h-4 w-4" />
             Read All Google Reviews
-            <ExternalLink className="h-3.5 w-3.5 text-slate-400" aria-hidden="true" />
           </a>
           <a
             href={GMB_WRITE_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-bold text-sm"
+            className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.16em] font-medium border-b pb-1 transition-colors"
+            style={{ color: C.brass, borderColor: C.brass }}
           >
             Write a Review
             <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
@@ -191,40 +212,47 @@ export default function GoogleReviews() {
 
 function ReviewCard({ review: r }: { review: Review }) {
   return (
-    <article className="bg-white rounded-xl p-6 shadow-sm border border-slate-100 hover:shadow-md transition-shadow flex flex-col h-full">
+    <article
+      className="bg-white p-7 flex flex-col h-full transition-shadow duration-300 hover:shadow-2xl"
+      style={{ border: `1px solid ${C.stone}`, borderRadius: 16 }}
+    >
       {/* Header — Google-style avatar + name */}
-      <header className="flex items-start gap-3 mb-3">
+      <header className="flex items-start gap-3 mb-4">
         <div
-          className={`${colorMap[r.color]} text-white font-bold text-base rounded-full w-11 h-11 flex items-center justify-center flex-shrink-0`}
+          className="text-white font-semibold text-base rounded-full w-11 h-11 flex items-center justify-center flex-shrink-0"
+          style={{ background: colorMap[r.color] }}
           aria-hidden="true"
         >
           {r.initials}
         </div>
         <div className="flex-1 min-w-0">
-          <p className="font-semibold text-gray-900 text-sm truncate">{r.name}</p>
-          <p className="text-xs text-slate-500">{r.location}</p>
+          <p className="font-semibold text-sm truncate" style={{ color: C.ink }}>{r.name}</p>
+          <p className="text-xs" style={{ color: C.muted }}>{r.location}</p>
         </div>
         <GoogleG className="h-4 w-4 mt-1 flex-shrink-0" />
       </header>
 
       {/* Stars + date */}
-      <div className="flex items-center gap-2 mb-3">
+      <div className="flex items-center gap-2 mb-4">
         <div className="flex items-center gap-0.5" aria-label={`${r.rating} out of 5 stars`}>
           {[...Array(r.rating)].map((_, i) => (
             <Star key={i} className="h-4 w-4 text-amber-400 fill-amber-400" aria-hidden="true" />
           ))}
         </div>
-        <span className="text-xs text-slate-500">{r.date}</span>
+        <span className="text-xs" style={{ color: C.muted }}>{r.date}</span>
       </div>
 
       {/* Body */}
-      <blockquote className="text-slate-700 text-sm leading-relaxed mb-4 flex-1">
+      <blockquote className="text-[15px] leading-relaxed mb-5 flex-1" style={{ color: C.body }}>
         {r.text}
       </blockquote>
 
       {/* Project tag */}
-      <div className="pt-3 border-t border-slate-100">
-        <span className="text-xs text-blue-700 font-semibold bg-blue-50 px-3 py-1 rounded-full">
+      <div className="pt-4" style={{ borderTop: `1px solid ${C.stone}` }}>
+        <span
+          className="text-[11px] uppercase tracking-[0.12em] font-medium px-3 py-1.5 rounded-full"
+          style={{ color: C.brass, background: "rgba(156,124,74,0.1)" }}
+        >
           {r.service}
         </span>
       </div>
