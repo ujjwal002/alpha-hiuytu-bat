@@ -2,7 +2,7 @@ const services = [
     {
       id: "bathroom-remodeling",
       title: "Bathroom Remodeling",
-      shortDescription: "Complete bathroom transformation services with premium materials and expert craftsmanship.",
+      shortDescription: "Complete bathroom remodeling in Metro Detroit — custom tile, marble, vanities, and full renovations done in 5–10 days. Licensed, insured, 5-year warranty. Free in-home design consultation.",
       longDescription: "Our bathroom remodeling services transform outdated spaces into beautiful, functional areas that reflect your personal style. We handle everything from design to installation, using premium stone materials and the latest techniques to ensure a stunning result that increases your home's value.",
       features: [
         "Custom design consultations",
@@ -26,7 +26,7 @@ const services = [
     {
       id: "shower-conversions",
       title: "Tub-to-Shower Conversions",
-      shortDescription: "Modern shower solutions that maximize space and accessibility.",
+      shortDescription: "Tub-to-shower conversions in Metro Detroit — custom tile, frameless glass, walk-in showers built in 3–5 days. Licensed, insured, 5-year warranty. Free in-home quote.",
       longDescription: "Our tub-to-shower conversion service transforms your outdated bathtub into a stylish, accessible shower. Perfect for homeowners looking to update their bathroom's functionality while creating a more contemporary aesthetic. Our conversions are completed quickly and with minimal disruption to your home.",
       features: [
         "Custom shower designs",
@@ -50,7 +50,7 @@ const services = [
     {
       id: "walk-in-tubs",
       title: "Walk-In Tub Installation",
-      shortDescription: "Safety-focused bathroom solutions that don't compromise on luxury.",
+      shortDescription: "Walk-in tub installation in Metro Detroit — safe, low-threshold entry, grab bars, and therapeutic jets. Perfect for aging in place. Licensed, insured, free consultation.",
       longDescription: "Our walk-in tub installations combine safety and luxury to create accessible bathing experiences for people of all abilities. These specialized tubs feature easy entry, comfortable seating, and therapeutic options like hydrotherapy jets. Perfect for aging in place or anyone with mobility concerns.",
       features: [
         "Low threshold entry doors",
