@@ -43,11 +43,11 @@ export default function TermsPage() {
             <h2 className="text-xl font-bold text-gray-900 mb-3">6. Contact Us</h2>
             <p>
               For questions regarding these terms, please contact our team at{" "}
-              <a href="mailto:val@stoneworksremodeling.com" className="text-blue-600 hover:underline">
+              <a href="mailto:val@stoneworksremodeling.com" className="text-gold-700 hover:underline">
                 val@stoneworksremodeling.com
               </a>{" "}
               or call us at{" "}
-              <a href="tel:+12489552952" className="text-blue-600 hover:underline">
+              <a href="tel:+12489552952" className="text-gold-700 hover:underline">
                 (248) 955-2952
               </a>.
             </p>

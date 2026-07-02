@@ -15,7 +15,7 @@ export default function RelatedService() {
 
       <Link
         href="/services/"
-        className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700"
+        className="inline-block bg-gold-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-gold-500"
       >
         View Bathroom Remodeling Services
       </Link>

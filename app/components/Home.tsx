@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {
   Star, Check, Phone, ArrowRight, ChevronRight,
   Shield, Award, Users, Hammer, Palette, Ruler, Zap,
@@ -13,9 +13,7 @@ import { event } from "../lib/gtag";
 // New components
 import BeforeAfter from "./BeforeAfter";
 import GoogleReviews from "./GoogleReviews";
-import FinancingBanner from "./FinancingBanner";
 import TrustBar from "./TrustBar";
-import ExitIntentPopup from "./ExitIntentPopup";
 
 // AEO/GEO schemas — surfaces structured data to AI assistants
 import { HomepageProductSchemas } from "./schemas/ProductSchema";
@@ -31,24 +29,24 @@ import { HomepageVideoSchemas } from "./schemas/VideoSchema";
 // proper before/after pairs, just update these src paths.
 const beforeAfterPairs = [
   {
-    before: "/bathroom/IMG_8186.JPG",
-    after: "/bathroom/IMG_8187.JPG",
-    alt: "Master bathroom remodel in Livonia, Metro Detroit",
-    label: "Master Bath — Livonia, MI",
+    after: "/home/luxury-bathroom-remodel-before-metro-detroit.jpg",
+    before: "/home/luxury-bathroom-remodel-after-metro-detroit.jpg",
+    alt: "Luxury master bathroom remodel design concept with Calacatta marble, freestanding tub and brass chandelier — Stone Works Remodeling, Metro Detroit MI",
+    label: "Master Bath Design Concept — Metro Detroit",
     service: "Complete Bathroom Remodel",
   },
   {
-    before: "/bathroom/IMG_8188.JPG",
-    after: "/bathroom/IMG_8189.JPG",
-    alt: "Tub-to-shower conversion in Rochester, Metro Detroit",
-    label: "Guest Bath — Rochester, MI",
+    after: "/home/tub-to-shower-conversion-before-metro-detroit.jpg",
+    before: "/home/tub-to-shower-conversion-after-metro-detroit.jpg",
+    alt: "Tub-to-shower conversion design concept with dark stone walk-in wet room and frameless glass — Stone Works Remodeling, Metro Detroit MI",
+    label: "Wet Room Design Concept — Metro Detroit",
     service: "Tub-to-Shower Conversion",
   },
   {
-    before: "/bathroom/IMG_8190.JPG",
-    after: "/bathroom/IMG_8191.JPG",
-    alt: "Walk-in tub installation in Troy, Metro Detroit",
-    label: "Master Bath — Troy, MI",
+    after: "/home/walk-in-tub-installation-before-metro-detroit.jpg",
+    before: "/home/walk-in-tub-installation-after-metro-detroit.jpg",
+    alt: "Walk-in tub installation design concept with travertine spa styling and teak accents — Stone Works Remodeling, Metro Detroit MI",
+    label: "Spa Walk-in Tub Concept — Metro Detroit",
     service: "Walk-in Tub Installation",
   },
 ];
@@ -76,7 +74,7 @@ const serviceAreas = [
 const faqs = [
   { question: "How long does a bathroom remodel take in Metro Detroit?", answer: "Most standard bathroom remodels are completed in 5–10 business days. Larger custom projects can take 2–3 weeks depending on scope." },
   { question: "What is the cost of a bathroom remodel?", answer: "Costs typically range from $8,000 to $25,000 depending on materials, fixtures, and scope. We provide a detailed, itemized cost breakdown during the free in-home consultation — no surprises." },
-  { question: "Do you offer financing?", answer: "Yes — we offer 0% APR financing for 12 months and longer-term plans up to 144 months for qualified buyers. Monthly payments start as low as $149/mo on a $10,000 project. We can pre-qualify you with a soft credit pull that won't hurt your score." },
+  { question: "What materials do you work with for luxury bathrooms?", answer: "We specialize in premium materials — marble and natural stone, porcelain slab, custom tile work, frameless glass shower enclosures, heated flooring, and designer fixtures in brass, gold, and matte black finishes. During your design consultation we bring curated samples so you can see and feel every selection in your own home." },
   { question: "Are you licensed and insured in Michigan?", answer: "Absolutely. Stone Works Remodeling is fully licensed and insured in Michigan, serving Wayne, Oakland, and Macomb Counties. All work is backed by our 5-year workmanship warranty." },
   { question: "Do you serve my city in Metro Detroit?", answer: "We serve all of Metro Detroit including Livonia, Troy, Detroit, Rochester, Royal Oak, Farmington Hills, Warren, Dearborn, Novi, Canton, Southfield, and surrounding areas. Call us if you don't see your city listed — we likely serve it." },
 ];
@@ -85,7 +83,7 @@ const services = [
   { title: "Complete Bathroom Remodeling", desc: "Custom designs, premium fixtures, expert tile work, and full project management.", icon: Palette, image: "/bathroom/bath1.jpeg", alt: "Complete bathroom remodeling Metro Detroit Michigan", link: "/services/bathroom-remodeling" },
   { title: "Tub Replacement", desc: "Upgrade to modern, energy-efficient bathtubs with quick professional installation.", icon: Hammer, image: "/bathroom/bath2.jpeg", alt: "Bathtub replacement Metro Detroit", link: "/services/bathroom-remodeling" },
   { title: "Tub to Shower Conversion", desc: "Transform your tub into a modern, accessible walk-in shower with custom tile and glass doors.", icon: Zap, image: "/bathroom/bath3.jpeg", alt: "Tub to shower conversion Detroit MI", link: "/services/shower-conversions" },
-  { title: "Walk-in Tubs", desc: "Accessible walk-in tub installations with safety features for seniors and those with mobility needs.", icon: Ruler, image: "/bathroom/IMG_8186.JPG", alt: "Walk-in tub installation Metro Detroit Michigan", link: "/services/walk-in-tubs" },
+  { title: "Walk-in Tubs", desc: "Accessible walk-in tub installations with safety features for seniors and those with mobility needs.", icon: Ruler, image: "/bathroom/bathroom-remodel-metro-detroit-01.jpg", alt: "Walk-in tub installation Metro Detroit Michigan", link: "/services/walk-in-tubs" },
 ];
 
 const processSteps = [
@@ -98,7 +96,7 @@ const processSteps = [
 const whyChooseFeatures = [
   { icon: Shield, title: "Fully Licensed & Insured", desc: "Comprehensive Michigan insurance. Your home is protected throughout the entire project." },
   { icon: Award, title: "15+ Years Local Experience", desc: "Deep roots in Wayne, Oakland, and Macomb Counties with hundreds of Metro Detroit remodels." },
-  { icon: DollarSign, title: "Transparent Pricing", desc: "No hidden fees — detailed cost breakdowns and flexible financing for qualified buyers." },
+  { icon: DollarSign, title: "Transparent, Itemized Proposals", desc: "A detailed, line-by-line proposal for every project — you know exactly where your investment goes. No hidden fees, ever." },
   { icon: Heart, title: "Done in 5–10 Days", desc: "Most bathroom remodels completed in 5–10 business days. We respect your time and home." },
   { icon: Star, title: "100% Satisfaction Guarantee", desc: "We stand behind every project — backed by 5-star Google reviews across Metro Detroit." },
   { icon: Users, title: "Free 3D Design Consultation", desc: "Visualize your remodel before work begins with free in-home 3D design renderings." },
@@ -124,35 +122,6 @@ const faqSchema = {
     acceptedAnswer: { "@type": "Answer", text: f.answer },
   })),
 };
-
-// ─── Countdown ────────────────────────────────────────────────────────────────
-// FIXED: properly returns mounted state so SSR shows readable values.
-
-function useCountdown() {
-  const [mounted, setMounted] = useState(false);
-  const [t, setT] = useState({ days: 0, hours: 0, mins: 0, secs: 0 });
-  useEffect(() => {
-    setMounted(true);
-    const end = () => {
-      const n = new Date();
-      return new Date(n.getFullYear(), n.getMonth() + 1, 1).getTime();
-    };
-    const tick = () => {
-      const diff = end() - Date.now();
-      if (diff <= 0) return;
-      setT({
-        days: Math.floor(diff / 86400000),
-        hours: Math.floor((diff % 86400000) / 3600000),
-        mins: Math.floor((diff % 3600000) / 60000),
-        secs: Math.floor((diff % 60000) / 1000),
-      });
-    };
-    tick();
-    const id = setInterval(tick, 1000);
-    return () => clearInterval(id);
-  }, []);
-  return { mounted, ...t };
-}
 
 // ─── Quote Form (SHORTENED to 3 progressive steps) ────────────────────────────
 
@@ -212,14 +181,14 @@ function QuoteForm() {
     </div>
   );
 
-  const inputCls = "w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-100 outline-none text-sm text-gray-900 bg-white";
+  const inputCls = "w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-gold-500 focus:ring-2 focus:ring-gold-300/30 outline-none text-sm text-gray-900 bg-white";
 
   return (
     <form onSubmit={onSubmit} className="space-y-4">
       {/* Progress indicator */}
       <div className="flex items-center gap-2 mb-2">
-        <div className={`h-1.5 flex-1 rounded-full ${step >= 1 ? "bg-blue-600" : "bg-slate-200"}`} />
-        <div className={`h-1.5 flex-1 rounded-full ${step >= 2 ? "bg-blue-600" : "bg-slate-200"}`} />
+        <div className={`h-1.5 flex-1 rounded-full ${step >= 1 ? "bg-gold-600" : "bg-slate-200"}`} />
+        <div className={`h-1.5 flex-1 rounded-full ${step >= 2 ? "bg-gold-600" : "bg-slate-200"}`} />
         <span className="text-xs text-slate-500 font-semibold">Step {step} of 2</span>
       </div>
 
@@ -238,7 +207,7 @@ function QuoteForm() {
             <label htmlFor="zip-input" className="block text-sm font-semibold text-gray-700 mb-1">Your Zip Code *</label>
             <input id="zip-input" type="text" name="zip" required value={form.zip} onChange={onChange} placeholder="48150" className={inputCls} autoComplete="postal-code" inputMode="numeric" pattern="[0-9]*" maxLength={5} />
           </div>
-          <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-lg font-bold text-base transition-colors flex items-center justify-center gap-2">
+          <button type="submit" className="w-full bg-gold-600 hover:bg-gold-500 text-white py-4 rounded-lg font-bold text-base transition-colors flex items-center justify-center gap-2">
             Continue <ArrowRight className="h-5 w-5" />
           </button>
           <p className="text-xs text-center text-slate-500">No spam. We respond within 2 business hours.</p>
@@ -267,7 +236,7 @@ function QuoteForm() {
             <button type="button" onClick={() => setStep(1)} className="px-4 py-3 rounded-lg border border-slate-300 text-slate-700 font-semibold text-sm hover:bg-slate-50">
               Back
             </button>
-            <button type="submit" disabled={status === "submitting"} className="flex-1 bg-blue-600 hover:bg-blue-700 disabled:opacity-60 text-white py-3 rounded-lg font-bold text-base transition-colors flex items-center justify-center gap-2">
+            <button type="submit" disabled={status === "submitting"} className="flex-1 bg-gold-600 hover:bg-gold-500 disabled:opacity-60 text-white py-3 rounded-lg font-bold text-base transition-colors flex items-center justify-center gap-2">
               {status === "submitting"
                 ? <><div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />Sending...</>
                 : <><Send className="h-5 w-5" />Submit Request</>}
@@ -283,7 +252,6 @@ function QuoteForm() {
 
 export default function HomePage() {
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
-  const countdown = useCountdown();
 
   return (
     <>
@@ -295,57 +263,69 @@ export default function HomePage() {
       {/* AEO/GEO: Video schemas for embedded Instagram reels */}
       <HomepageVideoSchemas />
 
-      <ExitIntentPopup />
-
       <div className="min-h-screen bg-white overflow-x-hidden">
 
         {/* ── Mobile sticky CTA ── */}
         <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-white border-t border-slate-200 px-4 py-3 flex gap-3 shadow-[0_-2px_10px_rgba(0,0,0,0.05)]">
-          <a href={PHONE_HREF} onClick={onCallClick} className="flex-1 bg-blue-600 text-white py-3 rounded-lg font-bold text-sm flex items-center justify-center gap-2" aria-label="Call Stone Works Remodeling now">
+          <a href={PHONE_HREF} onClick={onCallClick} className="flex-1 bg-gold-600 text-white py-3 rounded-lg font-bold text-sm flex items-center justify-center gap-2" aria-label="Call Stone Works Remodeling now">
             <Phone className="h-4 w-4" aria-hidden="true" />Call Now
           </a>
-          <a href="#quote-form" className="flex-1 border-2 border-blue-600 text-blue-600 py-3 rounded-lg font-bold text-sm flex items-center justify-center gap-2" aria-label="Get a free bathroom remodeling quote">
+          <a href="#quote-form" className="flex-1 border-2 border-gold-600 text-gold-700 py-3 rounded-lg font-bold text-sm flex items-center justify-center gap-2" aria-label="Get a free bathroom remodeling quote">
             <MessageCircle className="h-4 w-4" aria-hidden="true" />Free Quote
           </a>
         </div>
 
         {/* ── Desktop floating CTA ── */}
         <div className="fixed bottom-6 right-6 z-50 hidden md:block">
-          <a href="#quote-form" className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-3 rounded-full shadow-lg transition-colors flex items-center gap-2 font-bold text-sm" aria-label="Get a free bathroom remodeling quote">
+          <a href="#quote-form" className="bg-gold-600 hover:bg-gold-500 text-white px-5 py-3 rounded-full shadow-lg transition-colors flex items-center gap-2 font-bold text-sm" aria-label="Get a free bathroom remodeling quote">
             <MessageCircle className="h-5 w-5" aria-hidden="true" />Get Free Quote
           </a>
         </div>
 
         <main>
 
-          {/* ══ HERO ══ */}
-          <section className="bg-gray-900 py-14 sm:py-20 lg:py-24">
-            <div className="container mx-auto px-4">
+          {/* ══ HERO — cinematic luxury video ══ */}
+          <section className="relative overflow-hidden py-14 sm:py-20 lg:py-28">
+            {/* Background video */}
+            <video
+              className="absolute inset-0 h-full w-full object-cover"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              poster="/bathroom/hero-poster.jpg"
+              aria-hidden="true"
+            >
+              <source src="/bathroom/hero-video.mp4" type="video/mp4" />
+            </video>
+            {/* Cinematic espresso gradient overlay for text legibility */}
+            <div className="absolute inset-0 bg-gradient-to-r from-espresso-950/85 via-espresso-950/60 to-espresso-950/35" aria-hidden="true" />
+            <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-espresso-950/70 to-transparent" aria-hidden="true" />
+
+            <div className="container mx-auto px-4 relative z-10">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
                 {/* Text */}
                 <div className="text-white text-center lg:text-left">
-                  <span className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-1.5 rounded-full text-xs font-bold mb-5 uppercase tracking-wide">
-                    <Star className="h-3.5 w-3.5 fill-yellow-400 text-yellow-400" aria-hidden="true" />Top-Rated Bathroom Remodeler — Metro Detroit
+                  <span className="inline-flex items-center gap-2 bg-gold-600/90 text-cream-50 px-4 py-1.5 rounded-full text-xs font-bold mb-5 uppercase tracking-widest backdrop-blur-sm">
+                    <Star className="h-3.5 w-3.5 fill-gold-300 text-gold-300" aria-hidden="true" />Metro Detroit&apos;s Luxury Bathroom Remodeler
                   </span>
-                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight mb-5">
-                    Bathroom Remodeling<br />
-                    <span className="text-blue-400">Metro Detroit, MI</span>
+                  <h1 className="font-luxury text-4xl sm:text-5xl lg:text-6xl leading-tight mb-5">
+                    Luxury Bathroom Remodeling<br />
+                    <span className="text-gold-300">in Metro Detroit, MI</span>
                   </h1>
-                  <p className="text-lg text-blue-100 mb-3 leading-relaxed max-w-xl mx-auto lg:mx-0">
-                    Licensed, insured, and done in <strong className="text-white">5–10 days</strong> — backed by a 5-year warranty. Serving Wayne, Oakland &amp; Macomb Counties since 2009.
+                  <p className="text-lg text-cream-100 mb-3 leading-relaxed max-w-xl mx-auto lg:mx-0">
+                    Spa-inspired master baths, marble &amp; custom tile, walk-in showers — licensed, insured, and done in <strong className="text-white">5–10 days</strong> with a 5-year warranty. Serving Wayne, Oakland &amp; Macomb Counties since 2009.
                   </p>
-                  <p className="text-blue-300 text-sm font-medium mb-3">
-                    Tub-to-shower conversions from <strong className="text-white">$7,995</strong> &nbsp;·&nbsp; Full remodels from $8,000
-                  </p>
-                  <p className="text-emerald-300 text-sm font-bold mb-8">
-                    💰 0% APR Financing Available · As low as $149/mo
+                  <p className="text-stonelux-300 text-sm font-medium mb-8">
+                    Bespoke master baths · Marble &amp; natural stone · Heated floors · Frameless glass showers
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 mb-10 justify-center lg:justify-start">
-                    <a href={PHONE_HREF} onClick={onCallClick} className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-base transition-colors flex items-center justify-center gap-2 w-full sm:w-auto" aria-label="Call Stone Works Remodeling for a free bathroom remodeling consultation">
+                    <a href={PHONE_HREF} onClick={onCallClick} className="bg-gold-600 hover:bg-gold-500 text-white px-8 py-4 rounded-lg font-bold text-base transition-colors flex items-center justify-center gap-2 w-full sm:w-auto shadow-lg shadow-espresso-950/40" aria-label="Call Stone Works Remodeling for a free luxury bathroom remodeling consultation">
                       <Phone className="h-5 w-5" aria-hidden="true" />{PHONE}
                     </a>
-                    <a href="#quote-form" className="border-2 border-white/50 hover:border-white text-white px-8 py-4 rounded-lg font-bold text-base transition-colors flex items-center justify-center gap-2 w-full sm:w-auto" aria-label="Schedule a free bathroom remodeling consultation">
+                    <a href="#quote-form" className="border-2 border-gold-300/60 hover:border-gold-300 hover:bg-gold-300/10 text-cream-50 px-8 py-4 rounded-lg font-bold text-base transition-colors flex items-center justify-center gap-2 w-full sm:w-auto backdrop-blur-sm" aria-label="Schedule a free bathroom remodeling consultation">
                       <Calendar className="h-5 w-5" aria-hidden="true" />Free Consultation
                     </a>
                   </div>
@@ -371,49 +351,32 @@ export default function HomePage() {
                         {[1,2,3,4,5].map((n) => <Star key={n} className="h-3.5 w-3.5 text-amber-400 fill-amber-400" aria-hidden="true" />)}
                       </div>
                     </div>
-                    <span className="text-blue-100 text-sm">on Google</span>
+                    <span className="text-cream-100 text-sm">on Google</span>
                   </a>
                 </div>
 
-                {/* Offer card */}
-                <div className="bg-white/10 border border-white/20 rounded-2xl p-7 sm:p-10 max-w-md mx-auto w-full order-first lg:order-last">
-                  <div className="bg-blue-600 -mx-7 sm:-mx-10 -mt-7 sm:-mt-10 mb-6 px-6 py-4 rounded-t-2xl text-center">
-                    <p className="text-blue-100 text-xs font-bold uppercase tracking-widest flex items-center justify-center gap-1.5">
-                      <Zap className="h-3.5 w-3.5" aria-hidden="true" />Limited Time Offer — Metro Detroit
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-white text-lg font-semibold mb-1">Save</p>
-                    <p className="text-white text-6xl font-black mb-2">$2,500</p>
-                    <p className="text-blue-100 text-base font-medium mb-5">on a Full Bathroom Remodel + 5-Year Warranty</p>
-
-                    {/* Countdown — fixed, shows real numbers immediately */}
-                    <div className="bg-white/10 rounded-xl p-4 mb-5" style={{ minHeight: 96 }}>
-                      <p className="text-blue-200 text-xs font-bold uppercase tracking-widest mb-3">Offer expires end of month</p>
-                      <div className="grid grid-cols-4 gap-2">
-                        {[
-                          { val: countdown.days, label: "Days" },
-                          { val: countdown.hours, label: "Hrs" },
-                          { val: countdown.mins, label: "Min" },
-                          { val: countdown.secs, label: "Sec" },
-                        ].map(({ val, label }) => (
-                          <div key={label} className="bg-white/10 rounded-lg py-2" style={{ minHeight: 52 }}>
-                            <p className="text-white text-2xl font-black leading-none">
-                              {countdown.mounted ? String(val).padStart(2, "0") : "00"}
-                            </p>
-                            <p className="text-blue-300 text-xs mt-1">{label}</p>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-
-                    <div className="bg-red-600 text-white rounded-lg px-4 py-2.5 font-bold text-sm mb-5">Only 2 spots left this month!</div>
-                    <p className="text-xs text-blue-300 italic mb-5">*Valid for Wayne, Oakland &amp; Macomb Counties</p>
-                    <a href={PHONE_HREF} onClick={onCallClick} className="block w-full bg-emerald-500 hover:bg-emerald-600 text-white py-4 rounded-lg font-bold text-base transition-colors text-center" aria-label="Call to claim the $2,500 off bathroom remodeling offer">
-                      <Phone className="inline h-5 w-5 mr-2" aria-hidden="true" />Call to Claim This Offer
-                    </a>
-                    <p className="text-blue-300 text-xs mt-3">or <a href="#quote-form" className="underline hover:text-white">fill out the form below</a></p>
-                  </div>
+                {/* Signature experience card — refined, no urgency gimmicks */}
+                <div className="bg-espresso-950/55 backdrop-blur-md border border-gold-300/25 rounded-2xl p-7 sm:p-10 max-w-md mx-auto w-full order-first lg:order-last">
+                  <p className="text-gold-300 text-xs font-bold uppercase tracking-[0.25em] text-center mb-6">The Stone Works Experience</p>
+                  <h2 className="font-luxury text-2xl sm:text-3xl text-cream-50 text-center mb-6 leading-snug">Your Private Design<br />Consultation</h2>
+                  <ul className="space-y-4 mb-8">
+                    {[
+                      "One-on-one consultation in your home, on your schedule",
+                      "Photorealistic 3D design of your new bath before we begin",
+                      "Curated marble, natural stone & designer fixture selections",
+                      "A dedicated project manager from first sketch to final reveal",
+                      "5-year workmanship warranty on every project",
+                    ].map((item) => (
+                      <li key={item} className="flex items-start gap-3">
+                        <Check className="h-5 w-5 text-gold-300 flex-shrink-0 mt-0.5" aria-hidden="true" />
+                        <span className="text-cream-100 text-sm leading-relaxed">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <a href={PHONE_HREF} onClick={onCallClick} className="block w-full bg-gold-600 hover:bg-gold-500 text-white py-4 rounded-lg font-bold text-base transition-colors text-center" aria-label="Call to reserve your private bathroom design consultation">
+                    <Phone className="inline h-5 w-5 mr-2" aria-hidden="true" />Reserve Your Consultation
+                  </a>
+                  <p className="text-stonelux-300 text-xs mt-4 text-center">Complimentary &amp; without obligation · <a href="#quote-form" className="underline hover:text-cream-50">or request online</a></p>
                 </div>
               </div>
             </div>
@@ -430,7 +393,7 @@ export default function HomePage() {
                   const Icon = s.icon;
                   return (
                     <div key={s.label} className="text-center bg-white rounded-xl p-5 shadow-sm border border-slate-100">
-                      <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center mx-auto mb-3">
+                      <div className="w-12 h-12 bg-gold-600 rounded-xl flex items-center justify-center mx-auto mb-3">
                         <Icon className="h-6 w-6 text-white" aria-hidden="true" />
                       </div>
                       <p className="text-3xl font-black text-gray-900 mb-1">{s.value}</p>
@@ -446,7 +409,7 @@ export default function HomePage() {
           <section className="py-16 bg-white">
             <div className="container mx-auto px-4">
               <div className="text-center mb-10">
-                <span className="inline-block bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide mb-3">
+                <span className="inline-block bg-cream-100 text-gold-700 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide mb-3">
                   Real Projects · Real Results
                 </span>
                 <h2 className="text-3xl sm:text-4xl font-black text-gray-900 mb-4">
@@ -462,7 +425,7 @@ export default function HomePage() {
               </div>
 
               <div className="mt-10 text-center">
-                <Link href="/gallery" className="inline-flex items-center border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg font-bold transition-all duration-200 gap-2">
+                <Link href="/gallery" className="inline-flex items-center border-2 border-gold-600 text-gold-700 hover:bg-gold-600 hover:text-white px-8 py-4 rounded-lg font-bold transition-all duration-200 gap-2">
                   View Full Gallery <ArrowRight className="h-5 w-5" aria-hidden="true" />
                 </Link>
               </div>
@@ -486,7 +449,7 @@ export default function HomePage() {
                       </div>
                       <div className="p-5">
                         <div className="flex items-center gap-2 mb-2">
-                          <Icon className="h-5 w-5 text-blue-600 flex-shrink-0" aria-hidden="true" />
+                          <Icon className="h-5 w-5 text-gold-700 flex-shrink-0" aria-hidden="true" />
                           <h3 className="text-base font-bold text-gray-900">{service.title}</h3>
                         </div>
                         <p className="text-slate-600 text-sm leading-relaxed mb-4">{service.desc}</p>
@@ -497,7 +460,7 @@ export default function HomePage() {
                             </li>
                           ))}
                         </ul>
-                        <Link href={service.link} className="text-blue-600 hover:text-blue-800 font-bold text-sm flex items-center gap-1 group/link">
+                        <Link href={service.link} className="text-gold-700 hover:text-gold-600 font-bold text-sm flex items-center gap-1 group/link">
                           Learn more
                           <ChevronRight className="h-4 w-4 group-hover/link:translate-x-1 transition-transform" aria-hidden="true" />
                         </Link>
@@ -510,7 +473,6 @@ export default function HomePage() {
           </section>
 
           {/* ══ NEW: FINANCING BANNER ══ */}
-          <FinancingBanner />
 
           {/* ══ PROCESS ══ */}
           <section className="py-16 bg-white">
@@ -522,18 +484,18 @@ export default function HomePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {processSteps.map((item, i) => (
                   <div key={item.title} className="bg-white rounded-xl p-7 border border-slate-100 shadow-sm relative">
-                    <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center font-black text-lg text-white mb-5 mx-auto" aria-hidden="true">{item.step}</div>
+                    <div className="w-12 h-12 bg-gold-600 rounded-xl flex items-center justify-center font-black text-lg text-white mb-5 mx-auto" aria-hidden="true">{item.step}</div>
                     <h3 className="text-base font-bold text-gray-900 mb-3 text-center">{item.title}</h3>
                     <p className="text-slate-600 text-sm text-center leading-relaxed">{item.desc}</p>
-                    {i < 3 && <div className="hidden lg:block absolute top-1/2 -right-3 w-6 h-0.5 bg-blue-200" aria-hidden="true" />}
+                    {i < 3 && <div className="hidden lg:block absolute top-1/2 -right-3 w-6 h-0.5 bg-stonelux-300" aria-hidden="true" />}
                   </div>
                 ))}
               </div>
               <div className="mt-10 text-center flex flex-col sm:flex-row gap-3 justify-center items-center">
-                <a href="#quote-form" className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold transition-colors gap-2">
+                <a href="#quote-form" className="inline-flex items-center bg-gold-600 hover:bg-gold-500 text-white px-8 py-4 rounded-lg font-bold transition-colors gap-2">
                   Start Your Project Today<ArrowRight className="h-5 w-5" aria-hidden="true" />
                 </a>
-                <Link href="/guides/plan-bathroom-remodel" className="inline-flex items-center text-blue-600 hover:text-blue-800 font-bold gap-1 px-4 py-2">
+                <Link href="/guides/plan-bathroom-remodel" className="inline-flex items-center text-gold-700 hover:text-gold-600 font-bold gap-1 px-4 py-2">
                   Or read our free planning guide
                   <ArrowRight className="h-4 w-4" aria-hidden="true" />
                 </Link>
@@ -563,7 +525,7 @@ export default function HomePage() {
                       <div className="p-5">
                         <h3 className="font-bold text-gray-900 text-sm sm:text-base mb-1">{project.title}</h3>
                         <p className="text-slate-500 text-xs sm:text-sm flex items-center gap-1">
-                          <MapPin className="h-3.5 w-3.5 text-blue-600" aria-hidden="true" />{project.location}, Metro Detroit
+                          <MapPin className="h-3.5 w-3.5 text-gold-700" aria-hidden="true" />{project.location}, Metro Detroit
                         </p>
                       </div>
                     </Link>
@@ -571,7 +533,7 @@ export default function HomePage() {
                 ))}
               </div>
               <div className="mt-10 text-center">
-                <Link href="/gallery" className="inline-flex items-center border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg font-bold transition-all duration-200 gap-2">
+                <Link href="/gallery" className="inline-flex items-center border-2 border-gold-600 text-gold-700 hover:bg-gold-600 hover:text-white px-8 py-4 rounded-lg font-bold transition-all duration-200 gap-2">
                   View Full Gallery<ArrowRight className="h-5 w-5" aria-hidden="true" />
                 </Link>
               </div>
@@ -582,19 +544,19 @@ export default function HomePage() {
           <GoogleReviews />
 
           {/* ══ QUOTE FORM ══ */}
-          <section id="quote-form" className="py-16 bg-blue-600">
+          <section id="quote-form" className="py-16 bg-espresso-900">
             <div className="container mx-auto px-4">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start max-w-5xl mx-auto">
                 <div className="text-white">
                   <h2 className="text-3xl sm:text-4xl font-black mb-4">Get Your Free In-Home Quote</h2>
-                  <p className="text-blue-100 text-lg mb-8 leading-relaxed">Fill out the form and we&apos;ll call you within 2 business hours. No pressure, no obligation.</p>
+                  <p className="text-cream-100 text-lg mb-8 leading-relaxed">Fill out the form and we&apos;ll call you within 2 business hours. No pressure, no obligation.</p>
                   <ul className="space-y-4">
                     {[
                       "Free in-home measurement & consultation",
                       "Detailed, itemized cost breakdown",
                       "3D design preview before work starts",
-                      "$2,500 OFF applied if you book this month",
-                      "0% APR financing available",
+                      "Curated material samples brought to your home",
+                      "Dedicated project manager, start to finish",
                       "5-year workmanship warranty included",
                     ].map((item) => (
                       <li key={item} className="flex items-center gap-3">
@@ -605,12 +567,12 @@ export default function HomePage() {
                       </li>
                     ))}
                   </ul>
-                  <div className="mt-8 pt-8 border-t border-blue-500">
-                    <p className="text-blue-100 text-sm mb-2">Prefer to call?</p>
-                    <a href={PHONE_HREF} onClick={onCallClick} className="inline-flex items-center gap-2 text-white font-bold text-lg hover:text-blue-200 transition-colors">
+                  <div className="mt-8 pt-8 border-t border-gold-600/40">
+                    <p className="text-cream-100 text-sm mb-2">Prefer to call?</p>
+                    <a href={PHONE_HREF} onClick={onCallClick} className="inline-flex items-center gap-2 text-white font-bold text-lg hover:text-stonelux-300 transition-colors">
                       <Phone className="h-5 w-5" aria-hidden="true" />{PHONE}
                     </a>
-                    <p className="text-blue-200 text-xs mt-1">Mon–Fri 8am–6pm · Sat 9am–2pm</p>
+                    <p className="text-stonelux-300 text-xs mt-1">Mon–Fri 8am–6pm · Sat 9am–2pm</p>
                   </div>
                 </div>
                 <div className="bg-white rounded-xl p-7 sm:p-8 shadow-xl">
@@ -629,10 +591,10 @@ export default function HomePage() {
               </div>
               <div className="max-w-3xl mx-auto space-y-3">
                 {faqs.map((faq, i) => (
-                  <div key={i} className="border border-slate-200 rounded-xl overflow-hidden hover:border-blue-300 transition-colors">
+                  <div key={i} className="border border-slate-200 rounded-xl overflow-hidden hover:border-gold-500/60 transition-colors">
                     <button className="w-full text-left flex justify-between items-center py-5 px-6 hover:bg-slate-50 transition-colors" onClick={() => setActiveFaq(activeFaq === i ? null : i)} aria-expanded={activeFaq === i} aria-controls={`faq-answer-${i}`}>
                       <h3 className="text-base font-bold text-gray-900 pr-4">{faq.question}</h3>
-                      <ChevronDown className={`h-5 w-5 text-blue-600 flex-shrink-0 transition-transform duration-200 ${activeFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
+                      <ChevronDown className={`h-5 w-5 text-gold-700 flex-shrink-0 transition-transform duration-200 ${activeFaq === i ? "rotate-180" : ""}`} aria-hidden="true" />
                     </button>
                     <div id={`faq-answer-${i}`} className={`px-6 overflow-hidden transition-all duration-200 ${activeFaq === i ? "max-h-60 pb-5 opacity-100" : "max-h-0 opacity-0"}`} aria-hidden={activeFaq !== i}>
                       <p className="text-slate-700 leading-relaxed text-sm">{faq.answer}</p>
@@ -655,7 +617,7 @@ export default function HomePage() {
                   const Icon = f.icon;
                   return (
                     <div key={f.title} className="bg-white rounded-xl p-7 border border-slate-100 shadow-sm hover:shadow-md transition-shadow duration-200">
-                      <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center mb-4" aria-hidden="true">
+                      <div className="w-12 h-12 bg-gold-600 rounded-xl flex items-center justify-center mb-4" aria-hidden="true">
                         <Icon className="h-6 w-6 text-white" />
                       </div>
                       <h3 className="text-base font-bold text-gray-900 mb-2">{f.title}</h3>
@@ -672,14 +634,14 @@ export default function HomePage() {
             <div className="container mx-auto px-4">
               <div className="text-center mb-6">
                 <h2 className="text-2xl font-bold text-gray-900 flex items-center justify-center gap-2 mb-2">
-                  <MapPin className="h-5 w-5 text-blue-600" aria-hidden="true" />Serving All of Metro Detroit
+                  <MapPin className="h-5 w-5 text-gold-700" aria-hidden="true" />Serving All of Metro Detroit
                 </h2>
                 <p className="text-slate-600 text-sm">Wayne County · Oakland County · Macomb County</p>
               </div>
               <nav aria-label="Service area cities">
                 <div className="flex flex-wrap justify-center gap-2">
                   {serviceAreas.map((city) => (
-                    <Link key={city} href={`/${city.toLowerCase().replace(/\s+/g, "-")}`} className="bg-slate-50 border border-slate-200 hover:border-blue-400 hover:bg-blue-50 hover:text-blue-700 text-slate-700 px-3 py-1.5 rounded-full text-sm transition-colors" aria-label={`Bathroom remodeling in ${city}, MI`}>
+                    <Link key={city} href={`/${city.toLowerCase().replace(/\s+/g, "-")}`} className="bg-slate-50 border border-slate-200 hover:border-gold-500 hover:bg-cream-50 hover:text-gold-700 text-slate-700 px-3 py-1.5 rounded-full text-sm transition-colors" aria-label={`Bathroom remodeling in ${city}, MI`}>
                       {city}
                     </Link>
                   ))}
@@ -687,7 +649,7 @@ export default function HomePage() {
               </nav>
               <p className="text-center text-sm text-slate-500 mt-5">
                 Don&apos;t see your city?{" "}
-                <a href={PHONE_HREF} onClick={onCallClick} className="text-blue-600 font-semibold hover:underline">Call us</a>{" "}
+                <a href={PHONE_HREF} onClick={onCallClick} className="text-gold-700 font-semibold hover:underline">Call us</a>{" "}
                 — we likely serve your area!
               </p>
             </div>

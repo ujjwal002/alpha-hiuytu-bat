@@ -5,9 +5,23 @@ import HomeClient from "./components/HomeClient";
 
 export const metadata: Metadata = {
   // Brand name in title helps CTR and recognition in SERPs
-  title: "Bathroom Remodeling Metro Detroit MI | Stone Works Remodeling",
+  title: "Luxury Bathroom Remodeling Metro Detroit MI | Stone Works Remodeling",
   description:
-    "Top-rated bathroom remodeling in Metro Detroit, MI. Full renovations, tub-to-shower conversions & walk-in tubs. Licensed, insured, 5-year warranty. Free in-home quote!",
+    "Luxury bathroom remodeling in Metro Detroit, MI. Spa-style master baths, marble & custom tile, walk-in showers, heated floors. Licensed, insured, 5-year warranty. Free design consultation.",
+  keywords: [
+    "luxury bathroom remodeling Metro Detroit",
+    "bathroom remodeling Metro Detroit MI",
+    "master bathroom remodel Michigan",
+    "spa bathroom renovation Detroit",
+    "custom bathroom design Oakland County",
+    "high-end bathroom contractor Birmingham MI",
+    "marble bathroom remodel Bloomfield Hills",
+    "walk-in shower installation Metro Detroit",
+    "tub to shower conversion Michigan",
+    "bathroom renovation Wayne County",
+    "heated bathroom floors Michigan",
+    "frameless glass shower Metro Detroit",
+  ],
   // Relative canonical — metadataBase in layout.tsx handles the domain
   alternates: {
     canonical: "/",
@@ -18,9 +32,9 @@ export const metadata: Metadata = {
   },
   openGraph: {
     // More human/conversational for social sharing
-    title: "Metro Detroit's #1 Bathroom Remodeling Contractor | Stone Works Remodeling",
+    title: "Metro Detroit's Luxury Bathroom Remodeling Experts | Stone Works Remodeling",
     description:
-      "Licensed Metro Detroit bathroom remodelers — full renovations, tub-to-shower conversions, walk-in tubs. 5-star rated, 5-year warranty, free in-home quote.",
+      "Spa-style master baths, marble & natural stone, walk-in showers. Licensed Metro Detroit luxury bathroom remodelers — 5-star rated, 5-year warranty, complimentary design consultation.",
     url: "https://www.stoneworksremodeling.com/",
     siteName: "Stone Works Remodeling",
     locale: "en_US",
@@ -28,19 +42,19 @@ export const metadata: Metadata = {
     images: [
       {
         // Served from public folder — no Mumbai S3 latency for social crawlers
-        url: "/bathroom/bath1.jpeg",
-        width: 1200,
-        height: 630,
-        alt: "Bathroom remodeling project by Stone Works Remodeling — Metro Detroit, MI",
+        url: "/bathroom/hero-poster.jpg",
+        width: 1920,
+        height: 1080,
+        alt: "Luxury spa-style bathroom remodel with marble walls and brass fixtures — Stone Works Remodeling, Metro Detroit, MI",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Metro Detroit Bathroom Remodeling | Stone Works Remodeling",
+    title: "Luxury Bathroom Remodeling Metro Detroit | Stone Works Remodeling",
     description:
-      "Licensed MI bathroom remodelers. Full renovations, tub-to-shower conversions, walk-in tubs. 5-star rated. Free in-home quote!",
-    images: ["/bathroom/bath1.jpeg"],
+      "Spa-style master baths, marble & custom tile, walk-in showers. Licensed MI luxury remodelers. 5-star rated. Free design consultation.",
+    images: ["/bathroom/hero-poster.jpg"],
   },
 };
 

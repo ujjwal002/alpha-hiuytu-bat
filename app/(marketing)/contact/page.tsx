@@ -153,7 +153,7 @@ export default function ContactPage() {
 
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-gray-800 py-12 px-4 sm:px-6 lg:px-8 font-sans">
+    <div className="min-h-screen bg-gradient-to-br from-espresso-950 via-espresso-900 to-walnut-800 py-12 px-4 sm:px-6 lg:px-8 font-sans">
       {/* SEO Meta Tags */}
 
 
@@ -300,7 +300,7 @@ export default function ContactPage() {
           <h1 className="text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
             Contact Stone Works Remodeling
           </h1>
-          <p className="mt-5 max-w-xl mx-auto text-xl text-blue-100">
+          <p className="mt-5 max-w-xl mx-auto text-xl text-cream-100">
             Request a free consultation for luxurious stone bathroom remodeling in Metro Detroit, MI.
           </p>
         </motion.div>
@@ -354,7 +354,7 @@ export default function ContactPage() {
                       <div className="relative mb-6">
                         <div className="h-2 bg-gray-200 rounded-full">
                           <motion.div
-                            className="h-2 bg-blue-600 rounded-full"
+                            className="h-2 bg-gold-600 rounded-full"
                             initial={{ width: 0 }}
                             animate={{ width: `${progress}%` }}
                             transition={{ duration: 0.3 }}
@@ -368,7 +368,7 @@ export default function ContactPage() {
                       {/* Client Information */}
                       <div className="space-y-6 border-b border-gray-200 pb-8">
                         <h2 className="text-2xl font-bold text-gray-900 flex items-center">
-                          <FaHome className="mr-2 text-blue-600" />
+                          <FaHome className="mr-2 text-gold-700" />
                           Your Information
                         </h2>
                         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
@@ -382,7 +382,7 @@ export default function ContactPage() {
                             <Field
                               type="text"
                               name="fullName"
-                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
+                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
                               placeholder="John Doe"
                               aria-required="true"
                             />
@@ -402,7 +402,7 @@ export default function ContactPage() {
                             <Field
                               type="text"
                               name="address"
-                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
+                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
                               placeholder="123 Main St, Metro Detroit, MI"
                               aria-required="true"
                             />
@@ -424,7 +424,7 @@ export default function ContactPage() {
                             <Field
                               type="email"
                               name="email"
-                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
+                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
                               placeholder="john@example.com"
                               aria-required="true"
                             />
@@ -444,7 +444,7 @@ export default function ContactPage() {
                             <Field
                               type="tel"
                               name="phone"
-                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
+                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
                               placeholder="+1 (248) 955-2952"
                               aria-required="true"
                             />
@@ -460,7 +460,7 @@ export default function ContactPage() {
                       {/* Bathroom Details */}
                       <div className="space-y-6 border-b border-gray-200 pb-8">
                         <h2 className="text-2xl font-bold text-gray-900 flex items-center">
-                          <FaBath className="mr-2 text-blue-600" />
+                          <FaBath className="mr-2 text-gold-700" />
                           Bathroom Details
                         </h2>
                         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
@@ -475,7 +475,7 @@ export default function ContactPage() {
                               <Field
                                 type="text"
                                 name="bathroomSize"
-                                className="form-input block w-full rounded-md border-gray-300 focus:border-blue-500 focus:ring-blue-500 p-3 border pr-12"
+                                className="form-input block w-full rounded-md border-gray-300 focus:border-gold-500 focus:ring-gold-500 p-3 border pr-12"
                                 placeholder="e.g., 5x8"
                                 aria-required="true"
                               />
@@ -499,7 +499,7 @@ export default function ContactPage() {
                             <Field
                               as="select"
                               name="bathroomCount"
-                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
+                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
                               aria-required="true"
                             >
                               <option value="">Select</option>
@@ -536,7 +536,7 @@ export default function ContactPage() {
                                       id={option.id}
                                       name="currentLayout"
                                       value={option.id}
-                                      className="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300 rounded"
+                                      className="focus:ring-gold-500 h-4 w-4 text-gold-600 border-gray-300 rounded"
                                     />
                                     <label
                                       htmlFor={option.id}
@@ -565,7 +565,7 @@ export default function ContactPage() {
                           <Field
                             as="select"
                             name="removalNeeded"
-                            className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
+                            className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
                             aria-required="true"
                           >
                             <option value="">Select</option>
@@ -585,7 +585,7 @@ export default function ContactPage() {
                       {/* Design Preferences */}
                       <div className="space-y-6 border-b border-gray-200 pb-8">
                         <h2 className="text-2xl font-bold text-gray-900 flex items-center">
-                          <FaPalette className="mr-2 text-blue-600" />
+                          <FaPalette className="mr-2 text-gold-700" />
                           Design Preferences
                         </h2>
                         <div>
@@ -598,7 +598,7 @@ export default function ContactPage() {
                           <Field
                             as="select"
                             name="designStyle"
-                            className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
+                            className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
                             aria-required="true"
                           >
                             <option value="">Select style</option>
@@ -628,7 +628,7 @@ export default function ContactPage() {
                             as="textarea"
                             name="materialPreferences"
                             rows={3}
-                            className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
+                            className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
                             placeholder="e.g., marble countertops, porcelain tile, chrome fixtures..."
                           />
                         </div>
@@ -653,7 +653,7 @@ export default function ContactPage() {
                                       id={option.id}
                                       name="specialFeatures"
                                       value={option.id}
-                                      className="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300 rounded"
+                                      className="focus:ring-gold-500 h-4 w-4 text-gold-600 border-gray-300 rounded"
                                     />
                                     <label
                                       htmlFor={option.id}
@@ -678,7 +678,7 @@ export default function ContactPage() {
                             as="textarea"
                             name="referenceImages"
                             rows={2}
-                            className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
+                            className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
                             placeholder="Paste links to Pinterest boards, Houzz, or other inspiration..."
                           />
                         </div>
@@ -687,7 +687,7 @@ export default function ContactPage() {
                       {/* Project Logistics */}
                       <div className="space-y-6">
                         <h2 className="text-2xl font-bold text-gray-900 flex items-center">
-                          <FaCalendarAlt className="mr-2 text-blue-600" />
+                          <FaCalendarAlt className="mr-2 text-gold-700" />
                           Project Logistics
                         </h2>
                         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
@@ -701,7 +701,7 @@ export default function ContactPage() {
                             <Field
                               as="select"
                               name="timeline"
-                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
+                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
                               aria-required="true"
                             >
                               <option value="">Select timeline</option>
@@ -727,7 +727,7 @@ export default function ContactPage() {
                             <Field
                               as="select"
                               name="budgetRange"
-                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
+                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
                               aria-required="true"
                             >
                               <option value="">Select range</option>
@@ -755,7 +755,7 @@ export default function ContactPage() {
                           <Field
                             as="select"
                             name="occupancy"
-                            className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-3 border"
+                            className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
                             aria-required="true"
                           >
                             <option value="">Select</option>
@@ -775,7 +775,7 @@ export default function ContactPage() {
                             type="checkbox"
                             name="permitAssistance"
                             id="permitAssistance"
-                            className="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300 rounded"
+                            className="focus:ring-gold-500 h-4 w-4 text-gold-600 border-gray-300 rounded"
                           />
                           <div className="ml-3 text-sm">
                             <label htmlFor="permitAssistance" className="font-medium text-gray-700">
@@ -788,13 +788,13 @@ export default function ContactPage() {
                             type="checkbox"
                             name="terms"
                             id="terms"
-                            className="focus:ring-blue-500 h-4 w-4 text-blue-600 border-gray-300 rounded"
+                            className="focus:ring-gold-500 h-4 w-4 text-gold-600 border-gray-300 rounded"
                             aria-required="true"
                           />
                           <div className="ml-3 text-sm">
                             <label htmlFor="terms" className="font-medium text-gray-700">
                               I agree to the{" "}
-                              <div className="text-blue-600 hover:text-blue-500">
+                              <div className="text-gold-700 hover:text-gold-600">
                                 terms and conditions
                               </div>{" "}
                               <span className="text-red-500">*</span>
@@ -823,7 +823,7 @@ export default function ContactPage() {
                           <button
                             type="submit"
                             disabled={formStatus === "submitting"}
-                            className="w-full flex justify-center items-center py-4 px-6 border border-transparent rounded-md shadow-sm text-lg font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors duration-200 disabled:bg-blue-400 disabled:cursor-not-allowed"
+                            className="w-full flex justify-center items-center py-4 px-6 border border-transparent rounded-md shadow-sm text-lg font-medium text-white bg-gold-600 hover:bg-gold-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold-500 transition-colors duration-200 disabled:bg-gold-300 disabled:cursor-not-allowed"
                           >
                             {formStatus === "submitting" ? (
                               <>
@@ -864,8 +864,8 @@ export default function ContactPage() {
                   whileHover={{ x: 5 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <div className="flex-shrink-0 bg-blue-100 p-3 rounded-full">
-                    <Phone className="h-6 w-6 text-blue-600 contact-icon" />
+                  <div className="flex-shrink-0 bg-cream-100 p-3 rounded-full">
+                    <Phone className="h-6 w-6 text-gold-700 contact-icon" />
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-medium text-gray-900">Phone</h3>
@@ -878,7 +878,7 @@ export default function ContactPage() {
                           label: '+12489552952',
                         })
                       }
-                      className="mt-1 text-blue-600 hover:text-blue-500"
+                      className="mt-1 text-gold-700 hover:text-gold-600"
                       aria-label="Call Stone Works Remodeling at (248) 955-2952"
                     >
                       +1 (248) 955-2952
@@ -886,7 +886,7 @@ export default function ContactPage() {
                     <p className="mt-1 text-gray-600">
                       <a
                         href="mailto:val@stoneworksremodeling.com"
-                        className="text-blue-600 hover:text-blue-500"
+                        className="text-gold-700 hover:text-gold-600"
                       >
                         val@stoneworksremodeling.com
                       </a>
@@ -898,8 +898,8 @@ export default function ContactPage() {
                   whileHover={{ x: 5 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <div className="flex-shrink-0 bg-blue-100 p-3 rounded-full">
-                    <MapPin className="h-6 w-6 text-blue-600 contact-icon" />
+                  <div className="flex-shrink-0 bg-cream-100 p-3 rounded-full">
+                    <MapPin className="h-6 w-6 text-gold-700 contact-icon" />
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-medium text-gray-900">Address</h3>
@@ -912,8 +912,8 @@ export default function ContactPage() {
                   whileHover={{ x: 5 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <div className="flex-shrink-0 bg-blue-100 p-3 rounded-full">
-                    <Clock className="h-6 w-6 text-blue-600 contact-icon" />
+                  <div className="flex-shrink-0 bg-cream-100 p-3 rounded-full">
+                    <Clock className="h-6 w-6 text-gold-700 contact-icon" />
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-medium text-gray-900">Business Hours</h3>
@@ -944,7 +944,7 @@ export default function ContactPage() {
                   aria-label="Map showing Stone Works Remodeling location in Metro Detroit, MI"
                 ></iframe>
                 <motion.div
-                  className="absolute top-4 left-4 bg-blue-600 text-white p-3 rounded-lg shadow-md"
+                  className="absolute top-4 left-4 bg-gold-600 text-white p-3 rounded-lg shadow-md"
                   whileHover={{ scale: 1.1 }}
                 >
                   <span className="text-sm font-semibold">Visit Us in Metro Detroit</span>

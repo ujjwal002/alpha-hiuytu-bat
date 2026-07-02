@@ -63,14 +63,14 @@ export default async function ServicePage({ params }: PageProps) {
         <section className="bg-gradient-to-b from-gray-50 to-white border-b border-gray-100">
               <div className="max-w-5xl mx-auto px-4 py-12">
                 {/* Badge */}
-                <span className="inline-block mb-4 text-sm font-semibold uppercase tracking-wider text-blue-600">
+                <span className="inline-block mb-4 text-sm font-semibold uppercase tracking-wider text-gold-700">
                   Trusted Local Remodeling Experts
                 </span>
       
                 {/* Heading */}
                 <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight mb-5">
                   {service.title} Services in{" "}
-                  <span className="text-blue-600">Metro Detroit, MI</span>
+                  <span className="text-gold-700">Metro Detroit, MI</span>
                 </h2>
       
                 {/* Description */}
@@ -92,7 +92,7 @@ export default async function ServicePage({ params }: PageProps) {
                 </p>
       
                 {/* Divider */}
-                <div className="mt-8 h-1 w-24 bg-blue-600 rounded-full"></div>
+                <div className="mt-8 h-1 w-24 bg-gold-600 rounded-full"></div>
               </div>
             </section>
 

@@ -17,13 +17,13 @@ export default function ServicesPage() {
       <section className="bg-white border-b border-gray-100">
         <div className="container mx-auto px-4 py-16 max-w-5xl">
           <div className="max-w-3xl">
-            <span className="text-blue-600 font-semibold uppercase tracking-wider">
+            <span className="text-gold-700 font-semibold uppercase tracking-wider">
               Service Areas
             </span>
 
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mt-3 mb-6 leading-tight">
               Bathroom Remodeling Services in{" "}
-              <span className="text-blue-600">Metro Detroit, MI</span>
+              <span className="text-gold-700">Metro Detroit, MI</span>
             </h1>
 
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -40,14 +40,14 @@ export default function ServicesPage() {
 
               <div className="flex flex-wrap gap-2">
                 {[
-                  { city: "Detroit", color: "bg-blue-100 text-blue-800" },
-                  { city: "Troy", color: "bg-emerald-100 text-emerald-800" },
-                  { city: "Novi", color: "bg-indigo-100 text-indigo-800" },
-                  { city: "Royal Oak", color: "bg-purple-100 text-purple-800" },
-                  { city: "Sterling Heights", color: "bg-cyan-100 text-cyan-800" },
-                  { city: "Southfield", color: "bg-teal-100 text-teal-800" },
-                  { city: "Livonia", color: "bg-sky-100 text-sky-800" },
-                  { city: "Farmington Hills", color: "bg-violet-100 text-violet-800" },
+                  { city: "Detroit", color: "bg-cream-100 text-walnut-800" },
+                  { city: "Troy", color: "bg-cream-100 text-walnut-800" },
+                  { city: "Novi", color: "bg-cream-100 text-walnut-800" },
+                  { city: "Royal Oak", color: "bg-cream-100 text-walnut-800" },
+                  { city: "Sterling Heights", color: "bg-cream-100 text-walnut-800" },
+                  { city: "Southfield", color: "bg-cream-100 text-walnut-800" },
+                  { city: "Livonia", color: "bg-cream-100 text-walnut-800" },
+                  { city: "Farmington Hills", color: "bg-cream-100 text-walnut-800" },
                 ].map(({ city, color }) => (
                   <span
                     key={city}

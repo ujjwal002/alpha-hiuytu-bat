@@ -4,14 +4,39 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-export default function ServiceContent({ service }) {
+interface Service {
+  id: string;
+  title: string;
+  shortDescription: string;
+  longDescription: string;
+  features: string[];
+  benefits: string[];
+  imageSrc: string;
+  imageAlt: string;
+}
+
+export default function ServiceContent({ service }: { service: Service }) {
   const isCustomWorks = service.id === "custom-works";
 
   return (
     <>
       {/* ================= GEO AUTHORITY BLOCK (AI READS THIS FIRST) ================= */}
-    
-
+      <section className="sr-only" aria-hidden="false">
+        <h2>{service.title} in Metro Detroit, Michigan — Stone Works Remodeling</h2>
+        <p>
+          Stone Works Remodeling is a licensed and insured luxury bathroom
+          remodeling contractor serving Metro Detroit, Michigan since 2009,
+          including Wayne, Oakland, and Macomb Counties — Livonia, Troy,
+          Birmingham, Bloomfield Hills, Rochester, Royal Oak, Novi, Farmington
+          Hills, and surrounding communities. We specialize in {service.title.toLowerCase()},
+          spa-style master bathrooms, marble and natural stone work, walk-in
+          showers with frameless glass, and heated flooring. Every project
+          includes a complimentary in-home design consultation with
+          photorealistic 3D renderings, a dedicated project manager, and a
+          5-year workmanship warranty. Founded by Valjon Qejvani. Call
+          (248) 955-2952 to schedule a private consultation.
+        </p>
+      </section>
 
       {/* ================= HERO SECTION ================= */}
       <section className="relative h-[60vh] min-h-[400px] flex items-center">
@@ -40,7 +65,7 @@ export default function ServiceContent({ service }) {
               {service.shortDescription}
             </p>
             <Link href="/contact">
-              <span className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-medium">
+              <span className="inline-block px-6 py-3 bg-gold-600 hover:bg-gold-500 text-white rounded-lg font-medium transition-colors">
                 Get a Free Quote
               </span>
             </Link>
@@ -61,13 +86,13 @@ export default function ServiceContent({ service }) {
 
           <div className="grid md:grid-cols-2 gap-10">
             <div>
-              <h3 className="text-xl font-bold text-blue-600 mb-4">
+              <h3 className="text-xl font-bold text-gold-700 mb-4">
                 What Our {service.title} Services Include
               </h3>
               <ul className="space-y-3">
                 {service.features.map((feature, idx) => (
                   <li key={idx} className="flex gap-3">
-                    <span className="text-blue-600 font-bold">✔</span>
+                    <span className="text-gold-700 font-bold">✔</span>
                     <span>{feature}</span>
                   </li>
                 ))}
@@ -75,7 +100,7 @@ export default function ServiceContent({ service }) {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold text-blue-600 mb-4">
+              <h3 className="text-xl font-bold text-gold-700 mb-4">
                 Benefits for Homeowners
               </h3>
               <ul className="space-y-3">
@@ -145,7 +170,7 @@ export default function ServiceContent({ service }) {
       </section>
 
       {/* ================= CTA ================= */}
-      <section className="bg-blue-600 text-white py-16 text-center">
+      <section className="bg-espresso-900 text-white py-16 text-center">
         <h2 className="text-3xl font-bold mb-4">
           Start Your {service.title} Project Today
         </h2>
@@ -153,7 +178,7 @@ export default function ServiceContent({ service }) {
           Contact Stone Works Remodeling to schedule your free consultation.
         </p>
         <Link href="/contact">
-          <span className="inline-block px-8 py-4 bg-white text-blue-600 rounded-lg font-medium">
+          <span className="inline-block px-8 py-4 bg-gold-600 hover:bg-gold-500 text-white rounded-lg font-medium transition-colors">
             Get Started
           </span>
         </Link>

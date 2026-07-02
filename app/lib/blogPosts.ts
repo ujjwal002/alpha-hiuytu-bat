@@ -2949,8 +2949,8 @@ export const blogPosts: BlogPost[] = [
   `
   },
   // ============================================================
-// 5 NEW KEYWORD-TARGETED BLOG POSTS — Add to blogPosts array
-// ============================================================
+  // 5 NEW KEYWORD-TARGETED BLOG POSTS — Add to blogPosts array
+  // ============================================================
 
   {
     "id": 53,
@@ -3289,12 +3289,12 @@ export const blogPosts: BlogPost[] = [
 `
   },
   // ============================================================
-// 3 NEW RESEARCH-DRIVEN BLOG POSTS
-// Paste these 3 objects into the blogPosts array in lib/blogPosts.ts,
-// directly BEFORE the closing  ]  of the array.
-// (Top Topic #1 from the research — tub-to-shower conversion — is
-//  already published as post #52, so these are research Topics #2, #3 & #4.)
-// ============================================================
+  // 3 NEW RESEARCH-DRIVEN BLOG POSTS
+  // Paste these 3 objects into the blogPosts array in lib/blogPosts.ts,
+  // directly BEFORE the closing  ]  of the array.
+  // (Top Topic #1 from the research — tub-to-shower conversion — is
+  //  already published as post #52, so these are research Topics #2, #3 & #4.)
+  // ============================================================
 
   {
     "id": 58,
@@ -3614,24 +3614,24 @@ export const blogPosts: BlogPost[] = [
   },
 
   // ============================================================
-// NEW BLOG POST — fixes the 404 at:
-// /blog/bathroom-remodel-novi-mi-2025/
-//
-// HOW TO ADD: paste this object into the blogPosts array in
-// lib/blogPosts.ts, directly BEFORE the closing  ]  of the array.
-//
-// IMPORTANT — avoid duplicate Novi content:
-//  - You already have post #25 (slug: bathroom-remodel-novi-minimalist-mi-2025).
-//  - Recommended: delete/unpublish post #25, then 301-redirect
-//    /blog/bathroom-remodel-novi-minimalist-mi-2025
-//      -> /blog/bathroom-remodel-novi-mi-2025
-//  - The slug below is intentionally "...-2025" so it matches the
-//    URL Google already knows and clears the 404. (Once a post uses
-//    this slug, the trailing-slash version will normalize on its own.)
-//
-// NOTE ON ID: this uses id 61, assuming posts 58-60 were added.
-// If you have NOT added 58-60 yet, change this id to 58.
-// ============================================================
+  // NEW BLOG POST — fixes the 404 at:
+  // /blog/bathroom-remodel-novi-mi-2025/
+  //
+  // HOW TO ADD: paste this object into the blogPosts array in
+  // lib/blogPosts.ts, directly BEFORE the closing  ]  of the array.
+  //
+  // IMPORTANT — avoid duplicate Novi content:
+  //  - You already have post #25 (slug: bathroom-remodel-novi-minimalist-mi-2025).
+  //  - Recommended: delete/unpublish post #25, then 301-redirect
+  //    /blog/bathroom-remodel-novi-minimalist-mi-2025
+  //      -> /blog/bathroom-remodel-novi-mi-2025
+  //  - The slug below is intentionally "...-2025" so it matches the
+  //    URL Google already knows and clears the 404. (Once a post uses
+  //    this slug, the trailing-slash version will normalize on its own.)
+  //
+  // NOTE ON ID: this uses id 61, assuming posts 58-60 were added.
+  // If you have NOT added 58-60 yet, change this id to 58.
+  // ============================================================
 
   {
     "id": 61,
@@ -3727,6 +3727,310 @@ export const blogPosts: BlogPost[] = [
     <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling serves Novi and all of Oakland County with expert stone tile work and full bathroom renovations. Get a free, itemized quote with no pressure and no obligation.</p>
     <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Schedule a Free In-Home Consultation</a>
     <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#fff;font-weight:700;">(248) 955-2952</a></p>
+  </div>
+
+</div>
+`
+  },
+
+  // ============================================================
+  // 5 NEW SEO BLOG POSTS — Paste into the blogPosts array in
+  // lib/blogPosts.ts, directly BEFORE the closing  ]  of the array.
+  // IDs 62–66 (change if you've added other posts since #61).
+  // CTAs use the new luxury espresso/gold brand colors.
+  // ============================================================
+
+  {
+    "id": 62,
+    "title": "Luxury Bathroom Remodel Birmingham, MI 2026 – Marble, Spa Design & Estate Trends",
+    "meta_title": "Luxury Bathroom Remodel Birmingham, MI 2026 | Marble & Spa Design",
+    "meta_description": "Discover luxury bathroom remodel trends in Birmingham, MI for 2026 — book-matched marble, heated floors, steam showers, and spa-level master baths for estate homes.",
+    "excerpt": "Birmingham homeowners expect more than a renovation — they expect a transformation. Here's what luxury bathroom remodels look like in Birmingham, MI in 2026.",
+    "category": "bathroom-remodel",
+    "date": "2026-05-24",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg",
+    "slug": "luxury-bathroom-remodel-birmingham-mi-2026",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
+
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg" alt="Luxury bathroom remodel in Birmingham MI with marble and brass" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+  <div style="background:#F4F0EA;border-left:4px solid #A9744C;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#302316;">
+      Birmingham is one of Michigan's most refined communities — and its bathrooms are expected to match. In 2026, Birmingham homeowners aren't asking for "updated." They're asking for spa-level master baths with book-matched marble, heated stone floors, and the kind of craftsmanship that belongs in an estate home. Here's what that looks like.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">1. Book-Matched Marble Is the Birmingham Signature</h2>
+  <p style="margin-bottom:16px;">Full-height marble slabs with mirrored veining — book-matched at the seam like butterfly wings — are the defining feature of Birmingham's finest master baths in 2026. Calacatta and Statuario varieties lead, often paired with unlacquered brass or champagne-gold fixtures that develop a living patina over time.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">2. The Wet Room Concept</h2>
+  <p style="margin-bottom:16px;">Birmingham homeowners are increasingly enclosing both a freestanding soaking tub and an oversized shower behind a single wall of frameless glass — the European wet room. It reads as gallery-like and dramatically opens the floor plan of even a generously sized master bath.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">3. Heated Floors and Towel Warmers as Standard</h2>
+  <p style="margin-bottom:16px;">At this level, radiant floor heating under honed marble isn't an upgrade — it's assumed. Wall-mounted towel warmers in matching brass finish complete the winter-morning experience that makes a Michigan January genuinely pleasant.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">4. Steam Showers with Aromatherapy and Sound</h2>
+  <p style="margin-bottom:16px;">Fully vapor-sealed steam showers with digital controls, built-in marble benches, aromatherapy ports, and integrated audio are among the most requested features in Birmingham remodels this year. Done correctly, they require a dedicated waterproofing and vapor-barrier system — this is not a project for a generalist crew.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">5. Respecting Architectural Character</h2>
+  <p style="margin-bottom:24px;">Many Birmingham homes carry Tudor, Colonial, or Georgian character, and the best remodels honor it — arched niches, furniture-grade vanities, and stone selections that feel original to the house rather than imported from a showroom catalog.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">What a Luxury Remodel Costs in Birmingham (2026)</h2>
+  <p style="margin-bottom:16px;">Master bathroom renovations in Birmingham typically range from <strong>$35,000 to $75,000+</strong> depending on stone selection, plumbing scope, and features like steam systems and heated floors. Every Stone Works project begins with a complimentary in-home design consultation and photorealistic 3D renderings, so you see the finished room before a single tile is set.</p>
+
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:12px;text-align:center;">
+    <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Commission Your Birmingham Master Bath</h3>
+    <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling designs and builds luxury bathrooms across Birmingham and Oakland County — marble, natural stone, and a dedicated project manager from first sketch to final reveal.</p>
+    <a href="/contact" style="display:inline-block;background:#A9744C;color:#ffffff;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Reserve a Private Design Consultation</a>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#E9A66E;font-weight:700;">(248) 955-2952</a></p>
+  </div>
+
+</div>
+`
+  },
+
+  {
+    "id": 63,
+    "title": "Bathroom Remodel Grosse Pointe, MI 2026 – Timeless Luxury for Historic Homes",
+    "meta_title": "Bathroom Remodel Grosse Pointe, MI 2026 | Historic Home Luxury Design",
+    "meta_description": "Bathroom remodeling in Grosse Pointe, MI blends historic character with modern luxury. See 2026 trends, costs, and design ideas for lakeside estate homes.",
+    "excerpt": "Grosse Pointe's historic homes deserve bathrooms that honor their heritage. Here's how homeowners are blending timeless design with modern spa luxury in 2026.",
+    "category": "bathroom-remodel",
+    "date": "2026-05-31",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg",
+    "slug": "bathroom-remodel-grosse-pointe-mi-2026",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
+
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg" alt="Bathroom remodel in a historic Grosse Pointe MI home" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+  <div style="background:#F4F0EA;border-left:4px solid #A9744C;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#302316;">
+      From Lakeshore Drive estates to the brick colonials of Grosse Pointe Farms and Park, this community's homes carry real history — and remodeling a bathroom here means respecting it. In 2026, Grosse Pointe homeowners are choosing designs that feel original to the house while delivering every modern comfort behind the walls.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">1. Period-Appropriate Luxury</h2>
+  <p style="margin-bottom:16px;">The strongest Grosse Pointe remodels don't fight the home's era — they elevate it. Think basketweave marble mosaic floors, clawfoot or slipper tubs with polished nickel telephone faucets, wainscoting with honed stone above, and furniture-style vanities in rich wood tones.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">2. Modern Systems Behind Historic Walls</h2>
+  <p style="margin-bottom:16px;">Many Grosse Pointe homes date to the 1920s–1950s, which means plaster walls, cast-iron drain stacks, and legacy wiring. A proper remodel updates all of it — new waterproofing, modern plumbing, GFCI-protected circuits — while the finished room still looks like it has always belonged to the house.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">3. Lake Light as a Design Element</h2>
+  <p style="margin-bottom:16px;">Homes near Lake St. Clair enjoy a quality of light designers dream about. In 2026, remodels are maximizing it — enlarged windows over freestanding tubs, pale honed stone that reflects morning light, and sheer window treatments that keep privacy without losing the glow.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">4. The Quiet Luxury Palette</h2>
+  <p style="margin-bottom:16px;">Grosse Pointe taste leans understated: warm whites, soft creams, unpolished brass, and marble with gentle grey veining. The result is a room that photographs beautifully but never feels showy — luxury you sense rather than see.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">What It Costs in Grosse Pointe (2026)</h2>
+  <p style="margin-bottom:16px;">Because of the older housing stock, budgets here run higher than newer suburbs. Full bathroom remodels typically range <strong>$25,000 – $50,000</strong>, with estate-level master baths reaching <strong>$60,000+</strong>. A 15–20% contingency is wise in any pre-1960 home — the walls occasionally hold surprises, and the right contractor plans for them.</p>
+
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:12px;text-align:center;">
+    <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Remodeling a Grosse Pointe Bathroom?</h3>
+    <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling brings historic-home experience and estate-level stone craftsmanship to Grosse Pointe, Grosse Pointe Farms, Park, Woods, and Shores.</p>
+    <a href="/contact" style="display:inline-block;background:#A9744C;color:#ffffff;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Schedule a Private Consultation</a>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#E9A66E;font-weight:700;">(248) 955-2952</a></p>
+  </div>
+
+</div>
+`
+  },
+
+  {
+    "id": 64,
+    "title": "How Long Does a Bathroom Remodel Take in Michigan? (2026 Week-by-Week Timeline)",
+    "meta_title": "How Long Does a Bathroom Remodel Take? Michigan Timeline 2026",
+    "meta_description": "How long does a bathroom remodel take in Michigan? Most take 5–15 working days. See the full week-by-week timeline, what causes delays, and how to keep your project on schedule.",
+    "excerpt": "The question every homeowner asks first: how long will I be without my bathroom? Here's the honest week-by-week Michigan remodel timeline for 2026.",
+    "category": "remodeling-tips",
+    "date": "2026-06-07",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg",
+    "slug": "how-long-does-bathroom-remodel-take-michigan",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
+
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg" alt="Bathroom remodel timeline in Michigan" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+  <div style="background:#F4F0EA;border-left:4px solid #A9744C;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#302316;">
+      Before cost, before tile selection, before anything — most homeowners want to know one thing: <strong>how long will I be without my bathroom?</strong> The honest answer for Michigan in 2026: most full remodels take 5–15 working days of construction, but the total project — from first call to finished room — spans 4–8 weeks. Here's the real timeline.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">The Full Timeline at a Glance</h2>
+  <table style="width:100%;border-collapse:collapse;margin:20px 0 32px;">
+    <thead>
+      <tr style="background:#302316;color:white;">
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Phase</th>
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Duration</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#f9fafb;border-bottom:1px solid #e5e7eb;"><td style="padding:12px 16px;">Consultation, design & 3D renderings</td><td style="padding:12px 16px;">1 – 2 weeks</td></tr>
+      <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:12px 16px;">Material selection & ordering</td><td style="padding:12px 16px;">1 – 3 weeks (overlaps design)</td></tr>
+      <tr style="background:#f9fafb;border-bottom:1px solid #e5e7eb;"><td style="padding:12px 16px;">Permits (if plumbing/electrical changes)</td><td style="padding:12px 16px;">3 – 10 days</td></tr>
+      <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:12px 16px;">Construction — standard remodel</td><td style="padding:12px 16px;">5 – 10 working days</td></tr>
+      <tr style="background:#f9fafb;"><td style="padding:12px 16px;">Construction — luxury / natural stone</td><td style="padding:12px 16px;">10 – 15+ working days</td></tr>
+    </tbody>
+  </table>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Construction Week by Week</h2>
+  <p style="margin-bottom:12px;"><strong>Days 1–2: Demolition and prep.</strong> The old shower, tub, vanity, and flooring come out. Floors and pathways through your home are protected, and debris is hauled away daily.</p>
+  <p style="margin-bottom:12px;"><strong>Days 2–4: Plumbing, electrical, and inspection.</strong> Any valve replacements, drain updates, or new circuits happen now — followed by the rough-in inspection where permits apply.</p>
+  <p style="margin-bottom:12px;"><strong>Days 4–6: Waterproofing.</strong> Cement board and a full waterproofing membrane go up. This step is the difference between a shower that lasts 30 years and one that leaks in 3 — it's never worth rushing.</p>
+  <p style="margin-bottom:12px;"><strong>Days 6–10: Tile.</strong> Floors, walls, niches, and benches. Natural stone and intricate patterns take longer than large-format porcelain — this is where luxury projects add days.</p>
+  <p style="margin-bottom:24px;"><strong>Days 10–14: Fixtures, glass, and finish.</strong> Vanity, toilet, faucets, lighting, paint, and finally the frameless glass — which is measured after tile and typically arrives about a week later. Then a final walkthrough with you.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">What Actually Causes Delays</h2>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>Material lead times</strong> — special-order stone and custom glass are the most common holdups. Ordering everything before demolition begins avoids this.</li>
+    <li style="margin-bottom:10px;"><strong>Hidden conditions</strong> — older Michigan homes can reveal corroded pipes, outdated wiring, or subfloor damage once walls open.</li>
+    <li style="margin-bottom:10px;"><strong>Mid-project changes</strong> — every "while we're at it" decision adds days. Finalize the design before day one.</li>
+    <li style="margin-bottom:0;"><strong>Inspection scheduling</strong> — varies by city; an experienced local contractor books inspections in advance to avoid idle days.</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">How to Keep Your Remodel on Schedule</h2>
+  <p style="margin-bottom:24px;">Three habits separate on-time projects from dragging ones: finalize every selection before demolition, confirm all materials are on-site (or scheduled) before work begins, and hire a contractor who gives you a written day-by-day schedule — then holds themselves to it. At Stone Works, most full remodels finish in 5–10 working days because the plan is complete before the first hammer swings.</p>
+
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:12px;text-align:center;">
+    <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Want a Real Timeline for Your Bathroom?</h3>
+    <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling provides a written schedule with every quote — so you know exactly when your bathroom will be finished before we begin.</p>
+    <a href="/contact" style="display:inline-block;background:#A9744C;color:#ffffff;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Get Your Free Quote & Timeline</a>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#E9A66E;font-weight:700;">(248) 955-2952</a></p>
+  </div>
+
+</div>
+`
+  },
+
+  {
+    "id": 65,
+    "title": "Heated Bathroom Floors in Michigan: Cost, Benefits & What to Know (2026)",
+    "meta_title": "Heated Bathroom Floors Michigan (2026) | Cost, Benefits & Installation",
+    "meta_description": "Heated bathroom floors cost $1,500–$4,000 in most Michigan remodels. Learn how radiant floor heating works, what it costs to run, and why it pairs perfectly with stone tile.",
+    "excerpt": "Warm stone underfoot on a January morning — heated bathroom floors are the upgrade Michigan homeowners never regret. Here's what they cost and how they work in 2026.",
+    "category": "remodeling-tips",
+    "date": "2026-06-14",
+    "author": "Emily Davis",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg",
+    "slug": "heated-bathroom-floors-michigan-cost",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
+
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg" alt="Heated stone bathroom floor in a Michigan home" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+  <div style="background:#F4F0EA;border-left:4px solid #A9744C;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#302316;">
+      Ask any Michigan homeowner who has heated bathroom floors what they'd change about their remodel, and the answer is almost always the same: <em>"I'd have done it sooner."</em> On a January morning when it's 10°F outside, stepping onto warm stone instead of ice-cold tile isn't a luxury gimmick — it's the single most-loved feature in the room.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">How Radiant Floor Heating Works</h2>
+  <p style="margin-bottom:16px;">In a bathroom remodel, electric radiant heating is the standard: a thin heating mat or cable system is installed directly beneath your tile, controlled by a programmable wall thermostat with a floor sensor. It warms the floor itself — and because stone and porcelain hold heat beautifully, the warmth radiates gently upward and makes the entire room feel warmer at a lower thermostat setting.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">What Heated Floors Cost in Michigan (2026)</h2>
+  <table style="width:100%;border-collapse:collapse;margin:20px 0 24px;">
+    <thead>
+      <tr style="background:#302316;color:white;">
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Item</th>
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Typical Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#f9fafb;border-bottom:1px solid #e5e7eb;"><td style="padding:12px 16px;">Heating system + thermostat (materials)</td><td style="padding:12px 16px;">$600 – $1,500</td></tr>
+      <tr style="border-bottom:1px solid #e5e7eb;"><td style="padding:12px 16px;">Installation labor + electrical hookup</td><td style="padding:12px 16px;">$900 – $2,500</td></tr>
+      <tr style="background:#f9fafb;"><td style="padding:12px 16px;"><strong>Total added to a remodel</strong></td><td style="padding:12px 16px;"><strong>$1,500 – $4,000</strong></td></tr>
+    </tbody>
+  </table>
+  <p style="margin-bottom:24px;">The key detail: heated floors are dramatically cheaper to add <strong>during</strong> a remodel than after one, because the floor is already open. Retrofitting later means tearing out finished tile — which is why we recommend deciding on radiant heat before tile day, even if you're on the fence.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">What Does It Cost to Run?</h2>
+  <p style="margin-bottom:16px;">Less than most people expect. A typical Michigan bathroom system draws roughly as much power as a hair dryer while actively heating, and a programmable thermostat means it only runs when you need it — warming the floor before your morning routine and switching off after. Most homeowners see only a few dollars per month added to their electric bill.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Why It Pairs Perfectly with Stone Tile</h2>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>Stone conducts and holds heat</strong> better than almost any flooring — marble, slate, and porcelain feel luxuriously warm and stay that way.</li>
+    <li style="margin-bottom:10px;"><strong>It solves stone's one winter drawback</strong> — cold underfoot — turning it into the material's biggest selling point.</li>
+    <li style="margin-bottom:0;"><strong>It adds resale appeal</strong> — heated floors consistently rank among the features Michigan buyers notice and remember at showings.</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Two Things to Get Right</h2>
+  <p style="margin-bottom:12px;"><strong>1. A dedicated circuit and licensed electrical work.</strong> Radiant systems need proper GFCI-protected wiring — this is code, and it's non-negotiable.</p>
+  <p style="margin-bottom:24px;"><strong>2. Continuous coverage in the walking zones.</strong> A common budget-installer shortcut is heating only a small patch. A properly designed layout warms everywhere your feet actually go — in front of the vanity, the shower entry, and the path to the door.</p>
+
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:12px;text-align:center;">
+    <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Add Heated Floors to Your Remodel</h3>
+    <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling installs radiant heating under stone and porcelain floors across Metro Detroit — designed, wired, and warrantied as part of your complete bathroom renovation.</p>
+    <a href="/contact" style="display:inline-block;background:#A9744C;color:#ffffff;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Get a Free Consultation</a>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#E9A66E;font-weight:700;">(248) 955-2952</a></p>
+  </div>
+
+</div>
+`
+  },
+
+  {
+    "id": 66,
+    "title": "Does a Bathroom Remodel Add Value to Your Home in Michigan? (2026 ROI Guide)",
+    "meta_title": "Bathroom Remodel ROI Michigan (2026) | Does It Add Home Value?",
+    "meta_description": "Does a bathroom remodel add value in Michigan? See 2026 ROI data, which upgrades buyers pay for, and how to remodel for both daily enjoyment and resale return.",
+    "excerpt": "Is a bathroom remodel a good investment in Michigan? Here's the honest 2026 answer — what returns to expect, which upgrades buyers actually pay for, and where the value really lives.",
+    "category": "remodeling-tips",
+    "date": "2026-06-21",
+    "author": "Valjon Qejvani",
+    "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic2.jpeg",
+    "slug": "bathroom-remodel-roi-michigan",
+    "content": `
+<div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
+
+  <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic2.jpeg" alt="Bathroom remodel return on investment in Michigan" style="width:100%;border-radius:10px;margin-bottom:28px;">
+
+  <div style="background:#F4F0EA;border-left:4px solid #A9744C;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#302316;">
+      "Will I get my money back?" is the question behind almost every remodel decision. The honest Michigan answer for 2026: a well-executed bathroom remodel typically recoups a meaningful share of its cost at resale — and in the right neighborhoods, an updated bathroom is often the difference between a home that sells fast and one that sits.
+    </p>
+  </div>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">The Two Kinds of Return</h2>
+  <p style="margin-bottom:16px;">Resale value is only half the equation. A bathroom is used every single day — a $20,000 remodel enjoyed for ten years costs about $5.50 a day for a dramatically better start and end to every one of those days. The smartest way to think about ROI: <strong>resale recovery + years of daily use</strong>, not resale alone.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">What the Data Says for the Midwest</h2>
+  <p style="margin-bottom:16px;">National cost-versus-value studies consistently show mid-range bathroom remodels recouping a substantial portion of their cost at resale, with the Midwest historically trailing coastal markets but improving in recent reports. Two consistent patterns matter for Michigan homeowners:</p>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>Mid-range remodels out-return luxury remodels</strong> on a percentage basis — a $20,000 remodel recovers a higher share than a $60,000 one.</li>
+    <li style="margin-bottom:0;"><strong>Dated bathrooms actively cost you money</strong> — buyers mentally deduct far more than the remodel would cost, because they overestimate renovation prices and dislike the disruption.</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">The Upgrades Michigan Buyers Actually Pay For</h2>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>A tiled walk-in shower with frameless glass</strong> — the single most-noticed feature at showings.</li>
+    <li style="margin-bottom:10px;"><strong>Real tile work</strong> — porcelain or natural stone reads as "renovated"; acrylic surrounds read as "refreshed."</li>
+    <li style="margin-bottom:10px;"><strong>Double vanities</strong> in master baths — a near-requirement for family buyers.</li>
+    <li style="margin-bottom:10px;"><strong>Heated floors</strong> — a memorable, Michigan-specific differentiator.</li>
+    <li style="margin-bottom:0;"><strong>Neutral, current palettes</strong> — warm whites and greige photograph well and offend no one.</li>
+  </ul>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Match the Remodel to the Neighborhood</h2>
+  <p style="margin-bottom:16px;">The golden rule of remodel ROI: build to the level of your street. A $60,000 marble master bath earns its keep in Birmingham, Bloomfield Hills, or Grosse Pointe — where buyers expect it — but over-improves a home in a neighborhood of $250,000 houses. Conversely, in premium ZIP codes, a builder-grade refresh can actually hurt a sale, because buyers at that price point notice shortcuts immediately.</p>
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">When the Remodel Pays Off Most</h2>
+  <ul style="margin:16px 0 24px 20px;padding-left:16px;">
+    <li style="margin-bottom:10px;"><strong>2–5 years before selling</strong> — you enjoy the bathroom, and it still shows as "new" to buyers.</li>
+    <li style="margin-bottom:10px;"><strong>When yours is the only dated room</strong> — one old bathroom drags down the perception of an otherwise updated home.</li>
+    <li style="margin-bottom:0;"><strong>When quality is verifiable</strong> — permits pulled, a transferable workmanship warranty, and documented waterproofing all become selling points your listing agent can use.</li>
+  </ul>
+
+  <p style="margin-bottom:32px;">Bottom line: in Michigan in 2026, a thoughtfully scoped bathroom remodel is one of the most reliable home investments you can make — as long as you remodel to your neighborhood, choose durable materials, and hire work that can be warrantied and proven.</p>
+
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:12px;text-align:center;">
+    <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Remodel for Value — and for Every Morning After</h3>
+    <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling builds bathrooms that hold their value — permitted, warrantied, and crafted in materials buyers recognize. Serving Wayne, Oakland, and Macomb Counties since 2009.</p>
+    <a href="/contact" style="display:inline-block;background:#A9744C;color:#ffffff;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Get Your Free In-Home Consultation</a>
+    <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#E9A66E;font-weight:700;">(248) 955-2952</a></p>
   </div>
 
 </div>

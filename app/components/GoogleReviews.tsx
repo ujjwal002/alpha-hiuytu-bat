@@ -69,8 +69,8 @@ const reviews: Review[] = [
 ];
 
 const colorMap: Record<Review["color"], string> = {
-  blue: "bg-blue-600",
-  green: "bg-emerald-600",
+  blue: "bg-gold-600",
+  green: "bg-bronze-600",
   red: "bg-rose-600",
   amber: "bg-amber-600",
   purple: "bg-violet-600",
@@ -155,7 +155,7 @@ export default function GoogleReviews() {
                 aria-pressed={active === i}
                 onClick={() => setActive(i)}
                 className={`h-2.5 rounded-full transition-all duration-200 ${
-                  active === i ? "w-8 bg-blue-600" : "w-2.5 bg-slate-300"
+                  active === i ? "w-8 bg-gold-600" : "w-2.5 bg-stonelux-300"
                 }`}
               />
             ))}
@@ -168,7 +168,7 @@ export default function GoogleReviews() {
             href={GMB_VIEW_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-white border-2 border-slate-200 hover:border-blue-400 text-gray-900 px-6 py-3 rounded-lg font-bold text-sm transition-colors"
+            className="inline-flex items-center gap-2 bg-white border-2 border-slate-200 hover:border-gold-500 text-gray-900 px-6 py-3 rounded-lg font-bold text-sm transition-colors"
           >
             <GoogleG className="h-4 w-4" />
             Read All Google Reviews
@@ -178,7 +178,7 @@ export default function GoogleReviews() {
             href={GMB_WRITE_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-bold text-sm"
+            className="inline-flex items-center gap-2 text-gold-700 hover:text-gold-600 font-bold text-sm"
           >
             Write a Review
             <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
@@ -224,7 +224,7 @@ function ReviewCard({ review: r }: { review: Review }) {
 
       {/* Project tag */}
       <div className="pt-3 border-t border-slate-100">
-        <span className="text-xs text-blue-700 font-semibold bg-blue-50 px-3 py-1 rounded-full">
+        <span className="text-xs text-gold-700 font-semibold bg-cream-50 px-3 py-1 rounded-full">
           {r.service}
         </span>
       </div>

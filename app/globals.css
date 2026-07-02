@@ -1,5 +1,27 @@
 @import "tailwindcss";
 
+/* ── Ultra-luxury palette — extracted from the hero bathroom video ── */
+@theme {
+  --color-cream-50: #F4F0EA;   /* marble cream — light backgrounds */
+  --color-cream-100: #E9E2D8;  /* section backgrounds */
+  --color-cream-200: #E0D7CB;  /* cards on dark */
+  --color-stonelux-300: #C4BBB2; /* soft stone — borders, dividers */
+  --color-stonelux-400: #AC9C8F; /* warm greige — muted UI */
+  --color-taupe-500: #998470;  /* dominant taupe */
+  --color-gold-300: #E9A66E;   /* chandelier glow — hover/highlight */
+  --color-gold-500: #C58C5F;   /* champagne brass — primary accent */
+  --color-gold-600: #A9744C;   /* deep gold — buttons */
+  --color-gold-700: #8F5F3D;   /* gold hover */
+  --color-bronze-600: #826E5A; /* bronze shadow */
+  --color-walnut-800: #534130; /* walnut wood — body on cream */
+  --color-espresso-900: #302316; /* deep espresso — dark sections */
+  --color-espresso-950: #1D1309; /* near black — hero overlay, footer */
+}
+
+.font-luxury {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;

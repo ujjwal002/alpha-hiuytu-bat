@@ -34,7 +34,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.stoneworksremodeling.com"),
   title: {
-    default: "Stone Works Remodeling | Metro Detroit Bathroom Remodeling Experts",
+    default: "Stone Works Remodeling | Luxury Bathroom Remodeling Metro Detroit",
     template: "%s | Stone Works Remodeling",
   },
   description:
@@ -55,7 +55,7 @@ const localBusinessSchema = {
   logo: "https://www.stoneworksremodeling.com/instagram/logo.jpeg",
   image: "https://www.stoneworksremodeling.com/bathroom/bath1.jpeg",
   description:
-    "Stone Works Remodeling provides premium bathroom remodeling, tub-to-shower conversions, walk-in tub installations, and custom tile work across Metro Detroit, MI — Wayne, Oakland, and Macomb Counties. Founded 2009 by Valjon Qejvani.",
+    "Stone Works Remodeling provides bathroom remodeling for every budget across Metro Detroit, MI — affordable updates, tub-to-shower conversions, accessible walk-in tub installations, and luxury master bathrooms with marble, natural stone, heated floors, and spa features. Serving Wayne, Oakland, and Macomb Counties. Founded 2009 by Valjon Qejvani.",
   founder: { "@id": "https://www.stoneworksremodeling.com/#owner" },
   foundingDate: "2009",
   address: {

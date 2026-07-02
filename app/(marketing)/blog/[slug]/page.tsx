@@ -160,7 +160,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               }}
             />
             <div className="mt-8">
-              <Link href="/blog" className="text-blue-600 hover:text-blue-800 font-medium flex items-center">
+              <Link href="/blog" className="text-gold-700 hover:text-gold-600 font-medium flex items-center">
                 ← Back to Blog
               </Link>
             </div>
@@ -179,9 +179,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   <Link
                     key={s.href}
                     href={s.href}
-                    className="bg-white border border-slate-200 hover:border-blue-400 rounded-xl p-4 group transition-all"
+                    className="bg-white border border-slate-200 hover:border-gold-500 rounded-xl p-4 group transition-all"
                   >
-                    <p className="font-bold text-gray-900 text-sm group-hover:text-blue-600 transition-colors mb-1">{s.label}</p>
+                    <p className="font-bold text-gray-900 text-sm group-hover:text-gold-700 transition-colors mb-1">{s.label}</p>
                     <p className="text-slate-500 text-xs leading-relaxed">{s.desc}</p>
                   </Link>
                 ))}
@@ -211,7 +211,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl text-lg font-semibold transition-all shadow-lg"
+            className="inline-flex items-center bg-gold-600 hover:bg-gold-700 text-white px-8 py-4 rounded-xl text-lg font-semibold transition-all shadow-lg"
           >
             Get a Free Consultation
             <ArrowRight className="ml-2 h-5 w-5" />

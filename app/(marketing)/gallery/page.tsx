@@ -1,275 +1,266 @@
-"use client"
-import React, { useState } from 'react';
-import Image from 'next/image';
-import Head from 'next/head';
-import Link from 'next/link';
+"use client";
+// ═══════════════════════════════════════════════════════════════════
+// THE WALL — arched luxury mosaic gallery with cinematic video
+// Place at: app/(marketing)/gallery/page.tsx  (rename to page.tsx)
+//
+// Design updates:
+// - Cinematic hero VIDEO piece at the top (arched, autoplay, muted)
+// - Every tile has a dome / arch top — like marble archways
+// - Generous padding around and between tiles
+// - Two walls: "The Collection" (concepts) and "The Craft" (projects)
+// ═══════════════════════════════════════════════════════════════════
 
-// Define the GalleryImage type
-interface GalleryImage {
+import React, { useState, useCallback, useEffect } from "react";
+import Image from "next/image";
+import { X, ChevronLeft, ChevronRight } from "lucide-react";
+
+interface Work {
   src: string;
   alt: string;
-  width: number;
-  height: number;
-  blurDataURL: string;
-  location: string; // New field for dynamic location
+  title: string;
+  note: string;
 }
 
-// Combine all images into one gallery array using the data you provided
-const galleryImages: GalleryImage[] = [
-  // From beforeAfterImages array
-  {
-    src: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic1.jpeg",
-    alt: "Bathroom remodel in Ann Arbor, MI by Stone Works Remodeling",
-    width: 500,
-    height: 300,
-    blurDataURL:
-      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/+F9PQAI8wNPk43HLQAAAABJRU5ErkJggg==",
-    location: "Ann Arbor, Michigan",
-  },
-  {
-    src: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic3.jpeg",
-    alt: "Bathroom remodel in Canton, MI by Stone Works Remodeling",
-    width: 500,
-    height: 300,
-    blurDataURL:
-      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/+F9PQAI8wNPk43HLQAAAABJRU5ErkJggg==",
-      location: "Canton, Michigan",
-  },
-  {
-    src: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic6.jpeg",
-    alt: "Tub-to-shower conversion in Novi, MI by Stone Works Remodeling",
-    width: 500,
-    height: 300,
-    blurDataURL:
-      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/+F9PQAI8wNPk43HLQAAAABJRU5ErkJggg==",
-      location: "Novi, Michigan",
+const concepts: Work[] = [
 
-  },
-  {
-    src: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic8.jpeg",
-    alt: "Tub-to-shower conversion in Plymouth, MI by Stone Works Remodeling",
-    width: 500,
-    height: 300,
-    blurDataURL:
-      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/+F9PQAI8wNPk43HLQAAAABJRU5ErkJggg==", 
-    location: "Plymouth, Michigan",
-  },
-  {
-    src: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg",
-    alt: "Walk-in tub installation in Troy, MI by Stone Works Remodeling",
-    width: 500,
-    height: 300,
-    blurDataURL:
-      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/+F9PQAI8wNPk43HLQAAAABJRU5ErkJggg==",
-    location: "Troy, Michigan",
+  { src: "/stone/grand-marble-master-bath-winter-metro-detroit.png", alt: "Grand marble master bathroom design concept with winter garden view — Stone Works Remodeling, Metro Detroit MI", title: "The Winter Suite", note: "Calacatta marble, walnut, snowfall beyond the glass" },
+  { src: "/stone/lake-view-freestanding-tub-master-bath-michigan.png", alt: "Lake view master bathroom design concept with freestanding tub — Stone Works Remodeling, Michigan", title: "Lakeside Soak", note: "A tub set against Michigan water and light" },
+  { src: "/stone/calacatta-marble-walk-in-shower-gold-metro-detroit.png", alt: "Calacatta marble walk-in shower design concept with gold fixtures — Stone Works Remodeling, Metro Detroit MI", title: "The Gold Standard", note: "Frameless glass, champagne rainfall, warm niche light" },
+  { src: "/stone/tudor-limestone-master-bath-bloomfield-hills.png", alt: "Tudor style limestone master bathroom design concept — Stone Works Remodeling, Bloomfield Hills MI", title: "Old World Tudor", note: "Limestone arches and leaded glass, estate character" },
+  { src: "/stone/winter-night-marble-master-bath-metro-detroit.png", alt: "Winter night marble master bathroom design concept — Stone Works Remodeling, Metro Detroit MI", title: "Nightfall in Marble", note: "Amber light against a dark January window" },
+  { src: "/stone/dark-slate-walk-in-shower-metro-detroit.png", alt: "Dark slate walk-in shower design concept with amber lighting — Stone Works Remodeling, Metro Detroit MI", title: "Slate & Amber", note: "A moody wet room for long Michigan evenings" },
+  { src: "/stone/autumn-bay-window-master-bath-michigan.png", alt: "Master bathroom design concept with autumn bay window view — Stone Works Remodeling, Michigan", title: "October Window", note: "Maple color framed like a painting" },
+  { src: "/stone/up-north-cabin-copper-tub-michigan.png", alt: "Up North cabin master bathroom design concept with copper tub — Stone Works Remodeling, Michigan", title: "Up North Copper", note: "Lodge warmth, birch and pine beyond" },
+  { src: "/stone/marble-steam-shower-teak-bench-metro-detroit.png", alt: "Marble steam shower design concept with teak bench — Stone Works Remodeling, Metro Detroit MI", title: "The Steam Room", note: "For the morning after the snow" },
+  { src: "/stone/coastal-lake-michigan-master-bath.png", alt: "Coastal Lake Michigan style master bathroom design concept — Stone Works Remodeling", title: "Dune & Driftwood", note: "Lake Michigan light in sand-toned stone" },
+  { src: "/stone/heated-marble-floor-master-bath-metro-detroit.png", alt: "Heated marble floor master bathroom design concept — Stone Works Remodeling, Metro Detroit MI", title: "Warm Underfoot", note: "Heated herringbone marble, winter defeated" },
+  { src: "/stone/green-zellige-brass-shower-metro-detroit.png", alt: "Green zellige tile shower design concept with brass fixtures — Stone Works Remodeling, Metro Detroit MI", title: "Pine & Brass", note: "Forest-green zellige, hand-set" },
+  { src: "/stone/detroit-loft-industrial-master-bath.png", alt: "Detroit loft industrial master bathroom design concept — Stone Works Remodeling", title: "The Detroit Loft", note: "Brick heritage, refined in black steel and walnut" },
+  { src: "/stone/double-rainfall-marble-shower-metro-detroit.png", alt: "Double rainfall marble shower design concept — Stone Works Remodeling, Metro Detroit MI", title: "Shower for Two", note: "Bookmatched stone, twin rainfall" },
+  { src: "/stone/modern-farmhouse-master-bath-metro-detroit.png", alt: "Modern farmhouse master bathroom design concept — Stone Works Remodeling, Metro Detroit MI", title: "Farmhouse, Elevated", note: "Shiplap and oak beams, Midwest classic" },
+  { src: "/stone/snowstorm-cozy-master-bath-metro-detroit.png", alt: "Cozy master bathroom design concept during a snowstorm — Stone Works Remodeling, Metro Detroit MI", title: "The Snowstorm Bath", note: "Warmth watching the weather lose" },
+  { src: "/stone/lake-house-stone-shower-michigan.png", alt: "Lake house stone shower design concept — Stone Works Remodeling, Michigan", title: "Lake House Stone", note: "Pebble floor, water light" },
+  { src: "/stone/transitional-greige-master-bath-metro-detroit.png", alt: "Transitional greige master bathroom design concept — Stone Works Remodeling, Metro Detroit MI", title: "Quiet Greige", note: "The neutral that suits every Metro Detroit home" },
+  { src: "/stone/wet-room-tub-shower-skylight-metro-detroit.png", alt: "Wet room design concept with tub, shower and skylight — Stone Works Remodeling, Metro Detroit MI", title: "Under the Skylight", note: "Tub and shower in one glass room" },
+  { src: "/stone/pine-window-stone-bench-shower-michigan.png", alt: "Stone bench shower design concept with pine window view — Stone Works Remodeling, Michigan", title: "Pine at the Window", note: "Snowy branches from a warm bench" },
+  { src: "/stone/luxury-clawfoot-traditional-master-bath-metro-detroit.png", alt: "Traditional clawfoot tub master bathroom design concept — Stone Works Remodeling, Metro Detroit MI", title: "The Clawfoot Classic", note: "Brass feet, crystal light, timeless" },
+  { src: "/stone/modern-farmhouse-luxury-shower-metro-detroit.png", alt: "Modern farmhouse luxury shower design concept — Stone Works Remodeling, Metro Detroit MI", title: "Farmhouse Shower", note: "Black-framed glass, white tile, oak" },
+  { src: "/stone/curbless-accessible-luxury-shower-metro-detroit.png", alt: "Curbless accessible luxury shower design concept — Stone Works Remodeling, Metro Detroit MI", title: "Graceful Access", note: "Curbless travertine, luxury without barriers" },
 
-  },
-  {
-    src: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/webp/w6HJzxSeslcbuk0sJgPQc.webp",
-    alt: "Walk-in tub installation in Farmington, MI by Stone Works Remodeling",
-    width: 500,
-    height: 300,
-    blurDataURL:
-      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/+F9PQAI8wNPk43HLQAAAABJRU5ErkJggg==",
-      location: "Farmington, Michigan",
-
-  },
-  // From recentProjects array
- 
-  
+  { src: "/home/luxury-bathroom-remodel-after-metro-detroit.jpg", alt: "Luxury master bathroom remodel design concept with Calacatta marble and brass chandelier — Stone Works Remodeling, Metro Detroit MI", title: "The Marble Showpiece", note: "Freestanding tub beneath a brass chandelier" },
+  { src: "/home/tub-to-shower-conversion-after-metro-detroit.jpg", alt: "Tub-to-shower conversion design concept with dark stone wet room — Stone Works Remodeling, Metro Detroit MI", title: "The Dark Wet Room", note: "Charcoal stone, amber light, frameless glass" },
+  { src: "/home/walk-in-tub-installation-after-metro-detroit.jpg", alt: "Walk-in tub design concept with travertine spa styling — Stone Works Remodeling, Metro Detroit MI", title: "The Organic Spa", note: "Travertine, teak, and safe serenity" },
 ];
 
-
-// Categories for filtering
-const categories = [
-  { id: "all", name: "All Projects" },
-  { id: "bathroom", name: "Bathroom Remodels" },
-  { id: "shower", name: "Shower Conversions" },
-  { id: "tub", name: "Walk-in Tubs" },
+const projects: Work[] = [
+  { src: "/bathroom/bathroom-remodel-metro-detroit-01.jpg", alt: "Completed bathroom remodeling project 1 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-02.jpg", alt: "Completed bathroom remodeling project 2 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-03.jpg", alt: "Completed bathroom remodeling project 3 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-04.jpg", alt: "Completed bathroom remodeling project 4 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-05.jpg", alt: "Completed bathroom remodeling project 5 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-06.jpg", alt: "Completed bathroom remodeling project 6 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-07.jpg", alt: "Completed bathroom remodeling project 7 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-08.jpg", alt: "Completed bathroom remodeling project 8 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-09.jpg", alt: "Completed bathroom remodeling project 9 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-10.jpg", alt: "Completed bathroom remodeling project 10 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-11.jpg", alt: "Completed bathroom remodeling project 11 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-12.jpg", alt: "Completed bathroom remodeling project 12 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-13.jpg", alt: "Completed bathroom remodeling project 13 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-14.jpg", alt: "Completed bathroom remodeling project 14 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-15.jpg", alt: "Completed bathroom remodeling project 15 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-16.jpg", alt: "Completed bathroom remodeling project 16 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-17.jpg", alt: "Completed bathroom remodeling project 17 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-18.jpg", alt: "Completed bathroom remodeling project 18 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-19.jpg", alt: "Completed bathroom remodeling project 19 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-20.jpg", alt: "Completed bathroom remodeling project 20 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-21.jpg", alt: "Completed bathroom remodeling project 21 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-22.jpg", alt: "Completed bathroom remodeling project 22 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-23.jpg", alt: "Completed bathroom remodeling project 23 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-24.jpg", alt: "Completed bathroom remodeling project 24 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-25.jpg", alt: "Completed bathroom remodeling project 25 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-26.jpg", alt: "Completed bathroom remodeling project 26 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-27.jpg", alt: "Completed bathroom remodeling project 27 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-28.jpg", alt: "Completed bathroom remodeling project 28 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-29.jpg", alt: "Completed bathroom remodeling project 29 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-30.jpg", alt: "Completed bathroom remodeling project 30 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-31.jpg", alt: "Completed bathroom remodeling project 31 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-32.jpg", alt: "Completed bathroom remodeling project 32 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-33.jpg", alt: "Completed bathroom remodeling project 33 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-34.jpg", alt: "Completed bathroom remodeling project 34 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-35.jpg", alt: "Completed bathroom remodeling project 35 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-36.jpg", alt: "Completed bathroom remodeling project 36 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-37.png", alt: "Completed bathroom remodeling project 37 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bathroom-remodel-metro-detroit-38.png", alt: "Completed bathroom remodeling project 38 by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bath1.jpeg", alt: "Bathroom renovation by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bath2.jpeg", alt: "Bathroom renovation by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
+  { src: "/bathroom/bath3.jpeg", alt: "Bathroom renovation by Stone Works Remodeling — Metro Detroit, MI", title: "Metro Detroit Project", note: "Completed by Stone Works Remodeling" },
 ];
 
-export default function Gallery() {
-  const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
-  const [activeCategory, setActiveCategory] = useState("all");
+const works: Work[] = [...concepts, ...projects];
 
-  // Handle image click to open modal
-  const openModal = (image: GalleryImage) => {
-    setSelectedImage(image);
-    document.body.style.overflow = 'hidden';
-  };
+const serial = (n: number) => `No. ${String(n + 1).padStart(2, "0")}`;
 
-  // Handle closing the modal
-  const closeModal = () => {
-    setSelectedImage(null);
-    document.body.style.overflow = 'auto';
-  };
+// Each shape pairs a grid span with an arch: portraits get a full dome,
+// wide pieces get a gentle marble archway.
+const shapes = [
+  { span: "col-span-2 row-span-2 md:col-span-8 md:row-span-2", arch: "rounded-t-[4rem] md:rounded-t-[7rem] rounded-b-xl" },
+  { span: "col-span-1 row-span-2 md:col-span-4 md:row-span-3", arch: "rounded-t-full rounded-b-xl" },
+  { span: "col-span-1 row-span-1 md:col-span-4 md:row-span-1", arch: "rounded-t-[2.5rem] rounded-b-xl" },
+  { span: "col-span-1 row-span-1 md:col-span-4 md:row-span-2", arch: "rounded-t-full rounded-b-xl" },
+  { span: "col-span-1 row-span-1 md:col-span-4 md:row-span-1", arch: "rounded-t-[2.5rem] rounded-b-xl" },
+  { span: "col-span-2 row-span-1 md:col-span-6 md:row-span-2", arch: "rounded-t-[4rem] rounded-b-xl" },
+  { span: "col-span-2 row-span-2 md:col-span-6 md:row-span-3", arch: "rounded-t-full rounded-b-xl" },
+];
 
-  // Filter images based on category
-  const filterImages = () => {
-    if (activeCategory === "all") return galleryImages;
+function Wall({ items, offset, onOpen }: { items: Work[]; offset: number; onOpen: (i: number) => void }) {
+  return (
+    <div className="grid grid-cols-2 md:grid-cols-12 grid-flow-dense gap-3 sm:gap-4 auto-rows-[140px] sm:auto-rows-[170px] lg:auto-rows-[200px]">
+      {items.map((w, i) => {
+        const s = shapes[i % shapes.length];
+        return (
+          <button
+            key={w.src}
+            onClick={() => onOpen(offset + i)}
+            className={`group relative overflow-hidden block focus:outline-none focus:ring-2 focus:ring-gold-500 focus:z-10 ${s.span} ${s.arch}`}
+            aria-label={`View ${w.title} full screen`}
+          >
+            <Image
+              src={w.src}
+              alt={w.alt}
+              fill
+              sizes="(max-width: 768px) 50vw, 33vw"
+              className="object-cover transition-transform duration-[1200ms] ease-out group-hover:scale-[1.06]"
+              priority={offset + i < 3}
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-espresso-950/85 via-espresso-950/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 text-left">
+              <p className="text-gold-300 text-[10px] font-bold uppercase tracking-[0.3em]">{serial(offset + i)}</p>
+              <p className="font-luxury text-cream-50 text-base sm:text-lg leading-snug mt-0.5">{w.title}</p>
+            </div>
+          </button>
+        );
+      })}
+    </div>
+  );
+}
 
-    return galleryImages.filter(img => {
-      const alt = img.alt.toLowerCase();
-      if (activeCategory === "bathroom" && alt.includes("bathroom")) return true;
-      if (activeCategory === "shower" && alt.includes("shower")) return true;
-      if (activeCategory === "tub" && alt.includes("tub")) return true;
-      return false;
-    });
-  };
+export default function GalleryPage() {
+  const [lightbox, setLightbox] = useState<number | null>(null);
 
-  const filteredImages = filterImages();
+  const close = useCallback(() => setLightbox(null), []);
+  const prev = useCallback(
+    () => setLightbox((i) => (i === null ? null : (i - 1 + works.length) % works.length)),
+    []
+  );
+  const next = useCallback(
+    () => setLightbox((i) => (i === null ? null : (i + 1) % works.length)),
+    []
+  );
+
+  useEffect(() => {
+    if (lightbox === null) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") close();
+      if (e.key === "ArrowLeft") prev();
+      if (e.key === "ArrowRight") next();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [lightbox, close, prev, next]);
 
   return (
-    <>
-      <Head>
-        <title>Stone Works Remodeling Gallery | Bathroom Renovations in Metro Detroit, MI</title>
-        <meta name="description" content="Explore our gallery of high-quality bathroom remodels, shower conversions, and walk-in tub installations by Stone Works Remodeling in Metro Detroit, Michigan." />
-        <meta name="keywords" content="bathroom remodeling, shower conversion, walk-in tub, Metro Detroit, Michigan, Stone Works Remodeling, gallery" />
-        <meta property="og:title" content="Stone Works Remodeling Project Gallery" />
-        <meta property="og:description" content="View our portfolio of stunning bathroom renovations, shower conversions, and accessible bathroom solutions in Metro Detroit, MI." />
-        <meta property="og:image" content={galleryImages[0].src} />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://www.yourwebsite.com/gallery" />
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "ImageGallery",
-              "name": "Stone Works Remodeling Project Gallery",
-              "description": "Bathroom remodeling projects in Metro Detroit, Michigan.",
-              "image": "${galleryImages[0].src}"
-            }
-          `}
-        </script>
-        <link rel="alternate" hrefLang="en-us" href="https://www.stoneworksremodeling.com/" />
+    <main className="bg-espresso-950 min-h-screen">
+      {/* ── Title band ── */}
+      <section className="pt-20 pb-10 px-6 text-center">
+        <p className="text-gold-300 text-xs font-bold uppercase tracking-[0.4em] mb-5">
+          Stone Works Remodeling · Portfolio
+        </p>
+        <h1 className="font-luxury text-4xl sm:text-6xl text-cream-50 leading-tight">The Wall</h1>
+        <div className="w-16 h-px bg-gold-500 mx-auto mt-6" />
+        <p className="text-stonelux-300 max-w-xl mx-auto mt-6 text-base leading-relaxed">
+          Designs imagined for Michigan living, and the craft behind them.
+          Tap any piece to see it in full.
+        </p>
+      </section>
 
-      </Head>
+      {/* ── Cinematic video — the grand arched centerpiece ── */}
+      <section className="px-4 sm:px-8 lg:px-14 pb-16">
+        <div className="relative overflow-hidden rounded-t-[5rem] md:rounded-t-[10rem] rounded-b-xl ring-1 ring-inset ring-gold-300/20">
+          <video
+            className="w-full aspect-[16/9] md:aspect-[21/9] object-cover"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            poster="/bathroom/hero-poster.jpg"
+            aria-label="Cinematic tour of a luxury bathroom design by Stone Works Remodeling"
+          >
+            <source src="/bathroom/hero-video.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-espresso-950/70 to-transparent pointer-events-none" />
+        </div>
+        <div className="text-center mt-5">
+          <p className="text-gold-500 text-[11px] font-bold uppercase tracking-[0.35em]">The Centerpiece</p>
+          <p className="text-stonelux-400 text-sm mt-1 italic">A walk through marble, walnut, and warm light</p>
+        </div>
+      </section>
 
-      <main className="bg-gray-50 min-h-screen">
-        <div className="container mx-auto px-4 py-12">
-          <section className="mb-12 text-center">
-            <h1 className="text-4xl font-bold text-gray-800 mb-4">Our Project Gallery</h1>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Explore our portfolio of high-quality bathroom renovations in Metro Detroit, Michigan.
-              Our gallery showcases the craftsmanship and attention to detail that goes into every
-              Stone Works Remodeling project.
-            </p>
-          </section>
+      {/* ── Wall 1: Design concepts ── */}
+      <section className="px-4 sm:px-8 lg:px-14 pb-8">
+        <div className="pb-8 text-center">
+          <h2 className="font-luxury text-2xl sm:text-3xl text-cream-50">The Collection</h2>
+          <p className="text-stonelux-400 text-sm mt-1 italic">Design concepts imagined for Michigan living</p>
+        </div>
+        <Wall items={concepts} offset={0} onOpen={setLightbox} />
+      </section>
 
-          {/* Category filters */}
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
-            {categories.map((category) => (
-              <button
-                key={category.id}
-                onClick={() => setActiveCategory(category.id)}
-                className={`px-6 py-2 rounded-full transition-all duration-300 ${activeCategory === category.id
-                    ? "bg-blue-600 text-white shadow-md"
-                    : "bg-white text-gray-700 hover:bg-gray-100"
-                  }`}
-              >
-                {category.name}
-              </button>
-            ))}
-          </div>
+      {/* ── Wall 2: The craft ── */}
+      <section className="px-4 sm:px-8 lg:px-14 pt-14 pb-24">
+        {/* <div className="pb-8 text-center">
+          <h2 className="font-luxury text-2xl sm:text-3xl text-cream-50">The Craft</h2>
+          <p className="text-stonelux-400 text-sm mt-1 italic">From our projects across Metro Detroit</p>
+        </div> */}
+        <Wall items={projects} offset={concepts.length} onOpen={setLightbox} />
+      </section>
 
-          {/* Gallery grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredImages.map((image, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
-                onClick={() => openModal(image)}
-              >
-                <div className="relative aspect-video cursor-pointer">
-                  <Image
-                    src={image.src}
-                    alt={image.alt}
-                    placeholder="blur"
-                    blurDataURL={image.blurDataURL}
-                    layout="fill"
-                    objectFit="cover"
-                    quality={90}
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                </div>
-                <div className="p-4">
-                  <h3 className="text-lg font-medium text-gray-800">{image.alt.split(" by ")[0]}</h3>
-                  <p className="text-sm text-gray-500 mt-1">{image.location}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+      {/* ── Closing CTA ── */}
+      <section className="border-t border-cream-100/10 py-20 text-center px-6">
+        <p className="text-gold-300 text-xs font-bold uppercase tracking-[0.35em] mb-4">Commission a piece</p>
+        <h2 className="font-luxury text-3xl sm:text-4xl text-cream-50 mb-6">Your bathroom belongs on this wall</h2>
+        <a href="/contact" className="inline-block px-10 py-4 bg-gold-600 hover:bg-gold-500 text-white rounded-lg font-bold transition-colors">
+          Reserve Your Design Consultation
+        </a>
+      </section>
 
-          {/* Empty state if no images match filter */}
-          {filteredImages.length === 0 && (
-            <div className="text-center py-16">
-              <p className="text-lg text-gray-600">No projects found for this category.</p>
-              <button
-                onClick={() => setActiveCategory("all")}
-                className="mt-4 px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors"
-              >
-                View All Projects
-              </button>
-            </div>
-          )}
-
-          {/* Image modal */}
-          {selectedImage && (
-            <div className="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center p-4" onClick={closeModal}>
-              <div className="relative max-w-5xl w-full" onClick={(e) => e.stopPropagation()}>
-                <button
-                  className="absolute -top-12 right-0 text-white text-3xl hover:text-gray-300"
-                  onClick={closeModal}
-                >
-                  &times;
-                </button>
-                <div className="bg-white rounded-lg overflow-hidden">
-                  <div className="relative aspect-video">
-                    <Image
-                      src={selectedImage.src}
-                      alt={selectedImage.alt}
-                      layout="fill"
-                      objectFit="contain"
-                      quality={100}
-                    />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-semibold text-gray-800">{selectedImage.alt.split(" by ")[0]}</h3>
-                    <p className="text-gray-600 mt-2">
-                      Professional bathroom remodeling services in Metro Detroit, Michigan,
-                      delivered with quality craftsmanship and attention to detail.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* Call to Action */}
-          <div className="mt-16 bg-blue-50 rounded-xl p-8 text-center">
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Ready to Transform Your Bathroom?</h2>
-            <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
-              Contact us today to discuss your bathroom remodeling project. Our team of experts
-              is ready to help you create the bathroom of your dreams.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link
-                href="/contact"
-                className="px-8 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
-              >
-                Get a Free Quote
-              </Link>
-              <Link
-                href="/services"
-                className="px-8 py-3 bg-white border border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-gray-50 transition-colors"
-              >
-                View Our Services
-              </Link>
+      {/* ── Lightbox ── */}
+      {lightbox !== null && (
+        <div
+          className="fixed inset-0 z-[100] bg-espresso-950/95 backdrop-blur-sm flex items-center justify-center"
+          role="dialog"
+          aria-modal="true"
+          aria-label={works[lightbox].title}
+          onClick={close}
+        >
+          <button onClick={close} className="absolute top-5 right-5 text-cream-100 hover:text-gold-300 transition-colors z-10" aria-label="Close">
+            <X className="h-8 w-8" />
+          </button>
+          <button onClick={(e) => { e.stopPropagation(); prev(); }} className="absolute left-3 sm:left-6 text-cream-100 hover:text-gold-300 transition-colors z-10" aria-label="Previous">
+            <ChevronLeft className="h-10 w-10" />
+          </button>
+          <button onClick={(e) => { e.stopPropagation(); next(); }} className="absolute right-3 sm:right-6 text-cream-100 hover:text-gold-300 transition-colors z-10" aria-label="Next">
+            <ChevronRight className="h-10 w-10" />
+          </button>
+          <div className="relative w-[92vw] h-[78vh] max-w-6xl" onClick={(e) => e.stopPropagation()}>
+            <Image src={works[lightbox].src} alt={works[lightbox].alt} fill sizes="92vw" className="object-contain" priority />
+            <div className="absolute -bottom-14 left-0 right-0 text-center">
+              <p className="text-gold-500 text-[11px] font-bold uppercase tracking-[0.35em]">{serial(lightbox)}</p>
+              <p className="font-luxury text-cream-50 text-xl mt-1">{works[lightbox].title}</p>
+              <p className="text-stonelux-400 text-sm mt-1 italic">{works[lightbox].note}</p>
             </div>
           </div>
         </div>
-      </main>
-    </>
+      )}
+    </main>
   );
 }

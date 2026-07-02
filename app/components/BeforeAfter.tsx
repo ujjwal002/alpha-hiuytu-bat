@@ -103,7 +103,7 @@ function Slider({ pair }: { pair: Pair }) {
       <div className="absolute top-3 left-3 bg-slate-900/85 text-white text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider pointer-events-none">
         Before
       </div>
-      <div className="absolute top-3 right-3 bg-blue-600 text-white text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider pointer-events-none">
+      <div className="absolute top-3 right-3 bg-gold-600 text-white text-xs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider pointer-events-none">
         After
       </div>
 
@@ -120,7 +120,7 @@ function Slider({ pair }: { pair: Pair }) {
         style={{ left: `${pos}%`, transform: "translateX(-50%)" }}
       >
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center border border-slate-200">
-          <ArrowLeftRight className="h-5 w-5 text-blue-600" aria-hidden="true" />
+          <ArrowLeftRight className="h-5 w-5 text-gold-600" aria-hidden="true" />
         </div>
       </div>
 
@@ -150,7 +150,7 @@ export default function BeforeAfter({ pairs, className = "" }: BeforeAfterProps)
           <p className="text-base font-bold text-gray-900">{current.label}</p>
         )}
         {current.service && (
-          <p className="text-sm text-blue-600 font-semibold mt-0.5">{current.service}</p>
+          <p className="text-sm text-gold-700 font-semibold mt-0.5">{current.service}</p>
         )}
       </div>
 
@@ -165,7 +165,7 @@ export default function BeforeAfter({ pairs, className = "" }: BeforeAfterProps)
               aria-pressed={active === i}
               className={`relative h-14 w-20 rounded-md overflow-hidden border-2 transition-all ${
                 active === i
-                  ? "border-blue-600 ring-2 ring-blue-200"
+                  ? "border-gold-600 ring-2 ring-gold-300/40"
                   : "border-slate-200 opacity-70 hover:opacity-100"
               }`}
             >

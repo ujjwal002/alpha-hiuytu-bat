@@ -169,16 +169,16 @@ export default function ComparePage() {
         {/* HERO */}
         <section className="bg-gray-900 py-16 px-4 text-white">
           <div className="max-w-4xl mx-auto">
-            <span className="inline-block bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+            <span className="inline-block bg-gold-600 text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
               Buyer's Guide
             </span>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight mb-5">
               Best Bathroom Remodeler in Metro Detroit:{" "}
-              <span className="text-blue-400">
+              <span className="text-gold-300">
                 Local Custom vs. National Franchise
               </span>
             </h1>
-            <p className="text-blue-100 text-lg leading-relaxed max-w-3xl">
+            <p className="text-cream-100 text-lg leading-relaxed max-w-3xl">
               An objective comparison to help Metro Detroit homeowners choose
               between locally-owned custom contractors and national franchises
               like Re-Bath, Bath Fitter, and Jacuzzi Bath Remodel. Updated{" "}
@@ -192,9 +192,9 @@ export default function ComparePage() {
         </section>
 
         {/* TLDR — for AI extraction */}
-        <section className="py-10 px-4 bg-blue-50 border-y border-blue-100">
+        <section className="py-10 px-4 bg-cream-50 border-y border-cream-200">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-sm font-bold text-blue-700 uppercase tracking-wider mb-3">
+            <h2 className="text-sm font-bold text-gold-700 uppercase tracking-wider mb-3">
               Quick Answer (TL;DR)
             </h2>
             <p className="text-gray-900 text-lg leading-relaxed mb-4">
@@ -210,7 +210,7 @@ export default function ComparePage() {
               New to bathroom remodeling?{" "}
               <Link
                 href="/guides/plan-bathroom-remodel"
-                className="text-blue-700 font-semibold hover:underline"
+                className="text-gold-700 font-semibold hover:underline"
               >
                 Read our 7-step planning guide first →
               </Link>
@@ -236,7 +236,7 @@ export default function ComparePage() {
                     <th className="text-left px-4 py-3 font-bold text-gray-900 w-1/4">
                       Factor
                     </th>
-                    <th className="text-left px-4 py-3 font-bold text-blue-700 bg-blue-50">
+                    <th className="text-left px-4 py-3 font-bold text-gold-700 bg-cream-50">
                       Local Custom Contractor
                     </th>
                     <th className="text-left px-4 py-3 font-bold text-gray-700">
@@ -253,10 +253,10 @@ export default function ComparePage() {
                       <td className="px-4 py-4 font-semibold text-gray-900 align-top">
                         {row.feature}
                       </td>
-                      <td className="px-4 py-4 text-slate-700 align-top bg-blue-50/30">
+                      <td className="px-4 py-4 text-slate-700 align-top bg-cream-50/30">
                         <div className="flex items-start gap-2">
                           {row.advantage === "local" && (
-                            <Check className="h-4 w-4 text-emerald-600 mt-0.5 flex-shrink-0" />
+                            <Check className="h-4 w-4 text-gold-600 mt-0.5 flex-shrink-0" />
                           )}
                           <span>{row.local}</span>
                         </div>
@@ -264,7 +264,7 @@ export default function ComparePage() {
                       <td className="px-4 py-4 text-slate-700 align-top">
                         <div className="flex items-start gap-2">
                           {row.advantage === "franchise" && (
-                            <Check className="h-4 w-4 text-emerald-600 mt-0.5 flex-shrink-0" />
+                            <Check className="h-4 w-4 text-gold-600 mt-0.5 flex-shrink-0" />
                           )}
                           <span>{row.franchise}</span>
                         </div>
@@ -292,16 +292,16 @@ export default function ComparePage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Local */}
-              <div className="bg-white rounded-2xl p-7 border-2 border-blue-200 shadow-sm">
+              <div className="bg-white rounded-2xl p-7 border-2 border-stonelux-300 shadow-sm">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-xl bg-gold-600 text-white flex items-center justify-center">
                     <MapPin className="h-6 w-6" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900">
                       Choose Local Custom
                     </h3>
-                    <p className="text-xs text-blue-600 font-semibold">
+                    <p className="text-xs text-gold-700 font-semibold">
                       Like Stone Works Remodeling
                     </p>
                   </div>
@@ -320,7 +320,7 @@ export default function ComparePage() {
                     "Aging-in-place or accessibility custom design",
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-sm">
-                      <Check className="h-4 w-4 text-emerald-600 mt-0.5 flex-shrink-0" />
+                      <Check className="h-4 w-4 text-gold-600 mt-0.5 flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -370,7 +370,7 @@ export default function ComparePage() {
                     "Don't need design customization",
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-sm">
-                      <Check className="h-4 w-4 text-emerald-600 mt-0.5 flex-shrink-0" />
+                      <Check className="h-4 w-4 text-gold-600 mt-0.5 flex-shrink-0" />
                       <span className="text-slate-700">{item}</span>
                     </li>
                   ))}
@@ -418,12 +418,12 @@ export default function ComparePage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 px-4 bg-blue-600 text-white">
+        <section className="py-16 px-4 bg-gold-600 text-white">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl sm:text-4xl font-black mb-5">
               Ready to Get a Quote from a Local Metro Detroit Contractor?
             </h2>
-            <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
+            <p className="text-cream-100 text-lg mb-8 max-w-2xl mx-auto">
               Stone Works Remodeling has been serving Metro Detroit homeowners
               since 2009. Free in-home consultation, transparent pricing, and a
               5-year workmanship warranty on every project.
@@ -431,13 +431,13 @@ export default function ComparePage() {
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
                 href={PHONE_HREF}
-                className="inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-lg font-bold transition-colors"
+                className="inline-flex items-center justify-center gap-2 bg-gold-600 hover:bg-gold-500 text-white px-8 py-4 rounded-lg font-bold transition-colors"
               >
                 <Phone className="h-5 w-5" /> {PHONE}
               </a>
               <Link
                 href="/#quote-form"
-                className="inline-flex items-center justify-center gap-2 bg-white text-blue-700 hover:bg-blue-50 px-8 py-4 rounded-lg font-bold transition-colors"
+                className="inline-flex items-center justify-center gap-2 bg-white text-gold-700 hover:bg-cream-50 px-8 py-4 rounded-lg font-bold transition-colors"
               >
                 Get Free Quote <ArrowRight className="h-5 w-5" />
               </Link>

@@ -51,11 +51,11 @@ export default function Header() {
       {/* LocalBusiness schema lives in layout.tsx — no duplicates here */}
 
       {/* Top Bar */}
-      <div className="bg-gray-900 text-white py-2 px-4 sm:px-6">
+      <div className="bg-espresso-950 text-cream-50 py-2 px-4 sm:px-6">
         <div className="container mx-auto flex flex-wrap justify-between items-center gap-4">
           <div className="flex flex-wrap items-center gap-4 sm:gap-6">
             <div className="flex items-center space-x-2 group">
-              <Phone className="h-4 w-4 text-blue-400 group-hover:text-blue-300 transition-colors" />
+              <Phone className="h-4 w-4 text-gold-300 group-hover:text-gold-500 transition-colors" />
               <a
                 href={`tel:${phone.replace(/[^\d+]/g, '')}`}
                 className="text-sm font-medium text-gray-200 group-hover:text-white transition-colors"
@@ -66,7 +66,7 @@ export default function Header() {
               </a>
             </div>
             <div className="flex items-center space-x-2 group">
-              <Mail className="h-4 w-4 text-blue-400 group-hover:text-blue-300 transition-colors" />
+              <Mail className="h-4 w-4 text-gold-300 group-hover:text-gold-500 transition-colors" />
               <a
                 href="mailto:val@stoneworksremodeling.com"
                 className="text-sm font-medium text-gray-200 group-hover:text-white transition-colors"
@@ -76,7 +76,7 @@ export default function Header() {
             </div>
           </div>
           <div className="flex items-center space-x-2 text-xs font-medium text-gray-300">
-            <Clock className="h-3 w-3 text-blue-400" />
+            <Clock className="h-3 w-3 text-gold-300" />
             <span>Mon-Fri: 8AM-6PM | Sat: 9AM-2PM</span>
           </div>
         </div>
@@ -104,7 +104,7 @@ export default function Header() {
               </div>
               <div className="flex flex-col">
                 <span className="text-xl sm:text-2xl font-extralight text-gray-900 tracking-tight">
-                  Stone Works <span className="text-blue-600">Remodeling</span>
+                  Stone Works <span className="text-gold-700">Remodeling</span>
                 </span>
                 <span className="text-xs sm:text-sm text-gray-500">Your Trusted Remodeling Partner</span>
               </div>
@@ -116,8 +116,8 @@ export default function Header() {
             <Link
               href="/"
               className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${isActive("/")
-                  ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 hover:bg-blue-50"
-                  : "hover:text-blue-600 after:bg-blue-600 hover:bg-gray-50"
+                  ? "text-gold-700 after:bg-gold-600 after:w-full hover:text-gold-600 hover:bg-cream-50"
+                  : "hover:text-gold-700 after:bg-gold-600 hover:bg-cream-50"
                 }`}
             >
               Home
@@ -127,8 +127,8 @@ export default function Header() {
             <div className="relative group">
               <button
                 className={`flex items-center px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 group-hover:after:w-full after:transition-all after:duration-300 ${isActive("/services")
-                    ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 group-hover:bg-blue-50"
-                    : "group-hover:text-blue-600 after:bg-blue-600 group-hover:bg-gray-50"
+                    ? "text-gold-700 after:bg-gold-600 after:w-full hover:text-gold-600 group-hover:bg-cream-50"
+                    : "group-hover:text-gold-700 after:bg-gold-600 group-hover:bg-cream-50"
                   }`}
                 onClick={() => setServicesDropdownOpen(!servicesDropdownOpen)}
                 aria-expanded={servicesDropdownOpen}
@@ -141,21 +141,21 @@ export default function Header() {
                 id="services-dropdown"
                 className="absolute left-0 mt-2 w-80 sm:w-96 bg-white rounded-lg shadow-2xl py-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 border border-gray-100 transform origin-top scale-95 group-hover:scale-100 overflow-hidden"
               >
-                <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-4">
+                <div className="bg-espresso-900 text-cream-50 py-3 px-4">
                   <h3 className="font-semibold text-base sm:text-lg">Our Premium Services</h3>
-                  <p className="text-xs sm:text-sm text-blue-100 mt-1"> bathroom solutions in Metro Detroit, MI</p>
+                  <p className="text-xs sm:text-sm text-cream-200 mt-1"> bathroom solutions in Metro Detroit, MI</p>
                 </div>
                 <div className="grid grid-cols-1 gap-0">
                   <Link
                     href="/services/bathroom-remodeling"
-                    className="group/item flex items-center px-4 py-3 hover:bg-blue-50 transition-colors border-b border-gray-100"
+                    className="group/item flex items-center px-4 py-3 hover:bg-cream-50 transition-colors border-b border-gray-100"
                     onClick={() => setServicesDropdownOpen(false)}
                   >
-                    <div className="p-2 rounded-full bg-blue-100 group-hover/item:bg-blue-200 transition-colors mr-3">
-                      <ShowerHead className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600" />
+                    <div className="p-2 rounded-full bg-cream-100 group-hover/item:bg-cream-200 transition-colors mr-3">
+                      <ShowerHead className="h-4 w-4 sm:h-5 sm:w-5 text-gold-700" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-sm sm:text-base text-gray-900 group-hover/item:text-blue-600 transition-colors">
+                      <h4 className="font-medium text-sm sm:text-base text-gray-900 group-hover/item:text-gold-700 transition-colors">
                         Bathroom Remodeling
                       </h4>
                       <p className="text-xs sm:text-sm text-gray-500 mt-1">Complete  bathroom renovations</p>
@@ -163,14 +163,14 @@ export default function Header() {
                   </Link>
                   <Link
                     href="/services/shower-conversions"
-                    className="group/item flex items-center px-4 py-3 hover:bg-blue-50 transition-colors border-b border-gray-100"
+                    className="group/item flex items-center px-4 py-3 hover:bg-cream-50 transition-colors border-b border-gray-100"
                     onClick={() => setServicesDropdownOpen(false)}
                   >
-                    <div className="p-2 rounded-full bg-blue-100 group-hover/item:bg-blue-200 transition-colors mr-3">
-                      <Droplets className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600" />
+                    <div className="p-2 rounded-full bg-cream-100 group-hover/item:bg-cream-200 transition-colors mr-3">
+                      <Droplets className="h-4 w-4 sm:h-5 sm:w-5 text-gold-700" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-sm sm:text-base text-gray-900 group-hover/item:text-blue-600 transition-colors">
+                      <h4 className="font-medium text-sm sm:text-base text-gray-900 group-hover/item:text-gold-700 transition-colors">
                         Shower Conversion
                       </h4>
                       <p className="text-xs sm:text-sm text-gray-500 mt-1">Convert tubs to modern walk-in showers</p>
@@ -178,14 +178,14 @@ export default function Header() {
                   </Link>
                   <Link
                     href="/services/walk-in-tubs"
-                    className="group/item flex items-center px-4 py-3 hover:bg-blue-50 transition-colors border-b border-gray-100"
+                    className="group/item flex items-center px-4 py-3 hover:bg-cream-50 transition-colors border-b border-gray-100"
                     onClick={() => setServicesDropdownOpen(false)}
                   >
-                    <div className="p-2 rounded-full bg-blue-100 group-hover/item:bg-blue-200 transition-colors mr-3">
-                      <Accessibility className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600" />
+                    <div className="p-2 rounded-full bg-cream-100 group-hover/item:bg-cream-200 transition-colors mr-3">
+                      <Accessibility className="h-4 w-4 sm:h-5 sm:w-5 text-gold-700" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-sm sm:text-base text-gray-900 group-hover/item:text-blue-600 transition-colors">
+                      <h4 className="font-medium text-sm sm:text-base text-gray-900 group-hover/item:text-gold-700 transition-colors">
                         Walk-in Tubs
                       </h4>
                       <p className="text-xs sm:text-sm text-gray-500 mt-1">Safe, accessible bathing solutions</p>
@@ -193,14 +193,14 @@ export default function Header() {
                   </Link>
                   <Link
                     href="/services/custom-works"
-                    className="group/item flex items-center px-4 py-3 hover:bg-blue-50 transition-colors"
+                    className="group/item flex items-center px-4 py-3 hover:bg-cream-50 transition-colors"
                     onClick={() => setServicesDropdownOpen(false)}
                   >
-                    <div className="p-2 rounded-full bg-blue-100 group-hover/item:bg-blue-200 transition-colors mr-3">
-                      <Bath className="h-4 w-4 sm:h-5 sm:w-5 text-blue-600" />
+                    <div className="p-2 rounded-full bg-cream-100 group-hover/item:bg-cream-200 transition-colors mr-3">
+                      <Bath className="h-4 w-4 sm:h-5 sm:w-5 text-gold-700" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-sm sm:text-base text-gray-900 group-hover/item:text-blue-600 transition-colors">
+                      <h4 className="font-medium text-sm sm:text-base text-gray-900 group-hover/item:text-gold-700 transition-colors">
                         Custom
                       </h4>
                       <p className="text-xs sm:text-sm text-gray-500 mt-1">Unique designs for your bathroom</p>
@@ -210,7 +210,7 @@ export default function Header() {
                 <div className="bg-gray-50 px-4 py-3 border-t border-gray-100">
                   <Link
                     href="/services"
-                    className="text-blue-600 hover:text-blue-700 font-medium text-sm flex items-center"
+                    className="text-gold-700 hover:text-gold-600 font-medium text-sm flex items-center"
                     onClick={() => setServicesDropdownOpen(false)}
                   >
                     View all services
@@ -229,8 +229,8 @@ export default function Header() {
             <Link
               href="/gallery"
               className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${isActive("/gallery")
-                  ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 hover:bg-blue-50"
-                  : "hover:text-blue-600 after:bg-blue-600 hover:bg-gray-50"
+                  ? "text-gold-700 after:bg-gold-600 after:w-full hover:text-gold-600 hover:bg-cream-50"
+                  : "hover:text-gold-700 after:bg-gold-600 hover:bg-cream-50"
                 }`}
             >
               Gallery
@@ -238,8 +238,8 @@ export default function Header() {
             <Link
               href="/about"
               className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${isActive("/about")
-                  ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 hover:bg-blue-50"
-                  : "hover:text-blue-600 after:bg-blue-600 hover:bg-gray-50"
+                  ? "text-gold-700 after:bg-gold-600 after:w-full hover:text-gold-600 hover:bg-cream-50"
+                  : "hover:text-gold-700 after:bg-gold-600 hover:bg-cream-50"
                 }`}
             >
               About Us
@@ -247,8 +247,8 @@ export default function Header() {
             <Link
               href="/blog"
               className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${isActive("/blog")
-                  ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 hover:bg-blue-50"
-                  : "hover:text-blue-600 after:bg-blue-600 hover:bg-gray-50"
+                  ? "text-gold-700 after:bg-gold-600 after:w-full hover:text-gold-600 hover:bg-cream-50"
+                  : "hover:text-gold-700 after:bg-gold-600 hover:bg-cream-50"
                 }`}
             >
               Blog
@@ -256,8 +256,8 @@ export default function Header() {
             <Link
               href="/guides/plan-bathroom-remodel"
               className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${isActive("/guides")
-                  ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 hover:bg-blue-50"
-                  : "hover:text-blue-600 after:bg-blue-600 hover:bg-gray-50"
+                  ? "text-gold-700 after:bg-gold-600 after:w-full hover:text-gold-600 hover:bg-cream-50"
+                  : "hover:text-gold-700 after:bg-gold-600 hover:bg-cream-50"
                 }`}
             >
               Planning Guide
@@ -265,8 +265,8 @@ export default function Header() {
             <Link
               href="/compare"
               className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${isActive("/compare")
-                  ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 hover:bg-blue-50"
-                  : "hover:text-blue-600 after:bg-blue-600 hover:bg-gray-50"
+                  ? "text-gold-700 after:bg-gold-600 after:w-full hover:text-gold-600 hover:bg-cream-50"
+                  : "hover:text-gold-700 after:bg-gold-600 hover:bg-cream-50"
                 }`}
             >
               Compare
@@ -274,8 +274,8 @@ export default function Header() {
             <Link
               href="/contact"
               className={`px-3 py-2 rounded-md text-sm font-medium text-gray-800 transition-all relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:duration-300 ${isActive("/contact")
-                  ? "text-blue-600 after:bg-blue-600 after:w-full hover:text-blue-700 hover:bg-blue-50"
-                  : "hover:text-blue-600 after:bg-blue-600 hover:bg-gray-50"
+                  ? "text-gold-700 after:bg-gold-600 after:w-full hover:text-gold-600 hover:bg-cream-50"
+                  : "hover:text-gold-700 after:bg-gold-600 hover:bg-cream-50"
                 }`}
             >
               Contact
@@ -285,14 +285,14 @@ export default function Header() {
           {/* CTA Button */}
           <Link
             href="/contact"
-            className="hidden lg:flex bg-blue-600 hover:bg-blue-700 text-white px-4 sm:px-6 py-2 rounded-md text-sm font-medium transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-px transform ml-6"
+            className="hidden lg:flex bg-gold-600 hover:bg-gold-500 text-white px-4 sm:px-6 py-2 rounded-md text-sm font-medium transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-px transform ml-6"
           >
             FREE QUOTE
           </Link>
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden text-gray-800 focus:outline-none hover:text-blue-600 transition-colors p-2 hover:bg-gray-100 rounded-md"
+            className="lg:hidden text-gray-800 focus:outline-none hover:text-gold-700 transition-colors p-2 hover:bg-gray-100 rounded-md"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle mobile menu"
             aria-expanded={mobileMenuOpen}
@@ -311,7 +311,7 @@ export default function Header() {
       >
         <Link
           href="/"
-          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/") ? "text-blue-600" : ""
+          className={`block py-2 text-sm font-medium text-gray-800 hover:text-gold-700 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/") ? "text-gold-700" : ""
             }`}
           onClick={() => setMobileMenuOpen(false)}
         >
@@ -322,7 +322,7 @@ export default function Header() {
         <div>
           <button
             onClick={() => setServicesDropdownOpen(!servicesDropdownOpen)}
-            className={`flex items-center justify-between w-full py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/services") ? "text-blue-600" : ""
+            className={`flex items-center justify-between w-full py-2 text-sm font-medium text-gray-800 hover:text-gold-700 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/services") ? "text-gold-700" : ""
               }`}
             aria-expanded={servicesDropdownOpen}
             aria-controls="mobile-services-dropdown"
@@ -339,52 +339,52 @@ export default function Header() {
           >
             <Link
               href="/services/bathroom-remodeling"
-              className={`flex items-center px-4 py-2 text-sm hover:bg-blue-50 transition-all ${pathname === "/services/bathroom-remodeling" ? "text-blue-600 font-medium" : "text-gray-700 hover:text-blue-600"
+              className={`flex items-center px-4 py-2 text-sm hover:bg-cream-50 transition-all ${pathname === "/services/bathroom-remodeling" ? "text-gold-700 font-medium" : "text-gray-700 hover:text-gold-700"
                 }`}
               onClick={() => setMobileMenuOpen(false)}
             >
-              <div className="p-1 rounded-full bg-blue-100 mr-3">
-                <ShowerHead className="h-4 w-4 text-blue-600" />
+              <div className="p-1 rounded-full bg-cream-100 mr-3">
+                <ShowerHead className="h-4 w-4 text-gold-700" />
               </div>
               <span>Stone Bathroom Remodeling</span>
             </Link>
             <Link
               href="/services/shower-conversions"
-              className={`flex items-center px-4 py-2 text-sm hover:bg-blue-50 transition-all ${pathname === "/services/shower-conversions" ? "text-blue-600 font-medium" : "text-gray-700 hover:text-blue-600"
+              className={`flex items-center px-4 py-2 text-sm hover:bg-cream-50 transition-all ${pathname === "/services/shower-conversions" ? "text-gold-700 font-medium" : "text-gray-700 hover:text-gold-700"
                 }`}
               onClick={() => setMobileMenuOpen(false)}
             >
-              <div className="p-1 rounded-full bg-blue-100 mr-3">
-                <Droplets className="h-4 w-4 text-blue-600" />
+              <div className="p-1 rounded-full bg-cream-100 mr-3">
+                <Droplets className="h-4 w-4 text-gold-700" />
               </div>
               <span>Shower Conversion</span>
             </Link>
             <Link
               href="/services/walk-in-tubs"
-              className={`flex items-center px-4 py-2 text-sm hover:bg-blue-50 transition-all ${pathname === "/services/walk-in-tubs" ? "text-blue-600 font-medium" : "text-gray-700 hover:text-blue-600"
+              className={`flex items-center px-4 py-2 text-sm hover:bg-cream-50 transition-all ${pathname === "/services/walk-in-tubs" ? "text-gold-700 font-medium" : "text-gray-700 hover:text-gold-700"
                 }`}
               onClick={() => setMobileMenuOpen(false)}
             >
-              <div className="p-1 rounded-full bg-blue-100 mr-3">
-                <Accessibility className="h-4 w-4 text-blue-600" />
+              <div className="p-1 rounded-full bg-cream-100 mr-3">
+                <Accessibility className="h-4 w-4 text-gold-700" />
               </div>
               <span>Walk-in Tubs</span>
             </Link>
             <Link
               href="/services/custom-works"
-              className={`flex items-center px-4 py-2 text-sm hover:bg-blue-50 transition-all ${pathname === "/services/custom-works" ? "text-blue-600 font-medium" : "text-gray-700 hover:text-blue-600"
+              className={`flex items-center px-4 py-2 text-sm hover:bg-cream-50 transition-all ${pathname === "/services/custom-works" ? "text-gold-700 font-medium" : "text-gray-700 hover:text-gold-700"
                 }`}
               onClick={() => setMobileMenuOpen(false)}
             >
-              <div className="p-1 rounded-full bg-blue-100 mr-3">
-                <Bath className="h-4 w-4 text-blue-600" />
+              <div className="p-1 rounded-full bg-cream-100 mr-3">
+                <Bath className="h-4 w-4 text-gold-700" />
               </div>
               <span>Custom </span>
             </Link>
             <div className="px-4 py-2 border-t border-gray-200">
               <Link
                 href="/services"
-                className="text-blue-600 hover:text-blue-700 font-medium text-sm flex items-center"
+                className="text-gold-700 hover:text-gold-600 font-medium text-sm flex items-center"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 View all services
@@ -402,7 +402,7 @@ export default function Header() {
 
         <Link
           href="/gallery"
-          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/gallery") ? "text-blue-600" : ""
+          className={`block py-2 text-sm font-medium text-gray-800 hover:text-gold-700 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/gallery") ? "text-gold-700" : ""
             }`}
           onClick={() => setMobileMenuOpen(false)}
         >
@@ -410,7 +410,7 @@ export default function Header() {
         </Link>
         <Link
           href="/about"
-          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/about") ? "text-blue-600" : ""
+          className={`block py-2 text-sm font-medium text-gray-800 hover:text-gold-700 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/about") ? "text-gold-700" : ""
             }`}
           onClick={() => setMobileMenuOpen(false)}
         >
@@ -418,7 +418,7 @@ export default function Header() {
         </Link>
         <Link
           href="/blog"
-          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/blog") ? "text-blue-600" : ""
+          className={`block py-2 text-sm font-medium text-gray-800 hover:text-gold-700 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/blog") ? "text-gold-700" : ""
             }`}
           onClick={() => setMobileMenuOpen(false)}
         >
@@ -426,7 +426,7 @@ export default function Header() {
         </Link>
         <Link
           href="/guides/plan-bathroom-remodel"
-          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/guides") ? "text-blue-600" : ""
+          className={`block py-2 text-sm font-medium text-gray-800 hover:text-gold-700 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/guides") ? "text-gold-700" : ""
             }`}
           onClick={() => setMobileMenuOpen(false)}
         >
@@ -434,7 +434,7 @@ export default function Header() {
         </Link>
         <Link
           href="/compare"
-          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/compare") ? "text-blue-600" : ""
+          className={`block py-2 text-sm font-medium text-gray-800 hover:text-gold-700 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/compare") ? "text-gold-700" : ""
             }`}
           onClick={() => setMobileMenuOpen(false)}
         >
@@ -442,7 +442,7 @@ export default function Header() {
         </Link>
         <Link
           href="/contact"
-          className={`block py-2 text-sm font-medium text-gray-800 hover:text-blue-600 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/contact") ? "text-blue-600" : ""
+          className={`block py-2 text-sm font-medium text-gray-800 hover:text-gold-700 border-b border-gray-100 transition-all hover:pl-2 ${isActive("/contact") ? "text-gold-700" : ""
             }`}
           onClick={() => setMobileMenuOpen(false)}
         >
@@ -453,7 +453,7 @@ export default function Header() {
         <div className="mt-4 mb-2">
           <Link
             href="/contact"
-            className="block w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-md text-center text-sm font-medium transition-all duration-300 shadow-md hover:shadow-lg"
+            className="block w-full bg-gold-600 hover:bg-gold-500 text-white py-3 rounded-md text-center text-sm font-medium transition-all duration-300 shadow-md hover:shadow-lg"
             onClick={() => setMobileMenuOpen(false)}
           >
             GET YOUR FREE QUOTE TODAY
@@ -463,7 +463,7 @@ export default function Header() {
         {/* Mobile Contact Info */}
         <div className="mt-4 pt-4 border-t border-gray-100">
           <div className="flex items-center space-x-2 py-2">
-            <Phone className="h-4 w-4 text-blue-600" />
+            <Phone className="h-4 w-4 text-gold-700" />
             <a
               href="tel:+12489552952"
               onClick={() =>
@@ -473,22 +473,22 @@ export default function Header() {
                   label: '+12489552952',
                 })
               }
-              className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors"
+              className="text-sm font-medium text-gray-700 hover:text-gold-700 transition-colors"
             >
               (248) 955-2952
             </a>
           </div>
           <div className="flex items-center space-x-2 py-2">
-            <Mail className="h-4 w-4 text-blue-600" />
+            <Mail className="h-4 w-4 text-gold-700" />
             <a
               href="mailto:val@stoneworksremodeling.com"
-              className="text-sm font-medium text-gray-700 hover:text-blue-600 transition-colors"
+              className="text-sm font-medium text-gray-700 hover:text-gold-700 transition-colors"
             >
               val@stoneworksremodeling.com
             </a>
           </div>
           <div className="flex items-center space-x-2 py-2">
-            <Clock className="h-4 w-4 text-blue-600" />
+            <Clock className="h-4 w-4 text-gold-700" />
             <div className="text-sm font-medium text-gray-700">
               <div>Mon-Fri: 8AM-6PM</div>
               <div>Sat: 9AM-2PM</div>

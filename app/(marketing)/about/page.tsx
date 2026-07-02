@@ -234,7 +234,7 @@ export default function AboutPage() {
         aria-labelledby={`review-${review.id}`}
       >
         <div className="flex items-center mb-4">
-          <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-blue-100">
+          <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-cream-200">
             <Image
               src={review.image.src}
               alt={review.image.alt}
@@ -255,7 +255,7 @@ export default function AboutPage() {
           </div>
         </div>
         <div className="relative">
-          <Quote className="absolute -top-4 left-0 h-6 w-6 text-blue-600 opacity-20" />
+          <Quote className="absolute -top-4 left-0 h-6 w-6 text-gold-700 opacity-20" />
           <AnimatePresence>
             <motion.p
               key={isExpanded ? "full" : "short"}
@@ -272,7 +272,7 @@ export default function AboutPage() {
         {review.shortQuote && (
           <button
             onClick={toggleExpand}
-            className="mt-4 text-blue-600 font-medium text-sm hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="mt-4 text-gold-700 font-medium text-sm hover:underline focus:outline-none focus:ring-2 focus:ring-gold-500"
             aria-expanded={isExpanded}
             aria-controls={`review-content-${review.id}`}
           >
@@ -520,7 +520,7 @@ export default function AboutPage() {
                 </div>
                 <div className="p-6 text-center">
                   <h3 className="text-xl font-semibold text-gray-900">{member.name}</h3>
-                  <p className="text-blue-600 text-sm font-medium mb-2">{member.role}</p>
+                  <p className="text-gold-700 text-sm font-medium mb-2">{member.role}</p>
                   <p className="text-gray-600 text-sm">{member.bio}</p>
                 </div>
               </motion.div>
@@ -575,7 +575,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 sm:py-24 bg-blue-900">
+      <section className="py-16 sm:py-24 bg-espresso-900">
         <div className="container mx-auto px-4 text-center">
           <motion.h2
             className="text-3xl sm:text-4xl font-bold text-white mb-4"
@@ -586,7 +586,7 @@ export default function AboutPage() {
             Transform Your Bathroom Today
           </motion.h2>
           <motion.p
-            className="text-lg text-blue-100 max-w-2xl mx-auto mb-8"
+            className="text-lg text-cream-100 max-w-2xl mx-auto mb-8"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}

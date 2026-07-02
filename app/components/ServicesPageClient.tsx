@@ -261,7 +261,7 @@ export default function ServicesPageClient() {
                 quality={90}
               />
               {/* Optional: Add a subtle animation overlay */}
-              <div className="absolute inset-0 bg-blue-600 mix-blend-multiply opacity-20"></div>
+              <div className="absolute inset-0 bg-espresso-900 mix-blend-multiply opacity-20"></div>
             </div>
           </div>
           <div className="container mx-auto px-4 relative z-20">
@@ -272,20 +272,20 @@ export default function ServicesPageClient() {
               className="max-w-3xl"
             >
               <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white leading-tight">
-                Transform Your <span className="text-blue-300">Bathroom</span> Into Something Extraordinary
+                Transform Your <span className="text-gold-300">Bathroom</span> Into Something Extraordinary
               </h1>
               <p className="text-xl text-gray-200 mb-10 leading-relaxed">
                 Premium  remodeling services that combine beautiful design, expert craftsmanship, and exceptional materials to create spaces you&apos;ll love for years to come.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact">
-                  <p className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors shadow-lg hover:shadow-xl">
+                  <p className="px-8 py-4 bg-gold-600 hover:bg-gold-500 text-white rounded-lg font-medium transition-colors shadow-lg hover:shadow-xl">
                     Schedule a Consultation
                   </p>
                 </Link>
                 <button
                   onClick={() => scrollToSection('services')}
-                  className="px-8 py-4 bg-white bg-opacity-20 backdrop-filter backdrop-blur-sm text-black border border-white border-opacity-30 rounded-lg font-medium hover:bg-opacity-30 transition-all"
+                  className="px-8 py-4 bg-white bg-opacity-20 backdrop-filter backdrop-blur-sm text-white border border-white border-opacity-30 rounded-lg font-medium hover:bg-opacity-30 transition-all"
                 >
                   Explore Our Services
                 </button>
@@ -295,15 +295,15 @@ export default function ServicesPageClient() {
               <div className="grid grid-cols-3 gap-6 mt-16">
                 <div className="text-center">
                   <div className="text-4xl font-bold text-white mb-1">200+</div>
-                  <div className="text-blue-200">Projects Completed</div>
+                  <div className="text-cream-200">Projects Completed</div>
                 </div>
                 <div className="text-center">
                   <div className="text-4xl font-bold text-white mb-1">10+</div>
-                  <div className="text-blue-200">Years Experience</div>
+                  <div className="text-cream-200">Years Experience</div>
                 </div>
                 <div className="text-center">
                   <div className="text-4xl font-bold text-white mb-1">100%</div>
-                  <div className="text-blue-200">Client Satisfaction</div>
+                  <div className="text-cream-200">Client Satisfaction</div>
                 </div>
               </div>
             </motion.div>
@@ -327,9 +327,9 @@ export default function ServicesPageClient() {
               viewport={{ once: true }}
               className="text-center mb-16"
             >
-              <span className="text-blue-600 font-semibold uppercase tracking-wider">Our Expertise</span>
+              <span className="text-gold-700 font-semibold uppercase tracking-wider">Our Expertise</span>
               <h2 className="text-4xl font-bold text-gray-900 mt-2 mb-4">Premium Remodeling Services</h2>
-              <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+              <div className="w-24 h-1 bg-gold-600 mx-auto"></div>
               <p className="text-xl text-gray-600 mt-6 max-w-3xl mx-auto">
                 We offer a comprehensive range of high-quality bathroom remodeling services,
                 each delivered with exceptional craftsmanship and attention to detail.
@@ -343,7 +343,7 @@ export default function ServicesPageClient() {
                   key={service.id}
                   onClick={() => setActiveService(service.id)}
                   className={`px-6 py-3 rounded-full transition-all duration-300 ${activeService === service.id
-                    ? "bg-blue-600 text-white shadow-lg"
+                    ? "bg-gold-600 text-white shadow-lg"
                     : "bg-white text-gray-700 hover:bg-gray-100 shadow"
                     }`}
                 >
@@ -368,12 +368,12 @@ export default function ServicesPageClient() {
                       <p className="text-lg text-gray-600">{service.longDescription}</p>
 
                       <div>
-                        <h4 className="font-bold text-lg mb-4 text-blue-600">Key Features</h4>
+                        <h4 className="font-bold text-lg mb-4 text-gold-700">Key Features</h4>
                         <ul className="space-y-3">
                           {service.features.map((feature, idx) => (
                             <li key={idx} className="flex items-start">
-                              <div className="flex-shrink-0 h-6 w-6 bg-blue-100 rounded-full flex items-center justify-center mr-3">
-                                <svg className="h-4 w-4 text-blue-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                              <div className="flex-shrink-0 h-6 w-6 bg-cream-100 rounded-full flex items-center justify-center mr-3">
+                                <svg className="h-4 w-4 text-gold-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                                 </svg>
                               </div>
@@ -384,7 +384,7 @@ export default function ServicesPageClient() {
                       </div>
 
                       <div>
-                        <h4 className="font-bold text-lg mb-4 text-blue-600">Benefits</h4>
+                        <h4 className="font-bold text-lg mb-4 text-gold-700">Benefits</h4>
                         <div className="grid grid-cols-2 gap-3">
                           {service.benefits.map((benefit, idx) => (
                             <div key={idx} className="bg-white p-3 rounded-lg shadow-sm border border-gray-100">
@@ -396,12 +396,12 @@ export default function ServicesPageClient() {
 
                       <div className="pt-4">
                         <Link href={`/contact?service=${service.id}`}>
-                          <p className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg">
+                          <p className="inline-block px-8 py-4 bg-gold-600 text-white rounded-lg font-medium hover:bg-gold-500 transition-colors shadow-md hover:shadow-lg">
                             Get a Personalized Quote
                           </p>
                         </Link>
                         <Link href="/gallery">
-                          <p className="inline-block px-6 py-4 ml-4 text-blue-600 font-medium hover:text-blue-800 transition-colors">
+                          <p className="inline-block px-6 py-4 ml-4 text-gold-700 font-medium hover:text-gold-600 transition-colors">
                             View Projects <span aria-hidden="true">→</span>
                           </p>
                         </Link>
@@ -442,9 +442,9 @@ export default function ServicesPageClient() {
               viewport={{ once: true }}
               className="text-center mb-16"
             >
-              <span className="text-blue-600 font-semibold uppercase tracking-wider">How We Work</span>
+              <span className="text-gold-700 font-semibold uppercase tracking-wider">How We Work</span>
               <h2 className="text-4xl font-bold text-gray-900 mt-2 mb-4">Our Remodeling Process</h2>
-              <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+              <div className="w-24 h-1 bg-gold-600 mx-auto"></div>
               <p className="text-xl text-gray-600 mt-6 max-w-3xl mx-auto">
                 Our streamlined process ensures a smooth experience from initial consultation through final inspection.
               </p>
@@ -467,8 +467,8 @@ export default function ServicesPageClient() {
                   w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center mx-auto relative z-10 cursor-pointer
                   transition-all duration-300 text-sm sm:text-base
                   ${activeStep === step.step
-                            ? "bg-blue-600 text-white scale-110 sm:scale-125"
-                            : "bg-white text-blue-600 border-2 border-blue-600"
+                            ? "bg-gold-600 text-white scale-110 sm:scale-125"
+                            : "bg-white text-gold-700 border-2 border-gold-600"
                           }
                 `}
                       >
@@ -477,7 +477,7 @@ export default function ServicesPageClient() {
                       <div
                         className={`
                   text-center mt-2 sm:mt-4 font-medium transition-all duration-300 text-sm sm:text-base
-                  ${activeStep === step.step ? "text-blue-600 scale-105" : "text-gray-500"}
+                  ${activeStep === step.step ? "text-gold-700 scale-105" : "text-gray-500"}
                 `}
                       >
                         {step.title}
@@ -499,7 +499,7 @@ export default function ServicesPageClient() {
                   >
                     <div className="flex flex-col gap-6 sm:gap-8">
                       <div className="flex justify-center">
-                        <div className="w-16 h-16 sm:w-20 sm:h-20 bg-blue-100 rounded-full flex items-center justify-center">
+                        <div className="w-16 h-16 sm:w-20 sm:h-20 bg-cream-100 rounded-full flex items-center justify-center">
                           <Image
                             src={step.icon}
                             alt={`Step ${step.step} icon`}
@@ -521,7 +521,7 @@ export default function ServicesPageClient() {
                         {step.step < processSteps.length ? (
                           <button
                             onClick={() => setActiveStep(step.step + 1)}
-                            className="text-blue-600 font-medium hover:text-blue-800 flex items-center text-sm sm:text-base"
+                            className="text-gold-700 font-medium hover:text-gold-600 flex items-center text-sm sm:text-base"
                           >
                             Next Step
                             <svg
@@ -541,7 +541,7 @@ export default function ServicesPageClient() {
                           </button>
                         ) : (
                           <Link href="/contact">
-                            <p className="inline-block px-4 py-2 sm:px-6 sm:py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors text-sm sm:text-base">
+                            <p className="inline-block px-4 py-2 sm:px-6 sm:py-3 bg-gold-600 text-white rounded-lg font-medium hover:bg-gold-500 transition-colors text-sm sm:text-base">
                               Start Your Project
                             </p>
                           </Link>
@@ -556,7 +556,7 @@ export default function ServicesPageClient() {
         </section>
 
         {/* Testimonials Carousel */}
-        <section id="testimonials" className="py-24 bg-blue-50">
+        <section id="testimonials" className="py-24 bg-cream-50">
           <div className="container mx-auto px-4">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -565,9 +565,9 @@ export default function ServicesPageClient() {
               viewport={{ once: true }}
               className="text-center mb-16"
             >
-              <span className="text-blue-600 font-semibold uppercase tracking-wider">Client Stories</span>
+              <span className="text-gold-700 font-semibold uppercase tracking-wider">Client Stories</span>
               <h2 className="text-4xl font-bold text-gray-900 mt-2 mb-4">What Our Clients Say</h2>
-              <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+              <div className="w-24 h-1 bg-gold-600 mx-auto"></div>
             </motion.div>
 
             <div className="max-w-4xl mx-auto">
@@ -611,7 +611,7 @@ export default function ServicesPageClient() {
                             <div className="text-left">
                               <p className="font-semibold text-gray-900">{testimonial.name}</p>
                               <p className="text-sm text-gray-600">{testimonial.location}</p>
-                              <p className="text-sm text-blue-600">{testimonial.project}</p>
+                              <p className="text-sm text-gold-700">{testimonial.project}</p>
                             </div>
                           </div>
                         </div>
@@ -627,7 +627,7 @@ export default function ServicesPageClient() {
                       key={index}
                       onClick={() => setActiveTestimonialIndex(index)}
                       className={`w-3 h-3 rounded-full transition-all duration-300 ${activeTestimonialIndex === index
-                        ? "bg-blue-600 scale-125"
+                        ? "bg-gold-600 scale-125"
                         : "bg-gray-300 hover:bg-gray-400"
                         }`}
                       aria-label={`Go to testimonial ${index + 1}`}
@@ -646,7 +646,7 @@ export default function ServicesPageClient() {
                   aria-label="Previous testimonial"
                 >
                   <svg
-                    className="w-6 h-6 text-blue-600"
+                    className="w-6 h-6 text-gold-700"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -669,7 +669,7 @@ export default function ServicesPageClient() {
                   aria-label="Next testimonial"
                 >
                   <svg
-                    className="w-6 h-6 text-blue-600"
+                    className="w-6 h-6 text-gold-700"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -687,7 +687,7 @@ export default function ServicesPageClient() {
 
             <div className="text-center mt-12">
               <Link href="/testimonials">
-                <p className="inline-block px-8 py-4 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg">
+                <p className="inline-block px-8 py-4 bg-gold-600 text-white rounded-lg font-medium hover:bg-gold-500 transition-colors shadow-md hover:shadow-lg">
                   Read More Client Stories
                 </p>
               </Link>
@@ -705,13 +705,13 @@ export default function ServicesPageClient() {
               viewport={{ once: true }}
               className="text-center mb-16"
             >
-              <span className="text-blue-600 font-semibold uppercase tracking-wider">
+              <span className="text-gold-700 font-semibold uppercase tracking-wider">
                 Frequently Asked Questions
               </span>
               <h2 className="text-4xl font-bold text-gray-900 mt-2 mb-4">
                 Your Questions, Answered
               </h2>
-              <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+              <div className="w-24 h-1 bg-gold-600 mx-auto"></div>
             </motion.div>
 
             <div className="max-w-3xl mx-auto space-y-6">
@@ -727,9 +727,9 @@ export default function ServicesPageClient() {
                     "We use premium natural and engineered stones like granite, marble, and quartz, along with high-quality fixtures and finishes from trusted brands.",
                 },
                 {
-                  question: "Do you offer financing options?",
-                  answer:
-                    "Yes, we partner with trusted financing providers to offer flexible payment plans. Contact us for more details.",
+                  question: "What makes your materials different?",
+      answer:
+        "We work exclusively with premium natural and engineered stone — marble, granite, quartz — paired with designer fixtures in brass, gold, and matte black finishes. During your consultation we bring curated samples to your home so you can see every selection in your own light.",
                 },
                 {
                   question: "Can you work with my budget?",
@@ -756,7 +756,7 @@ export default function ServicesPageClient() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-24 bg-blue-600 text-white">
+        <section className="py-24 bg-espresso-900 text-white">
           <div className="container mx-auto px-4 text-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -772,7 +772,7 @@ export default function ServicesPageClient() {
                 and start creating the bathroom of your dreams.
               </p>
               <Link href="/contact">
-                <p className="inline-block px-8 py-4 bg-white text-blue-600 rounded-lg font-medium hover:bg-gray-100 transition-colors shadow-md hover:shadow-lg">
+                <p className="inline-block px-8 py-4 bg-cream-50 text-espresso-900 rounded-lg font-medium hover:bg-cream-100 transition-colors shadow-md hover:shadow-lg">
                   Get Started Now
                 </p>
               </Link>

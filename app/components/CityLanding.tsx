@@ -150,39 +150,39 @@ export default function CityLanding({
       {/* HERO */}
       <section className="bg-gray-900 py-16 sm:py-20 px-4 text-white">
         <div className="container mx-auto max-w-5xl">
-          <div className="text-blue-200 mb-6">
+          <div className="text-stonelux-300 mb-6">
             <Breadcrumbs items={[{ label: `${city}, ${state}` }]} className="text-sm" />
           </div>
 
-          <span className="inline-flex items-center gap-1.5 bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+          <span className="inline-flex items-center gap-1.5 bg-gold-600 text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
             <MapPin className="h-3 w-3" aria-hidden="true" />
             Serving all of {city}, {state}
           </span>
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-tight mb-5">
-            Bathroom Remodeling in <span className="text-blue-400">{city}, {state}</span>
+            Bathroom Remodeling in <span className="text-gold-300">{city}, {state}</span>
           </h1>
 
-          <p className="max-w-2xl text-blue-100 text-base sm:text-lg leading-relaxed mb-8">
+          <p className="max-w-2xl text-cream-100 text-base sm:text-lg leading-relaxed mb-8">
             {intro}
           </p>
 
           {/* Quick stats */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8 max-w-3xl">
             <div className="bg-white/10 border border-white/20 rounded-lg px-4 py-3">
-              <p className="text-xs text-blue-200 font-semibold uppercase">Avg. Project</p>
+              <p className="text-xs text-stonelux-300 font-semibold uppercase">Avg. Project</p>
               <p className="text-base font-bold text-white">{avgProjectCost}</p>
             </div>
             <div className="bg-white/10 border border-white/20 rounded-lg px-4 py-3">
-              <p className="text-xs text-blue-200 font-semibold uppercase">Timeline</p>
+              <p className="text-xs text-stonelux-300 font-semibold uppercase">Timeline</p>
               <p className="text-base font-bold text-white">5–10 days</p>
             </div>
             <div className="bg-white/10 border border-white/20 rounded-lg px-4 py-3">
-              <p className="text-xs text-blue-200 font-semibold uppercase">Most Popular</p>
+              <p className="text-xs text-stonelux-300 font-semibold uppercase">Most Popular</p>
               <p className="text-base font-bold text-white">{popularService}</p>
             </div>
             <div className="bg-white/10 border border-white/20 rounded-lg px-4 py-3">
-              <p className="text-xs text-blue-200 font-semibold uppercase">Warranty</p>
+              <p className="text-xs text-stonelux-300 font-semibold uppercase">Warranty</p>
               <p className="text-base font-bold text-white">5 Years</p>
             </div>
           </div>
@@ -191,7 +191,7 @@ export default function CityLanding({
             <a
               href={`tel:${PHONE_DIGITS}`}
               onClick={trackCall}
-              className="bg-blue-600 hover:bg-blue-700 px-7 py-4 rounded-lg font-bold flex items-center justify-center gap-2 transition-colors"
+              className="bg-gold-600 hover:bg-gold-700 px-7 py-4 rounded-lg font-bold flex items-center justify-center gap-2 transition-colors"
               aria-label={`Call Stone Works Remodeling for ${city} bathroom remodeling`}
             >
               <Phone className="h-5 w-5" aria-hidden="true" /> {phone}
@@ -210,7 +210,7 @@ export default function CityLanding({
                 <Star key={n} className="h-4 w-4 text-amber-400 fill-amber-400" aria-hidden="true" />
               ))}
             </div>
-            <p className="text-blue-100 text-sm">
+            <p className="text-cream-100 text-sm">
               Trusted by {city} homeowners — 5.0 on Google
             </p>
           </div>
@@ -233,13 +233,13 @@ export default function CityLanding({
               {neighborhoods.length > 0 && (
                 <div className="bg-white rounded-xl p-6 border border-slate-100 shadow-sm">
                   <div className="flex items-center gap-2 mb-3">
-                    <MapPin className="h-5 w-5 text-blue-600" aria-hidden="true" />
+                    <MapPin className="h-5 w-5 text-gold-700" aria-hidden="true" />
                     <h3 className="font-bold text-gray-900">Neighborhoods Served</h3>
                   </div>
                   <ul className="space-y-1.5">
                     {neighborhoods.map((n) => (
                       <li key={n} className="text-sm text-slate-700 flex items-start gap-2">
-                        <Check className="h-3.5 w-3.5 text-emerald-500 mt-1 flex-shrink-0" aria-hidden="true" />
+                        <Check className="h-3.5 w-3.5 text-gold-600 mt-1 flex-shrink-0" aria-hidden="true" />
                         {n}
                       </li>
                     ))}
@@ -250,12 +250,12 @@ export default function CityLanding({
               {zips.length > 0 && (
                 <div className="bg-white rounded-xl p-6 border border-slate-100 shadow-sm">
                   <div className="flex items-center gap-2 mb-3">
-                    <MapPin className="h-5 w-5 text-blue-600" aria-hidden="true" />
+                    <MapPin className="h-5 w-5 text-gold-700" aria-hidden="true" />
                     <h3 className="font-bold text-gray-900">{city} ZIP Codes</h3>
                   </div>
                   <div className="flex flex-wrap gap-2">
                     {zips.map((z) => (
-                      <span key={z} className="bg-blue-50 text-blue-700 text-sm font-semibold px-2.5 py-1 rounded">
+                      <span key={z} className="bg-cream-50 text-gold-700 text-sm font-semibold px-2.5 py-1 rounded">
                         {z}
                       </span>
                     ))}
@@ -271,7 +271,7 @@ export default function CityLanding({
               {landmarks.length > 0 && (
                 <div className="bg-white rounded-xl p-6 border border-slate-100 shadow-sm">
                   <div className="flex items-center gap-2 mb-3">
-                    <Star className="h-5 w-5 text-blue-600" aria-hidden="true" />
+                    <Star className="h-5 w-5 text-gold-700" aria-hidden="true" />
                     <h3 className="font-bold text-gray-900">Local Landmarks</h3>
                   </div>
                   <ul className="space-y-1.5">
@@ -330,18 +330,18 @@ export default function CityLanding({
               <Link
                 key={s.title}
                 href={s.href}
-                className="block bg-white border border-slate-200 hover:border-blue-400 hover:shadow-md rounded-xl p-6 transition-all group"
+                className="block bg-white border border-slate-200 hover:border-gold-500 hover:shadow-md rounded-xl p-6 transition-all group"
               >
                 {s.badge && (
                   <span className="inline-block text-xs font-bold bg-amber-100 text-amber-800 px-2 py-0.5 rounded mb-2">
                     ⭐ {s.badge}
                   </span>
                 )}
-                <h3 className="font-bold text-gray-900 text-lg mb-2 group-hover:text-blue-700">
+                <h3 className="font-bold text-gray-900 text-lg mb-2 group-hover:text-gold-600">
                   {s.title}
                 </h3>
                 <p className="text-slate-600 text-sm leading-relaxed mb-3">{s.desc}</p>
-                <span className="inline-flex items-center gap-1 text-blue-600 font-bold text-sm group-hover:gap-2 transition-all">
+                <span className="inline-flex items-center gap-1 text-gold-700 font-bold text-sm group-hover:gap-2 transition-all">
                   Learn more <ArrowRight className="h-4 w-4" aria-hidden="true" />
                 </span>
               </Link>
@@ -364,12 +364,12 @@ export default function CityLanding({
             {[
               { icon: Shield, title: "Licensed & Insured in MI", desc: "Comprehensive insurance protects your home throughout the project." },
               { icon: Clock, title: "Done in 5–10 Days", desc: "Most remodels completed in under two weeks. We respect your time." },
-              { icon: DollarSign, title: "Transparent Pricing", desc: "Itemized quotes with no hidden fees. Financing available." },
+              { icon: DollarSign, title: "Transparent, Itemized Proposals", desc: "A detailed, line-by-line proposal — you know exactly where your investment goes. No hidden fees, ever." },
             ].map((f) => {
               const Icon = f.icon;
               return (
                 <div key={f.title} className="bg-white rounded-xl p-6 border border-slate-100 shadow-sm">
-                  <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-gold-600 rounded-xl flex items-center justify-center mb-4">
                     <Icon className="h-6 w-6 text-white" aria-hidden="true" />
                   </div>
                   <h3 className="font-bold text-gray-900 mb-2">{f.title}</h3>
@@ -393,7 +393,7 @@ export default function CityLanding({
 
           <div className="space-y-3">
             {faqs.map((f, idx) => (
-              <div key={idx} className="border border-slate-200 rounded-xl overflow-hidden hover:border-blue-300 transition-colors">
+              <div key={idx} className="border border-slate-200 rounded-xl overflow-hidden hover:border-gold-500/60 transition-colors">
                 <button
                   onClick={() => setOpenFaq(openFaq === idx ? null : idx)}
                   aria-expanded={openFaq === idx}
@@ -401,7 +401,7 @@ export default function CityLanding({
                 >
                   <h3 className="font-bold text-gray-900 pr-4 text-base">{f.q}</h3>
                   <ChevronDown
-                    className={`h-5 w-5 text-blue-600 flex-shrink-0 transition-transform duration-200 ${
+                    className={`h-5 w-5 text-gold-700 flex-shrink-0 transition-transform duration-200 ${
                       openFaq === idx ? "rotate-180" : ""
                     }`}
                     aria-hidden="true"
@@ -421,13 +421,13 @@ export default function CityLanding({
       {/* CTA */}
       <section
         id="contact"
-        className="py-16 bg-blue-600 text-center px-6 text-white"
+        className="py-16 bg-gold-600 text-center px-6 text-white"
       >
         <div className="container mx-auto max-w-3xl">
           <h2 className="text-3xl sm:text-4xl font-black mb-4">
             Ready to Remodel Your {city} Bathroom?
           </h2>
-          <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
+          <p className="text-cream-100 text-lg mb-8 max-w-2xl mx-auto">
             Free in-home quote, transparent pricing, and a trusted local team.
             Call now or fill out the form on our homepage.
           </p>
@@ -436,14 +436,14 @@ export default function CityLanding({
             <a
               href={`tel:${PHONE_DIGITS}`}
               onClick={trackCall}
-              className="inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-lg font-bold transition-colors"
+              className="inline-flex items-center justify-center gap-2 bg-gold-600 hover:bg-gold-500 text-white px-8 py-4 rounded-lg font-bold transition-colors"
             >
               <Phone className="h-5 w-5" aria-hidden="true" />
               {phone}
             </a>
             <Link
               href="/#quote-form"
-              className="inline-flex items-center justify-center gap-2 bg-white text-blue-700 hover:bg-blue-50 px-8 py-4 rounded-lg font-bold transition-colors"
+              className="inline-flex items-center justify-center gap-2 bg-white text-gold-700 hover:bg-cream-50 px-8 py-4 rounded-lg font-bold transition-colors"
             >
               Get Free Quote
               <ArrowRight className="h-5 w-5" aria-hidden="true" />

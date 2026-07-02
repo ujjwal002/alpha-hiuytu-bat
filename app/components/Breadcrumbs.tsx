@@ -83,7 +83,7 @@ export default function Breadcrumbs({
                   ) : (
                     <Link
                       href={item.href}
-                      className="text-blue-600 hover:text-blue-800 hover:underline transition-colors"
+                      className="text-gold-700 hover:text-gold-600 hover:underline transition-colors"
                     >
                       {isHome ? (
                         <Home className="h-3.5 w-3.5 inline" aria-label="Home" />

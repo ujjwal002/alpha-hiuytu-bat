@@ -70,6 +70,14 @@ export function HomepageVideoSchemas() {
   return (
     <>
       <VideoSchema
+        name="Luxury Bathroom Remodeling Metro Detroit — Spa-Style Master Bath Tour"
+        description="Cinematic tour of a luxury spa-style bathroom design by Stone Works Remodeling — marble walls, walnut floating vanity, brass fixtures, and a freestanding soaking tub. Serving Wayne, Oakland & Macomb Counties, MI."
+        thumbnailUrl="https://www.stoneworksremodeling.com/bathroom/hero-poster.jpg"
+        contentUrl="https://www.stoneworksremodeling.com/bathroom/hero-video.mp4"
+        uploadDate="2026-07-03"
+        duration="PT15S"
+      />
+      <VideoSchema
         name="Bathroom Remodel Project — Metro Detroit"
         description="Stone Works Remodeling completes a full bathroom renovation in Metro Detroit, MI."
         thumbnailUrl="https://www.stoneworksremodeling.com/instagram/image.png"
