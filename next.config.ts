@@ -32,6 +32,12 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       { source: "/index.html", destination: "/", permanent: true },
+      // Old Novi post slug that Google indexed → current Novi post (301)
+      {
+        source: "/blog/bathroom-remodel-novi-minimalist-mi-2025",
+        destination: "/blog/bathroom-remodel-novi-mi-2025/",
+        permanent: true,
+      },
     ];
   },
 

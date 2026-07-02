@@ -18,10 +18,10 @@ export async function GET() {
 
   // Service pages
   const servicePages = [
-    "/services/bathroom-remodeling",
-    "/services/shower-conversions",
-    "/services/walk-in-tubs",
-    "/services/custom-works",
+    "/services/bathroom-remodeling/",
+    "/services/shower-conversions/",
+    "/services/walk-in-tubs/",
+    "/services/custom-works/",
   ].map((url) => ({ url, priority: "0.9", changefreq: "monthly" }));
 
   // City landing pages — strong local SEO value
@@ -29,11 +29,11 @@ export async function GET() {
     "detroit", "livonia", "troy", "rochester", "sterling-heights",
     "dearborn", "westland", "canton", "royal-oak", "birmingham",
     "bloomfield-hills", "farmington-hills", "southfield", "warren", "novi",
-  ].map((city) => ({ url: `/${city}`, priority: "0.8", changefreq: "monthly" }));
+  ].map((city) => ({ url: `/${city}/`, priority: "0.8", changefreq: "monthly" }));
 
   // Blog posts — include all, vary priority by content depth
   const blogPages = blogPosts.map((post) => ({
-    url: `/blog/${post.slug}`,
+    url: `/blog/${post.slug}/`,
     priority: "0.7",
     changefreq: "monthly",
     lastmod: post.date,

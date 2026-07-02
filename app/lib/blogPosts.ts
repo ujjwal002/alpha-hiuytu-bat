@@ -2713,8 +2713,8 @@ export const blogPosts: BlogPost[] = [
     "content": `
 <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
 
-  <div style="background:#f0f7ff;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
-    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
+  <div style="background:#F4F0EA;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#302316;">
       One of the first questions every Metro Detroit homeowner asks when thinking about a bathroom remodel is: <strong>how much is this going to cost?</strong> The honest answer — it depends. But this guide gives you real local numbers so you can plan with confidence and avoid being overcharged.
     </p>
   </div>
@@ -2830,8 +2830,8 @@ export const blogPosts: BlogPost[] = [
     "content": `
 <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
 
-  <div style="background:#f0f7ff;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
-    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
+  <div style="background:#F4F0EA;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#302316;">
       Tub-to-shower conversions are the most popular bathroom upgrade we do across Metro Detroit — and it's easy to see why. Most homeowners haven't used their bathtub in years, and converting that space into a custom walk-in shower instantly modernizes the bathroom, improves accessibility, and increases home value.
     </p>
   </div>
@@ -3312,8 +3312,8 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic8.jpeg" alt="Comparing bathroom remodel options in Michigan" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f0f7ff;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
-    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
+  <div style="background:#F4F0EA;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#302316;">
       If you've had a one-day bath company in your home, you've probably heard the pitch — a brand-new bathroom in 24 hours, no demolition, no mess. Then you saw the quote. Many Metro Detroit homeowners call us at exactly this moment, holding a $9,000–$14,000 estimate for an acrylic system and asking one simple question: <strong>is this worth it, or should I just remodel the whole bathroom?</strong> This is an honest, no-spin answer.
     </p>
   </div>
@@ -3432,8 +3432,8 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic6.jpeg" alt="Bathroom remodel in an older Detroit-area home" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f0f7ff;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
-    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
+  <div style="background:#F4F0EA;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#302316;">
       Detroit, Dearborn, Hamtramck, Ferndale, Royal Oak, Pontiac and the inner-ring suburbs are full of beautiful homes built between the 1920s and the 1970s. They have character a new build can't match — and they also have a habit of revealing surprises the moment a bathroom wall comes down. If you own one of these homes, this guide will help you remodel with your eyes open and your budget prepared.
     </p>
   </div>
@@ -3523,8 +3523,8 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic2.jpeg" alt="Accessible bathroom remodel for aging in place in Michigan" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f0f7ff;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
-    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
+  <div style="background:#F4F0EA;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#302316;">
       For many Michigan homeowners, the goal is simple: stay in the home they love, safely, for as long as possible. The bathroom is where that decision usually starts — it's the highest-risk room in the house. The two main accessible upgrades are a walk-in tub and a curbless walk-in shower, and they suit very different people. Here's an honest comparison to help you choose.
     </p>
   </div>
@@ -3649,8 +3649,8 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic3.jpeg" alt="Bathroom remodel in Novi, MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f0f7ff;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
-    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
+  <div style="background:#F4F0EA;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+    <p style="font-size:1.1rem;font-weight:500;margin:0;color:#302316;">
       Novi is one of Oakland County's most desirable communities — strong schools, well-kept subdivisions, and a steady mix of newer construction and established homes. In 2026, bathroom remodeling is one of the top home-improvement projects here, and homeowners want the same thing: a cleaner, more functional, more valuable bathroom without overspending. This guide breaks down real local costs, the trends Novi homeowners are choosing, and how to plan the project well.
     </p>
   </div>
