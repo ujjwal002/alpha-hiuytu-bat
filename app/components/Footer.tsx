@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="flex items-center gap-4 group hover:scale-105 transition-transform duration-300">
               <div className="w-16 h-16 overflow-hidden shadow-md">
                 <Image
-                  src="public/home/stone.webp"
+                  src="/home/stone.webp"
                   alt="Stone Works Remodeling logo for premium bathroom remodeling in Metro Detroit, MI"
                   className="w-full h-full object-cover"
                   width={64}

@@ -206,7 +206,7 @@ export default function ContactPage() {
         }
 
         .form-input:focus {
-          border-color: #2563eb;
+          border-color: #8F5F3D;
           box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
         }
 
@@ -244,7 +244,7 @@ export default function ContactPage() {
         }
 
         .btn-primary {
-          background: linear-gradient(90deg, #2563eb, #3b82f6);
+          background: linear-gradient(90deg, #302316, #8F5F3D);
           transition: all 0.3s ease;
           border-radius: 8px;
           position: relative;
@@ -823,7 +823,7 @@ export default function ContactPage() {
                           <button
                             type="submit"
                             disabled={formStatus === "submitting"}
-                            className="w-full flex justify-center items-center py-4 px-6 border border-transparent rounded-md shadow-sm text-lg font-medium text-white bg-gold-600 hover:bg-gold-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold-500 transition-colors duration-200 disabled:bg-gold-300 disabled:cursor-not-allowed"
+                            className="w-full flex justify-center items-center py-4 px-6 border border-transparent rounded-md shadow-sm text-lg font-medium text-white bg-gold-600 hover:bg-gold-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gold-500 transition-colors duration-200 disabled:bg-gold-300 disabled:cursor-not-allowed"
                           >
                             {formStatus === "submitting" ? (
                               <>

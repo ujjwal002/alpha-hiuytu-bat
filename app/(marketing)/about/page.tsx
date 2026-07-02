@@ -325,13 +325,13 @@ export default function AboutPage() {
         }
 
         .cta-button {
-          background: #1e40af;
+          background: #302316;
           transition: all 0.3s ease;
           border-radius: 8px;
         }
 
         .cta-button:hover {
-          background: #1e3a8a;
+          background: #1D1309;
           transform: translateY(-2px);
           box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
         }
@@ -349,7 +349,7 @@ export default function AboutPage() {
           left: 0;
           width: 100%;
           height: 4px;
-          background: linear-gradient(90deg, #1e40af, #3b82f6);
+          background: linear-gradient(90deg, #302316, #8F5F3D);
           opacity: 0.7;
         }
 

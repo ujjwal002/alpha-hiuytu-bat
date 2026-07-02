@@ -115,14 +115,14 @@ export default function GoogleReviews() {
             </span>
             <div className="flex items-center gap-1.5">
               <span className="font-bold text-gray-900 text-base">5.0</span>
-              <div className="flex items-center gap-0.5" aria-label="5 out of 5 stars">
+              <div className="flex items-center gap-0.5" role="img" aria-label="5 out of 5 stars">
                 {[1, 2, 3, 4, 5].map((n) => (
                   <Star key={n} className="h-4 w-4 text-amber-400 fill-amber-400" aria-hidden="true" />
                 ))}
               </div>
             </div>
             <span className="text-slate-600 text-sm">Google Reviews</span>
-            <ExternalLink className="h-3.5 w-3.5 text-slate-400" aria-hidden="true" />
+            <ExternalLink className="h-3.5 w-3.5 text-slate-500" aria-hidden="true" />
           </a>
 
           <h2 className="text-3xl sm:text-4xl font-black text-gray-900 mb-4">
@@ -147,17 +147,23 @@ export default function GoogleReviews() {
           onTouchEnd={() => setPaused(false)}
         >
           <ReviewCard review={reviews[active]} />
-          <div className="flex justify-center gap-2 mt-5" aria-label="Review navigation">
+          <div className="flex justify-center gap-1 mt-5" role="tablist" aria-label="Review navigation">
             {reviews.map((r, i) => (
               <button
                 key={i}
+                type="button"
+                role="tab"
+                aria-selected={active === i}
                 aria-label={`Show review from ${r.name}`}
-                aria-pressed={active === i}
                 onClick={() => setActive(i)}
-                className={`h-2.5 rounded-full transition-all duration-200 ${
-                  active === i ? "w-8 bg-gold-600" : "w-2.5 bg-stonelux-300"
-                }`}
-              />
+                className="flex items-center justify-center p-2.5 min-h-[24px] min-w-[24px]"
+              >
+                <span
+                  className={`block h-2.5 rounded-full transition-all duration-200 ${
+                    active === i ? "w-8 bg-gold-600" : "w-2.5 bg-taupe-500"
+                  }`}
+                />
+              </button>
             ))}
           </div>
         </div>
@@ -172,7 +178,7 @@ export default function GoogleReviews() {
           >
             <GoogleG className="h-4 w-4" />
             Read All Google Reviews
-            <ExternalLink className="h-3.5 w-3.5 text-slate-400" aria-hidden="true" />
+            <ExternalLink className="h-3.5 w-3.5 text-slate-500" aria-hidden="true" />
           </a>
           <a
             href={GMB_WRITE_URL}
@@ -209,7 +215,7 @@ function ReviewCard({ review: r }: { review: Review }) {
 
       {/* Stars + date */}
       <div className="flex items-center gap-2 mb-3">
-        <div className="flex items-center gap-0.5" aria-label={`${r.rating} out of 5 stars`}>
+        <div className="flex items-center gap-0.5" role="img" aria-label={`${r.rating} out of 5 stars`}>
           {[...Array(r.rating)].map((_, i) => (
             <Star key={i} className="h-4 w-4 text-amber-400 fill-amber-400" aria-hidden="true" />
           ))}

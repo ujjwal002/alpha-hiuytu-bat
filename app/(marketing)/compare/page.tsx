@@ -82,7 +82,7 @@ const comparison = [
   },
   {
     feature: "Financing",
-    local: "0% APR for 12 months on qualified credit",
+    local: "Flexible financing available for qualified homeowners",
     franchise: "Available — varies by franchise",
     advantage: "tie",
   },

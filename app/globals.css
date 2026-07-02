@@ -8,10 +8,11 @@
   --color-stonelux-300: #C4BBB2; /* soft stone — borders, dividers */
   --color-stonelux-400: #AC9C8F; /* warm greige — muted UI */
   --color-taupe-500: #998470;  /* dominant taupe */
-  --color-gold-300: #E9A66E;   /* chandelier glow — hover/highlight */
-  --color-gold-500: #C58C5F;   /* champagne brass — primary accent */
-  --color-gold-600: #A9744C;   /* deep gold — buttons */
-  --color-gold-700: #8F5F3D;   /* gold hover */
+  --color-gold-300: #E9A66E;   /* chandelier glow — hover/highlight, accents on dark */
+  --color-gold-400: #C58C5F;   /* champagne brass — decorative accents, borders */
+  --color-gold-500: #A9744C;   /* mid gold — hover state for buttons */
+  --color-gold-600: #8F5F3D;   /* button gold — WCAG AA with white text (5.4:1) */
+  --color-gold-700: #7A5133;   /* deep gold — text on cream/white, button hover */
   --color-bronze-600: #826E5A; /* bronze shadow */
   --color-walnut-800: #534130; /* walnut wood — body on cream */
   --color-espresso-900: #302316; /* deep espresso — dark sections */
@@ -113,13 +114,13 @@
 }
 
 .prose a {
-  color: #2563eb; /* text-blue-600 */
+  color: #7A5133; /* luxury gold */
   text-decoration: underline;
   font-weight: 500;
 }
 
 .prose a:hover {
-  color: #1d4ed8; /* text-blue-700 */
+  color: #8F5F3D; /* luxury gold hover */
 }
 
 .prose ul,
@@ -390,7 +391,7 @@
 
 .cta-button {
   display: inline-block;
-  background-color: #2563eb;
+  background-color: #8F5F3D;
   color: white;
   padding: 0.875rem 1.75rem;
   border-radius: 0.5rem;
@@ -401,13 +402,13 @@
 }
 
 .cta-button:hover {
-  background-color: #1d4ed8;
+  background-color: #7A5133;
 }
 
 .secondary-button {
   background-color: white;
-  color: #2563eb;
-  border: 1px solid #2563eb;
+  color: #7A5133;
+  border: 1px solid #8F5F3D;
 }
 
 /* ===== Lists ===== */
@@ -453,11 +454,11 @@
   background: #f8fafc;
   padding: 1.5rem;
   border-radius: 0.5rem;
-  border-left: 4px solid #1e40af;
+  border-left: 4px solid #8F5F3D;
 }
 
 .stat-box {
-  background: #1e40af;
+  background: #302316;
   color: white;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -533,7 +534,7 @@
 }
 
 .maintenance-schedule th {
-  background-color: #1e40af;
+  background-color: #302316;
   color: white;
 }
 
@@ -707,13 +708,13 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  background: #eff6ff;
+  background: #F4F0EA;
   padding: 0.75rem 1.25rem;
   border-radius: 2rem;
   margin: 1.5rem 0;
   width: fit-content;
   font-weight: 500;
-  color: #1e40af;
+  color: #7A5133;
 }
 
 .trend-grid {
@@ -728,7 +729,7 @@
   padding: 1.5rem;
   border-radius: 0.5rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  border-top: 3px solid #3b82f6;
+  border-top: 3px solid #A9744C;
 }
 
 .trend-icon {
@@ -737,8 +738,8 @@
 }
 
 .trend-stat {
-  background: #dbeafe;
-  color: #1e40af;
+  background: #F4F0EA;
+  color: #7A5133;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: 0.8rem;
@@ -826,7 +827,7 @@
 }
 
 .trend-cta {
-  background: linear-gradient(to right, #eff6ff, #f8fafc);
+  background: linear-gradient(to right, #F4F0EA, #f8fafc);
 }
 
 .trend-outlook {

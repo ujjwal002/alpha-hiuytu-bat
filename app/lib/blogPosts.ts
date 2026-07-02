@@ -1857,7 +1857,7 @@ export const blogPosts: BlogPost[] = [
 <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
 
   <!-- Intro -->
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       Bathroom remodeling costs in Detroit, MI vary depending on size, materials, and scope of work.
       In 2026, homeowners across Metro Detroit are upgrading bathrooms for comfort, value, and
@@ -1937,7 +1937,7 @@ export const blogPosts: BlogPost[] = [
   </p>
 
   <!-- CTA -->
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">
       Planning a Bathroom Remodel in Detroit?
     </h3>
@@ -1945,7 +1945,7 @@ export const blogPosts: BlogPost[] = [
       Get expert guidance, transparent pricing, and high-quality craftsmanship from local professionals.
     </p>
     <a href="/contact"
-       style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
+       style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
       Request a Free Bathroom Remodel Estimate
     </a>
   </div>
@@ -1968,7 +1968,7 @@ export const blogPosts: BlogPost[] = [
     "content": `
 <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       Small bathrooms are common in Lansing homes, but limited space doesn’t mean limited style.
       With the right design choices, a small bathroom remodel in 2026 can feel modern, functional,
@@ -2039,7 +2039,7 @@ export const blogPosts: BlogPost[] = [
     even the smallest bathroom can feel brand new.
   </p>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">
       Ready to Remodel Your Small Bathroom?
     </h3>
@@ -2047,7 +2047,7 @@ export const blogPosts: BlogPost[] = [
       Get expert design advice and transparent pricing from local Lansing bathroom remodelers.
     </p>
     <a href="/contact"
-       style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
+       style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
       Get a Free Bathroom Remodel Quote
     </a>
   </div>
@@ -2069,7 +2069,7 @@ export const blogPosts: BlogPost[] = [
     "content": `
 <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       Searching for bathroom remodel contractors near you in Grand Rapids, MI? In 2026, homeowners
       are prioritizing professionals who deliver quality, transparency, and long-lasting results.
@@ -2108,14 +2108,14 @@ export const blogPosts: BlogPost[] = [
     <li>Modern vanities with storage</li>
   </ul>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">
       Need a Bathroom Remodel in Grand Rapids?
     </h3>
     <p style="margin-bottom:16px;">
       Get expert craftsmanship and transparent pricing from trusted local remodelers.
     </p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
       Get a Free Estimate
     </a>
   </div>
@@ -2137,7 +2137,7 @@ export const blogPosts: BlogPost[] = [
     "content": `
 <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       Many homeowners ask whether a bathroom remodel requires a permit in Michigan.
       In 2026, permits are mandatory for most plumbing, electrical, and structural changes.
@@ -2183,14 +2183,14 @@ export const blogPosts: BlogPost[] = [
     helping homeowners avoid fines, delays, and resale issues.
   </p>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">
       Planning a Bathroom Remodel in Michigan?
     </h3>
     <p style="margin-bottom:16px;">
       Work with professionals who handle permits and inspections for you.
     </p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
       Request a Free Consultation
     </a>
   </div>
@@ -2212,7 +2212,7 @@ export const blogPosts: BlogPost[] = [
     "content": `
 <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       Bathroom remodeling costs in Michigan vary based on size, materials, and labor.
       In 2026, most homeowners should budget carefully to avoid surprises.
@@ -2249,14 +2249,14 @@ export const blogPosts: BlogPost[] = [
     ensures code compliance, and delivers long-term value.
   </p>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">
       Planning a Bathroom Remodel in Michigan?
     </h3>
     <p style="margin-bottom:16px;">
       Get accurate pricing and expert guidance before you start.
     </p>
-    <a href="/services/bathroom-remodeling" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
+    <a href="/services/bathroom-remodeling" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
       View Our Bathroom Remodeling Services
     </a>
   </div>
@@ -2278,7 +2278,7 @@ export const blogPosts: BlogPost[] = [
     "content": `
 <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.7;color:#1f2937;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       Choosing between marble and tile bathrooms is a common decision for Michigan homeowners.
       Each option offers unique advantages depending on budget and lifestyle.
@@ -2315,14 +2315,14 @@ export const blogPosts: BlogPost[] = [
     Consulting with a remodeling professional ensures the best choice.
   </p>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">
       Need Help Choosing Bathroom Materials?
     </h3>
     <p style="margin-bottom:16px;">
       Our experts help Michigan homeowners select the perfect materials.
     </p>
-    <a href="/services/bathroom-remodeling" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
+    <a href="/services/bathroom-remodeling" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">
       Explore Bathroom Remodeling Services
     </a>
   </div>
@@ -2350,7 +2350,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg" alt="Modern bathroom remodel in Warren MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       Warren is Michigan's largest suburb — and in 2026, homeowners here are investing in bathroom upgrades that increase comfort, home value, and daily luxury. From stone tile showers to modern vanities, here's what's trending in Warren bathroom remodels right now.
     </p>
@@ -2376,10 +2376,10 @@ export const blogPosts: BlogPost[] = [
   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Heated Floors for Michigan Winters</h2>
   <p>Radiant floor heating is a popular add-on for Warren homeowners who want that spa-like warmth underfoot during cold Michigan mornings. Stone tile conducts heat especially well.</p>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">Ready to Remodel Your Warren Bathroom?</h3>
     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling serves Warren and all of Metro Detroit. Get expert design and quality craftsmanship.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule a Free Consultation</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule a Free Consultation</a>
   </div>
 
 </div>
@@ -2402,7 +2402,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg" alt="Bathroom remodel in Westland MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       Westland is one of Wayne County's most active home renovation markets — and bathrooms are leading the charge in 2026. Homeowners here are trading dated tile and cramped layouts for open, spa-inspired spaces that feel luxurious every day.
     </p>
@@ -2428,10 +2428,10 @@ export const blogPosts: BlogPost[] = [
   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Smart Storage Solutions</h2>
   <p>Recessed medicine cabinets, floating vanities with drawers, and built-in shower niches are helping Westland homeowners maximize even smaller bathrooms without clutter.</p>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">Transform Your Westland Bathroom</h3>
     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling brings expert craftsmanship to Westland homeowners. Let's design your dream bathroom.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get a Free Design Consultation</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get a Free Design Consultation</a>
   </div>
 
 </div>
@@ -2454,7 +2454,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg" alt="Bathroom remodel in Dearborn Heights MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       Neighboring Dearborn, Dearborn Heights shares the same rich housing stock — and in 2026, homeowners here are giving their bathrooms a serious upgrade. The most popular projects blend warm, classic aesthetics with modern functionality and natural stone.
     </p>
@@ -2480,10 +2480,10 @@ export const blogPosts: BlogPost[] = [
   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Accessibility Features Growing in Demand</h2>
   <p>As many Dearborn Heights homeowners are aging in place, features like zero-threshold showers, grab bars integrated into tile design, and comfort-height toilets are becoming standard requests.</p>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">Planning a Bathroom Remodel in Dearborn Heights?</h3>
     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling serves Dearborn Heights with expert stone tile installation and full bathroom renovation services.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Request a Free Estimate</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Request a Free Estimate</a>
   </div>
 
 </div>
@@ -2506,7 +2506,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg" alt="Bathroom remodel in Taylor MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       Taylor homeowners are proving that you don't need a massive budget to get a stunning bathroom. In 2026, smart material choices, bold tile designs, and strategic upgrades are turning ordinary bathrooms into spaces homeowners genuinely love.
     </p>
@@ -2532,10 +2532,10 @@ export const blogPosts: BlogPost[] = [
   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Better Ventilation — Often Overlooked</h2>
   <p>A quality exhaust fan is one of the most functional upgrades in any Michigan bathroom. Proper ventilation protects stone and grout from moisture damage and prevents mold — especially important in older Taylor homes.</p>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">Let's Remodel Your Taylor Bathroom</h3>
     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling delivers high-quality bathroom renovations across Taylor and all of downriver Metro Detroit.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get Your Free Consultation</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get Your Free Consultation</a>
   </div>
 
 </div>
@@ -2558,7 +2558,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg" alt="Luxury bathroom remodel in Shelby Township MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       Shelby Township is one of Macomb County's most affluent communities — and bathroom remodels here reflect that. In 2026, homeowners are investing in high-end stone, custom layouts, and spa-level features that rival five-star hotels.
     </p>
@@ -2584,10 +2584,10 @@ export const blogPosts: BlogPost[] = [
   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Freestanding Soaking Tubs</h2>
   <p>Freestanding tubs positioned against a stone feature wall create a stunning focal point in Shelby Township master bathrooms. Matte white and stone-finish tubs are the most popular choices in 2026.</p>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">Build Your Luxury Shelby Township Bathroom</h3>
     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling specializes in high-end stone bathroom renovations across Shelby Township and Macomb County.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule a Design Consultation</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule a Design Consultation</a>
   </div>
 
 </div>
@@ -2610,7 +2610,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg" alt="Bathroom remodel in Macomb Township MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       Macomb Township has grown rapidly over the past decade — and with that growth comes a wave of homeowners ready to personalize and upgrade their spaces. Bathroom remodeling is one of the top home improvement projects here in 2026, with stone tile and custom shower designs leading the way.
     </p>
@@ -2636,10 +2636,10 @@ export const blogPosts: BlogPost[] = [
   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Neutral Palettes with One Bold Element</h2>
   <p>Macomb Township homeowners tend to favor safe, sellable neutral tones — but they're adding one bold element, like a feature wall in a dramatic veined marble or a matte black fixtures set, to give the space personality.</p>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">Upgrade Your Macomb Township Bathroom</h3>
     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling brings premium bathroom renovation services to Macomb Township and all of Macomb County.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Book a Free Consultation</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Book a Free Consultation</a>
   </div>
 
 </div>
@@ -2662,7 +2662,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic9.jpeg" alt="Bathroom remodel in Pontiac MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       Pontiac's real estate market is rebounding — and savvy homeowners are investing in bathroom remodels to build equity and improve their quality of life. In 2026, natural stone and bold, intentional design are the defining features of Pontiac's best bathroom renovations.
     </p>
@@ -2688,10 +2688,10 @@ export const blogPosts: BlogPost[] = [
   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">5. Lighting Upgrades Completing the Look</h2>
   <p>New vanity lighting, backlit mirrors, and shower-rated recessed lights make a dramatic difference in how a bathroom feels. Pontiac homeowners are pairing these lighting upgrades with stone tile remodels for a complete transformation.</p>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">Ready to Remodel Your Pontiac Bathroom?</h3>
     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling serves Pontiac and Oakland County with expert stone tile work and full bathroom renovation services.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule Your Free Consultation</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule Your Free Consultation</a>
   </div>
 
 </div>
@@ -2713,7 +2713,7 @@ export const blogPosts: BlogPost[] = [
     "content": `
 <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
 
-  <div style="background:#f0f7ff;border-left:4px solid #2563eb;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+  <div style="background:#f0f7ff;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
       One of the first questions every Metro Detroit homeowner asks when thinking about a bathroom remodel is: <strong>how much is this going to cost?</strong> The honest answer — it depends. But this guide gives you real local numbers so you can plan with confidence and avoid being overcharged.
     </p>
@@ -2724,7 +2724,7 @@ export const blogPosts: BlogPost[] = [
 
   <table style="width:100%;border-collapse:collapse;margin:20px 0 32px;">
     <thead>
-      <tr style="background:#2563eb;color:white;">
+      <tr style="background:#8F5F3D;color:white;">
         <th style="padding:12px 16px;text-align:left;font-weight:600;">Remodel Type</th>
         <th style="padding:12px 16px;text-align:left;font-weight:600;">Typical Cost Range</th>
         <th style="padding:12px 16px;text-align:left;font-weight:600;">What's Included</th>
@@ -2763,19 +2763,19 @@ export const blogPosts: BlogPost[] = [
 
   <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">What Affects the Cost of a Bathroom Remodel in Michigan?</h2>
 
-  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">1. Bathroom Size</h3>
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#7A5133;">1. Bathroom Size</h3>
   <p style="margin-bottom:16px;">The most obvious factor. A 50 sq ft powder room costs a fraction of a 120 sq ft master bathroom. Tile work, waterproofing, and labor are all priced per square foot, so size directly drives cost. Most Metro Detroit homes have bathrooms between 40–80 sq ft, which puts them squarely in the mid-range category.</p>
 
-  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">2. Material Selection</h3>
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#7A5133;">2. Material Selection</h3>
   <p style="margin-bottom:16px;">This is where costs vary the most. There's a big difference between ceramic tile at $3/sq ft and marble at $25/sq ft — but both can look stunning when installed correctly. At Stone Works Remodeling, we help clients find the right balance between budget and beauty. Natural stone (marble, slate, quartzite) adds resale value and luxury feel. Porcelain tile offers a high-end look at a lower price point.</p>
 
-  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">3. Plumbing & Electrical Changes</h3>
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#7A5133;">3. Plumbing & Electrical Changes</h3>
   <p style="margin-bottom:16px;">If you're keeping the same layout — toilet, vanity, and shower in the same spots — costs stay controlled. The moment you start moving plumbing, expect to add $1,500–$5,000 depending on complexity. Many older Metro Detroit homes (built in the 1960s–1980s) also need electrical updates to meet current code, which adds to the budget.</p>
 
-  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">4. Labor & Contractor Quality</h3>
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#7A5133;">4. Labor & Contractor Quality</h3>
   <p style="margin-bottom:16px;">Labor typically accounts for 40–50% of your total project cost. Choosing a licensed, insured Michigan contractor protects you legally and ensures the work is done right the first time. Unlicensed contractors often quote lower but end up costing more when work needs to be redone. All Stone Works Remodeling projects come with a 5-year workmanship warranty — something most budget contractors can't offer.</p>
 
-  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">5. Michigan Permits</h3>
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#7A5133;">5. Michigan Permits</h3>
   <p style="margin-bottom:16px;">Most cities in Metro Detroit require permits for plumbing, electrical, and structural work. Permit fees typically run $150–$600 depending on the city (Livonia, Troy, Warren, etc.). We handle all permits for our clients — you never have to deal with the building department yourself.</p>
 
   <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">How to Save Money on Your Metro Detroit Bathroom Remodel</h2>
@@ -2804,10 +2804,10 @@ export const blogPosts: BlogPost[] = [
   <p style="margin-bottom:16px;">Every project starts with a <strong>free in-home consultation</strong> where we measure your space, discuss your vision, and give you a detailed written quote — broken down line by line. No surprises, no hidden fees.</p>
   <p style="margin-bottom:32px;">We also offer <strong>flexible financing</strong> for qualified homeowners, so you don't have to wait to get the bathroom you deserve.</p>
 
-  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:12px;text-align:center;">
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:12px;text-align:center;">
     <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Get a Free, Itemized Quote for Your Metro Detroit Bathroom</h3>
     <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:500px;margin-left:auto;margin-right:auto;">No pressure. No obligation. Just an honest number from a licensed Michigan contractor who's been serving Wayne, Oakland, and Macomb Counties since 2009.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Schedule Your Free In-Home Consultation</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Schedule Your Free In-Home Consultation</a>
     <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#fff;font-weight:700;">(248) 955-2952</a></p>
   </div>
 
@@ -2830,7 +2830,7 @@ export const blogPosts: BlogPost[] = [
     "content": `
 <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
 
-  <div style="background:#f0f7ff;border-left:4px solid #2563eb;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+  <div style="background:#f0f7ff;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
       Tub-to-shower conversions are the most popular bathroom upgrade we do across Metro Detroit — and it's easy to see why. Most homeowners haven't used their bathtub in years, and converting that space into a custom walk-in shower instantly modernizes the bathroom, improves accessibility, and increases home value.
     </p>
@@ -2854,7 +2854,7 @@ export const blogPosts: BlogPost[] = [
 
   <table style="width:100%;border-collapse:collapse;margin:20px 0 32px;">
     <thead>
-      <tr style="background:#2563eb;color:white;">
+      <tr style="background:#8F5F3D;color:white;">
         <th style="padding:12px 16px;text-align:left;font-weight:600;">Conversion Type</th>
         <th style="padding:12px 16px;text-align:left;font-weight:600;">Cost Range</th>
         <th style="padding:12px 16px;text-align:left;font-weight:600;">Details</th>
@@ -2886,35 +2886,35 @@ export const blogPosts: BlogPost[] = [
 
   <div style="display:grid;gap:16px;margin:0 0 32px;">
     <div style="display:flex;gap:16px;align-items:flex-start;background:#f9fafb;border-radius:8px;padding:16px 20px;border:1px solid #e5e7eb;">
-      <div style="background:#2563eb;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">1</div>
+      <div style="background:#8F5F3D;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">1</div>
       <div>
         <p style="font-weight:600;color:#111827;margin-bottom:4px;">Free In-Home Consultation</p>
         <p style="color:#4b5563;margin:0;">We come to your home, measure the space, discuss tile and fixture options, and give you a detailed written quote. No pressure, no obligation.</p>
       </div>
     </div>
     <div style="display:flex;gap:16px;align-items:flex-start;background:#f9fafb;border-radius:8px;padding:16px 20px;border:1px solid #e5e7eb;">
-      <div style="background:#2563eb;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">2</div>
+      <div style="background:#8F5F3D;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">2</div>
       <div>
         <p style="font-weight:600;color:#111827;margin-bottom:4px;">Demolition & Removal</p>
         <p style="color:#4b5563;margin:0;">We remove the existing tub, surround, and any old waterproofing. We protect your floors and surrounding areas throughout the entire process.</p>
       </div>
     </div>
     <div style="display:flex;gap:16px;align-items:flex-start;background:#f9fafb;border-radius:8px;padding:16px 20px;border:1px solid #e5e7eb;">
-      <div style="background:#2563eb;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">3</div>
+      <div style="background:#8F5F3D;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">3</div>
       <div>
         <p style="font-weight:600;color:#111827;margin-bottom:4px;">Waterproofing & Cement Board</p>
         <p style="color:#4b5563;margin:0;">This is the step many contractors skip — and the reason showers fail. We apply a full waterproofing membrane system before any tile goes up. This is what gives us confidence in our 5-year warranty.</p>
       </div>
     </div>
     <div style="display:flex;gap:16px;align-items:flex-start;background:#f9fafb;border-radius:8px;padding:16px 20px;border:1px solid #e5e7eb;">
-      <div style="background:#2563eb;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">4</div>
+      <div style="background:#8F5F3D;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">4</div>
       <div>
         <p style="font-weight:600;color:#111827;margin-bottom:4px;">Custom Tile Installation</p>
         <p style="color:#4b5563;margin:0;">Floor tile, wall tile, niche, and bench — all installed precisely to your design. We work with any tile you choose, from basic porcelain to natural marble and slate.</p>
       </div>
     </div>
     <div style="display:flex;gap:16px;align-items:flex-start;background:#f9fafb;border-radius:8px;padding:16px 20px;border:1px solid #e5e7eb;">
-      <div style="background:#2563eb;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">5</div>
+      <div style="background:#8F5F3D;color:white;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;">5</div>
       <div>
         <p style="font-weight:600;color:#111827;margin-bottom:4px;">Fixtures, Glass & Final Touches</p>
         <p style="color:#4b5563;margin:0;">Showerhead, valve, glass door or enclosure, and any accessories are installed. We do a full quality inspection and final walkthrough with you before we consider the job done.</p>
@@ -2938,10 +2938,10 @@ export const blogPosts: BlogPost[] = [
     <li style="margin-bottom:0;"><strong>Local references and reviews</strong> — Check Google reviews specifically for Metro Detroit projects. National franchise reviews don't reflect local quality.</li>
   </ul>
 
-  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:12px;text-align:center;">
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:12px;text-align:center;">
     <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Ready to Convert Your Tub to a Custom Shower?</h3>
     <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling has completed hundreds of tub-to-shower conversions across Metro Detroit. We're licensed, insured, and ready to give you a free in-home quote with no pressure and no obligation.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Get Your Free Shower Conversion Quote</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Get Your Free Shower Conversion Quote</a>
     <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Call us directly: <a href="tel:+12489552952" style="color:#fff;font-weight:700;">(248) 955-2952</a> · Mon–Fri 8am–6pm · Sat 9am–2pm</p>
   </div>
 
@@ -2949,8 +2949,8 @@ export const blogPosts: BlogPost[] = [
   `
   },
   // ============================================================
-  // 5 NEW KEYWORD-TARGETED BLOG POSTS — Add to blogPosts array
-  // ============================================================
+// 5 NEW KEYWORD-TARGETED BLOG POSTS — Add to blogPosts array
+// ============================================================
 
   {
     "id": 53,
@@ -2968,7 +2968,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg" alt="Bathroom remodel for $15000 in Michigan" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       $15,000 is one of the most common bathroom remodel budgets in Michigan — and the good news is, it's absolutely enough to create a beautiful, functional bathroom if you know where to spend it. Here's exactly what you can get in 2026.
     </p>
@@ -3010,10 +3010,10 @@ export const blogPosts: BlogPost[] = [
   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">Pro Tip: Always Keep a 10–15% Contingency</h2>
   <p>On a $15,000 budget, set aside $1,500–$2,000 for surprises — older Michigan homes often reveal hidden plumbing issues, mold, or outdated wiring once walls are opened up.</p>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">Working With a $15,000 Bathroom Budget?</h3>
     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling helps Michigan homeowners get the most out of every dollar. Let's design a bathroom that looks twice the price.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get a Free Estimate</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get a Free Estimate</a>
   </div>
 
 </div>
@@ -3036,7 +3036,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg" alt="Budget bathroom remodel Michigan $5000" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       $5,000 is a tight budget for a full bathroom remodel in Michigan in 2026 — but it's not nothing. With the right priorities, you can make a dramatic difference in how your bathroom looks and functions. Here's the honest breakdown.
     </p>
@@ -3068,10 +3068,10 @@ export const blogPosts: BlogPost[] = [
   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">Should You Save Up for a Bigger Budget?</h2>
   <p>If your bathroom needs a full overhaul, it's worth saving to $12,000–$15,000 before starting. A piecemeal approach often costs more in the long run and the results are never as cohesive. Many Michigan contractors also offer <strong>financing options</strong> — ask about them before assuming a full remodel is out of reach.</p>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">Not Sure What Your Budget Can Get You?</h3>
     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling offers free consultations across Metro Detroit. We'll tell you exactly what's possible at your budget — no pressure.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get a Free Honest Estimate</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get a Free Honest Estimate</a>
   </div>
 
 </div>
@@ -3094,7 +3094,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg" alt="Luxury $50000 bathroom remodel Michigan" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       A $50,000 bathroom renovation in Michigan puts you firmly in luxury territory. This is the budget where you stop making compromises — and start building the kind of spa bathroom you see in high-end design magazines. Here's exactly what that investment delivers in 2026.
     </p>
@@ -3114,28 +3114,28 @@ export const blogPosts: BlogPost[] = [
 
   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">Premium Features You Can Expect</h2>
 
-  <h3 style="font-size:1.2rem;margin:24px 0 8px;color:#1d4ed8;">Marble & Natural Stone Throughout</h3>
+  <h3 style="font-size:1.2rem;margin:24px 0 8px;color:#7A5133;">Marble & Natural Stone Throughout</h3>
   <p>At $50,000, you're not limited to accent stone — you can have full marble slab walls in your shower, marble flooring, and a quartzite vanity top. Book-matched marble panels with dramatic veining are achievable at this level.</p>
 
-  <h3 style="font-size:1.2rem;margin:24px 0 8px;color:#1d4ed8;">Heated Floors</h3>
+  <h3 style="font-size:1.2rem;margin:24px 0 8px;color:#7A5133;">Heated Floors</h3>
   <p>Radiant floor heating under stone tile is standard at this budget. Perfect for Michigan winters — warm stone underfoot from the moment you step out of the shower.</p>
 
-  <h3 style="font-size:1.2rem;margin:24px 0 8px;color:#1d4ed8;">Steam Shower</h3>
+  <h3 style="font-size:1.2rem;margin:24px 0 8px;color:#7A5133;">Steam Shower</h3>
   <p>A fully enclosed steam shower with digital controls, rainfall head, and body jets transforms your daily routine into a spa experience. Properly waterproofed and stone-tiled for long-term performance.</p>
 
-  <h3 style="font-size:1.2rem;margin:24px 0 8px;color:#1d4ed8;">Freestanding Soaking Tub</h3>
+  <h3 style="font-size:1.2rem;margin:24px 0 8px;color:#7A5133;">Freestanding Soaking Tub</h3>
   <p>A statement freestanding tub positioned against a stone feature wall is the defining element of a $50,000 bathroom. Matte white, stone-resin, or copper finishes are all on the table.</p>
 
-  <h3 style="font-size:1.2rem;margin:24px 0 8px;color:#1d4ed8;">Custom Vanity & Smart Features</h3>
+  <h3 style="font-size:1.2rem;margin:24px 0 8px;color:#7A5133;">Custom Vanity & Smart Features</h3>
   <p>Custom-built double vanity with integrated storage, LED-backlit mirrors, smart lighting controls, and high-end brushed brass or matte black fixtures complete the picture.</p>
 
   <h2 style="font-size:1.6rem;margin:40px 0 12px;color:#111827;">Is a $50,000 Bathroom Worth It in Michigan?</h2>
   <p>In markets like Bloomfield Hills, Shelby Township, and West Bloomfield — absolutely. A luxury master bath renovation typically adds <strong>$40,000–$60,000</strong> to home value in these areas, making it one of the highest-ROI home improvements you can make.</p>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">Ready to Build Your Dream Bathroom?</h3>
     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling specializes in luxury stone bathroom renovations across Metro Detroit. Let's create something extraordinary.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule a Luxury Consultation</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Schedule a Luxury Consultation</a>
   </div>
 
 </div>
@@ -3158,7 +3158,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic4.jpeg" alt="Master bathroom remodel ideas Michigan 2026" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       Your master bathroom should be the most personal, comfortable space in your home. In 2026, Michigan homeowners are transforming their master baths into private retreats — here are the most inspiring ideas we're seeing across Metro Detroit right now.
     </p>
@@ -3200,10 +3200,10 @@ export const blogPosts: BlogPost[] = [
     <li style="margin-bottom:10px;"><strong>High-end master bath remodel:</strong> $35,000 – $60,000+</li>
   </ul>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">Design Your Dream Master Bathroom</h3>
     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling specializes in master bathroom renovations across Metro Detroit. Let's turn your vision into reality.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Book a Free Design Consultation</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Book a Free Design Consultation</a>
   </div>
 
 </div>
@@ -3226,7 +3226,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg" alt="Bathroom remodel ideas Michigan 2026" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:20px;margin-bottom:32px;border-radius:6px;">
+  <div style="background:#f8fafc;border-left:4px solid #8F5F3D;padding:20px;margin-bottom:32px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;">
       Whether you're planning a quick refresh or a full renovation, Michigan homeowners in 2026 have more beautiful options than ever. Here's a complete inspiration guide — organized by budget and style — to help you plan the perfect bathroom remodel.
     </p>
@@ -3279,22 +3279,22 @@ export const blogPosts: BlogPost[] = [
     <li style="margin-bottom:10px;">Wood-look vanities paired with white stone countertops</li>
   </ul>
 
-  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:10px;text-align:center;">
+  <div style="margin-top:48px;padding:28px 24px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:10px;text-align:center;">
     <h3 style="margin-bottom:8px;font-size:1.5rem;">Found Your Inspiration?</h3>
     <p style="margin-bottom:16px;opacity:0.95;">Stone Works Remodeling brings bathroom remodel ideas to life across all of Metro Detroit. Let's talk about your project.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get a Free Consultation</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;">Get a Free Consultation</a>
   </div>
 
 </div>
 `
   },
   // ============================================================
-  // 3 NEW RESEARCH-DRIVEN BLOG POSTS
-  // Paste these 3 objects into the blogPosts array in lib/blogPosts.ts,
-  // directly BEFORE the closing  ]  of the array.
-  // (Top Topic #1 from the research — tub-to-shower conversion — is
-  //  already published as post #52, so these are research Topics #2, #3 & #4.)
-  // ============================================================
+// 3 NEW RESEARCH-DRIVEN BLOG POSTS
+// Paste these 3 objects into the blogPosts array in lib/blogPosts.ts,
+// directly BEFORE the closing  ]  of the array.
+// (Top Topic #1 from the research — tub-to-shower conversion — is
+//  already published as post #52, so these are research Topics #2, #3 & #4.)
+// ============================================================
 
   {
     "id": 58,
@@ -3312,7 +3312,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic8.jpeg" alt="Comparing bathroom remodel options in Michigan" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f0f7ff;border-left:4px solid #2563eb;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+  <div style="background:#f0f7ff;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
       If you've had a one-day bath company in your home, you've probably heard the pitch — a brand-new bathroom in 24 hours, no demolition, no mess. Then you saw the quote. Many Metro Detroit homeowners call us at exactly this moment, holding a $9,000–$14,000 estimate for an acrylic system and asking one simple question: <strong>is this worth it, or should I just remodel the whole bathroom?</strong> This is an honest, no-spin answer.
     </p>
@@ -3321,13 +3321,13 @@ export const blogPosts: BlogPost[] = [
   <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">First — What Are You Actually Choosing Between?</h2>
   <p style="margin-bottom:16px;">There are three genuinely different approaches on the market in Michigan, and the marketing language often blurs them together. Here's what each one actually means.</p>
 
-  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">1. Acrylic Liner / One-Day Systems</h3>
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#7A5133;">1. Acrylic Liner / One-Day Systems</h3>
   <p style="margin-bottom:16px;">Companies like Bath Fitter and similar one-day bath brands install a custom-molded acrylic shell <em>over</em> your existing tub and walls, or swap the tub for a prefabricated acrylic base and surround. The original surfaces usually stay in place underneath. The big selling points are speed and minimal disruption — most installs finish in one to two days.</p>
 
-  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">2. Prefab Replacement Systems</h3>
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#7A5133;">2. Prefab Replacement Systems</h3>
   <p style="margin-bottom:16px;">Brands like Re-Bath remove the old tub or shower and install a factory-made replacement — typically a molded acrylic or composite base, wall panels, and fixtures. It's more involved than a liner because the old unit comes out, but it still relies on pre-manufactured panels rather than custom tile work.</p>
 
-  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#1e40af;">3. Full Bathroom Remodel</h3>
+  <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#7A5133;">3. Full Bathroom Remodel</h3>
   <p style="margin-bottom:16px;">A full remodel removes the old shower or tub down to the studs, installs a proper waterproofing membrane, and finishes with custom tile — porcelain or natural stone. It can also include a new vanity, flooring, lighting, and fixtures. It takes longer, but it's a permanent, fully customizable result.</p>
 
   <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Real Michigan Cost Ranges, Side by Side</h2>
@@ -3335,7 +3335,7 @@ export const blogPosts: BlogPost[] = [
 
   <table style="width:100%;border-collapse:collapse;margin:20px 0 32px;">
     <thead>
-      <tr style="background:#2563eb;color:white;">
+      <tr style="background:#8F5F3D;color:white;">
         <th style="padding:12px 16px;text-align:left;font-weight:600;">Option</th>
         <th style="padding:12px 16px;text-align:left;font-weight:600;">Typical Cost</th>
         <th style="padding:12px 16px;text-align:left;font-weight:600;">Timeline</th>
@@ -3405,10 +3405,10 @@ export const blogPosts: BlogPost[] = [
   <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">The Bottom Line</h2>
   <p style="margin-bottom:32px;">If your quote is at the low end and you need speed, a one-day system can be a reasonable choice — and we'll say so. But if you're staring at a $12,000-plus acrylic estimate, get one full-remodel quote before you sign. You owe it to your budget to know what the same money buys in permanent tile.</p>
 
-  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:12px;text-align:center;">
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:12px;text-align:center;">
     <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Have a One-Day Bath Quote? Let's Compare It Honestly.</h3>
     <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Bring us your acrylic or prefab estimate. We'll give you a free, itemized full-remodel quote so you can compare apples to apples — no pressure, no obligation.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Get a Free Comparison Quote</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Get a Free Comparison Quote</a>
     <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#fff;font-weight:700;">(248) 955-2952</a></p>
   </div>
 
@@ -3432,7 +3432,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic6.jpeg" alt="Bathroom remodel in an older Detroit-area home" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f0f7ff;border-left:4px solid #2563eb;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+  <div style="background:#f0f7ff;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
       Detroit, Dearborn, Hamtramck, Ferndale, Royal Oak, Pontiac and the inner-ring suburbs are full of beautiful homes built between the 1920s and the 1970s. They have character a new build can't match — and they also have a habit of revealing surprises the moment a bathroom wall comes down. If you own one of these homes, this guide will help you remodel with your eyes open and your budget prepared.
     </p>
@@ -3473,7 +3473,7 @@ export const blogPosts: BlogPost[] = [
 
   <table style="width:100%;border-collapse:collapse;margin:20px 0 24px;">
     <thead>
-      <tr style="background:#2563eb;color:white;">
+      <tr style="background:#8F5F3D;color:white;">
         <th style="padding:12px 16px;text-align:left;font-weight:600;">Project Scope</th>
         <th style="padding:12px 16px;text-align:left;font-weight:600;">Typical Range</th>
       </tr>
@@ -3496,10 +3496,10 @@ export const blogPosts: BlogPost[] = [
 
   <p style="margin-bottom:32px;">The single most important budgeting rule for an older home: <strong>set aside a 15–20% contingency.</strong> On a $30,000 remodel, that's $4,500–$6,000 held in reserve for whatever the walls reveal. If you don't need it, wonderful. If you do, you won't have to halt the project to find the money.</p>
 
-  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:12px;text-align:center;">
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:12px;text-align:center;">
     <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Remodeling a Bathroom in an Older Detroit-Area Home?</h3>
     <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling has worked in the historic homes of Detroit, Ferndale, Royal Oak, Dearborn and Pontiac for years. We know what's behind those walls — and we'll give you an honest, realistic plan and quote.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Schedule a Free In-Home Assessment</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Schedule a Free In-Home Assessment</a>
     <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#fff;font-weight:700;">(248) 955-2952</a></p>
   </div>
 
@@ -3523,7 +3523,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic2.jpeg" alt="Accessible bathroom remodel for aging in place in Michigan" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f0f7ff;border-left:4px solid #2563eb;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+  <div style="background:#f0f7ff;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
       For many Michigan homeowners, the goal is simple: stay in the home they love, safely, for as long as possible. The bathroom is where that decision usually starts — it's the highest-risk room in the house. The two main accessible upgrades are a walk-in tub and a curbless walk-in shower, and they suit very different people. Here's an honest comparison to help you choose.
     </p>
@@ -3539,7 +3539,7 @@ export const blogPosts: BlogPost[] = [
 
   <table style="width:100%;border-collapse:collapse;margin:20px 0 32px;">
     <thead>
-      <tr style="background:#2563eb;color:white;">
+      <tr style="background:#8F5F3D;color:white;">
         <th style="padding:12px 16px;text-align:left;font-weight:600;">Factor</th>
         <th style="padding:12px 16px;text-align:left;font-weight:600;">Walk-In Tub</th>
         <th style="padding:12px 16px;text-align:left;font-weight:600;">Walk-In Shower</th>
@@ -3602,10 +3602,10 @@ export const blogPosts: BlogPost[] = [
   <p style="margin-bottom:16px;"><strong>Choose a curbless walk-in shower if:</strong> you want the most universally accessible option, you're planning for changing mobility over time, or this is a shared or primary bathroom where everyday flexibility and resale appeal matter.</p>
   <p style="margin-bottom:32px;">For most Michigan homeowners planning to age in place in a home they'll keep for years, a well-designed curbless shower is the more flexible long-term choice. But the walk-in tub is the right answer for the right person — and an honest contractor will tell you which one fits your situation.</p>
 
-  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:12px;text-align:center;">
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:12px;text-align:center;">
     <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Planning an Accessible Bathroom in Michigan?</h3>
     <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling designs safe, beautiful aging-in-place bathrooms across Metro Detroit — walk-in tubs, curbless showers, grab bars built into the tile, and heated floors. Get an honest recommendation for your needs.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Book a Free Accessibility Consultation</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Book a Free Accessibility Consultation</a>
     <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#fff;font-weight:700;">(248) 955-2952</a></p>
   </div>
 
@@ -3614,24 +3614,24 @@ export const blogPosts: BlogPost[] = [
   },
 
   // ============================================================
-  // NEW BLOG POST — fixes the 404 at:
-  // /blog/bathroom-remodel-novi-mi-2025/
-  //
-  // HOW TO ADD: paste this object into the blogPosts array in
-  // lib/blogPosts.ts, directly BEFORE the closing  ]  of the array.
-  //
-  // IMPORTANT — avoid duplicate Novi content:
-  //  - You already have post #25 (slug: bathroom-remodel-novi-minimalist-mi-2025).
-  //  - Recommended: delete/unpublish post #25, then 301-redirect
-  //    /blog/bathroom-remodel-novi-minimalist-mi-2025
-  //      -> /blog/bathroom-remodel-novi-mi-2025
-  //  - The slug below is intentionally "...-2025" so it matches the
-  //    URL Google already knows and clears the 404. (Once a post uses
-  //    this slug, the trailing-slash version will normalize on its own.)
-  //
-  // NOTE ON ID: this uses id 61, assuming posts 58-60 were added.
-  // If you have NOT added 58-60 yet, change this id to 58.
-  // ============================================================
+// NEW BLOG POST — fixes the 404 at:
+// /blog/bathroom-remodel-novi-mi-2025/
+//
+// HOW TO ADD: paste this object into the blogPosts array in
+// lib/blogPosts.ts, directly BEFORE the closing  ]  of the array.
+//
+// IMPORTANT — avoid duplicate Novi content:
+//  - You already have post #25 (slug: bathroom-remodel-novi-minimalist-mi-2025).
+//  - Recommended: delete/unpublish post #25, then 301-redirect
+//    /blog/bathroom-remodel-novi-minimalist-mi-2025
+//      -> /blog/bathroom-remodel-novi-mi-2025
+//  - The slug below is intentionally "...-2025" so it matches the
+//    URL Google already knows and clears the 404. (Once a post uses
+//    this slug, the trailing-slash version will normalize on its own.)
+//
+// NOTE ON ID: this uses id 61, assuming posts 58-60 were added.
+// If you have NOT added 58-60 yet, change this id to 58.
+// ============================================================
 
   {
     "id": 61,
@@ -3649,7 +3649,7 @@ export const blogPosts: BlogPost[] = [
 
   <img src="https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic3.jpeg" alt="Bathroom remodel in Novi, MI" style="width:100%;border-radius:10px;margin-bottom:28px;">
 
-  <div style="background:#f0f7ff;border-left:4px solid #2563eb;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
+  <div style="background:#f0f7ff;border-left:4px solid #8F5F3D;padding:20px 24px;margin-bottom:36px;border-radius:6px;">
     <p style="font-size:1.1rem;font-weight:500;margin:0;color:#1e3a5f;">
       Novi is one of Oakland County's most desirable communities — strong schools, well-kept subdivisions, and a steady mix of newer construction and established homes. In 2026, bathroom remodeling is one of the top home-improvement projects here, and homeowners want the same thing: a cleaner, more functional, more valuable bathroom without overspending. This guide breaks down real local costs, the trends Novi homeowners are choosing, and how to plan the project well.
     </p>
@@ -3660,7 +3660,7 @@ export const blogPosts: BlogPost[] = [
 
   <table style="width:100%;border-collapse:collapse;margin:20px 0 32px;">
     <thead>
-      <tr style="background:#2563eb;color:white;">
+      <tr style="background:#8F5F3D;color:white;">
         <th style="padding:12px 16px;text-align:left;font-weight:600;">Remodel Type</th>
         <th style="padding:12px 16px;text-align:left;font-weight:600;">Typical Cost Range</th>
         <th style="padding:12px 16px;text-align:left;font-weight:600;">What's Included</th>
@@ -3722,10 +3722,10 @@ export const blogPosts: BlogPost[] = [
     <li style="margin-bottom:0;">Local references and reviews from real Metro Detroit projects.</li>
   </ul>
 
-  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#2563eb,#1d4ed8);color:#ffffff;border-radius:12px;text-align:center;">
+  <div style="margin-top:48px;padding:32px 28px;background:linear-gradient(135deg,#302316,#1D1309);color:#ffffff;border-radius:12px;text-align:center;">
     <h3 style="margin-bottom:10px;font-size:1.6rem;font-weight:700;">Planning a Bathroom Remodel in Novi, MI?</h3>
     <p style="margin-bottom:20px;font-size:1rem;opacity:0.95;max-width:520px;margin-left:auto;margin-right:auto;">Stone Works Remodeling serves Novi and all of Oakland County with expert stone tile work and full bathroom renovations. Get a free, itemized quote with no pressure and no obligation.</p>
-    <a href="/contact" style="display:inline-block;background:#ffffff;color:#1d4ed8;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Schedule a Free In-Home Consultation</a>
+    <a href="/contact" style="display:inline-block;background:#ffffff;color:#7A5133;padding:14px 28px;border-radius:8px;font-weight:700;text-decoration:none;font-size:1rem;">Schedule a Free In-Home Consultation</a>
     <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#fff;font-weight:700;">(248) 955-2952</a></p>
   </div>
 
@@ -3733,14 +3733,7 @@ export const blogPosts: BlogPost[] = [
 `
   },
 
-  // ============================================================
-  // 5 NEW SEO BLOG POSTS — Paste into the blogPosts array in
-  // lib/blogPosts.ts, directly BEFORE the closing  ]  of the array.
-  // IDs 62–66 (change if you've added other posts since #61).
-  // CTAs use the new luxury espresso/gold brand colors.
-  // ============================================================
-
-  {
+{
     "id": 62,
     "title": "Luxury Bathroom Remodel Birmingham, MI 2026 – Marble, Spa Design & Estate Trends",
     "meta_title": "Luxury Bathroom Remodel Birmingham, MI 2026 | Marble & Spa Design",
@@ -4036,6 +4029,4 @@ export const blogPosts: BlogPost[] = [
 </div>
 `
   },
-
-
 ]

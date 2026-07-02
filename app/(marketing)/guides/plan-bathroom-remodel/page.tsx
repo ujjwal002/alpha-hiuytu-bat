@@ -96,7 +96,7 @@ export default function PlanBathroomRemodelGuide() {
               budget ($8K-$25K standard, $25K-$60K+ luxury), clear scope, and a
               licensed Michigan contractor with verifiable insurance and reviews.
               Standard projects take 5-10 business days. Most contractors offer
-              0% APR financing for 12 months. Always pull township permits for
+              Flexible financing is available for qualified homeowners. Always pull township permits for
               plumbing or electrical changes.
             </p>
             <p className="text-sm text-slate-600">

@@ -115,8 +115,8 @@ export const planBathroomRemodelSteps: HowToStep[] = [
     text: "Order tile, vanity, fixtures, and lighting at least 2-3 weeks before construction begins. Material delays are the #1 cause of bathroom remodel timeline overruns. Stick with what's in stock at local suppliers when possible.",
   },
   {
-    name: "Apply for financing if needed",
-    text: "Many Metro Detroit bathroom contractors offer 0% APR financing for 12 months on qualified credit. A $10,000 project can be as low as $149/month over 84 months. Soft credit pulls let you check rates without affecting your credit score.",
+    name: "Select your materials and finishes",
+    text: "Choose your tile, stone, vanity, fixtures, and finishes with your contractor. A quality remodeler brings curated material samples to your home so you can see marble, natural stone, and fixture finishes in your own lighting before deciding.",
   },
   {
     name: "Verify permits and final inspection",

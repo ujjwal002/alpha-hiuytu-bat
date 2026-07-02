@@ -29,22 +29,22 @@ import { HomepageVideoSchemas } from "./schemas/VideoSchema";
 // proper before/after pairs, just update these src paths.
 const beforeAfterPairs = [
   {
-    after: "/home/luxury-bathroom-remodel-before-metro-detroit.jpg",
-    before: "/home/luxury-bathroom-remodel-after-metro-detroit.jpg",
+    before: "/home/luxury-bathroom-remodel-before-metro-detroit.jpg",
+    after: "/home/luxury-bathroom-remodel-after-metro-detroit.jpg",
     alt: "Luxury master bathroom remodel design concept with Calacatta marble, freestanding tub and brass chandelier — Stone Works Remodeling, Metro Detroit MI",
     label: "Master Bath Design Concept — Metro Detroit",
     service: "Complete Bathroom Remodel",
   },
   {
-    after: "/home/tub-to-shower-conversion-before-metro-detroit.jpg",
-    before: "/home/tub-to-shower-conversion-after-metro-detroit.jpg",
+    before: "/home/tub-to-shower-conversion-before-metro-detroit.jpg",
+    after: "/home/tub-to-shower-conversion-after-metro-detroit.jpg",
     alt: "Tub-to-shower conversion design concept with dark stone walk-in wet room and frameless glass — Stone Works Remodeling, Metro Detroit MI",
     label: "Wet Room Design Concept — Metro Detroit",
     service: "Tub-to-Shower Conversion",
   },
   {
-    after: "/home/walk-in-tub-installation-before-metro-detroit.jpg",
-    before: "/home/walk-in-tub-installation-after-metro-detroit.jpg",
+    before: "/home/walk-in-tub-installation-before-metro-detroit.jpg",
+    after: "/home/walk-in-tub-installation-after-metro-detroit.jpg",
     alt: "Walk-in tub installation design concept with travertine spa styling and teak accents — Stone Works Remodeling, Metro Detroit MI",
     label: "Spa Walk-in Tub Concept — Metro Detroit",
     service: "Walk-in Tub Installation",
@@ -207,7 +207,7 @@ function QuoteForm() {
             <label htmlFor="zip-input" className="block text-sm font-semibold text-gray-700 mb-1">Your Zip Code *</label>
             <input id="zip-input" type="text" name="zip" required value={form.zip} onChange={onChange} placeholder="48150" className={inputCls} autoComplete="postal-code" inputMode="numeric" pattern="[0-9]*" maxLength={5} />
           </div>
-          <button type="submit" className="w-full bg-gold-600 hover:bg-gold-500 text-white py-4 rounded-lg font-bold text-base transition-colors flex items-center justify-center gap-2">
+          <button type="submit" className="w-full bg-gold-600 hover:bg-gold-700 text-white py-4 rounded-lg font-bold text-base transition-colors flex items-center justify-center gap-2">
             Continue <ArrowRight className="h-5 w-5" />
           </button>
           <p className="text-xs text-center text-slate-500">No spam. We respond within 2 business hours.</p>
@@ -236,7 +236,7 @@ function QuoteForm() {
             <button type="button" onClick={() => setStep(1)} className="px-4 py-3 rounded-lg border border-slate-300 text-slate-700 font-semibold text-sm hover:bg-slate-50">
               Back
             </button>
-            <button type="submit" disabled={status === "submitting"} className="flex-1 bg-gold-600 hover:bg-gold-500 disabled:opacity-60 text-white py-3 rounded-lg font-bold text-base transition-colors flex items-center justify-center gap-2">
+            <button type="submit" disabled={status === "submitting"} className="flex-1 bg-gold-600 hover:bg-gold-700 disabled:opacity-60 text-white py-3 rounded-lg font-bold text-base transition-colors flex items-center justify-center gap-2">
               {status === "submitting"
                 ? <><div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />Sending...</>
                 : <><Send className="h-5 w-5" />Submit Request</>}
@@ -248,6 +248,9 @@ function QuoteForm() {
   );
 }
 
+// ─── Main ─────────────────────────────────────────────────────────────────────
+
+// Delays the hero video ~1.2s so it never competes with the poster's first paint (protects LCP).
 function HeroVideo() {
   const [ready, setReady] = useState(false);
   useEffect(() => {
@@ -258,15 +261,16 @@ function HeroVideo() {
   return (
     <video
       className="absolute inset-0 h-full w-full object-cover"
-      autoPlay muted loop playsInline
+      autoPlay
+      muted
+      loop
+      playsInline
       aria-hidden="true"
     >
       <source src="/bathroom/hero-video.mp4" type="video/mp4" />
     </video>
   );
 }
-
-// ─── Main ─────────────────────────────────────────────────────────────────────
 
 export default function HomePage() {
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
@@ -295,7 +299,7 @@ export default function HomePage() {
 
         {/* ── Desktop floating CTA ── */}
         <div className="fixed bottom-6 right-6 z-50 hidden md:block">
-          <a href="#quote-form" className="bg-gold-600 hover:bg-gold-500 text-white px-5 py-3 rounded-full shadow-lg transition-colors flex items-center gap-2 font-bold text-sm" aria-label="Get a free bathroom remodeling quote">
+          <a href="#quote-form" className="bg-gold-600 hover:bg-gold-700 text-white px-5 py-3 rounded-full shadow-lg transition-colors flex items-center gap-2 font-bold text-sm" aria-label="Get a free bathroom remodeling quote">
             <MessageCircle className="h-5 w-5" aria-hidden="true" />Get Free Quote
           </a>
         </div>
@@ -304,8 +308,7 @@ export default function HomePage() {
 
           {/* ══ HERO — cinematic luxury video ══ */}
           <section className="relative overflow-hidden py-14 sm:py-20 lg:py-28">
-            {/* Background video */}
-            {/* Optimized poster paints instantly (LCP), video fades in after */}
+            {/* Poster image paints instantly = the LCP element. Optimized by next/image (WebP/AVIF, preloaded). */}
             <Image
               src="/bathroom/hero-poster.jpg"
               alt=""
@@ -316,6 +319,7 @@ export default function HomePage() {
               className="absolute inset-0 object-cover"
               aria-hidden="true"
             />
+            {/* Video mounts ~1.2s after load so it never competes with first paint. No poster (image handles it). */}
             <HeroVideo />
             {/* Cinematic espresso gradient overlay for text legibility */}
             <div className="absolute inset-0 bg-gradient-to-r from-espresso-950/85 via-espresso-950/60 to-espresso-950/35" aria-hidden="true" />
@@ -340,7 +344,7 @@ export default function HomePage() {
                     Bespoke master baths · Marble &amp; natural stone · Heated floors · Frameless glass showers
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 mb-10 justify-center lg:justify-start">
-                    <a href={PHONE_HREF} onClick={onCallClick} className="bg-gold-600 hover:bg-gold-500 text-white px-8 py-4 rounded-lg font-bold text-base transition-colors flex items-center justify-center gap-2 w-full sm:w-auto shadow-lg shadow-espresso-950/40" aria-label="Call Stone Works Remodeling for a free luxury bathroom remodeling consultation">
+                    <a href={PHONE_HREF} onClick={onCallClick} className="bg-gold-600 hover:bg-gold-700 text-white px-8 py-4 rounded-lg font-bold text-base transition-colors flex items-center justify-center gap-2 w-full sm:w-auto shadow-lg shadow-espresso-950/40" aria-label="Call Stone Works Remodeling for a free luxury bathroom remodeling consultation">
                       <Phone className="h-5 w-5" aria-hidden="true" />{PHONE}
                     </a>
                     <a href="#quote-form" className="border-2 border-gold-300/60 hover:border-gold-300 hover:bg-gold-300/10 text-cream-50 px-8 py-4 rounded-lg font-bold text-base transition-colors flex items-center justify-center gap-2 w-full sm:w-auto backdrop-blur-sm" aria-label="Schedule a free bathroom remodeling consultation">
@@ -357,16 +361,16 @@ export default function HomePage() {
                   >
                     <span className="bg-white rounded-full p-1.5">
                       <svg className="h-4 w-4" viewBox="0 0 24 24" aria-hidden="true">
-                        <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
-                        <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
-                        <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" />
-                        <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" />
+                        <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                        <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                        <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                        <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
                       </svg>
                     </span>
                     <div className="flex items-center gap-1.5">
                       <span className="font-bold text-white text-base">5.0</span>
-                      <div className="flex items-center gap-0.5" aria-label="5 stars">
-                        {[1, 2, 3, 4, 5].map((n) => <Star key={n} className="h-3.5 w-3.5 text-amber-400 fill-amber-400" aria-hidden="true" />)}
+                      <div className="flex items-center gap-0.5" role="img" aria-label="5 stars">
+                        {[1,2,3,4,5].map((n) => <Star key={n} className="h-3.5 w-3.5 text-amber-400 fill-amber-400" aria-hidden="true" />)}
                       </div>
                     </div>
                     <span className="text-cream-100 text-sm">on Google</span>
@@ -391,7 +395,7 @@ export default function HomePage() {
                       </li>
                     ))}
                   </ul>
-                  <a href={PHONE_HREF} onClick={onCallClick} className="block w-full bg-gold-600 hover:bg-gold-500 text-white py-4 rounded-lg font-bold text-base transition-colors text-center" aria-label="Call to reserve your private bathroom design consultation">
+                  <a href={PHONE_HREF} onClick={onCallClick} className="block w-full bg-gold-600 hover:bg-gold-700 text-white py-4 rounded-lg font-bold text-base transition-colors text-center" aria-label="Call to reserve your private bathroom design consultation">
                     <Phone className="inline h-5 w-5 mr-2" aria-hidden="true" />Reserve Your Consultation
                   </a>
                   <p className="text-stonelux-300 text-xs mt-4 text-center">Complimentary &amp; without obligation · <a href="#quote-form" className="underline hover:text-cream-50">or request online</a></p>
@@ -510,7 +514,7 @@ export default function HomePage() {
                 ))}
               </div>
               <div className="mt-10 text-center flex flex-col sm:flex-row gap-3 justify-center items-center">
-                <a href="#quote-form" className="inline-flex items-center bg-gold-600 hover:bg-gold-500 text-white px-8 py-4 rounded-lg font-bold transition-colors gap-2">
+                <a href="#quote-form" className="inline-flex items-center bg-gold-600 hover:bg-gold-700 text-white px-8 py-4 rounded-lg font-bold transition-colors gap-2">
                   Start Your Project Today<ArrowRight className="h-5 w-5" aria-hidden="true" />
                 </a>
                 <Link href="/guides/plan-bathroom-remodel" className="inline-flex items-center text-gold-700 hover:text-gold-600 font-bold gap-1 px-4 py-2">
