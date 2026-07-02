@@ -74,7 +74,7 @@ function Slider({ pair }: { pair: Pair }) {
           alt={`After: ${pair.alt}`}
           fill
           className="object-cover pointer-events-none"
-          sizes="(max-width: 768px) 100vw, 50vw"
+          sizes="(max-width: 1024px) 100vw, 900px"
           quality={80}
         />
       </div>
@@ -93,7 +93,7 @@ function Slider({ pair }: { pair: Pair }) {
             alt={`Before: ${pair.alt}`}
             fill
             className="object-cover"
-            sizes="(max-width: 768px) 100vw, 50vw"
+            sizes="(max-width: 1024px) 100vw, 900px"
             quality={80}
           />
         </div>
@@ -174,7 +174,7 @@ export default function BeforeAfter({ pairs, className = "" }: BeforeAfterProps)
                 alt=""
                 fill
                 className="object-cover"
-                sizes="80px"
+                sizes="150px"
                 quality={50}
               />
             </button>

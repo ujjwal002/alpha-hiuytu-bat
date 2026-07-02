@@ -1,5 +1,5 @@
 "use client";
-import { useState ,useEffect} from "react";
+import { useState, useEffect } from "react";
 import {
   Star, Check, Phone, ArrowRight, ChevronRight,
   Shield, Award, Users, Hammer, Palette, Ruler, Zap,
@@ -311,6 +311,7 @@ export default function HomePage() {
               alt=""
               fill
               priority
+              quality={60}
               sizes="100vw"
               className="absolute inset-0 object-cover"
               aria-hidden="true"
