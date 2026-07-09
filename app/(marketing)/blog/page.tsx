@@ -5,52 +5,10 @@ import Link from "next/link";
 import { ArrowRight, Search, Clock, User, ChevronLeft, ChevronRight } from "lucide-react";
 import { blogPosts, categories } from "@/lib/blogPosts"; // Import from lib/blogPosts.ts
 
-// SEO Metadata Component
-function SEOMetadata() {
-  return (
-    <>
-      <title>Stone Works Remodeling | Blog</title>
-      <meta
-        name="description"
-        content="Explore Stone Works Remodeling’s blog for expert tips on stone-based bathroom remodeling, design trends, project spotlights, and company updates."
-      />
-      <meta
-        name="keywords"
-        content="Stone Works Remodeling blog, stone bathroom remodeling, stone design tips, bathroom renovation trends"
-      />
-      <meta property="og:title" content="Stone Works Remodeling | Blog" />
-      <meta
-        property="og:description"
-        content="Discover expert advice, stone design trends, and remodeling inspiration on the Stone Works Remodeling blog."
-      />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.stoneworksremodeling.com/blog" />
-      <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" />
-      <link rel="canonical" href="https://www.stoneworksremodeling.com/blog" />
-      <link rel="alternate" hrefLang="en-us" href="https://www.stoneworksremodeling.com/" />
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Blog",
-            name: "Stone Works Remodeling Blog",
-            url: "https://www.stoneworksremodeling.com/blog",
-            description:
-              "Stone Works Remodeling’s blog offers expert advice on stone-based bathroom remodeling, design trends, and project inspiration.",
-            publisher: {
-              "@type": "Organization",
-              name: "Stone Works Remodeling",
-              url: "https://www.stoneworksremodeling.com/",
-              logo: "https://www.stoneworksremodeling.com/images/logo.png",
-            },
-          }),
-        }}
-      />
-    </>
-  );
-}
+// Newest posts first — the array in blogPosts.ts is not in date order.
+const sortedPosts = [...blogPosts].sort(
+  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+);
 
 export default function BlogPage() {
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
@@ -68,7 +26,7 @@ export default function BlogPage() {
   }, []);
 
   // Filter and search posts
-  const filteredPosts = blogPosts.filter(
+  const filteredPosts = sortedPosts.filter(
     (post) =>
       (selectedCategory === "all" || post.category === selectedCategory) &&
       (searchTerm === "" ||
@@ -91,12 +49,6 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <style jsx global>{`
-        .hero-bg {
-          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c");
-          background-size: cover;
-          background-position: center;
-        }
         .blog-card {
           transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
@@ -124,7 +76,6 @@ export default function BlogPage() {
         }
       `}</style>
 
-      <SEOMetadata />
 
       {/* Blog Posts Section */}
       <section id="blog-posts" className="py-12 sm:py-16 bg-white">
@@ -199,7 +150,6 @@ export default function BlogPage() {
                         <div className="flex items-center text-sm text-gray-500">
                           <Clock className="h-4 w-4 mr-1" />
                           <span>{post.date}</span>
- ross-domestic-partner: true
                           <span className="mx-2">•</span>
                           <User className="h-4 w-4 mr-1" />
                           <span>{post.author}</span>
@@ -268,7 +218,7 @@ export default function BlogPage() {
                   Recent Posts
                 </h3>
                 <ul className="space-y-4">
-                  {blogPosts.slice(0, 3).map((post) => (
+                  {sortedPosts.slice(0, 3).map((post) => (
                     <li key={post.id}>
                       <Link
                         href={`/blog/${post.slug}`}

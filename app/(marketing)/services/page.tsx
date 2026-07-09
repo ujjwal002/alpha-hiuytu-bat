@@ -2,11 +2,11 @@ import { Metadata } from "next";
 import ServicesPageClient from "@/components/ServicesPageClient";
 
 export const metadata: Metadata = {
-  title: "Premium Bathroom Remodeling Services in Metro Detroit, MI | Stone Works Remodeling",
+  title: "Premium Bathroom Remodeling Services in Metro Detroit, MI",
   description:
     "Expert bathroom remodeling services in Metro Detroit including shower conversions, walk-in tubs, and stone installations.",
   alternates: {
-    canonical: "https://www.stoneworksremodeling.com/services",
+    canonical: "/services/",
   },
 };
 

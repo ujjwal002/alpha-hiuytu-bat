@@ -22,18 +22,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!service) {
     return {
-      title: "Service Not Found | Stone Works Remodeling",
+      title: "Service Not Found",
       description: "The requested service could not be found.",
     };
   }
 
   return {
-    title: `${service.title} in Metro Detroit, MI | Stone Works Remodeling`,
+    title: `${service.title} in Metro Detroit, MI`, // layout template appends "| Stone Works Remodeling" once
     description: service.shortDescription,
-    keywords: `${service.title.toLowerCase()}, bathroom remodeling metro detroit, michigan, stone works remodeling`,
-    // FIX: relative canonical so metadataBase handles the domain
     alternates: {
-      canonical: `/services/${slug}`,
+      canonical: `/services/${slug}/`,
     },
     openGraph: {
       title: `${service.title} | Stone Works Remodeling — Metro Detroit`,
@@ -68,10 +66,10 @@ export default async function ServicePage({ params }: PageProps) {
                 </span>
       
                 {/* Heading */}
-                <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight mb-5">
+                <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight mb-5">
                   {service.title} Services in{" "}
                   <span className="text-gold-700">Metro Detroit, MI</span>
-                </h2>
+                </h1>
       
                 {/* Description */}
                 <p className="text-lg text-gray-700 leading-relaxed mb-4 max-w-3xl">

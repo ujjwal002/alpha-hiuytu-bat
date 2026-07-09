@@ -16,13 +16,13 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   const { slug } = await params;
 
   if (!slug) return {
-    title: "Blog Post Not Found | Stone Works Remodeling",
+    title: "Blog Post Not Found",
     description: "The requested blog post could not be found.",
   };
 
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return {
-    title: "Blog Post Not Found | Stone Works Remodeling",
+    title: "Blog Post Not Found",
     description: "The requested blog post could not be found.",
   };
 
@@ -30,9 +30,10 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   const metaDescription = post.meta_description || post.excerpt;
 
   return {
-    title: metaTitle,
+    // `absolute` because meta_title values in blogPosts.ts already include
+    // "| Stone Works Remodeling" — the layout template was appending it twice.
+    title: { absolute: metaTitle },
     description: metaDescription,
-    keywords: `${post.title.toLowerCase()}, bathroom remodeling metro detroit, stone works remodeling, ${post.category}`,
     openGraph: {
       title: post.meta_title || post.title,
       description: metaDescription,
@@ -47,7 +48,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
       images: post.image ? [post.image] : [],
     },
     alternates: {
-      canonical: `/blog/${post.slug}`,
+      canonical: `/blog/${post.slug}/`,
     },
   };
 }

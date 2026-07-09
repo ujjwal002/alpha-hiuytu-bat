@@ -282,9 +282,10 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* CTA Button */}
+          {/* CTA Button — goes to the 3-field quick form, not the long
+              contact questionnaire. Shorter first touch = more leads. */}
           <Link
-            href="/contact"
+            href="/#quote-form"
             className="hidden lg:flex bg-gold-600 hover:bg-gold-500 text-white px-4 sm:px-6 py-2 rounded-md text-sm font-medium transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-px transform ml-6"
           >
             FREE QUOTE
@@ -449,10 +450,10 @@ export default function Header() {
           Contact
         </Link>
 
-        {/* Mobile CTA */}
+        {/* Mobile CTA — quick form, not the long questionnaire */}
         <div className="mt-4 mb-2">
           <Link
-            href="/contact"
+            href="/#quote-form"
             className="block w-full bg-gold-600 hover:bg-gold-500 text-white py-3 rounded-md text-center text-sm font-medium transition-all duration-300 shadow-md hover:shadow-lg"
             onClick={() => setMobileMenuOpen(false)}
           >

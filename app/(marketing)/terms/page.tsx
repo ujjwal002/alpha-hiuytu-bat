@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | Stone Works Remodeling",
+  title: "Terms & Conditions",
   description: "Terms and conditions for using Stone Works Remodeling services and website.",
   // noindex — terms pages should not appear in search results
   robots: { index: false, follow: false },

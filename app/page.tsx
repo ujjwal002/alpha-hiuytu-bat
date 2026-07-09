@@ -4,8 +4,12 @@ import { Suspense } from "react";
 import HomeClient from "./components/HomeClient";
 
 export const metadata: Metadata = {
-  // Brand name in title helps CTR and recognition in SERPs
-  title: "Luxury Bathroom Remodeling Metro Detroit MI | Stone Works Remodeling",
+  // Brand name in title helps CTR and recognition in SERPs.
+  // `absolute` opts out of the "%s | Stone Works Remodeling" template in
+  // layout.tsx — without it the brand was appended twice.
+  title: {
+    absolute: "Luxury Bathroom Remodeling Metro Detroit MI | Stone Works Remodeling",
+  },
   description:
     "Luxury bathroom remodeling in Metro Detroit, MI. Spa-style master baths, marble & custom tile, walk-in showers, heated floors. Licensed, insured, 5-year warranty. Free design consultation.",
   keywords: [

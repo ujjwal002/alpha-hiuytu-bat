@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import CityLanding from "../../components/CityLanding";
 
 export const metadata: Metadata = {
-  title: "Bathroom Remodeling Dearborn, MI | Stone Works Remodeling",
+  title: "Bathroom Remodeling Dearborn, MI",
   description: "Professional bathroom remodeling in Dearborn, MI. Custom renovations, tub-to-shower conversions & walk-in tubs. Licensed, 5-year warranty. Free quote!",
   alternates: {
-    canonical: "/dearborn",
+    canonical: "/dearborn/",
   },
 };
 

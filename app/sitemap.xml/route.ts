@@ -14,6 +14,9 @@ export async function GET() {
     { url: "/about/", priority: "0.7", changefreq: "monthly" },
     { url: "/testimonials/", priority: "0.7", changefreq: "monthly" },
     { url: "/blog/", priority: "0.8", changefreq: "weekly" },
+    // These two were missing from the sitemap entirely
+    { url: "/compare/", priority: "0.7", changefreq: "monthly" },
+    { url: "/guides/plan-bathroom-remodel/", priority: "0.8", changefreq: "monthly" },
   ];
 
   // Service pages

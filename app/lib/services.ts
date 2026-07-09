@@ -6,7 +6,7 @@ const services = [
       longDescription: "Our bathroom remodeling services transform outdated spaces into beautiful, functional areas that reflect your personal style. We handle everything from design to installation, using premium stone materials and the latest techniques to ensure a stunning result that increases your home's value.",
       features: [
         "Custom design consultations",
-        "Premium selection",
+        "Premium stone and tile selection",
         "Fixture upgrades and replacements",
         "Lighting improvements",
         "Flooring installation",

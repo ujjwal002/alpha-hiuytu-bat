@@ -22,6 +22,9 @@ export const categories: Category[] = [
   { id: "all", label: "All Posts" },
   { id: "stone-design", label: "Stone Design" },
   { id: "remodeling-tips", label: "Remodeling Tips" },
+  { id: "bathroom-remodel", label: "City Remodel Guides" },
+  { id: "trends", label: "Trends" },
+  { id: "design-guides", label: "Design Guides" },
   { id: "project-spotlight", label: "Project Spotlights" },
   { id: "company-updates", label: "Company Updates" },
 ];
@@ -115,7 +118,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "See how we used marble stone to transform a dated bathroom into a luxurious retreat.",
     category: "project-spotlight",
     date: "2025-03-15",
-    author: "Mike Johnson",
+    author: "Valjon Qejvani",
     image: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg",
     slug: "marble-bathroom-transformation",
     meta_title: "Marble Bathroom Transformation Bloomfield Hills MI | Stone Works",
@@ -187,7 +190,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Discover how to select the ideal stone material that combines beauty, durability, and safety for your shower renovation.",
     category: "remodeling-tips",
     date: "2025-02-28",
-    author: "Emily Davis",
+    author: "Valjon Qejvani",
     image: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg",
     slug: "choose-stone-shower",
     meta_title: "Best Stone for Your Shower 2025 | Marble, Slate, Granite & Quartz",
@@ -418,7 +421,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Discover how slate's natural beauty, durability, and safety features make it ideal for luxury bathroom designs.",
     category: "stone-design",
     date: "2025-02-10",
-    author: "John Doe",
+    author: "Valjon Qejvani",
     image: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic13.jpeg",
     slug: "slate-bathroom-remodeling",
     meta_title: "Slate Bathroom Remodeling Guide | Benefits, Colors & Care Tips",
@@ -723,7 +726,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Discover the most innovative design trends that are transforming bathrooms into high-tech wellness sanctuaries this year.",
     category: "trends",
     date: "2025-03-10",
-    author: "Alex Johnson",
+    author: "Valjon Qejvani",
     image: "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic15.jpeg",
     slug: "bathroom-trends-2025",
     meta_title: "Top Luxury Bathroom Remodeling Trends 2025 | Stone Works Remodeling",
@@ -903,7 +906,7 @@ export const blogPosts: BlogPost[] = [
   //   "excerpt": "Explore top bathroom remodeling trends for 2025, focusing on sustainability, accessibility, and space-saving solutions for modern homes.",
   //   "category": "trends",
   //   "date": "2025-04-15",
-  //   "author": "Alex Johnson",
+  //   "author": "Valjon Qejvani",
   //   "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/accessible-eco-bathroom-2025.webp",
   //   "slug": "bathroom-remodeling-trends-2025",
   //   "content": `
@@ -1798,7 +1801,7 @@ export const blogPosts: BlogPost[] = [
     "excerpt": "Discover the top natural stone design trends shaping 2025 bathroom remodels.",
     "category": "stone-design",
     "date": "2025-11-19",
-    "author": "Emily Davis",
+    "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/stone.jpeg",
     "slug": "natural-stone-trends",
     "content": "<div class='blog-intro'><p class='lead'>Natural stone continues to define luxury bathroom design in 2025. These trending materials elevate your remodel with timeless beauty.</p></div><h2>1. Large Format Stone Slabs</h2><p>Minimal grout, maximum impact.</p><h2>2. Veined Marble</h2><p>Dramatic, bookmatched patterns are in demand.</p><h2>3. Textured Slate</h2><p>Adds depth and grip to wet areas.</p><h2>4. Quartzite</h2><p>Hard, durable, and stunning — perfect for high-end bathrooms.</p>"
@@ -1811,7 +1814,7 @@ export const blogPosts: BlogPost[] = [
     "excerpt": "Easy ways to save water in your 2025 bathroom remodel without compromising style.",
     "category": "remodeling-tips",
     "date": "2025-11-19",
-    "author": "Emily Davis",
+    "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/water.jpeg",
     "slug": "water-saving-remodels",
     "content": "<div class='blog-intro'><p class='lead'>Water efficiency is a top priority in 2025 bathroom remodels. These upgrades help reduce your water bill and environmental impact.</p></div><h2>1. Low-Flow Fixtures</h2><p>Modern low-flow faucets and showerheads save up to 40% water.</p><h2>2. Smart Showers</h2><p>Digital temperature controls prevent water waste.</p><h2>3. Dual-Flush Toilets</h2><p>Cut down toilet water usage by 50%.</p><h2>4. Efficient Layout</h2><p>Shorter pipe runs reduce heat loss and water usage.</p>"
@@ -1824,7 +1827,7 @@ export const blogPosts: BlogPost[] = [
     "excerpt": "A 2025 guide to building an eco-friendly bathroom using sustainable materials and efficient fixtures.",
     "category": "remodeling-tips",
     "date": "2025-11-19",
-    "author": "Emily Davis",
+    "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/eco.jpeg",
     "slug": "eco-friendly-bathrooms",
     "content": "<div class='blog-intro'><p class='lead'>Eco-friendly bathroom remodels are trending in 2025 as homeowners prioritize sustainability. Here’s how to build a greener, healthier space.</p></div><h2>1. Sustainable Materials</h2><p>Recycled glass tile, bamboo vanities, and reclaimed wood are popular choices.</p><h2>2. Efficient Lighting</h2><p>LED and motion-sensor lighting reduce energy consumption.</p><h2>3. Water Conservation</h2><p>Low-flow fixtures drastically cut water waste.</p><h2>4. Eco-Friendly Paint</h2><p>Use low-VOC paint for cleaner indoor air.</p>"
@@ -1837,7 +1840,7 @@ export const blogPosts: BlogPost[] = [
     "excerpt": "The healthiest and safest materials for your 2025 bathroom remodel.",
     "category": "remodeling-tips",
     "date": "2025-11-19",
-    "author": "Emily Davis",
+    "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/healthy.jpeg",
     "slug": "healthy-home-materials",
     "content": "<div class='blog-intro'><p class='lead'>Healthy bathrooms start with the right materials. Choose options that improve indoor air quality and resist mold.</p></div><h2>1. Low-VOC Paints</h2><p>Reduce harmful fumes and improve indoor air quality.</p><h2>2. Mold-Resistant Tile</h2><p>Porcelain and slate naturally resist moisture and bacteria.</p><h2>3. Non-Toxic Sealants</h2><p>Safe, long-lasting protection for stone and grout.</p><h2>4. Natural Ventilation</h2><p>Proper ventilation reduces humidity and improves health.</p>"
@@ -1962,7 +1965,7 @@ export const blogPosts: BlogPost[] = [
     "excerpt": "Smart and affordable small bathroom remodel ideas for Lansing homeowners in 2026.",
     "category": "remodeling-tips",
     "date": "2026-01-02",
-    "author": "Emily Davis",
+    "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic1.jpeg",
     "slug": "small-bathroom-remodel-ideas-lansing-mi",
     "content": `
@@ -2063,7 +2066,7 @@ export const blogPosts: BlogPost[] = [
     "excerpt": "A complete 2026 guide to finding the best bathroom remodel contractors near you in Grand Rapids, MI.",
     "category": "remodeling-tips",
     "date": "2026-01-02",
-    "author": "Emily Davis",
+    "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic1.jpeg",
     "slug": "bathroom-remodel-contractors-near-me-grand-rapids-mi",
     "content": `
@@ -2131,7 +2134,7 @@ export const blogPosts: BlogPost[] = [
     "excerpt": "A 2026 homeowner guide to bathroom remodel permit costs and requirements across Michigan.",
     "category": "remodeling-tips",
     "date": "2026-01-02",
-    "author": "Emily Davis",
+    "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic10.jpeg",
     "slug": "bathroom-remodel-permit-cost-michigan",
     "content": `
@@ -2206,7 +2209,7 @@ export const blogPosts: BlogPost[] = [
     "excerpt": "A complete 2026 guide to average bathroom remodeling costs across Michigan.",
     "category": "remodeling-tips",
     "date": "2026-01-05",
-    "author": "Emily Davis",
+    "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic11.jpeg",
     "slug": "bathroom-remodeling-cost-michigan",
     "content": `
@@ -2272,7 +2275,7 @@ export const blogPosts: BlogPost[] = [
     "excerpt": "A homeowner-friendly comparison of marble and tile bathrooms for Michigan climates.",
     "category": "design-guides",
     "date": "2026-01-08",
-    "author": "Emily Davis",
+    "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic12.jpeg",
     "slug": "marble-vs-tile-bathroom-michigan",
     "content": `
@@ -3218,7 +3221,7 @@ export const blogPosts: BlogPost[] = [
     "excerpt": "From stone tile showers to spa-inspired layouts, these are the best bathroom remodel ideas for Michigan homes in 2026 — at every budget level.",
     "category": "remodeling-tips",
     "date": "2026-05-05",
-    "author": "Emily Davis",
+    "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg",
     "slug": "bathroom-remodel-ideas-michigan-2026",
     "content": `
@@ -3515,7 +3518,7 @@ export const blogPosts: BlogPost[] = [
     "excerpt": "Planning an accessible bathroom in Michigan? This 2026 guide compares walk-in tubs and walk-in showers for aging in place — cost, safety, daily use, and funding programs that may help cover it.",
     "category": "remodeling-tips",
     "date": "2026-05-18",
-    "author": "Emily Davis",
+    "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic2.jpeg",
     "slug": "walk-in-tub-vs-walk-in-shower-michigan",
     "content": `
@@ -3643,7 +3646,7 @@ export const blogPosts: BlogPost[] = [
     "date": "2026-05-17",
     "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic3.jpeg",
-    "slug": "bathroom-remodel-novi-mi-2025",
+    "slug": "bathroom-remodel-novi-mi-2026",
     "content": `
 <div style="max-width:900px;margin:0 auto;padding:24px 16px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,Arial,sans-serif;line-height:1.8;color:#1f2937;">
 
@@ -3908,7 +3911,7 @@ export const blogPosts: BlogPost[] = [
     "excerpt": "Warm stone underfoot on a January morning — heated bathroom floors are the upgrade Michigan homeowners never regret. Here's what they cost and how they work in 2026.",
     "category": "remodeling-tips",
     "date": "2026-06-14",
-    "author": "Emily Davis",
+    "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic5.jpeg",
     "slug": "heated-bathroom-floors-michigan-cost",
     "content": `

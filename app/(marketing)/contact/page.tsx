@@ -30,19 +30,22 @@ interface FormValues {
 }
 
 // Validation schema
+// Only contact essentials are required — every project-detail question is
+// optional. Requiring 12 fields on the first touch was costing leads; the
+// details get covered on the consultation call anyway.
 const validationSchema = Yup.object({
   fullName: Yup.string().required("Full name is required"),
   address: Yup.string().required("Property address is required"),
   email: Yup.string().email("Invalid email address").required("Email is required"),
   phone: Yup.string().required("Phone number is required"),
-  bathroomSize: Yup.string().required("Bathroom size is required"),
-  bathroomCount: Yup.string().required("Number of bathrooms is required"),
-  currentLayout: Yup.array().min(1, "Select at least one layout option"),
-  removalNeeded: Yup.string().required("Please specify what needs to be removed"),
-  designStyle: Yup.string().required("Design style is required"),
-  timeline: Yup.string().required("Timeline is required"),
-  budgetRange: Yup.string().required("Budget range is required"),
-  occupancy: Yup.string().required("Occupancy status is required"),
+  bathroomSize: Yup.string(),
+  bathroomCount: Yup.string(),
+  currentLayout: Yup.array(),
+  removalNeeded: Yup.string(),
+  designStyle: Yup.string(),
+  timeline: Yup.string(),
+  budgetRange: Yup.string(),
+  occupancy: Yup.string(),
   terms: Yup.bool().oneOf([true], "You must agree to the terms and conditions"),
 });
 
@@ -76,17 +79,9 @@ export default function ContactPage() {
       values.address,
       values.email,
       values.phone,
-      values.bathroomSize,
-      values.bathroomCount,
-      values.currentLayout.length > 0 ? "currentLayout" : "",
-      values.removalNeeded,
-      values.designStyle,
-      values.timeline,
-      values.budgetRange,
-      values.occupancy,
       values.terms ? "terms" : "",
     ].filter(Boolean);
-    setProgress((fields.length / 12) * 100);
+    setProgress((fields.length / 5) * 100);
   };
 
   // API submission handler
@@ -117,7 +112,6 @@ export default function ContactPage() {
             phone_number: values.phone,   // raw phone
           },
         });
-        console.log("✅ Google Ads conversion fired");
       }
       setFormStatus("success");
       resetForm();
@@ -382,9 +376,9 @@ export default function ContactPage() {
                             <Field
                               type="text"
                               name="fullName"
-                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
-                              placeholder="John Doe"
                               aria-required="true"
+                              className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
+                              placeholder="John Smith"
                             />
                             <ErrorMessage
                               name="fullName"
@@ -402,9 +396,9 @@ export default function ContactPage() {
                             <Field
                               type="text"
                               name="address"
+                              aria-required="true"
                               className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
                               placeholder="123 Main St, Metro Detroit, MI"
-                              aria-required="true"
                             />
                             <ErrorMessage
                               name="address"
@@ -424,9 +418,9 @@ export default function ContactPage() {
                             <Field
                               type="email"
                               name="email"
+                              aria-required="true"
                               className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
                               placeholder="john@example.com"
-                              aria-required="true"
                             />
                             <ErrorMessage
                               name="email"
@@ -444,9 +438,9 @@ export default function ContactPage() {
                             <Field
                               type="tel"
                               name="phone"
+                              aria-required="true"
                               className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
                               placeholder="+1 (248) 955-2952"
-                              aria-required="true"
                             />
                             <ErrorMessage
                               name="phone"
@@ -469,7 +463,7 @@ export default function ContactPage() {
                               htmlFor="bathroomSize"
                               className="block text-sm font-medium text-gray-700"
                             >
-                              Bathroom Size (approx.) <span className="text-red-500">*</span>
+                              Bathroom Size (approx.)
                             </label>
                             <div className="mt-1 relative rounded-md shadow-sm">
                               <Field
@@ -477,7 +471,6 @@ export default function ContactPage() {
                                 name="bathroomSize"
                                 className="form-input block w-full rounded-md border-gray-300 focus:border-gold-500 focus:ring-gold-500 p-3 border pr-12"
                                 placeholder="e.g., 5x8"
-                                aria-required="true"
                               />
                               <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
                                 <span className="text-gray-500 sm:text-sm">ft²</span>
@@ -494,13 +487,12 @@ export default function ContactPage() {
                               htmlFor="bathroomCount"
                               className="block text-sm font-medium text-gray-700"
                             >
-                              Number of Bathrooms to Remodel <span className="text-red-500">*</span>
+                              Number of Bathrooms to Remodel
                             </label>
                             <Field
                               as="select"
                               name="bathroomCount"
                               className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
-                              aria-required="true"
                             >
                               <option value="">Select</option>
                               <option>1</option>
@@ -517,7 +509,7 @@ export default function ContactPage() {
                         </div>
                         <div>
                           <label className="block text-sm font-medium text-gray-700">
-                            Current Layout (check all that apply) <span className="text-red-500">*</span>
+                            Current Layout (check all that apply)
                           </label>
                           <FieldArray name="currentLayout">
                             {() => (
@@ -560,13 +552,12 @@ export default function ContactPage() {
                             htmlFor="removalNeeded"
                             className="block text-sm font-medium text-gray-700"
                           >
-                            What needs to be removed? <span className="text-red-500">*</span>
+                            What needs to be removed?
                           </label>
                           <Field
                             as="select"
                             name="removalNeeded"
                             className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
-                            aria-required="true"
                           >
                             <option value="">Select</option>
                             <option>Everything (full demolition)</option>
@@ -593,13 +584,12 @@ export default function ContactPage() {
                             htmlFor="designStyle"
                             className="block text-sm font-medium text-gray-700"
                           >
-                            Preferred Design Style <span className="text-red-500">*</span>
+                            Preferred Design Style
                           </label>
                           <Field
                             as="select"
                             name="designStyle"
                             className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
-                            aria-required="true"
                           >
                             <option value="">Select style</option>
                             <option>Modern</option>
@@ -696,13 +686,12 @@ export default function ContactPage() {
                               htmlFor="timeline"
                               className="block text-sm font-medium text-gray-700"
                             >
-                              Desired Timeline <span className="text-red-500">*</span>
+                              Desired Timeline
                             </label>
                             <Field
                               as="select"
                               name="timeline"
                               className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
-                              aria-required="true"
                             >
                               <option value="">Select timeline</option>
                               <option>ASAP</option>
@@ -722,17 +711,15 @@ export default function ContactPage() {
                               htmlFor="budgetRange"
                               className="block text-sm font-medium text-gray-700"
                             >
-                              Budget Range <span className="text-red-500">*</span>
+                              Budget Range
                             </label>
                             <Field
                               as="select"
                               name="budgetRange"
                               className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
-                              aria-required="true"
                             >
                               <option value="">Select range</option>
-                              {/* <option>$5,000 - $10,000</option>
-                              <option>$10,000 - $15,000</option> */}
+                              <option>$8,000 - $15,000</option>
                               <option>$15,000 - $25,000</option>
                               <option>$25,000 - $40,000</option>
                               <option>$40,000+</option>
@@ -750,13 +737,12 @@ export default function ContactPage() {
                             htmlFor="occupancy"
                             className="block text-sm font-medium text-gray-700"
                           >
-                            Home Occupancy During Project <span className="text-red-500">*</span>
+                            Home Occupancy During Project
                           </label>
                           <Field
                             as="select"
                             name="occupancy"
                             className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-gold-500 focus:ring-gold-500 p-3 border"
-                            aria-required="true"
                           >
                             <option value="">Select</option>
                             <option>Full-time residents</option>
@@ -788,15 +774,20 @@ export default function ContactPage() {
                             type="checkbox"
                             name="terms"
                             id="terms"
+                              aria-required="true"
                             className="focus:ring-gold-500 h-4 w-4 text-gold-600 border-gray-300 rounded"
-                            aria-required="true"
                           />
                           <div className="ml-3 text-sm">
                             <label htmlFor="terms" className="font-medium text-gray-700">
                               I agree to the{" "}
-                              <div className="text-gold-700 hover:text-gold-600">
+                              <a
+                                href="/terms/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gold-700 hover:text-gold-600 underline"
+                              >
                                 terms and conditions
-                              </div>{" "}
+                              </a>{" "}
                               <span className="text-red-500">*</span>
                             </label>
                           </div>

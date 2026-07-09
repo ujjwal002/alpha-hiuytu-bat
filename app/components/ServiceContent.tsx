@@ -151,8 +151,10 @@ export default function ServiceContent({ service }: { service: Service }) {
                 How long does a typical project take?
               </h3>
               <p className="text-gray-700">
-                Most projects take between 2–4 weeks depending on scope and
-                material selection.
+                Most standard bathroom remodels are completed in 5–10 business
+                days. Larger custom projects (master baths, multi-bath
+                packages) can take 2–3 weeks depending on scope and material
+                selection.
               </p>
             </div>
 

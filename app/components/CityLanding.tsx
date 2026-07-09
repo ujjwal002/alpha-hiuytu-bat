@@ -17,6 +17,7 @@ import {
   Shield, Clock, DollarSign,
 } from "lucide-react";
 import { event } from "../lib/gtag";
+import QuickQuoteForm from "./QuickQuoteForm";
 import { getCityInfo } from "../lib/cityData";
 import Breadcrumbs from "./Breadcrumbs";
 
@@ -418,36 +419,37 @@ export default function CityLanding({
         </div>
       </section>
 
-      {/* CTA */}
-      <section
-        id="contact"
-        className="py-16 bg-gold-600 text-center px-6 text-white"
-      >
-        <div className="container mx-auto max-w-3xl">
-          <h2 className="text-3xl sm:text-4xl font-black mb-4">
-            Ready to Remodel Your {city} Bathroom?
-          </h2>
-          <p className="text-cream-100 text-lg mb-8 max-w-2xl mx-auto">
-            Free in-home quote, transparent pricing, and a trusted local team.
-            Call now or fill out the form on our homepage.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a
-              href={`tel:${PHONE_DIGITS}`}
-              onClick={trackCall}
-              className="inline-flex items-center justify-center gap-2 bg-gold-600 hover:bg-gold-500 text-white px-8 py-4 rounded-lg font-bold transition-colors"
-            >
-              <Phone className="h-5 w-5" aria-hidden="true" />
-              {phone}
-            </a>
-            <Link
-              href="/#quote-form"
-              className="inline-flex items-center justify-center gap-2 bg-white text-gold-700 hover:bg-cream-50 px-8 py-4 rounded-lg font-bold transition-colors"
-            >
-              Get Free Quote
-              <ArrowRight className="h-5 w-5" aria-hidden="true" />
-            </Link>
+      {/* CTA + EMBEDDED QUOTE FORM
+          The form now lives right on the city page. Previously this section
+          said "fill out the form on our homepage" and linked away — an extra
+          click that cost leads on the highest-intent local pages. */}
+      <section id="contact" className="py-16 bg-espresso-900 px-6 text-white">
+        <div className="container mx-auto max-w-5xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
+            <div>
+              <h2 className="text-3xl sm:text-4xl font-black mb-4">
+                Ready to Remodel Your {city} Bathroom?
+              </h2>
+              <p className="text-cream-100 text-lg mb-8 max-w-xl">
+                Free in-home quote, transparent pricing, and a trusted local
+                team. Call now or send the form — we respond within 2 business
+                hours.
+              </p>
+              <a
+                href={`tel:${PHONE_DIGITS}`}
+                onClick={trackCall}
+                className="inline-flex items-center justify-center gap-2 bg-gold-600 hover:bg-gold-500 text-white px-8 py-4 rounded-lg font-bold transition-colors"
+              >
+                <Phone className="h-5 w-5" aria-hidden="true" />
+                {phone}
+              </a>
+              <p className="text-stonelux-300 text-xs mt-3">
+                Mon–Fri 8am–6pm · Sat 9am–2pm
+              </p>
+            </div>
+            <div className="bg-white rounded-xl p-7 sm:p-8 shadow-xl">
+              <QuickQuoteForm source={`${city} City Page`} />
+            </div>
           </div>
         </div>
       </section>

@@ -39,7 +39,10 @@ export const metadata: Metadata = {
   },
   description:
     "Top-rated bathroom remodeling experts in Metro Detroit, MI. Full renovations, tub-to-shower conversions & walk-in tubs. Licensed, insured, 5-year warranty.",
-  alternates: { canonical: "/" },
+  // NOTE: no `alternates.canonical` here on purpose. A canonical set in the root
+  // layout is inherited by EVERY page that doesn't override it, which made pages
+  // like /blog/ tell Google they were duplicates of the homepage. Each page now
+  // declares its own canonical.
   robots: { index: true, follow: true },
 };
 
