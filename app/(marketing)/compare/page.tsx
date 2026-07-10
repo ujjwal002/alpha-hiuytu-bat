@@ -213,6 +213,13 @@ export default function ComparePage() {
                 className="text-gold-700 font-semibold hover:underline"
               >
                 Read our 7-step planning guide first →
+              </Link>{" "}
+              Holding a franchise quote?{" "}
+              <Link
+                href="/blog/bath-fitter-vs-rebath-vs-full-remodel-michigan/"
+                className="text-gold-700 font-semibold hover:underline"
+              >
+                See the Re-Bath vs Bath Fitter vs full remodel cost breakdown →
               </Link>
             </p>
           </div>

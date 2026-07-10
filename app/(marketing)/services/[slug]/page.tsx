@@ -16,6 +16,25 @@ export async function generateStaticParams() {
 }
 
 // Generate metadata for SEO
+
+const META_OVERRIDES: Record<string, { title: { absolute: string }; description: string }> = {
+  "shower-conversions": {
+    title: { absolute: "Tub-to-Shower Conversion Metro Detroit — From $7,995" },
+    description:
+      "Convert your tub to a custom tile shower in as little as 5 days. From $7,995 with a 5-year warranty. Serving Wayne, Oakland & Macomb Counties. Free quote: (248) 955-2952.",
+  },
+  "bathroom-remodeling": {
+    title: { absolute: "Bathroom Remodeling Metro Detroit MI — 5–10 Day Remodels" },
+    description:
+      "Full bathroom remodels in 5–10 days — real tile & stone, no acrylic liners. Typical Metro Detroit projects $8k–$25k, 5-year warranty. Free quote: (248) 955-2952.",
+  },
+  "walk-in-tubs": {
+    title: { absolute: "Walk-In Tub Installation Metro Detroit — 5-Yr Warranty" },
+    description:
+      "Safe, comfortable walk-in tubs installed in days by licensed local pros. Serving Wayne, Oakland & Macomb Counties with a 5-year warranty. Free quote: (248) 955-2952.",
+  },
+};
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params; // Await the params Promise
   const service = services.find((s) => s.id === slug);
@@ -28,8 +47,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   return {
-    title: `${service.title} in Metro Detroit, MI`, // layout template appends "| Stone Works Remodeling" once
-    description: service.shortDescription,
+    // CTR-focused metadata for the high-impression services; generic
+    // benefit-led fallback for the rest. `absolute` skips the brand suffix —
+    // Google shows the site name separately, so the ~60 visible characters
+    // go to reasons to click instead.
+    ...(META_OVERRIDES[slug] ?? {
+      title: { absolute: `${service.title} in Metro Detroit, MI — 5-Yr Warranty` },
+      description: service.shortDescription,
+    }),
     alternates: {
       canonical: `/services/${slug}/`,
     },

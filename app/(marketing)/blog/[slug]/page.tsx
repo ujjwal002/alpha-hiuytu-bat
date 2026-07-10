@@ -91,6 +91,25 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   return (
     <div className="min-h-screen bg-gray-50">
 
+      {/* FAQPage schema for posts that declare Q&As — eligible for FAQ rich
+          results on comparison queries like "rebath vs bath fitter" */}
+      {post.faqs && post.faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: post.faqs.map((f) => ({
+                "@type": "Question",
+                name: f.question,
+                acceptedAnswer: { "@type": "Answer", text: f.answer },
+              })),
+            }),
+          }}
+        />
+      )}
+
       {/* AEO/GEO: Article schema connects this post to the Person + Business schemas */}
       <ArticleSchema
         headline={post.meta_title || post.title}

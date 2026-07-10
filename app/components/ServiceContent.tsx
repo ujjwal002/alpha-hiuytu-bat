@@ -154,7 +154,15 @@ export default function ServiceContent({ service }: { service: Service }) {
                 Most standard bathroom remodels are completed in 5–10 business
                 days. Larger custom projects (master baths, multi-bath
                 packages) can take 2–3 weeks depending on scope and material
-                selection.
+                selection. Weighing a one-day acrylic quote against a full
+                remodel?{" "}
+                <Link
+                  href="/blog/bath-fitter-vs-rebath-vs-full-remodel-michigan/"
+                  className="text-gold-700 font-semibold hover:underline"
+                >
+                  Read our honest comparison
+                </Link>
+                .
               </p>
             </div>
 

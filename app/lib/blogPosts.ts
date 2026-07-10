@@ -11,6 +11,8 @@ export interface BlogPost {
   content: string;
   meta_title?: string;
   meta_description?: string;
+  /** Optional Q&As — rendered as FAQPage schema on the post page */
+  faqs?: { question: string; answer: string }[];
 }
 
 export interface Category {
@@ -3302,11 +3304,11 @@ export const blogPosts: BlogPost[] = [
   {
     "id": 58,
     "title": "Bath Fitter, Re-Bath, or a Full Bathroom Remodel? An Honest Michigan Comparison (2026)",
-    "meta_title": "Bath Fitter vs Re-Bath vs Full Remodel Michigan (2026) | Honest Comparison",
-    "meta_description": "Got a $12,000 acrylic liner quote in Michigan? Compare one-day bath systems, prefab replacement, and full bathroom remodels honestly — cost, lifespan, and when each makes sense.",
+    "meta_title": "Re-Bath vs Bath Fitter vs Full Remodel: 2026 Michigan Cost Comparison",
+    "meta_description": "Comparing Re-Bath vs Bath Fitter quotes in Michigan? Honest 2026 cost table for acrylic liners, prefab systems, and full remodels — lifespan, warranties, and when each makes sense.",
     "excerpt": "Got a quote from a one-day bath company and wondering if it's actually worth it? This honest 2026 comparison breaks down acrylic liner systems, prefab replacement, and full bathroom remodels for Michigan homeowners.",
     "category": "remodeling-tips",
-    "date": "2026-05-18",
+    "date": "2026-07-10",
     "author": "Valjon Qejvani",
     "image": "https://stoneworksremodlling.s3.ap-south-1.amazonaws.com/recent/pic8.jpeg",
     "slug": "bath-fitter-vs-rebath-vs-full-remodel-michigan",
@@ -3328,7 +3330,7 @@ export const blogPosts: BlogPost[] = [
   <p style="margin-bottom:16px;">Companies like Bath Fitter and similar one-day bath brands install a custom-molded acrylic shell <em>over</em> your existing tub and walls, or swap the tub for a prefabricated acrylic base and surround. The original surfaces usually stay in place underneath. The big selling points are speed and minimal disruption — most installs finish in one to two days.</p>
 
   <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#7A5133;">2. Prefab Replacement Systems</h3>
-  <p style="margin-bottom:16px;">Brands like Re-Bath remove the old tub or shower and install a factory-made replacement — typically a molded acrylic or composite base, wall panels, and fixtures. It's more involved than a liner because the old unit comes out, but it still relies on pre-manufactured panels rather than custom tile work.</p>
+  <p style="margin-bottom:16px;">Brands like Re-Bath (often written "ReBath" or "rebath") remove the old tub or shower and install a factory-made replacement — typically a molded acrylic or composite base, wall panels, and fixtures. It's more involved than a liner because the old unit comes out, but it still relies on pre-manufactured panels rather than custom tile work.</p>
 
   <h3 style="font-size:1.2rem;font-weight:600;margin:24px 0 10px;color:#7A5133;">3. Full Bathroom Remodel</h3>
   <p style="margin-bottom:16px;">A full remodel removes the old shower or tub down to the studs, installs a proper waterproofing membrane, and finishes with custom tile — porcelain or natural stone. It can also include a new vanity, flooring, lighting, and fixtures. It takes longer, but it's a permanent, fully customizable result.</p>
@@ -3415,8 +3417,35 @@ export const blogPosts: BlogPost[] = [
     <p style="margin-top:14px;font-size:0.9rem;opacity:0.85;">Or call us directly: <a href="tel:+12489552952" style="color:#fff;font-weight:700;">(248) 955-2952</a></p>
   </div>
 
+
+  <h2 style="font-size:1.6rem;font-weight:700;margin:40px 0 14px;color:#111827;">Re-Bath vs Bath Fitter vs Full Remodel: Quick Answers</h2>
+  <h3 style="font-size:1.15rem;font-weight:600;margin:22px 0 8px;color:#7A5133;">What's the difference between Re-Bath and Bath Fitter?</h3>
+  <p style="margin-bottom:14px;">Bath Fitter installs a custom-molded acrylic liner over your existing tub and walls, while Re-Bath removes the old unit and installs a prefabricated acrylic or composite replacement. Both are national franchise systems; the difference is overlay versus replacement. A full remodel is the third option — everything comes out and is rebuilt with waterproofing and custom tile.</p>
+  <h3 style="font-size:1.15rem;font-weight:600;margin:22px 0 8px;color:#7A5133;">Is Re-Bath or Bath Fitter cheaper?</h3>
+  <p style="margin-bottom:14px;">In Michigan, both typically quote in the $6,000–$14,000 range for a tub or shower area depending on configuration. Liner overlays often come in somewhat lower than full replacements, but quotes vary a lot by location and options — always get both in writing and compare what's actually included.</p>
+  <h3 style="font-size:1.15rem;font-weight:600;margin:22px 0 8px;color:#7A5133;">Is an acrylic bath liner worth it?</h3>
+  <p style="margin-bottom:14px;">It can be, if speed matters more than longevity — a rental turnover, a house going on the market, or a bathroom that just needs to look clean fast. It's usually not the right call if there's any moisture damage underneath, or if you plan to stay in the home long-term, because the liner covers problems rather than fixing them.</p>
+  <h3 style="font-size:1.15rem;font-weight:600;margin:22px 0 8px;color:#7A5133;">How much does a full bathroom remodel cost in Metro Detroit?</h3>
+  <p style="margin-bottom:14px;">Typically $8,000–$25,000 depending on size, materials, and scope. Unlike franchise quotes, a full remodel price should come with an itemized breakdown — labor, materials, fixtures — so you can see exactly where the money goes.</p>
+  <h3 style="font-size:1.15rem;font-weight:600;margin:22px 0 8px;color:#7A5133;">How long does each option take?</h3>
+  <p style="margin-bottom:14px;">Acrylic liner installs usually take 1–2 days, prefab replacement systems 2–5 days, and a full custom remodel 5–10 business days for most standard bathrooms. Larger custom projects can run 2–3 weeks.</p>
+  <h3 style="font-size:1.15rem;font-weight:600;margin:22px 0 8px;color:#7A5133;">Which option adds the most resale value in Michigan?</h3>
+  <p style="margin-bottom:14px;">Appraisers and buyers consistently value real tile and stone work over acrylic panels. A liner reads as a cosmetic fix; a full remodel reads as an updated bathroom. If resale is part of your math, that difference usually outweighs the upfront price gap.</p>
+
+  <p style="margin:28px 0 0;padding:16px 20px;background:#F4F0EA;border-radius:6px;">
+    <strong>Keep comparing:</strong> see our full <a href="/compare/" style="color:#8F5F3D;font-weight:600;">local contractor vs national franchise comparison</a>, or if you're starting from scratch, the <a href="/guides/plan-bathroom-remodel/" style="color:#8F5F3D;font-weight:600;">7-step bathroom remodel planning guide</a>.
+  </p>
+
 </div>
-`
+`,
+    "faqs": [
+      { "question": "What's the difference between Re-Bath and Bath Fitter?", "answer": "Bath Fitter installs a custom-molded acrylic liner over your existing tub and walls, while Re-Bath removes the old unit and installs a prefabricated acrylic or composite replacement. Both are national franchise systems; the difference is overlay versus replacement. A full remodel is the third option — everything comes out and is rebuilt with waterproofing and custom tile." },
+      { "question": "Is Re-Bath or Bath Fitter cheaper?", "answer": "In Michigan, both typically quote in the $6,000–$14,000 range for a tub or shower area depending on configuration. Liner overlays often come in somewhat lower than full replacements, but quotes vary a lot by location and options — always get both in writing and compare what's actually included." },
+      { "question": "Is an acrylic bath liner worth it?", "answer": "It can be, if speed matters more than longevity — a rental turnover, a house going on the market, or a bathroom that just needs to look clean fast. It's usually not the right call if there's any moisture damage underneath, or if you plan to stay in the home long-term, because the liner covers problems rather than fixing them." },
+      { "question": "How much does a full bathroom remodel cost in Metro Detroit?", "answer": "Typically $8,000–$25,000 depending on size, materials, and scope. Unlike franchise quotes, a full remodel price should come with an itemized breakdown — labor, materials, fixtures — so you can see exactly where the money goes." },
+      { "question": "How long does each option take?", "answer": "Acrylic liner installs usually take 1–2 days, prefab replacement systems 2–5 days, and a full custom remodel 5–10 business days for most standard bathrooms. Larger custom projects can run 2–3 weeks." },
+      { "question": "Which option adds the most resale value in Michigan?", "answer": "Appraisers and buyers consistently value real tile and stone work over acrylic panels. A liner reads as a cosmetic fix; a full remodel reads as an updated bathroom. If resale is part of your math, that difference usually outweighs the upfront price gap." },
+    ]
   },
 
   {

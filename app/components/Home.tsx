@@ -13,6 +13,8 @@ import { event } from "../lib/gtag";
 // New components
 import BeforeAfter from "./BeforeAfter";
 import QuickQuoteForm from "./QuickQuoteForm";
+import FinancingSection from "./FinancingSection";
+import { FINANCING } from "../lib/siteConfig";
 import GoogleReviews from "./GoogleReviews";
 import TrustBar from "./TrustBar";
 
@@ -73,6 +75,14 @@ const serviceAreas = [
 ];
 
 const faqs = [
+  // Financing FAQ appears (and joins the FAQPage schema) only when
+  // FINANCING.enabled is flipped on in app/lib/siteConfig.ts
+  ...(FINANCING.enabled
+    ? [{
+        question: "Do you offer financing for bathroom remodeling?",
+        answer: `Yes. Qualified homeowners can finance their remodel through ${FINANCING.lenderName} with terms up to ${Math.round(FINANCING.termMonths / 12)} years, subject to credit approval. Ask during your free consultation and we'll walk you through the monthly options.`,
+      }]
+    : []),
   { question: "How long does a bathroom remodel take in Metro Detroit?", answer: "Most standard bathroom remodels are completed in 5–10 business days. Larger custom projects can take 2–3 weeks depending on scope." },
   { question: "What is the cost of a bathroom remodel?", answer: "Costs typically range from $8,000 to $25,000 depending on materials, fixtures, and scope. We provide a detailed, itemized cost breakdown during the free in-home consultation — no surprises." },
   { question: "What materials do you work with for luxury bathrooms?", answer: "We specialize in premium materials — marble and natural stone, porcelain slab, custom tile work, frameless glass shower enclosures, heated flooring, and designer fixtures in brass, gold, and matte black finishes. During your design consultation we bring curated samples so you can see and feel every selection in your own home." },
@@ -442,6 +452,8 @@ export default function HomePage() {
           <GoogleReviews />
 
           {/* ══ QUOTE FORM ══ */}
+          <FinancingSection quoteAnchor="#quote-form" />
+
           <section id="quote-form" className="py-16 bg-espresso-900">
             <div className="container mx-auto px-4">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start max-w-5xl mx-auto">
@@ -500,6 +512,19 @@ export default function HomePage() {
                   </div>
                 ))}
               </div>
+              {/* Internal link hub: pushes authority to the money comparison
+                  content ("rebath vs bath fitter" cluster, 1,430 impressions) */}
+              <p className="text-center text-slate-600 mt-8">
+                Comparing a one-day bath quote?{" "}
+                <Link href="/blog/bath-fitter-vs-rebath-vs-full-remodel-michigan/" className="text-gold-700 font-semibold hover:underline">
+                  Read our honest Re-Bath vs Bath Fitter vs full remodel comparison
+                </Link>{" "}
+                or see{" "}
+                <Link href="/compare/" className="text-gold-700 font-semibold hover:underline">
+                  how we stack up against the franchises
+                </Link>
+                .
+              </p>
             </div>
           </section>
 

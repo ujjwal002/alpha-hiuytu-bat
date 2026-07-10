@@ -2,8 +2,12 @@ import type { Metadata } from "next";
 import CityLanding from "../../components/CityLanding";
 
 export const metadata: Metadata = {
-  title: "Bathroom Remodeling Birmingham, MI",
-  description: "Luxury bathroom remodeling in Birmingham, MI. Custom renovations, stone tile, walk-in showers. Licensed, insured, 5-year warranty. Free in-home quote!",
+  title: {
+    // `absolute`: benefit-led SERP title; Google shows the site name separately
+    absolute: "Bathroom Remodeling Birmingham MI — 5–10 Days, 5-Yr Warranty",
+  },
+  description:
+    "Birmingham's trusted bathroom remodelers — custom tile & stone in 5–10 days, 5-year warranty. Typical projects $20k–$45k. Free quote: (248) 955-2952.",
   alternates: {
     canonical: "/birmingham/",
   },

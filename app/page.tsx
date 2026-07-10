@@ -8,10 +8,11 @@ export const metadata: Metadata = {
   // `absolute` opts out of the "%s | Stone Works Remodeling" template in
   // layout.tsx — without it the brand was appended twice.
   title: {
-    absolute: "Luxury Bathroom Remodeling Metro Detroit MI | Stone Works Remodeling",
+    // Truncates cleanly at ~60 chars: "…5–10 Days | Stone Works"
+    absolute: "Bathroom Remodeling Metro Detroit — 5–10 Days | Stone Works Remodeling",
   },
   description:
-    "Luxury bathroom remodeling in Metro Detroit, MI. Spa-style master baths, marble & custom tile, walk-in showers, heated floors. Licensed, insured, 5-year warranty. Free design consultation.",
+    "Metro Detroit's luxury bathroom remodelers. Real tile & stone — no acrylic liners. Done in 5–10 days with a 5-year warranty. Tub-to-shower from $7,995. (248) 955-2952",
   keywords: [
     "luxury bathroom remodeling Metro Detroit",
     "bathroom remodeling Metro Detroit MI",

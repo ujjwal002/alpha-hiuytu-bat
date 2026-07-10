@@ -4,8 +4,9 @@
 // previously those pages told visitors to "fill out the form on our homepage",
 // which cost an extra click on the highest-intent local traffic.
 import { useState } from "react";
-import { Check, ArrowRight, Send } from "lucide-react";
+import { Check, ArrowRight, Send, CalendarDays } from "lucide-react";
 import { event } from "../lib/gtag";
+import { BOOKING } from "../lib/siteConfig";
 
 const PHONE = "(248) 955-2952";
 const SUBMIT_ENDPOINT =
@@ -76,7 +77,12 @@ export default function QuickQuoteForm({
 
   const inputCls = "w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-gold-500 focus:ring-2 focus:ring-gold-300/30 outline-none text-sm text-gray-900 bg-white";
 
+  const trackBooking = () => {
+    try { event({ action: "booking_click", category: "lead", label: source }); } catch { /* noop */ }
+  };
+
   return (
+    <>
     <form onSubmit={onSubmit} className="space-y-4">
       {/* Progress indicator */}
       <div className="flex items-center gap-2 mb-2">
@@ -138,5 +144,28 @@ export default function QuickQuoteForm({
         </>
       )}
     </form>
+
+    {/* Self-scheduling alternative — renders only once BOOKING.url is set
+        in app/lib/siteConfig.ts. Some buyers will pick a time slot but
+        won't fill a form and wait for a callback. */}
+    {BOOKING.url && (
+      <div className="mt-5 pt-5 border-t border-slate-200 text-center">
+        <p className="text-sm text-slate-600 mb-2">
+          Prefer to pick a time yourself?
+        </p>
+        <a
+          href={BOOKING.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={trackBooking}
+          className="inline-flex items-center justify-center gap-2 text-gold-700 hover:text-gold-600 font-bold"
+        >
+          <CalendarDays className="h-5 w-5" aria-hidden="true" />
+          {BOOKING.label}
+          <ArrowRight className="h-4 w-4" aria-hidden="true" />
+        </a>
+      </div>
+    )}
+    </>
   );
 }
