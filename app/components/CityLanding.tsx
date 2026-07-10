@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { event } from "../lib/gtag";
 import QuickQuoteForm from "./QuickQuoteForm";
+import FinancingSection from "./FinancingSection";
 import { getCityInfo } from "../lib/cityData";
 import Breadcrumbs from "./Breadcrumbs";
 
@@ -418,6 +419,8 @@ export default function CityLanding({
           </div>
         </div>
       </section>
+
+      <FinancingSection quoteAnchor="#contact" />
 
       {/* CTA + EMBEDDED QUOTE FORM
           The form now lives right on the city page. Previously this section
